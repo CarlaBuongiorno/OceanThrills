@@ -10,14 +10,16 @@
 /* Hero Image */
 /* mobile screen */
 #hero-image {
-  /* Photo by Jess Vide from Pexels */
-  background-image: url("../images/hero-image-small-screen.jpg");
+  /* Photo by Asad Photo Maldives from Pexels */
+  
+  background-image: url("../images/hero-image-small.jpg");
   background-size: cover;
   height: 100vh;
   width: 100%;
   margin-top: 0;
   display: flex;
   align-items: center;
+  background-attachment: fixed;
 }
 
 /* Medium screen and up */
@@ -31,12 +33,83 @@
 /* Call To Action */
 
 .cta-heading {
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 30px;
 }
 
 .cta-text {
   margin: 0 auto;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   width: 80%;
 }
+
+/* Activities */
+
+/* https://www.pexels.com/photo/person-surfing-416676/ */
+#surfing {
+  background-image: url("../images/surfing.jpg");
+  align-items: center;
+  display: flex;
+  height: 300px;
+  background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/* Photo by Tom Fisk from Pexels */
+#snorkeling {
+  background-image: url("../images/snorkeling.jpg");
+  align-items: center;
+  display: flex;
+  height: 300px;
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/* Image by <a href="https://pixabay.com/users/stepat-984556/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=806359">Steven Leeuw</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=806359">Pixabay</a> */
+#dolphins {
+  background-image: url("../images/dolphins.jpg");
+  align-items: center;
+  display: flex;
+  height: 300px;
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/* Photo by APG Graphics from Pexels */
+#kite-surfing {
+  background-image: url("../images/kite-surfing.jpg");
+  align-items: center;
+  display: flex;
+  height: 300px;
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/* Photo by <a href="https://freeimages.com/photographer/hamletnc-34522">Rick Hawkins</a> from <a href="https://freeimages.com">FreeImages</a> */
+#scuba-diving {
+  background-image: url("../images/scuba-diving.jpg");
+  align-items: center;
+  display: flex;
+  height: 300px;
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+
+
+/* arial view of surfers */
+/* Photo by Jess Vide from Pexels */
+
+/* turtle image credit */
+/* Image by <a href="https://pixabay.com/users/marcellorabozzi-2003568/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1446738">Marcello Rabozzi</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1446738">Pixabay</a> */
