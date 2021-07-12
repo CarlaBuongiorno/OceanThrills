@@ -1,0 +1,23 @@
+/* Home Page - Hero Image */
+
+/* Photo by <a href="https://unsplash.com/@imagefactory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Colin Watts</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+
+#hero-image {
+  /* mobile screen */
+  background-image: url("../images/hero-image-small-screen.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Medium screen and up */
+@media screen and (min-width: 768px) {
+  /* Photo by Jess Vide from Pexels */
+  #hero-image {
+    background-image: url("../images/hero-image.jpg");
+  }
+}
+
