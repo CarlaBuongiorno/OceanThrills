@@ -1,9 +1,16 @@
-/* Home Page - Hero Image */
+/* Home Page */
 
-/* Photo by <a href="https://unsplash.com/@imagefactory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Colin Watts</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+/* Navbar */
 
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: darkturquoise;
+}
+
+/* Hero Image */
+/* mobile screen */
 #hero-image {
-  /* mobile screen */
+  /* Photo by Jess Vide from Pexels */
   background-image: url("../images/hero-image-small-screen.jpg");
   background-size: cover;
   height: 100vh;
@@ -14,10 +21,22 @@
 }
 
 /* Medium screen and up */
-@media screen and (min-width: 768px) {
-  /* Photo by Jess Vide from Pexels */
+@media screen and (min-width: 769px) {
+  /* Photo by <a href="https://unsplash.com/@imagefactory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Colin Watts</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
   #hero-image {
     background-image: url("../images/hero-image.jpg");
   }
 }
 
+/* Call To Action */
+
+.cta-heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.cta-text {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: 80%;
+}
