@@ -105,7 +105,35 @@
     width: 100%;
 }
 
+/* Footer */
+ footer .navbar-brand {
+   padding-top: 30px;
+ }
 
+ .social-icons {
+   padding-left: 0;
+ }
+
+ .social-icons li {
+   display: inline;
+   
+ }
+
+ @media screen and (min-width: 576px) {
+  .social-icons {
+    padding-top: 30px;
+    padding-right: 30px;
+  }
+
+  .social-icons i {
+    padding-left: 20px;
+    font-size: 150%;
+  }
+ }
+  
+ .copyright {
+   padding-bottom: 10px;
+ }
 
 
 /* arial view of surfers */
