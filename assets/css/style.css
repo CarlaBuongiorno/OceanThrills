@@ -2,9 +2,17 @@
 
 /* Navbar */
 
+.dropdown-menu {
+  background-color: #1eb1dd;
+}
+
 .dropdown-item:focus,
 .dropdown-item:hover {
-  background-color: darkturquoise;
+  background-color: #53cef3;
+}
+
+.contact-btn {
+  background-color: #1eb1dd;
 }
 
 /* Hero Image */
@@ -32,6 +40,10 @@
 
 /* Call To Action */
 
+#cta {
+  background-color: #1eb1dd;
+}
+
 .cta-heading {
   padding-top: 60px;
   padding-bottom: 30px;
@@ -44,6 +56,10 @@
 }
 
 /* Activities */
+
+/* #main-activities {
+  background-color: rgb(162, 204, 209, 0.5);
+} */
 
 /* https://www.pexels.com/photo/person-surfing-416676/ */
 #surfing {
@@ -106,8 +122,13 @@
 }
 
 /* Footer */
+footer {
+  background-color: #1eb1dd;
+}
+
  footer .navbar-brand {
    padding-top: 30px;
+   padding-left: 30px;
  }
 
  .social-icons {
