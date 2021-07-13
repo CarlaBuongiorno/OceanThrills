@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+  body {
+    background-color: #53cef3;
+  }
+
 /* Home Page */
 
 /* Navbar */
@@ -19,12 +28,11 @@
 /* mobile screen */
 #hero-image {
   /* Photo by Asad Photo Maldives from Pexels */
-  
   background-image: url("../images/hero-image-small.jpg");
   background-size: cover;
+  opacity: 0.85;
   height: 100vh;
   width: 100%;
-  margin-top: 0;
   display: flex;
   align-items: center;
   background-attachment: fixed;
@@ -35,6 +43,7 @@
   /* Photo by <a href="https://unsplash.com/@imagefactory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Colin Watts</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
   #hero-image {
     background-image: url("../images/hero-image.jpg");
+    opacity: 0.85;
   }
 }
 
@@ -57,9 +66,9 @@
 
 /* Activities */
 
-/* #main-activities {
-  background-color: rgb(162, 204, 209, 0.5);
-} */
+#main-activities {
+  opacity: 0.85;
+}
 
 /* https://www.pexels.com/photo/person-surfing-416676/ */
 #surfing {
@@ -126,35 +135,50 @@ footer {
   background-color: #1eb1dd;
 }
 
- footer .navbar-brand {
-   padding-top: 30px;
-   padding-left: 30px;
+footer .navbar-brand {
+  margin-right: 0;
+}
+
+ ul.social-icons {
+   margin-bottom: 0;
+   padding-bottom: 5px;
  }
 
- .social-icons {
-   padding-left: 0;
+ .social-icons i {
+  padding-left: 15px;
+  padding-right: 15px;
  }
 
  .social-icons li {
    display: inline;
-   
  }
 
+ /* small screen */
+ .copyright p {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
  @media screen and (min-width: 576px) {
+  footer .navbar-brand {
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
   .social-icons {
-    padding-top: 30px;
-    padding-right: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
   }
 
   .social-icons i {
-    padding-left: 20px;
     font-size: 150%;
   }
+
+  .copyright p {
+    padding-bottom: 20px;
+  }
  }
-  
- .copyright {
-   padding-bottom: 10px;
- }
+
 
 
 /* arial view of surfers */
