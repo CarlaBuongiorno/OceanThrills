@@ -147,6 +147,7 @@ I used these colours interchangeably within the content of the site to keep cons
 - [w3schools](https://www.w3schools.com/default.asp) was used as a general source of knowledge.
 - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used throughout the completion of this project to debug, test sizes and layout, and to check responsiveness.
 - [Am I responsive](http://ami.responsivedesign.is/) was used to for the screen shot of the Mockup image in this README.md file.
+[Flaticon](https://www.flaticon.com/).
 <!-- - [CSS Tricks](https://css-tricks.com/fluid-width-video/) was used as a general resource, and expecially for the 'Fluid Video width' - to make the video responsive.
 - [Bootstrap Essentials](https://ajgreaves.github.io/bootstrap-grid-demo/) by Anna Greaves for better Bootsrap Grid and responsive understanding.
 - [Using the Bootstrap 4 Grid | BOOTSTRAP 4 TUTORIAL](https://www.youtube.com/watch?v=qmPmwdshCMw) YouTube video tutorial for better Bootsrap Grid and responsive understanding.
@@ -289,6 +290,9 @@ To run the code locally:
     - [Anrita1705](https://pixabay.com/photos/chocolate-pudding-vanilla-pudding-5069214/) -->
 
 <!-- The Video Tutorial was taken from [YouTube](https://www.youtube.com/watch?v=YX-O7OKXT3Q). -->
+
+#### Flaticon
+[]
 
 ### Code
 

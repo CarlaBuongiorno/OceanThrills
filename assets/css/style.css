@@ -130,6 +130,17 @@
     width: 100%;
 }
 
+.activity-icons {
+  width: 60px;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+section#main-activities a {
+  position: relative;
+}
+
 /* Contact Us */
 
 
