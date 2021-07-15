@@ -143,6 +143,10 @@ section#main-activities a {
 
 /* Contact Us */
 
+/* Activities */
+.activity-buttons .btn-group {
+  background-color: #1eb1dd;
+}
 
 /* Footer */
 footer {
