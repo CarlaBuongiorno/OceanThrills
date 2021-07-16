@@ -132,9 +132,6 @@
 
 .activity-icons {
   width: 60px;
-  position: absolute;
-  left: 40px;
-  top: 40px;
 }
 
 section#main-activities a {
@@ -179,21 +176,19 @@ footer .navbar-brand {
 
  @media screen and (min-width: 576px) {
   footer .navbar-brand {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 30px;
+    padding-bottom: 0;
   }
 
-  .social-icons {
-    padding-top: 20px;
+  ul.social-icons {
+    padding-top: 10px;
     padding-right: 20px;
+    padding-bottom: 0;
   }
 
   .social-icons i {
     font-size: 150%;
-  }
-
-  .copyright p {
-    padding-bottom: 20px;
   }
  }
 
