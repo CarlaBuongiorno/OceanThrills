@@ -15,6 +15,7 @@
 <body>
   <!-- Navbar -->
   <section>
+    <!-- <div id="hero-image" class="activity-page"> -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
         <a class="navbar-brand text-white" href="index.html">OCEAN THRILLS</a>
@@ -46,10 +47,10 @@
         </div>
       </nav>
     </header>
-    <!-- Activity Buttons -->
+    <!-- Activity Button Group -->
     <div class="container activity-buttons">
       <div class="row">
-        <div class="col btn-group" role="group" aria-label="Activity Buttons">
+        <div class="col btn-group btn-group-sm" role="group" aria-label="Activity Buttons">
           <button type="button" class="btn text-white">Surfing</button>
           <button type="button" class="btn text-white">Snorkeling</button>
           <button type="button" class="btn text-white">Swim With Dolphins</button>
@@ -58,24 +59,28 @@
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Description -->
-  <section id="description">
+    <!-- Heading -->
     <div class="container-fluid text-center text-white">
       <div class="row">
         <div class="col">
           <h1><span id="weather">25</span> Surfing</h1>
-          <img src="" alt="">
+
+          <div id="activity-image" class="d-md-none">
+          </div>
+          <!-- Description -->
           <h3>Surfing</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet porttitor tincidunt. Nunc eget nunc
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet porttitor tincidunt. Nunc eget
+            nunc
             suscipit,
-            dictum velit eu, tristique ligula. Pellentesque auctor, arcu tincidunt mollis tristique, sapien odio laoreet
+            dictum velit eu, tristique ligula. Pellentesque auctor, arcu tincidunt mollis tristique, sapien odio
+            laoreet
             augue,
             sed bibendum ipsum nibh id nibh. Vivamus fringilla orci sit amet scelerisque tristique. Integer pulvinar
             neque ut
-            sagittis posuere. Vivamus tempor hendrerit commodo. Proin condimentum sapien in ipsum ullamcorper lobortis.
-            Pellentesque sit amet enim consequat, faucibus elit pretium, mattis ante. Donec eget libero pellentesque,
+            sagittis posuere. Vivamus tempor hendrerit commodo. Proin condimentum sapien in ipsum ullamcorper
+            lobortis.
+            Pellentesque sit amet enim consequat, faucibus elit pretium, mattis ante. Donec eget libero
+            pellentesque,
             euismod
             dolor in, accumsan dui. Curabitur nec congue ante, eu feugiat dolor.</p>
         </div>
@@ -83,20 +88,20 @@
     </div>
 
     <!-- Map -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-
-        </div>
-      </div>
+    <div id="map" class="col-12 col-md-8">
     </div>
+    <!-- Map Info -->
+    <div id="map-info-1" class="col-12 col-md-4">
+    </div>
+    <div id="map-info-2" class="col-12 col-md-4">
+    </div>
+    <div id="map-info-3" class="col-12 col-md-4">
+    </div>
+
+
   </section>
-
-
-
-
   <!-- Footer -->
-  <footer class="container-fluid">
+  <footer class="container-fluid fixed-bottom">
     <div class="row">
       <div class="col text-center text-md-left">
         <a class="navbar-brand text-white" href="index.html">OCEAN THRILLS</a>
@@ -132,6 +137,7 @@
       </div>
     </div>
   </footer>
+  <!-- </div> -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
