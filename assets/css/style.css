@@ -25,11 +25,11 @@ footer {
 
 footer .navbar-brand {
   margin-right: 0;
+  padding-bottom: 0;
 }
 
 ul.social-icons {
   margin-bottom: 0;
-  padding-bottom: 5px;
 }
 
 .social-icons i {
@@ -43,20 +43,18 @@ ul.social-icons {
 
 .copyright p {
   margin-bottom: 0;
-  padding-bottom: 10px;
+  padding-bottom: 3px;
 }
 
 @media screen and (min-width: 576px) {
   footer .navbar-brand {
     padding-top: 10px;
     padding-left: 30px;
-    padding-bottom: 0;
   }
 
   ul.social-icons {
     padding-top: 10px;
     padding-right: 20px;
-    padding-bottom: 0;
   }
 
   .social-icons i {
@@ -246,6 +244,10 @@ body.activity-page-body {
 
 
 /* ----------------------------------Contact Page---------------------------------- */
+form p {
+  margin-bottom: 10px;
+}
+
 
 @media screen and (max-width: 576px) {
   .contact-btn {
