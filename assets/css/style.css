@@ -88,24 +88,21 @@ ul.social-icons {
   }
 }
 
-/* ----------------------------------Introduction---------------------------------- */
-/* header {
-  position: relative;
-} */
-
+/* ----------------------------------Weather Box---------------------------------- */
 #weather-box {
-  height: 50px;
+  height: 56px;
   width: 100px;
   background-color: #6fddff;
   position: fixed;
-    top: 0;
-    left: 0; 
-  right: 0; 
-  margin-left: auto; 
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
   margin-right: auto;
   z-index: 1031;
 }
 
+/* ----------------------------------Introduction---------------------------------- */
 #intro {
   background-color: #31bee9;
 }
@@ -151,17 +148,17 @@ ul.social-icons {
 /* Image by Steven Leeuw from Pixabay */
 #dolphins {
   background-image: url("../images/dolphins.jpg");
-  }
+}
 
 /* Photo by APG Graphics from Pexels */
 #kite-surfing {
   background-image: url("../images/kite-surfing.jpg");
-  }
+}
 
 /* Photo by Rick Hawkins from FreeImages */
 #scuba-diving {
   background-image: url("../images/scuba-diving.jpg");
-  }
+}
 
 .activity-icons {
   width: 60px;
@@ -174,7 +171,7 @@ section#home-activities a {
 /* ----------------------------------Activities Page---------------------------------- */
 
 body.activity-page-body {
-  padding-top: 48px;
+  margin-top: 56px;
 }
 
 .activity-page-nav {
@@ -184,9 +181,11 @@ body.activity-page-body {
 .activity-page-nav .contact-btn {
   background-color: #6fddff;
 }
+
 /* ----------------------------------Activity Button Group---------------------------------- */
 .activity-buttons .btn-group .btn {
   background-color: #6fddff;
+  margin-top: 20px;
 }
 
 .activity-buttons .btn-group .btn:hover {
@@ -214,25 +213,42 @@ body.activity-page-body {
 
 /* ----------------------------------Map---------------------------------- */
 #map {
-  width: auto;
-  height: 600px;
+  height: 300px;
   background-color: wheat;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
 }
 
 #map-info-1 {
   width: auto;
-  height: 200px;
-  background-color:mediumseagreen;
+  height: 100px;
+  background-color: mediumseagreen;
+  width: 95%;
+  margin: 0 auto;
 }
 
 #map-info-2 {
   width: auto;
-  height: 200px;
+  height: 100px;
   background-color: mediumorchid;
+  width: 95%;
+  margin: 0 auto;
 }
 
 #map-info-3 {
   width: auto;
-  height: 200px;
-  background-color:mediumslateblue;
+  height: 100px;
+  background-color: mediumslateblue;
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+/* ----------------------------------Contact Page---------------------------------- */
+
+@media screen and (max-width: 576px) {
+  .contact-btn {
+    margin-bottom: 50px;
+  }
 }
