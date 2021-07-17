@@ -218,30 +218,42 @@ body.activity-page-body {
   margin: 0 auto;
 }
 
+#map.col-12 {
+  flex-basis: 95%;
+}
+
 #map-info-1 {
-  width: auto;
   height: 100px;
   background-color: mediumseagreen;
   width: 95%;
   margin: 0 auto;
 }
 
+#map-info-1.col-12 {
+  flex-basis: 95%;
+}
+
 #map-info-2 {
-  width: auto;
   height: 100px;
   background-color: mediumorchid;
   width: 95%;
   margin: 0 auto;
 }
 
+#map-info-2.col-12 {
+  flex-basis: 95%;
+}
+
 #map-info-3 {
-  width: auto;
   height: 100px;
   background-color: mediumslateblue;
   width: 95%;
   margin: 0 auto;
 }
 
+#map-info-3.col-12 {
+  flex-basis: 95%;
+}
 
 /* ----------------------------------Contact Page---------------------------------- */
 form p {
