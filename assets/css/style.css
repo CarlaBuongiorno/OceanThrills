@@ -66,7 +66,7 @@ ul.social-icons {
 /* mobile screen */
 #hero-image {
   /* Photo by Asad Photo Maldives from Pexels */
-  background-image: url("../images/hero-image-small.jpg");
+  background-image: url("../images/home-images/hero-image-small.jpg");
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -82,7 +82,7 @@ ul.social-icons {
 
   /* Photo by Colin Watts on Unsplash */
   #hero-image {
-    background-image: url("../images/hero-image.jpg");
+    background-image: url("../images/home-images/hero-image.jpg");
   }
 }
 
@@ -134,28 +134,28 @@ ul.social-icons {
 
 /* Image by Pexels from Pixabay */
 #surfing {
-  background-image: url("../images/surfing.jpg");
+  background-image: url("../images/home-images/surfing.jpg");
   background-position: bottom;
 }
 
 /* Photo by Tom Fisk from Pexels */
 #snorkeling {
-  background-image: url("../images/snorkeling.jpg");
+  background-image: url("../images/home-images/snorkeling.jpg");
 }
 
 /* Image by Steven Leeuw from Pixabay */
 #dolphins {
-  background-image: url("../images/dolphins.jpg");
+  background-image: url("../images/home-images/dolphins.jpg");
 }
 
 /* Photo by APG Graphics from Pexels */
 #kite-surfing {
-  background-image: url("../images/kite-surfing.jpg");
+  background-image: url("../images/home-images/kite-surfing.jpg");
 }
 
 /* Photo by Rick Hawkins from FreeImages */
 #scuba-diving {
-  background-image: url("../images/scuba-diving.jpg");
+  background-image: url("../images/home-images/scuba-diving.jpg");
 }
 
 .activity-icons {
@@ -196,9 +196,7 @@ body.activity-page-body {
 }
 
 /* ----------------------------------Activity Images---------------------------------- */
-#activity-image {
-  /* <!-- Image by Pexels from Pixabay --> */
-  background-image: url("../images/activity-images/surfing-activity.jpg");
+.activity-image {
   background-color: #6fddff;
   align-items: center;
   display: flex;
@@ -207,6 +205,31 @@ body.activity-page-body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+#surfing-image {
+  /* <!-- Image by Pexels from Pixabay --> */
+  background-image: url("../images/activity-images/surfing-activity.jpg");
+}
+
+#snorkeling-image {
+  /* Image by PublicDomainPictures from Pixabay */
+  background-image: url("../images/activity-images/snorkeling-image.jpg");
+}
+
+#dolphin-image {
+  /* Image by Claudia Beer from Pixabay */
+  background-image: url("../images/activity-images/dolphin-image.jpg");
+}
+
+#kite-surfing-image {
+  /* Image by pixelia from Pixabay */
+  background-image: url("../images/activity-images/kite-surfing-image.jpg");
+}
+
+#scuba-diving-image {
+  /* Image by Nicolas Bschor from Pixabay */
+  background-image: url("../images/activity-images/scuba-diving-image.jpg");
 }
 
 /* ----------------------------------Map---------------------------------- */
