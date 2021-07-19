@@ -13,59 +13,69 @@
 </head>
 
 <body class="activity-page-body">
-  <!-- Navbar -->
-  <section>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top activity-page-nav">
-        <a class="navbar-brand text-white" href="index.html">OCEAN THRILLS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top activity-page-nav">
+      <a class="navbar-brand text-white" href="index.html">OCEAN THRILLS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link text-white active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="activities.html" role="button"
-                aria-haspopup="true" aria-expanded="false">Activities</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item text-white" href="activities.html">Surfing</a>
-                <a class="dropdown-item text-white" href="activities.html">Snorkeling</a>
-                <a class="dropdown-item text-white" href="activities.html">Swim With Dolphins</a>
-                <a class="dropdown-item text-white" href="activities.html">Wind Surfing</a>
-                <a class="dropdown-item text-white" href="activities.html">Scuba Diving</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="btn contact-btn text-white" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- End Nav -->
-      <!-- Weather -->
-      <div id="weather-box" class="container d-none d-sm-block">
-        <div class="row">
-          <div class="col-md-4 text-white">
-            Mauritius
-          </div>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="activities.html" role="button"
+              aria-haspopup="true" aria-expanded="false">Activities</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item text-white" href="activities.html">Surfing</a>
+              <a class="dropdown-item text-white" href="activities.html">Snorkeling</a>
+              <a class="dropdown-item text-white" href="activities.html">Swim With Dolphins</a>
+              <a class="dropdown-item text-white" href="activities.html">Wind Surfing</a>
+              <a class="dropdown-item text-white" href="activities.html">Scuba Diving</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="btn contact-btn text-white" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Nav -->
+    <!-- Weather -->
+    <div id="weather-box" class="container d-none d-sm-block">
+      <div class="row">
+        <div class="col-md-4 text-white">
+          Mauritius
         </div>
       </div>
-      <!-- End Weather -->
-    </header>
+    </div>
+    <!-- End Weather -->
+  </header>
 
+  <section id="surfing-activity">
     <!-- Activity Button Group -->
     <div class="container activity-buttons">
       <div class="row">
-        <div class="col btn-group btn-group-sm" role="group" aria-label="Activity Buttons">
-          <button type="button" class="btn text-white">Surfing</button>
-          <button type="button" class="btn text-white">Snorkeling</button>
-          <button type="button" class="btn text-white">Swim With Dolphins</button>
-          <button type="button" class="btn text-white">Kite Surfing</button>
-          <button type="button" class="btn text-white">Scuba Diving</button>
+        <div class="col btn-group btn-group-toggle btn-group-sm" data-toggle="buttons">
+          <label class="btn btn-light text-white active">
+            <input type="radio" name="options" id="option1" checked> Surfing
+          </label>
+          <label class="btn btn-light text-white">
+            <input type="radio" name="options" id="option2"> Snorkeling
+          </label>
+          <label class="btn btn-light text-white">
+            <input type="radio" name="options" id="option3"> Swim With Dolphins
+          </label>
+          <label class="btn btn-light text-white">
+            <input type="radio" name="options" id="option2"> Kite Surfing
+          </label>
+          <label class="btn btn-light text-white">
+            <input type="radio" name="options" id="option2"> Scuba Diving
+          </label>
         </div>
       </div>
     </div>
@@ -127,6 +137,31 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="snorkeling-activity" class="d-none">
+    <!-- Activity Button Group -->
+    <div class="container activity-buttons">
+      <div class="row">
+        <div class="col btn-group btn-group-toggle btn-group-sm" data-toggle="buttons">
+          <label class="btn btn-light activity-buttons text-white active">
+            <input type="radio" name="options" id="option1" checked> Surfing
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option2"> Snorkeling
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option3"> Swim With Dolphins
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option2"> Kite Surfing
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option2"> Scuba Diving
+          </label>
+        </div>
+      </div>
+    </div>
 
     <!-- Activity Heading -->
     <div class="container snorkeling-page">
@@ -182,6 +217,31 @@
               <li>info</li>
             </ul>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="dolphin-activity" class="d-none">
+    <!-- Activity Button Group -->
+    <div class="container activity-buttons">
+      <div class="row">
+        <div class="col btn-group btn-group-toggle btn-group-sm" data-toggle="buttons">
+          <label class="btn btn-light activity-buttons text-white active">
+            <input type="radio" name="options" id="option1" checked> Surfing
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option2"> Snorkeling
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option3"> Swim With Dolphins
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option2"> Kite Surfing
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option2"> Scuba Diving
+          </label>
         </div>
       </div>
     </div>
@@ -243,6 +303,31 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="kite-surfing-activity" class="d-none">
+    <!-- Activity Button Group -->
+    <div class="container activity-buttons">
+      <div class="row">
+        <div class="col btn-group btn-group-toggle btn-group-sm" data-toggle="buttons">
+          <label class="btn btn-light activity-buttons text-white active">
+            <input type="radio" name="options" id="option1" checked> Surfing
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option2"> Snorkeling
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option3"> Swim With Dolphins
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option2"> Kite Surfing
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option2"> Scuba Diving
+          </label>
+        </div>
+      </div>
+    </div>
 
     <!-- Activity Heading -->
     <div class="container kite-surfing-page">
@@ -298,6 +383,31 @@
               <li>info</li>
             </ul>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="scuba-diving-activity" class="d-none">
+    <!-- Activity Button Group -->
+    <div class="container activity-buttons">
+      <div class="row">
+        <div class="col btn-group btn-group-toggle btn-group-sm" data-toggle="buttons">
+          <label class="btn btn-light activity-buttons text-white active">
+            <input type="radio" name="options" id="option1" checked> Surfing
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option2"> Snorkeling
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option3"> Swim With Dolphins
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option2"> Kite Surfing
+          </label>
+          <label class="btn btn-light activity-buttons text-white">
+            <input type="radio" name="options" id="option2"> Scuba Diving
+          </label>
         </div>
       </div>
     </div>
