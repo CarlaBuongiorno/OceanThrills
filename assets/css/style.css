@@ -181,19 +181,35 @@ body.activity-page-body {
 }
 
 /* ----------------------------------Activity Button Group---------------------------------- */
-.activity-buttons .btn-group .btn {
+.activity-buttons {
+  margin-bottom: 50px;
+}
+
+.btn-light {
   background-color: #6fddff;
-  margin-top: 20px;
+  border-color: #fff;
+  margin-top: 50px;
 }
 
-.activity-buttons .btn-group .btn:hover {
+.btn-light:hover {
+  color: #fff;
   background-color: #31bee9;
+  border-color: #fff;
 }
 
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
+  color: #fff;
+  background-color: #31bee9;
+  border-color: #fff;
+}
+
+/* 
 #hero-image.activity-page {
   align-items: flex-start;
   display: unset;
-}
+} */
 
 /* ----------------------------------Activity Images---------------------------------- */
 .activity-image {
@@ -235,29 +251,20 @@ body.activity-page-body {
 /* ----------------------------------Map---------------------------------- */
 #map {
   height: 320px;
-  background-color: wheat;
+  background-color: #6fddff;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 10px;
 }
 
-#map-info-1 {
+.map-websites {
   height: 100px;
-  background-color: mediumseagreen;
+  background-color: #6fddff;
   margin: 0 auto;
 }
 
-#map-info-2 {
-  height: 100px;
-  background-color: mediumorchid;
-  margin: 0 auto;
-  margin-top: 10px;
-}
-
+#map-info-2,
 #map-info-3 {
-  height: 100px;
-  background-color: mediumslateblue;
-  margin: 0 auto;
   margin-top: 10px;
 }
 
