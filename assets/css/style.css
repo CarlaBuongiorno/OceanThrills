@@ -254,17 +254,21 @@ body.activity-page-body {
 }
 
 /* ----------------------------------Map---------------------------------- */
-#map {
-  height: 320px; 
+#surfing-map,
+#snorkeling-map,
+#dolphin-map,
+#kite-surfing-map,
+#scuba-diving-map { 
   background-color: #6fddff;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 10px;
+  height: 365px;
   width: 100%;
 }
 
 .map-websites {
-  height: 100px;
+  height: 115px;
   background-color: #6fddff;
   margin: 0 auto;
 }

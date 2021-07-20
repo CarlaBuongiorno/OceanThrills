@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-AJwmv-5Wayg4WUpvHOmScfe5lD8vIjw&libraries=places&callback=initMap">
+  </script>
   <title>Ocean Thrills</title>
 </head>
 
@@ -109,8 +112,7 @@
       <div class="row">
         <div class="col-12 col-md-8 order-md-last">
           <!--The div element for the map -->
-          <div id="map" class="col">
-            Map
+          <div id="surfing-map" class="col">
           </div>
         </div>
         <div class="col-12 col-md-4">
@@ -192,8 +194,7 @@
     <div id="snorkeling-container" class="container">
       <div class="row">
         <div class="col-12 col-md-8 order-md-last">
-          <div id="map" class="col">
-            Map
+          <div id="snorkeling-map" class="col">
           </div>
         </div>
         <div class="col-12 col-md-4">
@@ -275,8 +276,7 @@
     <div id="dolphins-container" class="container">
       <div class="row">
         <div class="col-12 col-md-8 order-md-last">
-          <div id="map" class="col">
-            Map
+          <div id="dolphin-map" class="col">
           </div>
         </div>
         <div class="col-12 col-md-4">
@@ -358,8 +358,7 @@
     <div id="kite-surfing-container" class="container">
       <div class="row">
         <div class="col-12 col-md-8 order-md-last">
-          <div id="map" class="col">
-            Map
+          <div id="kite-surfing-map" class="col">
           </div>
         </div>
         <div class="col-12 col-md-4">
@@ -441,8 +440,7 @@
     <div id="scuba-diving-container" class="container">
       <div class="row">
         <div class="col-12 col-md-8 order-md-last">
-          <div id="map" class="col">
-            Map
+          <div id="scuba-diving-map" class="col">
           </div>
         </div>
         <div class="col-12 col-md-4">
@@ -514,8 +512,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
   <script src="assets/js/script.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-AJwmv-5Wayg4WUpvHOmScfe5lD8vIjw&libraries=places&callback=initMap">
-  </script>
 </body>
 
 </html>
