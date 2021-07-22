@@ -1,5 +1,6 @@
 //id from index.html
 var surfing = document.getElementById("surfing");
+var snorkeling = document.getElementById("snorkeling1");
 
 // ids from activities.html
 let actA = document.getElementById("surfing-activity");
@@ -18,9 +19,37 @@ function hideActivitySurfing(actB, actC, actD, actE) {
 
 }
 
-// onclick #surfing, call function 
-surfing.addEventListener('click', hideActivities);
+function hideActivitySnorkeling(actB, actC, actD, actE) {
 
+  actB.addClass('d-none');
+  actC.addClass('d-none');
+  actD.addClass('d-none');
+  actE.addClass('d-none');
+
+}
+
+function hideActivityDolphin(actB, actC, actD, actE) {
+
+  actB.addClass('d-none');
+  actC.addClass('d-none');
+  actD.addClass('d-none');
+  actE.addClass('d-none');
+
+}
+
+// onclick #surfing, call function 
+// surfing.addEventListener('click', hideActivities);
+snorkeling.addEventListener('click', test);
+
+
+
+
+if (actA.is(":visible")) {
+  actB.addClass('d-none');
+  actC.addClass('d-none');
+  actD.addClass('d-none');
+  actE.addClass('d-none');
+}
 
 //       document.getElementById("surfing-activity").style.display = "block"; //show
 //       document.getElementById("snorkeling-activity").style.display = "none"; //hide
