@@ -52,11 +52,6 @@ ul.social-icons {
 }
 
 @media screen and (min-width: 576px) {
-  footer {
-    position: absolute;
-    bottom: 0;
-  }
-
   footer .navbar-brand {
     padding-top: 10px;
     padding-left: 30px;
@@ -278,8 +273,8 @@ body.activity-page-body {
   margin: 0 auto;
 }
 
-#map-info-2,
-#map-info-3 {
+.map-info-2,
+.map-info-3 {
   margin-top: 10px;
 }
 
