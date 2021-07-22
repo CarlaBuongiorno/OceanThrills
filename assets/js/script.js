@@ -1,68 +1,66 @@
-//id from index.html
-var surfing = document.getElementById("surfing");
-var snorkeling = document.getElementById("snorkeling1");
+// ids from menu activities page
+let menuSurf = document.getElementById("menu-surf");
+let menuSnork = document.getElementById("menu-snork");
+let menuDol = document.getElementById("menu-dol");
+let menuKite = document.getElementById("menu-kite");
+let menuScuba = document.getElementById("menu-scuba");
 
-// ids from activities.html
-let actA = document.getElementById("surfing-activity");
-let actB = document.getElementById("snorkeling-activity");
-let actC = document.getElementById("dolphin-activity");
-let actD = document.getElementById("kite-surfing-activity");
-let actE = document.getElementById("scuba-diving-activity");
+// ids from activities sections
+let surfSection = document.getElementById("surfing-activity");
+let snorkSection = document.getElementById("snorkeling-activity");
+let dolSection = document.getElementById("dolphin-activity");
+let kiteSection = document.getElementById("kite-surfing-activity");
+let scubaSection = document.getElementById("scuba-diving-activity");
 
 // when 1 activity is displayed, other activities should be hidden
-function hideActivitySurfing(actB, actC, actD, actE) {
 
-  actB.addClass('d-none');
-  actC.addClass('d-none');
-  actD.addClass('d-none');
-  actE.addClass('d-none');
-
+function hideActivitiesSurfing(_a, _b, _c, _d) {
+  surfSection.style.display = "block"; //show
+  snorkSection.style.display = "none"; //hide
+  dolSection.style.display = "none";
+  kiteSection.style.display = "none";
+  scubaSection.style.display = "none";
 }
 
-function hideActivitySnorkeling(actB, actC, actD, actE) {
-
-  actB.addClass('d-none');
-  actC.addClass('d-none');
-  actD.addClass('d-none');
-  actE.addClass('d-none');
-
+function hideActivitiesSnorkeling(_a, _b, _c, _d) {
+  surfSection.style.display = "none"; //hide
+  snorkSection.style.display = "block"; //show
+  dolSection.style.display = "none";
+  kiteSection.style.display = "none";
+  scubaSection.style.display = "none";
 }
 
-function hideActivityDolphin(actB, actC, actD, actE) {
-
-  actB.addClass('d-none');
-  actC.addClass('d-none');
-  actD.addClass('d-none');
-  actE.addClass('d-none');
-
+function hideActivitiesDolphins(_a, _b, _c, _d) {
+  surfSection.style.display = "none";
+  snorkSection.style.display = "none";
+  dolSection.style.display = "block";
+  kiteSection.style.display = "none";
+  scubaSection.style.display = "none";
 }
 
-// onclick #surfing, call function 
-// surfing.addEventListener('click', hideActivities);
-snorkeling.addEventListener('click', test);
-
-
-
-
-if (actA.is(":visible")) {
-  actB.addClass('d-none');
-  actC.addClass('d-none');
-  actD.addClass('d-none');
-  actE.addClass('d-none');
+function hideActivitiesKite(_a, _b, _c, _d) {
+  surfSection.style.display = "none";
+  snorkSection.style.display = "none";
+  dolSection.style.display = "none";
+  kiteSection.style.display = "block";
+  scubaSection.style.display = "none";
 }
 
-//       document.getElementById("surfing-activity").style.display = "block"; //show
-//       document.getElementById("snorkeling-activity").style.display = "none"; //hide
-//       document.getElementById("dolphin-activity").style.display = "none";
-//       document.getElementById("kite-surfing-activity").style.display = "none";
-//       document.getElementById("scuba-diving-activity").style.display = "none";
-//     })
+function hideActivitiesScuba(_a, _b, _c, _d) {
+  surfSection.style.display = "none";
+  snorkSection.style.display = "none";
+  dolSection.style.display = "none";
+  kiteSection.style.display = "none";
+  scubaSection.style.display = "block";
+}
+
+// Event listeners for dropdown menu on activities page
+menuSurf.addEventListener('click', hideActivitiesSurfing);
+menuSnork.addEventListener('click', hideActivitiesSnorkeling);
+menuDol.addEventListener('click', hideActivitiesDolphins);
+menuKite.addEventListener('click', hideActivitiesKite);
+menuScuba.addEventListener('click', hideActivitiesScuba);
 
 
-// var snorkeling = document.getElementById("snorkeling");
-
-//   document.getElementById("snorkeling-activity").style.display = "block"; //show
-//   document.getElementById("surfing-activity").style.display = "none"; //hide
-//   document.getElementById("dolphin-activity").style.display = "none";
-//   document.getElementById("kite-surfing-activity").style.display = "none";
-//   document.getElementById("scuba-diving-activity").style.display = "none";
+// surfSection.classList.add("d-none");
+// snorkSection.classList.remove("d-none");

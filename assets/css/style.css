@@ -52,6 +52,11 @@ ul.social-icons {
 }
 
 @media screen and (min-width: 576px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+
   footer .navbar-brand {
     padding-top: 10px;
     padding-left: 30px;
@@ -258,7 +263,7 @@ body.activity-page-body {
 #snorkeling-map,
 #dolphin-map,
 #kite-surfing-map,
-#scuba-diving-map { 
+#scuba-diving-map {
   background-color: #6fddff;
   align-items: center;
   margin: 0 auto;
