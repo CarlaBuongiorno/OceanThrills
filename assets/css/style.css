@@ -1,3 +1,7 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lora&family=Parisienne&family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,11 +9,17 @@
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
   height: 100%;
 }
 
 /* ----------------------------------Home Page---------------------------------- */
 /* ----------------------------------Navbar---------------------------------- */
+.navbar-brand {
+  font-family: 'Parisienne', cursive;
+  font-size: 32px;
+}
+
 .dropdown-menu {
   background-color: #31bee9;
 }

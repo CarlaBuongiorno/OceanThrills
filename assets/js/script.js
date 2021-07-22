@@ -13,7 +13,6 @@ document.querySelectorAll('.surf').forEach(item => {
     dolSection.style.display = "none";
     kiteSection.style.display = "none";
     scubaSection.style.display = "none";
-    console.log("5");
   });
 });
 
@@ -24,7 +23,6 @@ document.querySelectorAll('.snork').forEach(item => {
     dolSection.style.display = "none";
     kiteSection.style.display = "none";
     scubaSection.style.display = "none";
-    console.log("5");
   });
 });
 
@@ -35,7 +33,6 @@ document.querySelectorAll('.dol').forEach(item => {
     dolSection.style.display = "block";
     kiteSection.style.display = "none";
     scubaSection.style.display = "none";
-    console.log("5");
   });
 });
 
@@ -46,7 +43,6 @@ document.querySelectorAll('.kite').forEach(item => {
     dolSection.style.display = "none";
     kiteSection.style.display = "block";
     scubaSection.style.display = "none";
-    console.log("5");
   });
 });
 
@@ -57,6 +53,6 @@ document.querySelectorAll('.scuba').forEach(item => {
     dolSection.style.display = "none";
     kiteSection.style.display = "none";
     scubaSection.style.display = "block";
-    console.log("5");
   });
 });
+
