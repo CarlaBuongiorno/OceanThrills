@@ -8,18 +8,22 @@ let scubaSection = document.getElementById("scuba-diving-activity");
 
 document.querySelectorAll('.surf').forEach(item => {
   item.addEventListener('click', (_a, _b, _c, _d) => {
-    surfSection.style.display = "block"; //show
-    snorkSection.style.display = "none"; //hide
-    dolSection.style.display = "none";
-    kiteSection.style.display = "none";
-    scubaSection.style.display = "none";
+    displaySurf();
   });
 });
+
+// function displaySurf() {
+//   surfSection.style.display = "block"; //show
+//   snorkSection.style.display = "none"; //hide
+//   dolSection.style.display = "none";
+//   kiteSection.style.display = "none";
+//   scubaSection.style.display = "none";
+// }
 
 document.querySelectorAll('.snork').forEach(item => {
   item.addEventListener('click', (_a, _b, _c, _d) => {
     surfSection.style.display = "none";
-    snorkSection.style.display = "block"; 
+    snorkSection.style.display = "block";
     dolSection.style.display = "none";
     kiteSection.style.display = "none";
     scubaSection.style.display = "none";
@@ -56,3 +60,58 @@ document.querySelectorAll('.scuba').forEach(item => {
   });
 });
 
+// ---------
+// let homeSurf = document.querySelectorAll(".home-surf").forEach(item => {
+//   item.addEventListener('click', (_a, _b, _c, _d) => {
+//     console.log('working');
+//     if (sessionStorage.setItem("autosave")) {
+//       // Restore the contents of the text field
+//       homeSurf.value = sessionStorage.setItem("autosave");
+//     }
+//     displaySurf();
+//   });
+// });
+
+
+document.querySelectorAll(".home-surf").forEach(item => {
+  // Listen for changes in the text field
+  item.addEventListener("change", function () {
+    // And save the results into the session storage object
+    // sessionStorage.setItem("autosave", item.value);
+    console.log(item.value);
+    console.log("working");
+  });
+  item.addEventListener('click', (_a, _b, _c, _d) => {
+    // displaySurf();
+    
+  });
+});
+
+
+let homeSnork = document.querySelectorAll(".home-snork").forEach(item => {
+  item.addEventListener('click', (whatShouldBeHere) => {
+    console.log('working');
+    sessionStorage.setItem("autosave", homeSnork.value);
+  });
+});
+
+let homeDol = document.querySelectorAll(".home-dol").forEach(item => {
+  item.addEventListener('click', (whatShouldBeHere) => {
+    console.log('working');
+    sessionStorage.setItem("autosave", homeDol.value);
+  });
+});
+
+let homeKite = document.querySelectorAll(".home-kite").forEach(item => {
+  item.addEventListener('click', (whatShouldBeHere) => {
+    console.log('working');
+    sessionStorage.setItem("autosave", homeKite.value);
+  });
+});
+
+let homeScuba = document.querySelectorAll(".home-scuba").forEach(item => {
+  item.addEventListener('click', (whatShouldBeHere) => {
+    console.log('working');
+    sessionStorage.setItem("autosave", homeScuba.value);
+  });
+});
