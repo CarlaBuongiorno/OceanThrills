@@ -3,37 +3,31 @@
 document.querySelectorAll(".home-surf").forEach(item => {
   // Listen for click in the text field
   item.addEventListener("click", function (event) {
-    // And save the results into the session storage object
-    let storedSurf = event.target.parentElement.classList[1];
-    console.log(storedSurf);
-    sessionStorage.setItem("autosave", storedSurf);
+    // // And save the results into the session storage object
+    sessionStorage.setItem("autosave", "home-surf");
   });
 });
 
 document.querySelectorAll(".home-snork").forEach(item => {
   item.addEventListener("click", function (event) {
-    let storedSnork = event.target.parentElement.classList[1];
-    sessionStorage.setItem("autosave", storedSnork);
+    sessionStorage.setItem("autosave", "home-snork");
   });
 });
 
 document.querySelectorAll(".home-dol").forEach(item => {
   item.addEventListener("click", function (event) {
-    let storedDol = event.target.parentElement.classList[1];
-    sessionStorage.setItem("autosave", storedDol);
+    sessionStorage.setItem("autosave", "home-dol");
   });
 });
 
 document.querySelectorAll(".home-kite").forEach(item => {
   item.addEventListener("click", function (event) {
-    let storedKite = event.target.parentElement.classList[1];
-    sessionStorage.setItem("autosave", storedKite);
+    sessionStorage.setItem("autosave", "home-kite");
   });
 });
 
 document.querySelectorAll(".home-scuba").forEach(item => {
   item.addEventListener("click", function (event) {
-    let storedScuba = event.target.parentElement.classList[1];
-    sessionStorage.setItem("autosave", storedScuba);
+    sessionStorage.setItem("autosave", "home-scuba");
   });
 });

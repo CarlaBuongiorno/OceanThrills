@@ -1,5 +1,4 @@
 // surfing markers
-
 const map1Markers = [{
     title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
     markers: {
@@ -203,21 +202,3 @@ $("#snorkeling-activity").click(function () {
 
 // // To add the marker to the map, call setMap();
 // marker.setMap(map1);
-
-
-
-
-
-
-// function initMap() {
-//   const myLatLng = { lat: -25.363, lng: 131.044 };
-//   const map = new google.maps.Map(document.getElementById("surfing-map"), {
-//     zoom: 4,
-//     center: myLatLng,
-//   });
-//   new google.maps.Marker({
-//     position: myLatLng,
-//     map,
-//     title: "Hello World!",
-//   });
-// }
