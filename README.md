@@ -11,20 +11,19 @@ Ocean Thrills is an interactive website incorporating various technological elem
 
 The target demographic are users who are holiday makers in Mauritius, as well as locals, looking to enjoy themselves with some extra sea and underwater activities.
 
-
-### Strategy
-
-#### Customer Goals
+#### Visitor Goals
 
 Visitors to this website are searching for water activities on the Island of Mauritius. They wish to find and navigate to the particular activity of interest using Google Maps, with the possibility to choose from a variety of different places on the island. They wish to find out more about the activity and see if the current weather and sea conditions are preferable in order to take part in the chosen adventure.
 
-#### Project Goals
+#### Ocean Thrills Goals
 
-This project is the best way to help them achieve this because it is easy to navigate, whether by mobile, tablet, or desktop. The navigation bar is always in the viewport no matter where in the site the user has navigated to.
+Ocean Thrills is the best way to help users achieve their goals because it is easy to navigate, whether by mobile, tablet, or desktop. The navigation bar is always in the viewport no matter where in the site the user has navigated to.
 
 The site is designed so that upon entering, the user immediately anticipates a sense of adventure and fun, and feels impelled to interact with the site.
 
-(In return for this investment, I (as the product owner) would make use of this website)
+Ocean Thrills provides an effective, easy to use site for adventurers in Mauritius to explore the sea and underwater activities that are available around the Island.
+
+In return for this investment, the site owner would make use of this website, have a professional looking first step into the world of using JavaScript, jQuery and APIs, and an exciting project to make a part of her portfolio.
 
 #### User Stories
 
@@ -40,15 +39,42 @@ The site is designed so that upon entering, the user immediately anticipates a s
 9. As a site visitor, I wish to be able to get in touch with the site owner and possibly receive discounted offers on the activities.
 
 ##### Website Owner
-<!-- 1. As a site owner, I wish to 
-1. As a site owner, I would be user myself when I visit Mauritius.
-2. As a site -->
 
-### Scope
+1. As the site owner, I wish to be a user of the site when I visit Mauritius.
 
-For the initial release of this website, I have decided on a "Minimal Viable Product" approach.
+### Wireframes
 
-##### Features include:
+- [Wireframes:](assets/images/readme-images/wireframes/desktop-tablet.png) Desktop and tablet version.
+- [Wireframes:](assets/images/readme-images/wireframes/small-screen.png) Small screen version. 
+
+### Design Choices
+
+#### Colours
+
+<!-- ![Colour Palette](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/colour-palette.png)
+
+I decided to use a colour picker tool to pick out 3 colours from my hero image. I then defined each section by 1 of these 3 colours.
+
+I used these colours interchangeably within the content of the site to keep consistency throughout. -->
+
+#### Typography
+
+I selected 2 different fonts for this site: 
+
+1. "Parisienne", (cursive) - For the logo.
+2. "Open Sans", (sans-serif) - For the main content for contrast and ease of reading.
+
+#### Icons
+
+Icons were chosen for their obvious meaning and bring a sense of fun and adventure to the user.
+
+#### Images
+
+The images I selected are packed with adventure and beauty. The intention is to bring a typical 'holiday island vibe' to the site.
+
+## 3. Features
+
+### Existing Features
 - The ability to __navigate__ easily through the site:-
  1. There is a navigation bar at the top of the page at all times.
  2. The logo __Ocean Thrills__ and _Home_ links will always bring the user back to the __Home__ page.
@@ -59,6 +85,8 @@ For the initial release of this website, I have decided on a "Minimal Viable Pro
 - A footer with a _copyright_, _social media links_, as well as the __Ocean Thrills__ logo.
 
 - A __Contact__ page where users can enter their name, email address, a message (if they would like to), as well as the option to receive discounted offers on the Activities listed in the website.
+
+- Responsive images sized for different screen views.
 
 - The activities include:-
  1. Surfing
@@ -76,74 +104,8 @@ For the initial release of this website, I have decided on a "Minimal Viable Pro
 - On medium screen devices and larger, the __current weather__ for Mauritius is displayed in the middle of the navigation bar at all times .
 - On small screen divices, the __current weather__ for Mauritius is displayed next to the title of each activity page.
 
-### Structure
-
-<!-- I have intentionally created a single page website with minimal written content in order for the user not to feel overwhelmed, but rather inspired. 
-
-The __Home__ sections features a hero image with a navigation bar, and a small piece of information inviting the user to discover the dessert recipes below.
-
-The pictures in the __Fun Facts__ section are purely for aesthetic purposes, matching the short and fun 'Did You Know?' pieces.
-
-The __Recipes__ section features:-
-- several recipes
-- each with a picture of the dessert
-- a short but tantalizing description
-- quick to understand information about the total time it takes to complete the recipe
-- the skill level it requires
-- the amount of servings it renders
-- a link to an external page containing step-by-step instructions, pictures and videos.
-- a step-by-step video of one of the above recipes for immediate inspiration, and action.
-
-The __Subscription | Contact Us__ form is simple and clean. Subscription promises 100s more free recipes and a weekly newsletter.
-
-The footer features linked icons for ease of access to social media, which all open on separate pages. -->
-
-### Skeleton
-
-- [Wireframes:](assets/images/readme-images/wireframes/desktop-tablet.png) Desktop and tablet version.
-- [Wireframes:](assets/images/readme-images/wireframes/small-screen.png) Small screen version. 
-
-1. Home
-2. Activities
-3. Contact Us
-
-### Surface
-
-#### Colours
-
-<!-- ![Colour Palette](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/colour-palette.png)
-
-I decided to use a colour picker tool to pick out 3 colours from my hero image. I then defined each section by 1 of these 3 colours.
-
-I used these colours interchangeably within the content of the site to keep consistency throughout. -->
-
-#### Typography
-
-<!-- I selected 2 different fonts for this site: 
-
-1. "Dancing Script", (cursive) - For the main headings to bring in a feeling of playfulness and excitement.
-2. "Open Sans", (sans-serif) - For the main content for contrast and ease of reading. -->
-
-#### Images
-
-<!-- The images I selected are eye catching with the intention to tickle the taste buds. The recipe images are directly related to the dessert being focused on. -->
-
-## 3. Features
- 
-### Existing Features
- <!-- - 1 Page site with 4 main sections.
- - Navigation bar which takes the user to each section and is responsive.
- - Footer with copyright and Social links.
- - Responsive images sized for different screen views.
- - Subscribe form with a checked checkbox to subscribe for free recipes and a newsletter, as well as the possiblity to write a message containing feedback of the recipes.
- - Recipes section features 6 recipe cards with links to external pages in order to see the complete recipe.
- - Recipes section also features an embedded YouTube video of a step-by-step recipe.
- - A 404 page to help the user navigate back home. -->
-
 ### Features Left to Implement
-<!-- - Form submission button to be functional.
-- Recipe links will be directed to my own recipe pages, designed consistently with respect to the main website.
-- Social media links to Delicious Monster business pages. -->
+- A 404 page to help the user navigate back home.
 
 ## 4. Technologies and Resources Used
 
@@ -155,31 +117,32 @@ I used these colours interchangeably within the content of the site to keep cons
 ### Frameworks, Libraries & Programs Used
 - [Balsamiq](https://balsamiq.com/) was used to create the [wireframes:](assets/readme-images/wireframes/wireframes.pdf) during the design process.
 - [Bootstrap 4.6.0](https://www.bootstrapcdn.com/) This project uses Bootstrap to help with the responsiveness and styling of the website.
-<!-- - [Font Awesome](https://www.bootstrapcdn.com/fontawesome/) was used to add icons to the website for UX purposes.
 - [Google Fonts](https://fonts.google.com/) was used to import the fonts that were used throughout the project.
 - [jQuery](https://jquery.com/) came with Bootstrap which helped to make the navbar responsive.
 - [Gitpod](https://gitpod.io/workspaces/) was used as the IDE to develop this website.
 - [Git](https://git-scm.com/) was used for version control and to Push code to GitHub.
 - [GitHub](https://github.com/) is used to store this project's code after being pushed from Git.
-- [Favicon Generator](https://favicon.io/favicon-generator/) was used for this websites favicon.
 - [TinyJPG](https://tinyjpg.com/) was used for downsizing all images in the site while retaining quality.
+- [Flaticon](https://www.flaticon.com/) was used for the home page activity icons for UX purposes.
+
+<!-- - [Font Awesome](https://www.bootstrapcdn.com/fontawesome/) was used to add icons to the website for UX purposes.
+- [Favicon Generator](https://favicon.io/favicon-generator/) was used for this websites favicon.
 - [Color Picker](https://imagecolorpicker.com/) was used for choosing colours from the Hero Image Strawberry.
 - [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to add vendor prefixes.
 - [Coolers](https://coolors.co/0a0a0c-ff536e-d6efcf) for the colour palette image in the README.md. -->
 
 ### Resources
 - [Code Institute](https://codeinstitute.net/) was the main source of information used to create this project.
+- [Code Institute 'Tutor Support'](https://learn.codeinstitute.net/ci_support/diplomainsoftwaredevelopment/support) was a vital resource for assistance and guidance with adding functionality to the site.
 - [Code Institute 'Slack' Community](https://slack.com/intl/en-no/) for their general assistance and feedback.
 - [Stack Overflow](https://stackoverflow.com/) was used as a general source of knowledge.
 - [w3schools](https://www.w3schools.com/default.asp) was used as a general source of knowledge.
 - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used throughout the completion of this project to debug, test sizes and layout, and to check responsiveness.
 - [Am I responsive](http://ami.responsivedesign.is/) was used to for the screen shot of the Mockup image in this README.md file.
-[Flaticon](https://www.flaticon.com/).
-<!-- - [CSS Tricks](https://css-tricks.com/fluid-width-video/) was used as a general resource, and expecially for the 'Fluid Video width' - to make the video responsive.
-- [Bootstrap Essentials](https://ajgreaves.github.io/bootstrap-grid-demo/) by Anna Greaves for better Bootsrap Grid and responsive understanding.
-- [Using the Bootstrap 4 Grid | BOOTSTRAP 4 TUTORIAL](https://www.youtube.com/watch?v=qmPmwdshCMw) YouTube video tutorial for better Bootsrap Grid and responsive understanding.
+- [CSS Tricks](https://css-tricks.com/) was used as a general resource.
 - [MS1 Planning Session](https://www.youtube.com/watch?v=sH0m9N875SU&) YouTube tutorial by Jim Lynx for guidance on how to get started on this project.
-- [Make a README](https://www.makeareadme.com/) was used as a guide for making this README.md file. -->
+- Make a README](https://www.makeareadme.com/) was used as a guide for making this README.md file.
+- Aukje van der wal
 
 ## 5. Testing
 <!-- Various tools and validators were used to check that the site works well. Initially a few errors and suggestions resulted after running the URL through these tools and validators, but after correcting and implementing these errors and suggestions, all tests resulted positively. -->
