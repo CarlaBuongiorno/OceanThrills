@@ -28,26 +28,53 @@ The site is designed so that upon entering, the user immediately anticipates a s
 
 #### User Stories
 
-<!-- 1. As a site visitor, I wish to understand how to navigate this site, so that I can find what I am looking for easily.
+##### Website Visitor
+1. As a site visitor, I wish to navigate through the site easily so I can quickly find what I am looking for.
 2. As a site visitor, I wish to view this site on all my devices.
-3. As a site visitor, I wish to feel inspired by what I see and find on this site.
-4. As a site visitor, I wish to be able to subscribe to a newsletter in order to have access the latest recipes.
-5. As a site visitor, I wish to have visible access to social media, so I can follow and be a part of the community. -->
+3. As a site visitor, I wish to discover what sea and underwater activities I can take part in in Mauritius.
+4. As a site visitor, I wish to know more about these activities in Mauritius.
+5. As a site visitor, I wish to find the best locations within Mauritius in order to take part.
+6. As a site visitor, I wish to know more about these locations, either through images, posiible linked external websites, or just general informaition.
+7. As a site visitor, I wish to know the current weather report in Mauritius so that I can judge if the weather is suitable to take part in such activities.
+8. As a site visitor, I wish to have visible access to social media, so I can follow and be a part of the community.
+9. As a site visitor, I wish to be able to get in touch with the site owner and possibly receive discounted offers on the activities.
+
+##### Website Owner
+<!-- 1. As a site owner, I wish to 
+1. As a site owner, I would be user myself when I visit Mauritius.
+2. As a site -->
 
 ### Scope
 
 For the initial release of this website, I have decided on a "Minimal Viable Product" approach.
 
-<!-- For the initial release of this website, I have decided on a "Minimal Viable Product" approach - considering my current skill set is at beginner level.
+##### Features include:
+- The ability to __navigate__ easily through the site:-
+ 1. There is a navigation bar at the top of the page at all times.
+ 2. The logo __Ocean Thrills__ and _Home_ links will always bring the user back to the __Home__ page.
+ 3. Each activity can be accessed either by the _Activities_ dropdown menu on the navigation bar, or by scrolling down the _Home_ page and clicking on the activity of choice.
+ 5. The logo in the footer also brings the user back _Home_ from any page.
+ 6. The _Contact_ button is also on the navigation bar and takes the user straight to the __Contact__ page.
 
-Features include:
-- The ability to navigate with ease through a single page site; either by scrolling through the various sections, or by clicking on the links on the navigation bar - which is always in view.
-- An eye catching, aesthetically pleasing __Home__ page.
-- A __Activities__ section to grab the user's attention.
-- A __Recipes__ section that is minimal and comprehensible due to the layout. Links to step-by-step instructions are provided for each recipe which opens in a new tab so that users can easily return to the site.
-- A step-by-step video for the user to be inspired to take immediate action following in the kitchen.
-- A __Subscribe | Contact Us__ form for more free recipes and weekly newsletter.
-- A footer with a copyright and social media links for user to interact and become part of the Delicious Monster Community. -->
+- A footer with a _copyright_, _social media links_, as well as the __Ocean Thrills__ logo.
+
+- A __Contact__ page where users can enter their name, email address, a message (if they would like to), as well as the option to receive discounted offers on the Activities listed in the website.
+
+- The activities include:-
+ 1. Surfing
+ 2. Snorkeling
+ 3. Swim With Dolphins
+ 4. Kite Surfing
+ 5. Scuba Diving
+
+- Each activity features:-
+ 1. An _image_ (only on small screen devices).
+ 2. A _description_ of the activity.
+ 3. A __Google Map__ of Mauritius with _Markers_ to show where the best locations are in order to experience the activity.
+ 4. An _information_ window along the side of the map to display information corresponding to each _Marker_.
+
+- On medium screen devices and larger, the __current weather__ for Mauritius is displayed in the middle of the navigation bar at all times .
+- On small screen divices, the __current weather__ for Mauritius is displayed next to the title of each activity page.
 
 ### Structure
 
@@ -217,6 +244,10 @@ Checked the site footer displays social media icons, clicking on an icon takes t
 ## 6. Project barriers and solutions
 
 - Navbar menu items would not align to the right with Bootstrap _justify-content-end_ class, to fix this it had to be replaced with the _ml-auto_ class. Credit to [Stack Overflow](https://stackoverflow.com/questions/61174994/bootstrap-justify-content-end-not-working-as-expected).
+
+- Had trouble forming a function to show one activity and hide the other activities. Through the help of Slack, this was overcome by using the CSS display: 'block' and display: 'none' properties.
+
+- In order to get the above function to listen to the 'click' events, much help and research was necessary. Code Institute's Tutor support helped with this tremendously. 
 
 <!-- - The hero image had to be carefully resized and positioned in order to display appropriately on different screen sizes. To do this, the background colour for the home page is set to exactly the same colour as the background of the image, in order for the sizing of the image to be played with.
 
