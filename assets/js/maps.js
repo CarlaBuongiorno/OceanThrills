@@ -1,16 +1,16 @@
 // surfing markers
-const map1Markers = [{
+let map1Markers = [{
     title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
     markers: {
-      lat: 57.312444,
-      lng: -20.452782
+      lat: -20.452782,
+      lng: 57.312444
     }
   },
   {
     title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
     markers: {
-      lat: 57.377806,
-      lng: -20.326333
+      lat: -20.326333,
+      lng: 57.377806
     }
   },
   {
@@ -71,9 +71,75 @@ const map1Markers = [{
   }
 ]
 
-function initMap() {
+// Snorkeling markers
+let map2Markers = [{
+  title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
+  markers: {
+    lat: -20.452782,
+    lng: 57.312444
+  }
+},
+{
+  title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
+  markers: {
+    lat: -20.326333,
+    lng: 57.377806
+  }
+}
+]
 
-  //map1
+// Dolphin markers
+let map3Markers = [{
+  title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
+  markers: {
+    lat: -20.452782,
+    lng: 57.312444
+  }
+},
+{
+  title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
+  markers: {
+    lat: -20.326333,
+    lng: 57.377806
+  }
+}
+]
+
+// Kite Surfing markers
+let map4Markers = [{
+  title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
+  markers: {
+    lat: -20.452782,
+    lng: 57.312444
+  }
+},
+{
+  title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
+  markers: {
+    lat: -20.326333,
+    lng: 57.377806
+  }
+}
+]
+
+// Scuba Diving markers
+let map5Markers = [{
+  title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
+  markers: {
+    lat: -20.452782,
+    lng: 57.312444
+  }
+},
+{
+  title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
+  markers: {
+    lat: -20.326333,
+    lng: 57.377806
+  }
+}
+]
+
+function surfingMap() {
   const map = new google.maps.Map(document.getElementById("surfing-map"), {
     zoom: 9.75,
     center: {
@@ -94,25 +160,6 @@ function initMap() {
   }
 }
 
-// Snorkeling markers
-
-const map2Markers = [{
-    title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
-    markers: {
-      lat: 57.312444,
-      lng: -20.452782
-    }
-  },
-  {
-    title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
-    markers: {
-      lat: 57.377806,
-      lng: -20.326333
-    }
-  }
-]
-
-//map2
 function snorkelingMap() {
   const map = new google.maps.Map(document.getElementById("snorkeling-map"), {
     zoom: 9.75,
@@ -121,7 +168,7 @@ function snorkelingMap() {
       lng: 57.581367
     }
   });
-
+  
   for (let marker of map2Markers) {
     new google.maps.Marker({
       position: {
@@ -134,71 +181,73 @@ function snorkelingMap() {
   }
 }
 
-$("#snorkeling-activity").click(function () {
+function dolphinMap() {
+  const map = new google.maps.Map(document.getElementById("dolphin-map"), {
+    zoom: 9.75,
+    center: {
+      lat: -20.267210,
+      lng: 57.581367
+    }
+  });
+
+  for (let marker of map3Markers) {
+    new google.maps.Marker({
+      position: {
+        lat: marker.markers.lat,
+        lng: marker.markers.lng
+      },
+      map,
+      title: marker.title,
+    });
+  }
+}
+
+function kiteMap() {
+  const map = new google.maps.Map(document.getElementById("kite-surfing-map"), {
+    zoom: 9.75,
+    center: {
+      lat: -20.267210,
+      lng: 57.581367
+    }
+  });
+
+  for (let marker of map4Markers) {
+    new google.maps.Marker({
+      position: {
+        lat: marker.markers.lat,
+        lng: marker.markers.lng
+      },
+      map,
+      title: marker.title,
+    });
+  }
+}
+
+function scubaMap() {
+  const map = new google.maps.Map(document.getElementById("scuba-diving-map"), {
+    zoom: 9.75,
+    center: {
+      lat: -20.267210,
+      lng: 57.581367
+    }
+  });
+
+  for (let marker of map5Markers) {
+    new google.maps.Marker({
+      position: {
+        lat: marker.markers.lat,
+        lng: marker.markers.lng
+      },
+      map,
+      title: marker.title,
+    });
+  }
+}
+
+function initAllMaps() {
+  surfingMap();
   snorkelingMap();
-});
-
-
-//map3
-// const map3 = new google.maps.Map(document.getElementById("dolphin-map"), {
-//   zoom: 9.75,
-//   center: {
-//     lat: -20.267210,
-//     lng: 57.581367
-//   }
-// });
-
-// for (let marker of map3Markers) {
-//   new google.maps.Marker({
-//     position: {
-//       lat: marker.markers.lat,
-//       lng: marker.markers.lng
-//     },
-//     map3,
-//     title: marker.title,
-//   });
-// }
-
-//map4
-// const map4 = new google.maps.Map(document.getElementById("kite-surfing-map"), {
-//   zoom: 9.75,
-//   center: {
-//     lat: -20.267210,
-//     lng: 57.581367
-//   }
-// });
-
-// for (let marker of map4Markers) {
-//   new google.maps.Marker({
-//     position: {
-//       lat: marker.markers.lat,
-//       lng: marker.markers.lng
-//     },
-//     map4,
-//     title: marker.title,
-//   });
-// }
-
-//map5
-// const map5 = new google.maps.Map(document.getElementById("scuba-diving-map"), {
-//   zoom: 9.75,
-//   center: {
-//     lat: -20.267210,
-//     lng: 57.581367
-//   }
-// });
-
-// for (let marker of map5Markers) {
-//   new google.maps.Marker({
-//     position: {
-//       lat: marker.markers.lat,
-//       lng: marker.markers.lng
-//     },
-//     map5,
-//     title: marker.title,
-//   });
-// }
-// }
-
-// // To add the marker to the map, call setMap();
-// marker.setMap(map1);
+  dolphinMap();
+  kiteMap();
+  scubaMap();
+}
