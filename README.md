@@ -32,7 +32,7 @@ In return for this investment, the site owner would make use of this website, ha
 2. As a site visitor, I wish to view this site on all my devices.
 3. As a site visitor, I wish to discover what sea and underwater activities I can take part in in Mauritius.
 4. As a site visitor, I wish to know more about these activities in Mauritius.
-5. As a site visitor, I wish to find the best locations within Mauritius in order to take part.
+5. As a site visitor, I wish to find the best locations within Mauritius in order to take part in these water activities.
 6. As a site visitor, I wish to know more about these locations, either through images, posiible linked external websites, or just general informaition.
 7. As a site visitor, I wish to know the current weather report in Mauritius so that I can judge if the weather is suitable to take part in such activities.
 8. As a site visitor, I wish to have visible access to social media, so I can follow and be a part of the community.

@@ -24,110 +24,81 @@ switch (choice) {
   case "home-kite":
     displayKite();
     break;
-    case "home-scuba":
+  case "home-scuba":
     displayScuba();
     break;
   default:
     console.log("Oops");
 }
 
+// Activity page clicks
+document.querySelectorAll('.surf').forEach(item => {
+  item.addEventListener('click', (_a, _b, _c, _d) => {
+    displaySurf();
+  });
+});
 
-    // See if we have an autosave value
-    // (this will only happen if the page is accidentally refreshed)
-    // if (sessionStorage.getItem("autosave")) {
-    //   // Restore the contents of the text field
-    //   storedSurf = sessionStorage.getItem("autosave");
-    //   displaySurf();
-    // }
+document.querySelectorAll('.snork').forEach(item => {
+  item.addEventListener('click', (_a, _b, _c, _d) => {
+    displaySnork();
+  });
+});
 
-    // if (sessionStorage.getItem("autosave")) {
-    //   storedSnork = sessionStorage.getItem("autosave");
-    //   displaySnork();
-    // }
+document.querySelectorAll('.dol').forEach(item => {
+  item.addEventListener('click', (_a, _b, _c, _d) => {
+    displayDol();
+  });
+});
 
-    // if (sessionStorage.getItem("autosave")) {
-    //   storedDol = sessionStorage.getItem("autosave");
-    //   displayDol();
-    // }
+document.querySelectorAll('.kite').forEach(item => {
+  item.addEventListener('click', (_a, _b, _c, _d) => {
+    displayKite();
+  });
+});
 
-    // if (sessionStorage.getItem("autosave")) {
-    //   storedKite = sessionStorage.getItem("autosave");
-    //   displayKite();
-    // }
+document.querySelectorAll('.scuba').forEach(item => {
+  item.addEventListener('click', (_a, _b, _c, _d) => {
+    displayScuba();
+  });
+});
 
-    // if (sessionStorage.getItem("autosave")) {
-    //   storedScuba = sessionStorage.getItem("autosave");
-    //   displayScuba();
-    // }
+// Functions
+function displaySurf() {
+  surfSection.style.display = "block"; //show
+  snorkSection.style.display = "none"; //hide
+  dolSection.style.display = "none";
+  kiteSection.style.display = "none";
+  scubaSection.style.display = "none";
+}
 
-    // Activity page clicks
-    document.querySelectorAll('.surf').forEach(item => {
-      item.addEventListener('click', (_a, _b, _c, _d) => {
-        displaySurf();
-      });
-    });
+function displaySnork() {
+  surfSection.style.display = "none";
+  snorkSection.style.display = "block";
+  dolSection.style.display = "none";
+  kiteSection.style.display = "none";
+  scubaSection.style.display = "none";
+}
 
-    document.querySelectorAll('.snork').forEach(item => {
-      item.addEventListener('click', (_a, _b, _c, _d) => {
-        displaySnork();
-      });
-    });
+function displayDol() {
+  surfSection.style.display = "none";
+  snorkSection.style.display = "none";
+  dolSection.style.display = "block";
+  kiteSection.style.display = "none";
+  scubaSection.style.display = "none";
+}
 
-    document.querySelectorAll('.dol').forEach(item => {
-      item.addEventListener('click', (_a, _b, _c, _d) => {
-        displayDol();
-      });
-    });
+function displayKite() {
+  surfSection.style.display = "none";
+  snorkSection.style.display = "none";
+  dolSection.style.display = "none";
+  kiteSection.style.display = "block";
+  scubaSection.style.display = "none";
+}
 
-    document.querySelectorAll('.kite').forEach(item => {
-      item.addEventListener('click', (_a, _b, _c, _d) => {
-        displayKite();
-      });
-    });
-
-    document.querySelectorAll('.scuba').forEach(item => {
-      item.addEventListener('click', (_a, _b, _c, _d) => {
-        displayScuba();
-      });
-    });
-
-    // Functions
-    function displaySurf() {
-      surfSection.style.display = "block"; //show
-      snorkSection.style.display = "none"; //hide
-      dolSection.style.display = "none";
-      kiteSection.style.display = "none";
-      scubaSection.style.display = "none";
-    }
-
-    function displaySnork() {
-      surfSection.style.display = "none";
-      snorkSection.style.display = "block";
-      dolSection.style.display = "none";
-      kiteSection.style.display = "none";
-      scubaSection.style.display = "none";
-    }
-
-    function displayDol() {
-      surfSection.style.display = "none";
-      snorkSection.style.display = "none";
-      dolSection.style.display = "block";
-      kiteSection.style.display = "none";
-      scubaSection.style.display = "none";
-    }
-
-    function displayKite() {
-      surfSection.style.display = "none";
-      snorkSection.style.display = "none";
-      dolSection.style.display = "none";
-      kiteSection.style.display = "block";
-      scubaSection.style.display = "none";
-    }
-
-    function displayScuba() {
-      surfSection.style.display = "none";
-      snorkSection.style.display = "none";
-      dolSection.style.display = "none";
-      kiteSection.style.display = "none";
-      scubaSection.style.display = "block";
-    }
+function displayScuba() {
+  surfSection.style.display = "none";
+  snorkSection.style.display = "none";
+  dolSection.style.display = "none";
+  kiteSection.style.display = "none";
+  scubaSection.style.display = "block";
+}
