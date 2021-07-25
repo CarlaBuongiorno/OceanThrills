@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lora&family=Parisienne&family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Parisienne&display=swap');
 
 * {
   margin: 0;
@@ -13,10 +13,17 @@ body {
 
 /* ----------------------------------Home Page---------------------------------- */
 /* ----------------------------------Navbar---------------------------------- */
-nav.activity-page-nav {
+
+nav.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
   padding-top: 0;
   padding-bottom: 0;
 }
+
+nav.activity-page-nav {
+  background-color: #31bee9;
+}
+
 .navbar-brand {
   font-family: 'Parisienne', cursive;
   font-size: 32px;
@@ -82,6 +89,7 @@ ul.social-icons {
     padding-left: 0;
     padding-right: 0;
   }
+
   .copyright p {
     padding-top: 15px;
   }
@@ -103,7 +111,7 @@ ul.social-icons {
 }
 
 /* Medium screen and up */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1025px) {
 
   /* Photo by Colin Watts on Unsplash */
   #hero-image {
@@ -123,6 +131,56 @@ ul.social-icons {
   margin-left: auto;
   margin-right: auto;
   z-index: 1031;
+}
+
+/* ----------------------------------Hero Text---------------------------------- */
+div.hero-text-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+h1.hero-heading {
+  font-size: 30px;
+  margin: 0;
+}
+
+p.hero-text {
+  font-size: 18px;
+  letter-spacing: 0.75px;
+  margin: 0;
+}
+
+@media screen and (min-width: 576px) {
+  div.hero-text-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 70%;
+    right: 30%;
+    width: 45%;
+    padding: 20px;
+  }
+  h1.hero-heading {
+    font-size: 38px;
+  }
+  p.hero-text {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  div.hero-text-overlay {
+    right: 60%;
+    width: 28%;
+  }
+  p.hero-text {
+    font-size: 18px;
+  }
 }
 
 /* ----------------------------------Introduction---------------------------------- */
