@@ -1,7 +1,7 @@
 # Ocean Thrills - Mauritius
 
 
-[View the live site here]()
+[View the live site here](https://carlabuongiorno.github.io/OceanThrills/)
 
 Ocean Thrills is an interactive website incorporating various technological elements to offer users a tool to discover and explore different water activities in Mauritius. It offers a current weather report, current sea conditions, and google maps with markers pinned at the particular activity of interest. Additionally, the site offers a _description_ of each activity, as well as some useful information about it such as _where_ the best places are to enjoy that particular activity, _when_ the ideal times are, _what_ the average costs are, and what the _difficulty level_ of the particular activity may be.
 
@@ -221,17 +221,15 @@ Checked the site footer displays social media icons, clicking on an icon takes t
 - The footer in the '404 Page not found' did not sit at the bottom of the page as expected. To fix this the body of the site was positioned: 'relative', the footer was given the position: 'absolute' and 'bottom' was set to '0'. Credit to [Coding Journey](https://www.youtube.com/watch?v=US_3XvufMLU). -->
 
 ## 7. Version Control
-<!-- - Git was used for version control.
-- A branch was created for the 'Fun Facts' section in order to try a different approach using the Bootstrap Grid system.
-- The branch was merged with the Master Branch after satisfactory completion of the 'Fun Facts' section. -->
+- Git was used for version control.
 
 ## 8. Deployment
 
-<!-- This website was deployed to Github Pages as follows:
+This website was deployed to Github Pages as follows:
 
 1. Sign in to GitHub.
-2. Locate the Repositories list and select __CarlaBuongiorno/MilestoneProject1__.
-3. Click on __Settings__ at the top of the page.
+2. Locate the Repositories list and select __CarlaBuongiorno/OceanThrills__.
+3. Click on __Settings__ at the top right of the page.
 4. Click __Pages__ in the left side menu.
 5. Under the __Source__ heading, select the __Master__ Branch in the dropdown menu.
 6. Click __Save__. The page refreshes and the website is deployed.
@@ -242,9 +240,9 @@ There are no differences between the deployed version and the development versio
 To run the code locally:
 
 1. Sign in to GitHub.
-2. Locate the Repositories list and select __CarlaBuongiorno/MilestoneProject1__.
+2. Locate the Repositories list and select __CarlaBuongiorno/OceanThrills__.
 3. Click on __Code__ dropdown menu at the top of the project files with the download icon.
-4. You can choose either to copy the __URL__ link provided which can be used on your desktop IDE, or download the __ZIP__ file which can then be unzipped onto your local computer. -->
+4. You can choose either to copy the __URL__ link provided which can be used on your desktop IDE, or download the __ZIP__ file which can then be unzipped onto your local computer.
 
 ## 9. Credits
 
