@@ -13,6 +13,10 @@ body {
 
 /* ----------------------------------Home Page---------------------------------- */
 /* ----------------------------------Navbar---------------------------------- */
+nav.activity-page-nav {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .navbar-brand {
   font-family: 'Parisienne', cursive;
   font-size: 32px;
@@ -37,7 +41,7 @@ footer {
 }
 
 footer .navbar-brand {
-  font-size: 28px;
+  font-size: 24px;
   margin: 0;
   padding: 5px, 0;
 }
@@ -61,6 +65,10 @@ ul.social-icons {
 }
 
 @media screen and (min-width: 576px) {
+  footer .navbar-brand {
+    font-size: 28px;
+  }
+
   footer.footer-activites-page {
     position: absolute;
     bottom: 0;
@@ -184,7 +192,6 @@ section#home-activities a {
 }
 
 /* ----------------------------------Activities Page---------------------------------- */
-
 .activity-page-nav {
   background-color: #31bee9;
 }
@@ -195,8 +202,8 @@ section#home-activities a {
 
 /* ----------------------------------Activity Button Group---------------------------------- */
 .activity-buttons {
-  margin-bottom: 50px;
-  padding-top: 56px;
+  margin-bottom: 0;
+  padding-top: 25px;
 }
 
 .btn-light {
@@ -219,11 +226,11 @@ section#home-activities a {
   border-color: #fff;
 }
 
-/* 
-#hero-image.activity-page {
-  align-items: flex-start;
-  display: unset;
-} */
+/* ----------------------------------Activity Headings---------------------------------- */
+.activity-heading {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
 
 /* ----------------------------------Activity Images---------------------------------- */
 .activity-image {
@@ -263,6 +270,11 @@ section#home-activities a {
 }
 
 /* ----------------------------------Map---------------------------------- */
+.map-container {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
 #surfing-map,
 #snorkeling-map,
 #dolphin-map,
