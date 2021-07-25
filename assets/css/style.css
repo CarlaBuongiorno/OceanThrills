@@ -62,6 +62,11 @@ ul.social-icons {
 }
 
 @media screen and (min-width: 576px) {
+  footer.footer-activites-page {
+    position: absolute;
+    bottom: 0;
+  }
+
   footer .navbar-brand {
     padding-top: 10px;
     padding-left: 30px;
@@ -183,10 +188,6 @@ section#home-activities a {
 
 /* ----------------------------------Activities Page---------------------------------- */
 
-body.activity-page-body {
-  margin-top: 56px;
-}
-
 .activity-page-nav {
   background-color: #31bee9;
 }
@@ -198,6 +199,7 @@ body.activity-page-body {
 /* ----------------------------------Activity Button Group---------------------------------- */
 .activity-buttons {
   margin-bottom: 50px;
+  padding-top: 56px;
 }
 
 .btn-light {

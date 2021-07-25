@@ -212,6 +212,8 @@ Checked the site footer displays social media icons, clicking on an icon takes t
 
 - In order to get the above function to listen to the 'click' events, much help and research was necessary. Code Institute's Tutor support helped with this tremendously. 
 
+- Markers seemed not to be displaying on all five maps. In reality the markers were displaying in Greenland instead of where was expected. The problem was that the latitude and longitude numbers were reversed.
+
 <!-- - The hero image had to be carefully resized and positioned in order to display appropriately on different screen sizes. To do this, the background colour for the home page is set to exactly the same colour as the background of the image, in order for the sizing of the image to be played with.
 
 - On iPhone the hero image appears incredibly zoomed in, to the point that the strawberry image does not appear. After trying all sorts of solutions, in particular this post on [Stack Overflow](https://stackoverflow.com/questions/23236158/how-to-replicate-background-attachment-fixed-on-ios), and after searching the internet I came to the understanding that it is a known issue with background-attachment fixed on iPhone and I have resolved to leave the issue as is.
