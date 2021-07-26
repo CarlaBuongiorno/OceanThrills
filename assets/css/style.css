@@ -161,7 +161,7 @@ p.hero-text {
   margin: 0;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 1024px) {
   div.hero-text-overlay {
     right: 30%;
     top: 70%;
@@ -178,9 +178,10 @@ p.hero-text {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1025px) {
   div.hero-text-overlay {
-    right: 60%;
+    right: 0;
+    top: 65%;
     width: 28%;
   }
 
@@ -290,10 +291,20 @@ section#home-activities a {
   border-color: #fff;
 }
 
-/* ----------------------------------Activity Headings---------------------------------- */
+/* ----------------------------------Activity Headings and Description---------------------------------- */
 .activity-heading {
   padding-top: 20px;
   padding-bottom: 10px;
+}
+
+.activity-description {
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .activity-description {
+    padding-top: 0;
+  }
 }
 
 /* ----------------------------------Activity Images---------------------------------- */
@@ -335,7 +346,7 @@ section#home-activities a {
 
 /* ----------------------------------Map---------------------------------- */
 .map-container {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
