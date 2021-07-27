@@ -73,70 +73,70 @@ let map1Markers = [{
 
 // Snorkeling markers
 let map2Markers = [{
-  title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
-  markers: {
-    lat: -20.452782,
-    lng: 57.312444
+    title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
+    markers: {
+      lat: -20.452782,
+      lng: 57.312444
+    }
+  },
+  {
+    title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
+    markers: {
+      lat: -20.326333,
+      lng: 57.377806
+    }
   }
-},
-{
-  title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
-  markers: {
-    lat: -20.326333,
-    lng: 57.377806
-  }
-}
 ]
 
 // Dolphin markers
 let map3Markers = [{
-  title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
-  markers: {
-    lat: -20.452782,
-    lng: 57.312444
+    title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
+    markers: {
+      lat: -20.452782,
+      lng: 57.312444
+    }
+  },
+  {
+    title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
+    markers: {
+      lat: -20.326333,
+      lng: 57.377806
+    }
   }
-},
-{
-  title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
-  markers: {
-    lat: -20.326333,
-    lng: 57.377806
-  }
-}
 ]
 
 // Kite Surfing markers
 let map4Markers = [{
-  title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
-  markers: {
-    lat: -20.452782,
-    lng: 57.312444
+    title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
+    markers: {
+      lat: -20.452782,
+      lng: 57.312444
+    }
+  },
+  {
+    title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
+    markers: {
+      lat: -20.326333,
+      lng: 57.377806
+    }
   }
-},
-{
-  title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
-  markers: {
-    lat: -20.326333,
-    lng: 57.377806
-  }
-}
 ]
 
 // Scuba Diving markers
 let map5Markers = [{
-  title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
-  markers: {
-    lat: -20.452782,
-    lng: 57.312444
+    title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
+    markers: {
+      lat: -20.452782,
+      lng: 57.312444
+    }
+  },
+  {
+    title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
+    markers: {
+      lat: -20.326333,
+      lng: 57.377806
+    }
   }
-},
-{
-  title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
-  markers: {
-    lat: -20.326333,
-    lng: 57.377806
-  }
-}
 ]
 
 function surfingMap() {
@@ -149,7 +149,7 @@ function surfingMap() {
   });
 
   for (let marker of map1Markers) {
-    new google.maps.Marker({
+    const _marker = new google.maps.Marker({
       position: {
         lat: marker.markers.lat,
         lng: marker.markers.lng
@@ -157,8 +157,46 @@ function surfingMap() {
       map,
       title: marker.title,
     });
+    // Credit: To close current info window when another marker is clicked -> https://groups.google.com/g/google-maps-js-api-v3/c/cA2VRg4TO1k?pli=1
+    var currentInfoWindow = null;
+    _marker.addListener("click", () => {
+      let contentString =
+        '<div id="content">' +
+        '<div id="siteNotice">' +
+        "</div>" +
+        '<h1 id="firstHeading" class="firstHeading">Uluru</h1>' +
+        '<div id="bodyContent">' +
+        "<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large " +
+        "sandstone rock formation in the southern part of the " +
+        "rock caves and ancient paintings. Uluru is listed as a World " +
+        "Heritage Site.</p>" +
+        '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">' +
+        "https://en.wikipedia.org/w/index.php?title=Uluru</a> " +
+        "(last visited June 22, 2009).</p>" +
+        "</div>" +
+        "</div>";
+      var infowindow = new google.maps.InfoWindow({
+        content: contentString,
+        maxWidth: 200,
+      });
+      if (currentInfoWindow != null) {
+        currentInfoWindow.close();
+      }
+
+      infowindow.open({
+        anchor: _marker,
+        map,
+        shouldFocus: false,
+      });
+      currentInfoWindow = infowindow;
+      map.addListener("click", () => {
+        infowindow.close();
+      });
+    });
   }
 }
+
+
 
 function snorkelingMap() {
   const map = new google.maps.Map(document.getElementById("snorkeling-map"), {
@@ -168,15 +206,20 @@ function snorkelingMap() {
       lng: 57.581367
     }
   });
-  
+
   for (let marker of map2Markers) {
-    new google.maps.Marker({
+    const _marker = new google.maps.Marker({
       position: {
         lat: marker.markers.lat,
         lng: marker.markers.lng
       },
       map,
       title: marker.title,
+    });
+
+    _marker.addListener("click", () => {
+      map.setZoom(8);
+      map.setCenter(_marker.getPosition());
     });
   }
 }
@@ -191,13 +234,17 @@ function dolphinMap() {
   });
 
   for (let marker of map3Markers) {
-    new google.maps.Marker({
+    const _marker = new google.maps.Marker({
       position: {
         lat: marker.markers.lat,
         lng: marker.markers.lng
       },
       map,
       title: marker.title,
+    });
+    _marker.addListener("click", () => {
+      map.setZoom(8);
+      map.setCenter(_marker.getPosition());
     });
   }
 }
@@ -212,13 +259,17 @@ function kiteMap() {
   });
 
   for (let marker of map4Markers) {
-    new google.maps.Marker({
+    const _marker = new google.maps.Marker({
       position: {
         lat: marker.markers.lat,
         lng: marker.markers.lng
       },
       map,
       title: marker.title,
+    });
+    _marker.addListener("click", () => {
+      map.setZoom(8);
+      map.setCenter(_marker.getPosition());
     });
   }
 }
@@ -233,13 +284,17 @@ function scubaMap() {
   });
 
   for (let marker of map5Markers) {
-    new google.maps.Marker({
+    const _marker = new google.maps.Marker({
       position: {
         lat: marker.markers.lat,
         lng: marker.markers.lng
       },
       map,
       title: marker.title,
+    });
+    _marker.addListener("click", () => {
+      map.setZoom(8);
+      map.setCenter(_marker.getPosition());
     });
   }
 }
