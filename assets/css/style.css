@@ -256,6 +256,16 @@ section#home-activities a {
   position: relative;
 }
 
+/* .heading-overlay {
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 10px;
+} */
+
+/* a.home-surf {
+  background-color: #31bee9;
+  font-size: 32px;
+} */
+
 /* ----------------------------------Activities Page---------------------------------- */
 .activity-page-nav {
   background-color: #31bee9;
@@ -359,14 +369,22 @@ section#home-activities a {
   align-items: center;
   margin: 0 auto;
   margin-bottom: 10px;
-  height: 400px;
+  height: 380px;
   width: 100%;
 }
 
 #side-panel {
-  height: 400px;
-  background-color: #6fddff;
+  height: 380px;
   margin: 0 auto;
+}
+
+.panel-image {
+  margin-top: 15px;
+  height: 40%;
+}
+
+.contain-text {
+  overflow: scroll;
 }
 
 /* ----------------------------------Contact Page---------------------------------- */
@@ -379,4 +397,9 @@ form p {
   .contact-btn {
     margin-bottom: 50px;
   }
+}
+
+form.overlay {
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 10px;
 }

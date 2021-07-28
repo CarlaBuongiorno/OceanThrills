@@ -18,12 +18,13 @@
   <section id="hero-image">
     <header>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand text-white" href="index.html">Ocean Thrills</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="nav ml-auto">
             <li class="nav-item">
@@ -61,10 +62,11 @@
     <!-- Contact Form -->
     <div id="contact-us" class="container-fluid">
       <div class="row justify-content-md-center">
-        <div class="col col-md-8 col-lg-4">
+        <div class="col col-md-8 col-lg-6 col-xl-4">
           <h2 class="text-white text-md-center">Get In Touch</h2>
-          <form>
-            <p class="form-text text-white">Fill out this form to get in touch with us.</p>
+          <div>
+          <form class="overlay">
+            <p class="form-text text-white d-none d-sm-block">Fill out this form to get in touch with us.</p>
             <div class="mb-3">
               <label for="name" class="form-label text-white">Name</label>
               <input type="name" class="form-control" id="name" aria-describedby="name" required>

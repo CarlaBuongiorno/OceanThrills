@@ -324,9 +324,9 @@ function surfingMap() {
       });
 
       sidePanel.innerHTML = `
-      //  <!-- Image by Pexels from Pixabay -->
-      <img class="card-img-top" src="assets/images/card-images/wave.jpg" alt="Card image cap">
-      <div class="card-body">
+      <!-- Image by Pexels from Pixabay -->
+      <img class="card-img-top panel-image" src="assets/images/card-images/wave.jpg" alt="Card image cap">
+      <div class="card-body contain-text">
       <h3>${marker.title}</h3>
       <p>${marker.information}</p>
       <a href="${marker.websiteAddress}">${marker.websiteName}</a>
