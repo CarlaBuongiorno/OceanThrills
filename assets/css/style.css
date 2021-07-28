@@ -359,19 +359,14 @@ section#home-activities a {
   align-items: center;
   margin: 0 auto;
   margin-bottom: 10px;
-  height: 365px;
+  height: 400px;
   width: 100%;
 }
 
-.map-websites {
-  height: 115px;
+#side-panel {
+  height: 400px;
   background-color: #6fddff;
   margin: 0 auto;
-}
-
-.map-info-2,
-.map-info-3 {
-  margin-top: 10px;
 }
 
 /* ----------------------------------Contact Page---------------------------------- */
