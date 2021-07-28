@@ -269,9 +269,9 @@ To run the code locally:
 
 - #### Pixabay
 
-    <!-- - [Bernadette Wurzinger](https://pixabay.com/photos/apple-pie-dough-apple-cake-dessert-5479993/)
+    - [Pexels](https://pixabay.com/photos/beach-wave-ocean-outdoors-sea-1851101/)
 
-    - [frenchotof](https://pixabay.com/photos/ice-cream-raspberry-food-cream-1564728/)
+    <!-- - [Bernadette Wurzinger](https://pixabay.com/photos/apple-pie-dough-apple-cake-dessert-5479993/)
 
     - [RitaE](https://pixabay.com/photos/cream-puff-strawberries-cream-2092976/)
 

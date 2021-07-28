@@ -28,7 +28,7 @@ switch (choice) {
     displayScuba();
     break;
   default:
-    console.log("Oops");
+    console.log("Oops, this section does not exist.");
 }
 
 // Activity page clicks
