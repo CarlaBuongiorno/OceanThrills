@@ -577,33 +577,78 @@ let map4Markers = [{
 
 // Scuba Diving markers
 let map5Markers = [{
+    title: "Grand Baie",
+    divingSite: "Holt’s Rock",
     markers: {
-      lat: -20.452782,
-      lng: 57.312444
+      lat: -20.013183,
+      lng: 57.546473
     },
     description:
       // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
       `One of the most beautiful diving sites in Mauritius is, without a doubt, Holt’s Rock. Here you can dive through volcanic basalt 
     rocks, blanketed with sea fans and soft corals. The caves and tunnels make for an interesting, exploratory dive where porcupine fish, 
-    titan triggerfish and moray eels dart between the crevices.`
+    titan triggerfish and moray eels dart between the crevices.
+    
+    <!-- Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html -->
+    Holt's Rock contains an enormous number of granite rocks that are surrounded by coral reefs. The coral reefs are home to a variety 
+    of biodiversities like titan triggerfish, wrasses, angelfish, parrotfish, butterflyfish, and yellowmouth edge lyretails and anemones. 
+    Divers can come across schools of snappers, scorpionfish, and also encounter giant morays. These giant morays are at least two 
+    metres long. You can catch a glimpse of the stunning parrotfish here.
+    
+    <!-- Credit: 'Just Diving' -> https://www.justdivingmauritius.com/en/main/product/holt-rock -->
+    Holt Rock has large rock formations with good lighting conditions. With a slight current, it can be a drifting dive. The site has 
+    many gorgonians and big fish. Lobsters and titan ballistae are also common.`,
+    divingType: "Multi-Level",
+    depth: "16 to 25 metres"
   },
   {
-    title: "Coin de Mire and Flat Island",
+    title: "Coin de Mire",
+    divingSite: "Djabeda",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      lat: -19.982392,
+      lng: 57.604511
     },
     description:
-      // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
-      `A little offshore, about 90 minutes from the mainland, the islands Coin de Mire and Flat Island are perfect for beginner divers 
+      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
+      `Situated near the wreck site of Djabeda, Coin de Mire provides a gorgeous view for people who want to go scuba diving in 
+      Mauritius. The ocean floor covered with pinkish coral reefs, seabeds and rocks are truly a breathtaking sight for the divers. 
+      Though the site is one of the most popular sites for underwater photography, it is better to stay on the shallower part of the 
+      reef to avoid drifting away due to strong currents. Many species like eagle rays, dog-tooth tunas and turtles can be observed on 
+      the reef.
+
+      <!-- Credit: https://www.bluewaterdivetravel.com/mauritius-diving -->
+      The highlight here is the Djabeda wreck dive, which is completely covered in stunning pink soft coral. Octopus, scorpionfish, 
+      stonefish, lionfish, and many reef fish are common here. Other creatures that can be found here include Barracuda, dolphins, 
+      and stingrays.
+      
+      <!-- Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/ -->
+      A little offshore, about 90 minutes from the mainland, the islands Coin de Mire is perfect for beginner divers 
       and snorkellers. Some of the best snorkelling in Mauritius is around these turquoise lagoons. You might just be lucky enough to 
-      spot some dolphins and sharks further out in the bay!`
+      spot some dolphins and sharks further out in the bay!
+      
+      <!-- Credit: https://www.uwphotographyguide.com/diving-mauritius -->
+      Coin de Mire is a small, peculiar looking island lying 8 km to the north of Mauritius with what many consider to be the best 
+      diving in Mauritius. Dives often feature wall and wreck diving with spectacular visibility (50m/200ft on a great day), as well 
+      as chances to see large pelagics such as marlin. Its unique geology makes for some interesting underwater canyons and crevices 
+      that can be quite fun to swim through.
+      Perhaps the highlight of all dives at Coin de Mire is the Djabeda wreck dive. The wreck is a 144ft/44m long Japanese fishing 
+      vessel sitting perfectly upright at a depth of approximately 100ft/30m. Completely covered in beautiful pink soft coral, the 
+      wreck attracts perhaps the largest concentration of fish life on the north side of the island. Octopus, scorpionfish, stonefish, 
+      lionfish, and many reef fish are common here. Less common are barracuda, dolphins, and sting rays.
+      
+      <!-- Credit: https://www.justdivingmauritius.com/en/main/product/djabeda_1 -->
+      Djabeda is a Japanese fishing boat lying on a sandy bottom at 34 meters, right next to Coin de Mire. Djabeda is about 44m long, 
+      10m high and 5m wide. While the main issue is the wreck itself, the site is alive with soft corals, fish shoals, King Fish, moray 
+      eels, triggerfish, stone fish, scorpion fish, leaves and nudibranchs.`,
+      divingType: "Wreck",
+    depth: "25 metres/80 ft - 35 metres"
   },
   {
     title: "Flic en Flac and Tamarin",
+    divingSite: "",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      // lat: -20.326333,
+      // lng: 57.377806
     },
     description:
       // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
@@ -623,9 +668,10 @@ let map5Markers = [{
   },
   {
     title: "Flic en Flac",
+    divingSite: "",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      // lat: -20.326333,
+      // lng: 57.377806
     },
     description:
       // Credit: 'Exploration Sous-Marine' -> https://en.exploration-sous-marine.com/dive-sites-sites-de-plongee
@@ -653,9 +699,10 @@ let map5Markers = [{
   },
   {
     title: "La Passe du Puits at Belle Mare Plage",
+    divingSite: "",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      // lat: -20.326333,
+      // lng: 57.377806
     },
     description:
       // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
@@ -663,10 +710,26 @@ let map5Markers = [{
       whitetip reef sharks perusing the waters. Be aware of strong currents.`
   },
   {
-    title: "Colorado",
+    title: "Belle Mare",
+    divingSite: "Coral Garden",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      // lat: -20.326333,
+      // lng: 57.377806
+    },
+    description:
+      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
+      `Coral Garden offers a great view of both soft and hard corals, as suggested by the name. This site for scuba diving in Mauritius 
+      also offers stingrays (cartilaginous fish related to sharks) and green turtles which often nest behind the hard and soft corals. 
+      Night diving on this site gives you a view of exotic marine life like lionfish, wrasses, moray eels and lobsters. Other aquatic 
+      species that can be seen here include crayfish, sergeant majors, clownfish, groupers, parrotfish, sea anemones and trumpets.`,
+    depth: "20m / 67ft"
+  },
+  {
+    title: "Colorado",
+    divingSite: "",
+    markers: {
+      // lat: -20.326333,
+      // lng: 57.377806
     },
     description:
       // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
@@ -676,40 +739,180 @@ let map5Markers = [{
   },
   {
     title: "Le Morne",
+    divingSite: "Hoi Siong No 6",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      // lat: -20.326333,
+      // lng: 57.377806
     },
     description:
-      // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
-      `located on the south-west coast, has a few outstanding dive sites. St Jacques is considered the best drift dive in Mauritius 
-      Island. In fact, the dive starts shallow in the lagoon, and then as you follow the current you can get to reach the 30 meters. 
-      The current will take you through a channel in the reef and out to open water. You will likely pass by sharks, rays and turtles 
-      as they are watching for an easy meal. Because of the unpredictability of the current, this dive is for experienced divers. Also, 
-      the Hoi Siong Wreck 6 also in Le Morne was sunk intentionally in 2003 and is one of the best artificial reefs.`
+      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
+      `If you want to look at a fascinating wreck, Hoi Siong No 6 is the ideal site. Hoi Siong No 6 wreck can be found at a depth of 
+      around 29 metres. It has also created an artificial reef over the years. This site is ideal for divers of all levels, from 
+      beginners to experts. The artificial reef attracts a variety of marine species such as Barracuda, Tuna, Lionfish and Butterflyfish 
+      among others. The dramatic sunken wreck is every underwater photographer's dream.
+      
+      <!-- Credit: https://www.thebrokebackpacker.com/best-diving-in-mauritius-guide/ -->
+      A wreck dive and one way more appropriate for the beginners holidaying in Mauritius. The vessel was actually sunk on purpose to 
+      create an artificial reef and sanctuary for the marine life in the area. Now, honestly, that’s just the coolest thing ever!
+
+      Since it’s Viking burial, the Hoi Siong No. 6 has exploded with colour and is now home to a massive variety of coral and fishies. 
+      Having only sunk in 2003, the wreck remains in fairly good nick and this, coupled with the awesome visibility at Le Morne, just 
+      makes for a brilliant wreck dive. It’s one suitable for beginners too!
+
+      Plus, you’re at Le Morne, and Le Morne is the best.`,
+    depth: "16-29 metres"
   },
   {
-    title: "Grand Bay",
+    title: "Le Morne",
+    divingSite: "St. Jacques",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      // lat: -20.326333,
+      // lng: 57.377806
+    },
+    description:
+      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
+      `St. Jacques is one of the most popular sites for scuba diving in Mauritius. The diving trip starts in the lagoon, which is less 
+      than 5 metres deep. The water currents then take the divers away to the coral walls and underwater caves. Rock pinnacles will also 
+      be visible in these waters.
+
+      The maximum depth is about 30 metres where the drift drive ends. In these waters, one can come across eagle rays, stingrays, 
+      turtles, reef sharks and few other large species.  This dive is not suitable for beginners due to strong currents. The best time 
+      for diving here is the period between November and May. Blue gorgonian fans, hard and soft corals, sharks, schools of trevallies, 
+      and Tuna can also be seen.
+      
+      <!-- Credit: https://www.thebrokebackpacker.com/best-diving-in-mauritius-guide/ -->
+      Kind of maybe more the south coast but you can reach Passe St Jacques from Le Morne so it still counts! It’s another choice but 
+      reserved for the advanced divers due to the technicality of the site. Drift-diving means diving using transportation by the 
+      underwater currents and the pull at Passe St Jacques is known for getting pretty strong.
+
+      How’s the reward though? Smashing.
+
+      The underwater life here is superb with a huge variety of ecosystems interacting. It’s not just the pacifists either. This is a 
+      real good spot to see some of Mauritius’s underwater predators as they loiter the current waiting for outgoing prey.
+
+      Eagle rays, barracudas, and even sharks are a real possibility here as well as schools of different fish like trevallies and 
+      tuna. If you’re keen to see the merciless savagery of nature at its finest (as things are devoured before your very eyes), it’s 
+      the best place to go in Mauritius!`,
+    depth: "5 metres/ 16ft- 30 metres/98 ft"
+  },
+  {
+    title: "Flic en Flac",
+    divingSite: "Cathedral",
+    markers: {
+      // lat: -20.326333,
+      // lng: 57.377806
+    },
+    description:
+      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
+      `An ideal site for photography enthusiasts, the Cathedral has excellent topography. With grand caverns, caves and arches, 
+      these waters give an incredible sight. To experience the sandy ocean floor, one has to dive to a depth of 30 metres, which 
+      is also the deepest point of the Cathedral. Many different marine species like angelfish, wrasse, clownfish and groupers can 
+      be found in these waters. One has to keep an eye on moray eels and few crustaceans, which often hide in the coral crevices.
+      
+      <!-- https://www.thebrokebackpacker.com/best-diving-in-mauritius-guide/ -->
+      A complex and devastating underwater array, the Cathedral dive site in Mauritius is quite possibly its most world-renowned. 
+      Sudden drop-offs and some majestic boulder formations have created a structure that’s a proverbial playground for the divemasters 
+      and divepadawans alike.
+
+      Starting from 18 m before the very sharp drop to the 30 m floor, the topography of Cathedral is wild! Featuring caves, holes, 
+      chimneys, and cavities, the rocky scene is home to a teeming reef life as well as pods of lobsters scouring the depths for their next 
+      bloodlust-enraged duel.
+
+      If you have the appropriate level of experience, this is a must-visit place below Mauritius. This is some of the best scuba 
+      diving Mauritius has to offer.`,
+    depth: "15-30 metres"
+  },
+  {
+    title: "Grand Baie",
+    divingSite: "Grand Bay Aquarium",
+    markers: {
+      lat: -19.996395,
+      lng: 57.569424
     },
     description:
       // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
       `Grand Bay is one of the top tourist destinations in the country, it is also one of the top diving destinations. There are over a 
       dozen dive sites in the bay, of which most are perfect for open water divers. Aquarium (Grand Bay) is considered the best dive for 
-      a beginning diver. It is a beautiful coral reef with sand chutes in breaks. The depths of the breaks are two to three meters.`
+      a beginning diver. It is a beautiful coral reef with sand chutes in breaks. The depths of the breaks are two to three meters.
+      
+      <!-- Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html -->
+      With an abundance of fish and coral life, Grand Bay Aquarium contains a large reef that is divided by a sand gully. This created 
+      a gap between the reef with walls as high as 3 metres on the sides. Due to the crystal clear water, you can have a good sight of 
+      a variety of marine life. The sandy white ocean floor is a delight to your eyes as it radiated light into the water.
+
+      The site offers a good view of underwater photography and video. It looks like an oasis which illuminated a medley of Fauna.  
+      One special feature of this site for scuba diving in Mauritius is a giant moray eel, named Henry that is an adorable addition to the 
+      experience!
+      
+      <!-- Credit: 'Just Diving' -> https://www.justdivingmauritius.com/en/main/product/aquarium-grandbay_1 -->
+      The Grand Bay Aquarium consists of rock formations like two big teeth with a sandy path in between. The site is covered with hard 
+      and soft corals. This is a very good site for beginners. As the name shows, it's a real aquarium with a live reef; sergeants 
+      majors, trumpet fish, flying lionfish, the idol of Moors, mullet, moray eels and much more.`,
+    divingType: "Square",
+    depth: "14 metres"
+  },
+  {
+    title: "Grand Baie",
+    divingSite: "Whale Rock",
+    markers: {
+      // lat: -20.326333,
+      // lng: 57.377806
+    },
+    description:
+      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
+      `Whale Rock dive site takes divers to varying depths, and therefore it is ideal for intermediate to expert divers. Within a 
+      20 metre zone, this dive site offers a variety of Fauna and Flora. Large marine creatures like swordfish and hammerheads are 
+      occasionally seen during the summer.  Triggerfish, butterfly fish, parrotfish and labrets among others can be found in the Whale 
+      Rock dive site.`,
+    depth: "25 metres"
   },
   {
     title: "Trou aux Biches",
+    divingSite: "Stella Maru",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      lat: -20.027485,
+      lng: 57.539243
     },
     description:
       // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
       `Trou aux Biches is on the North West coast, just a short distance from Port Lewis. Stella Maru is located here. A Japanese 
-      fishing boat that now sits in 25 meters of water. It is considered one of the best wreck dive in Mauritius.`
+      fishing boat that now sits in 25 meters of water. It is considered one of the best wreck dive in Mauritius.
+      
+      <!-- Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html -->
+      Stella Maru is an old Japanese trawler that sunk into the waters in 1987. This wreck attracted marine wildlife after leading to 
+      it being declared as an artificial reef. The series of reefs are colonised by a variety of aquatic species like butterflyfish, 
+      damsels, bannerfish, lionfish, surgeonfish and many more.
+
+      The dive site is also home to two giant moray eels, one of which lives in the chimneys of the wreck. Octopuses, barracuda, leaf 
+      scorpionfish, shellfish and domino damsels are also found in this site. The speciality of this site, the wreck, has so much for 
+      in store for the visitors. The site will be every underwater photographer's dream.
+      
+      <!-- Credit: 'Just Diving' -> https://www.justdivingmauritius.com/en/main/product/stella-maru -->
+      This Japanese freighter, grounded in 1987 and resting in vertical, is a wreck not to be missed. Over the years, it has been 
+      encrusted and attracts a variety of colorful species, including rays, moray eels, parrotfish and leaf fish`,
+    divingType: "Wreck",
+    depth: "18 to 24 metres"
+  },
+  {
+    title: "Trou aux Biches",
+    divingSite: "Caravelle",
+    markers: {
+      lat: -20.024878,
+      lng: 57.540209
+    },
+    description:
+      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
+      `Having a northern plateau descending in stages from 13 metres to 20 metres, Caravelle is a fantastic dive site with a large 
+      population of Batfish. With a depth of 30 metres, this dive site is subject to strong ocean currents at times. These water 
+      currents often carry dense shoals of barracuda and trevallies. Many types of angelfish can be found in these waters. Under 
+      the days' rays, young sharks and turtles can also be seen. Divers of all levels can enjoy the Caravelle site, provided that 
+      they are comfortable with strong water currents.
+      
+      <!-- Credit: 'Just Diving' -> https://www.justdivingmauritius.com/en/main/product/caravelle-1#1 -->
+      Caravelle has an interesting topography with large rock formations, offering the possibility of a gentle drift. Schools of bats, 
+      barracuda, snapper, grouper are often seen in Caravelle, with the opportunity to see eagle rays and stingrays.`,
+    divingType: "Multi-Level",
+    depth: "30 metres"
   }
 ]
 
@@ -933,10 +1136,10 @@ function kiteMap() {
 
 function scubaMap() {
   const map = new google.maps.Map(document.getElementById("scuba-diving-map"), {
-    zoom: 9.75,
+    zoom: 12,
     center: {
-      lat: -20.267210,
-      lng: 57.581367
+      lat: -20.014471,
+      lng: 57.603664
     }
   });
 
