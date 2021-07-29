@@ -8,7 +8,7 @@ let map1Markers = [{
     },
     description:
       // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
-    `Le Morne Beach, under the shadow of the mighty Le Morne Brant mountains, is known as the ultimate surfing spot in the 
+      `Le Morne Beach, under the shadow of the mighty Le Morne Brant mountains, is known as the ultimate surfing spot in the 
     country. This top Mauritius surf spot is famous for the ‘One Eye’, the ‘eye’ surfers see on Le Morne’s rock face when 
     they find the sweet spot in which to catch the perfect wave! If you’re a beginner, test your skills on the west side of 
     the peninsula. This location is also known as ‘Kite Lagoon’, due to it being a popular venue for kitesurfing in Mauritius. 
@@ -88,9 +88,9 @@ let map1Markers = [{
       lat: -20.326333,
       lng: 57.377806
     },
-    description: 
-    // Credit: Desctiption - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
-    `One of the major drawcards of Tamarin Bay is the lack of high-walled resort compounds. 
+    description:
+      // Credit: Desctiption - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
+      `One of the major drawcards of Tamarin Bay is the lack of high-walled resort compounds. 
     It’s also a superb location for newbies hoping to find great conditions to learn to surf in Mauritius. 
     During low tide on the southwest coast, take care to avoid the coral crusted limestone. 
     Other than that, enjoy more of the world-class waves while surfing in Mauritius! 
@@ -167,9 +167,9 @@ let map1Markers = [{
       lat: -20.319111,
       lng: 57.368139
     },
-    description: 
-    // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
-    `Another venue solely for the most experienced looking to enjoy surfing in Mauritius, 
+    description:
+      // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
+      `Another venue solely for the most experienced looking to enjoy surfing in Mauritius, 
     Black Rocks is an ideal place if Tamarin Bay gets too busy. Prepare yourself to catch some serious waves! 
     The best time to go surfing at Black Rocks is around high tide when the tide is rising. 
     Sharks sometimes come to the waters around the area, check with the locals in the area before heading out.
@@ -194,9 +194,9 @@ let map1Markers = [{
       lat: -20.503694,
       lng: 57.448389
     },
-    description: 
-    // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
-    `The strong currents off the coast of Ilôt Sancho call for the more experienced surfers coming 
+    description:
+      // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
+      `The strong currents off the coast of Ilôt Sancho call for the more experienced surfers coming 
     to indulge in the surfing opportunities in Mauritius. The little islet’s favourable conditions are a major 
     attraction for local surf competitions. Head to Ilôt Sancho in November or December for the Billabong and 
     Quiksilver sponsored competitions to discover the best surfers in Mauritius! Ilôt Sancho is a short distance 
@@ -222,9 +222,9 @@ let map1Markers = [{
       lat: -20.505750,
       lng: 57.456139
     },
-    description: 
-    // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
-    `One of the least developed areas of Mauritius, Rivière des Galets offers you a more peaceful atmosphere than some of the other 
+    description:
+      // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
+      `One of the least developed areas of Mauritius, Rivière des Galets offers you a more peaceful atmosphere than some of the other 
     popular Mauritius surf spots. You can look forward to a rewarding surfing experience thanks to the left-hand surf breaks and the 
     moderately exposed reef. It’s a highly recommended location for more advanced surfers seeking consistent and phenomenal waves. 
     The only time it gets busy at Rivière des Galets is during the surfing competitions that take place throughout the year. Check 
@@ -278,9 +278,9 @@ let map1Markers = [{
       lat: -20.452333,
       lng: 57.709972
     },
-    description: 
-    // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
-    `Another more tranquil Mauritius surf spot is this location presenting you with a delightful reef break. Darne has the additional 
+    description:
+      // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
+      `Another more tranquil Mauritius surf spot is this location presenting you with a delightful reef break. Darne has the additional 
     benefit of being a gorgeous place with a breath-taking landscape. The waves you can catch here can run for about 164 feet, with 
     some thrilling barrels to ride when the wind turns north. Check with the locals to find out when is low tide so that you can avoid 
     being in the water during that period, due to the shallow conditions and the strong current in the pass.
@@ -305,9 +305,9 @@ let map1Markers = [{
       lat: -20.493556,
       lng: 57.369278
     },
-    description: 
-    // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
-    `Head to Maconde on the southern tip of Mauritius to enjoy consistent conditions for an ideal surfing experience. For the best 
+    description:
+      // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
+      `Head to Maconde on the southern tip of Mauritius to enjoy consistent conditions for an ideal surfing experience. For the best 
     opportunity to enjoy this top Mauritius surf spot, find out when there are offshore winds from the northeast. Maconde is also 
     one of the more popular locations, so, definitely go surfing during the week.
 
@@ -335,8 +335,8 @@ let map2Markers = [{
       lng: 57.518749
     },
     description:
-    // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
-    `On the west of the island, this off-shore protected coral reef is an easy swim from the beach. Just peering into the surface of the 
+      // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
+      `On the west of the island, this off-shore protected coral reef is an easy swim from the beach. Just peering into the surface of the 
     water to what lies below will get you excited! Expect to see long-nosed filefish, butterflyfish, goatfish, ocellated snake eels, 
     scribbled pipefish and more. If you’d like to go a bit further into the waters in these parts you can spot hawksbill turtles at around 
     ten metres deep.
@@ -345,14 +345,13 @@ let map2Markers = [{
     Tucked at the north-west coast of Mauritius, Pointe aux Piments is another perfect spot for snorkeling. This is a narrow beach, 
     ideal for sunbathing, leisure walks, picnic and sunset views. Pointe aux Piments beach is also famous for spotting sea turtles.`,
 
-    // Credit: 'Snorkeling Report' -> 
-    marineLife: 
-    ``,
-    experience: "",
-    maxDepth: "",
-    waterEntrance: "",
-    potentialDanger: "",
-    lifeguards: ""
+    // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/spot/snorkeling-recif-attitude-mauritius/
+    marineLife: `Galaxea, Pocillopora (cauliflower coral), peacock flounders, lizardfish, honeycomb groupers, false stonefish,
+    surge wrasse, teardrop butterflyfish, whitespotted boxfish, Moorish idols, sea turtles, Flutemouth, Longnose Filefish`,
+    experience: "Beginner",
+    maxDepth: "6ft/2m",
+    waterEntrance: "From a sandy beach",
+    potentialDanger: "Usual precautions"
   },
   {
     title: "Blue Bay Marine Park", // Snorkeling Haven with Coral and Fish
@@ -360,9 +359,9 @@ let map2Markers = [{
       lat: -20.444496,
       lng: 57.709895
     },
-    description: 
-    // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
-    `This is undoubtedly the most popular spot to snorkel on the island. The protected marine park 
+    description:
+      // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
+      `This is undoubtedly the most popular spot to snorkel on the island. The protected marine park 
     is beautiful and the water in the lagoon ranges between five and six metres deep. You can also play it safe 
     in more shallow water and just walk in from the beach. The clear blue waters hold an astonishing amount of 
     marine life to see, and of course, the area itself is a treat to any island-lover’s eyes! The park is also 
@@ -383,26 +382,22 @@ let map2Markers = [{
     clownfish and wrasse.`,
 
     // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/spot/snorkeling-blue-bay-mauritius/
-    marineLife: 
-    `The large and healthy branching and table coral beds, Dozens of mushroom corals, soft coral,
-    Vast shoals of convict surgeonfish, Parrotfish, Moorish idols, damselfish, and sergeant majors,
-    sea anemones: Mauritian clownfish,
-    hawksbill sea turtles`,
+    marineLife: `Mushroom corals, soft coral, surgeonfish, Parrotfish, Moorish idols, sergeant majors, Mauritian clownfish,
+    hawksbill sea turtles, Damselfish, mangroves`,
     experience: "Intermediate",
     maxDepth: "20ft/6m",
     waterEntrance: "Easy, from a sandy beach (or from a boat)",
-    potentialDanger: "Usual precautions",
-    lifeguards: "No"
+    potentialDanger: "Usual precautions"
   },
   {
-    title: "Pereybere Beach, near Grand Baie", // Popular beach for water sports
+    title: "Pereybere Beach, near Grand Baie",
     markers: {
       lat: -19.993565,
       lng: 57.591050
     },
-    description: 
-    // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
-    `Located in the north of Mauritius, this stunning beach front is another wonderful spot for 
+    description:
+      // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
+      `Located in the north of Mauritius, this stunning beach front is another wonderful spot for 
     snorkelling. The beach is very popular so it’s best to get there early to enjoy the quiet waters. The 
     easiest way to reach the reef is to swim in from the shore, but boats are available to take you further 
     in as the lagoon does get quite deep.
@@ -418,14 +413,13 @@ let map2Markers = [{
     are damaged near the shore, experienced snorkelers can fin to the coral reef and discover lush underwater life. Green turtles and 
     hawksbill turtles are often seen near the passes.`,
 
-    // Credit: 'Snorkeling Report' -> 
-    marineLife: 
-    ``,
-    experience: "",
-    maxDepth: "",
-    waterEntrance: "",
-    potentialDanger: "",
-    lifeguards: ""
+    // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/spot/snorkeling-pereybere/
+    marineLife: `surgeonfish, butterflyfish, wrasses, sea turtles (both green and hawksbill), Mauritius clownfish, barracuda, 
+    groupers, emperors, snappers, triggerfish, damsels, wrasses, boxfish`,
+    experience: "Beginner",
+    maxDepth: "33ft/10m past the drop off",
+    waterEntrance: "From a sandy beach",
+    potentialDanger: "Boat traffic in and outside the channels"
   },
   {
     title: "Flic en Flac", // Favoured spot for snorkeling - white-spotted boxfish, the incredible moorish idols and blue-barred parrotfish
@@ -434,8 +428,8 @@ let map2Markers = [{
       lng: 57.363380
     },
     description:
-    // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
-    `Situated in the west of Mauritius, this well-known beach is known as a favoured spot for snorkelling with its large lagoon and still 
+      // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
+      `Situated in the west of Mauritius, this well-known beach is known as a favoured spot for snorkelling with its large lagoon and still 
     water. Spend your time wading through the warm water and spot white-spotted boxfish, the incredible moorish idols and blue-barred 
     parrotfish. Just south of the bay, and accessible by boat is Tamarin Bay. If you’re in luck, you may even spot spinner dolphins from 
     your boat. The reefs here are for more experienced divers at around 20 to 30 metres deep. 
@@ -448,19 +442,16 @@ let map2Markers = [{
     <!-- Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/spot/snorkeling-flic-en-flac/ -->
     Flic en Flac boasts one of the largest and most enjoyable public beaches in Mauritius. Its white sand is bordered by a beautiful 
     lagoon, making it an inviting place for swimmers and snorkelers alike. Coral health is variable, but a large variety of fish live in 
-    the lagoon, and snorkelers can swim along butterflyfish, moray eels, filefish and even small groupers.`,
+    the lagoon, and snorkelers can swim along butterflyfish, moray eels, filefish, small groupers, White Spotted Boxfish`,
 
     // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/spot/snorkeling-flic-en-flac/
-    marineLife: 
-    `mostly racoon butterflyfish, vagabond butterflyfish and threadfin butterflyfish,
-    moray eels, filefish and even small groupers.
-    numerous coral clumps, whitetail dascyllus, Moorish idols, green chromis, Wrasse, schools of goatfish, small honeycomb groupers 
-    and rabbitfish. small moray eels or lionfish, burrowing sea urchins`,
+    marineLife: `racoon butterflyfish, vagabond butterflyfish, threadfin butterflyfish, moray eels, filefish, small groupers, 
+    coral clumps, whitetail dascyllus, moorish idols, green chromis, wrasse, goatfish, small honeycomb groupers, rabbitfish, 
+    small moray eels, lionfish, burrowing sea urchins`,
     experience: "Intermediate",
     maxDepth: "6ft/2m",
     waterEntrance: "From a sandy beach",
-    potentialDanger: "Boats - Divers-down buoy recommended outside the designated swimming areas",
-    lifeguards: "No"
+    potentialDanger: "Boats - Divers-down buoy recommended outside the designated swimming areas"
   },
   {
     title: "Trou aux Biches", // lion fish, moray eels, trumpet fish, white-spotted boxfish
@@ -469,8 +460,8 @@ let map2Markers = [{
       lng: 57.544449
     },
     description:
-    // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
-    `Thinking of that perfect island getaway will most certainly have you picturing this stretch 
+      // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
+      `Thinking of that perfect island getaway will most certainly have you picturing this stretch 
     of beach in this northern town of Mauritius, with its perfect palm trees lining the soft edge of sparkling 
     white sand and turquoise water. Under the crystal water you will find a wide array of marine life, 
     including lion fish, moray eels, trumpet fish, white-spotted boxfish and more.
@@ -486,24 +477,23 @@ let map2Markers = [{
     are damaged near the shore, experienced snorkelers can fin to the coral reef and discover lush underwater life. Green turtles and 
     hawksbill turtles are often seen near the passes.`,
 
-    // Credit: 'Snorkeling Report' -> 
-    marineLife: 
-    ``,
-    experience: "",
-    maxDepth: "",
-    waterEntrance: "",
-    potentialDanger: "",
-    lifeguards: ""
+    // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/spot/snorkeling-trou-aux-biches/
+    marineLife: `tropical fish, sea turtles, butterflyfish, fine branch coral, finger coral, giant clams, red pencil 
+    urchins, conches, moorish idols, convict tangs, whitetail dascyllus, filefish, pufferfish, triggerfish, Damselfish, colourful starfish`,
+    experience: "Intermediate",
+    maxDepth: "6ft/2m",
+    waterEntrance: "From a sandy beach",
+    potentialDanger: "Boats - Diving flag recommended outside the designated swimming areas"
   },
   {
-    title: "Ile aux Cerfs (island off the east coast)", // angel fish, blue-stripe snappers and blacktip groupers.
+    title: "Ile aux Cerfs (island off the east coast)",
     markers: {
       lat: -20.271957,
       lng: 57.799214
     },
     description:
-    // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
-    `This beautiful island is best explored for a full day as it offers more than just snorkelling, 
+      // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
+      `This beautiful island is best explored for a full day as it offers more than just snorkelling, 
     with its picture-perfect beaches that are ideal for sunbathing and a number of family-friendly facilities. 
     Take a boat out to enjoy the underwater splendor and spot some of Mauritius’s most wonderful coral and 
     marine life, such as angel fish, blue-stripe snappers and blacktip groupers.
@@ -513,37 +503,14 @@ let map2Markers = [{
     The place is a perfect spot for Mauritius snorkeling and one can swim and spot exotic marine species like blacktip groupers, 
     blue stripe snappers and sunbream. This is one of the best beaches in Mauritius for snorkeling.`,
 
-    // Credit: 'Snorkeling Report' -> 
-    marineLife: 
-    ``,
-    experience: "",
-    maxDepth: "",
-    waterEntrance: "",
-    potentialDanger: "",
-    lifeguards: ""
+    // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/fr/spot/snorkeling-trou-eau-douce-ile-maurice/
+    marineLife: `parrotfish, damselfish, butterflyfish, surgeonfish, colorful giant clams, Blacktip Grouper, Bluestripe Snapper, 
+    bright corals, angel fish`,
+    experience: "Intermediate",
+    maxDepth: "3m",
+    waterEntrance: "From a boat",
+    potentialDanger: "Usual precautions"
   },
-  {
-    title: "Tamarin Bay",
-    markers: {
-      lat: -20.326428,
-      lng: 57.377371
-    },
-    description:
-    // Credit: 'Travel Triangle' -> https://traveltriangle.com/blog/mauritius-snorkeling/
-    `This is an extremely picturesque village in Mauritius that is located at a distance of 5 kilometers from Flic en Flac. 
-    The village of Tamarin is renowned as the Natural Aquarium and is counted amongst the most picturesque seascapes in Mauritius. 
-    Snorkeling in the waters of Tamarin Bay will definitely be an experience to remember. There are other water sports activities too 
-    that can be enjoyed here, including paddle boating, jet-skiing, and swimming.`,
-
-    // Credit: 'Snorkeling Report' -> 
-    marineLife: 
-    ``,
-    experience: "",
-    maxDepth: "",
-    waterEntrance: "",
-    potentialDanger: "",
-    lifeguards: ""
-  }
 ]
 
 // Dolphin markers
@@ -610,32 +577,139 @@ let map4Markers = [{
 
 // Scuba Diving markers
 let map5Markers = [{
-    title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
     markers: {
       lat: -20.452782,
       lng: 57.312444
     },
-    description: "Le Morne Beach, under the shadow of the mighty Le Morne Brant mountains," +
-      " is known as the ultimate surfing spot in the country. This top Mauritius surf spot" +
-      " is famous for the ‘One Eye’, the ‘eye’ surfers see on Le Morne’s rock face when" +
-      " they find the sweet spot in which to catch the perfect wave! If you’re a beginner," +
-      " test your skills on the west side of the peninsula. This location is also known as" +
-      " ‘Kite Lagoon’, due to it being a popular venue for kitesurfing in Mauritius. Enjoy" +
-      " some of the best swells of incredibly high waves on the island (averaging 3.5 feet)."
+    description:
+      // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
+      `One of the most beautiful diving sites in Mauritius is, without a doubt, Holt’s Rock. Here you can dive through volcanic basalt 
+    rocks, blanketed with sea fans and soft corals. The caves and tunnels make for an interesting, exploratory dive where porcupine fish, 
+    titan triggerfish and moray eels dart between the crevices.`
   },
   {
-    title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
+    title: "Coin de Mire and Flat Island",
     markers: {
       lat: -20.326333,
       lng: 57.377806
     },
-    description: "Le Morne Beach, under the shadow of the mighty Le Morne Brant mountains," +
-      " is known as the ultimate surfing spot in the country. This top Mauritius surf spot" +
-      " is famous for the ‘One Eye’, the ‘eye’ surfers see on Le Morne’s rock face when" +
-      " they find the sweet spot in which to catch the perfect wave! If you’re a beginner," +
-      " test your skills on the west side of the peninsula. This location is also known as" +
-      " ‘Kite Lagoon’, due to it being a popular venue for kitesurfing in Mauritius. Enjoy" +
-      " some of the best swells of incredibly high waves on the island (averaging 3.5 feet)."
+    description:
+      // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
+      `A little offshore, about 90 minutes from the mainland, the islands Coin de Mire and Flat Island are perfect for beginner divers 
+      and snorkellers. Some of the best snorkelling in Mauritius is around these turquoise lagoons. You might just be lucky enough to 
+      spot some dolphins and sharks further out in the bay!`
+  },
+  {
+    title: "Flic en Flac and Tamarin",
+    markers: {
+      lat: -20.326333,
+      lng: 57.377806
+    },
+    description:
+      // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
+      `Some of the best diving in Mauritius can be experienced off the west coast. The beaches of Flic en Flac and Tamarin are excellent 
+      points from where you can enjoy a variation of the most incredible drift, reef and wreck dives. The most famous of these is 
+      Cathedral, perfect for all level divers. This dive site is a photographer’s dream as the warm light filters through its caverns and 
+      arches. At 18-30 metres deep, you can easily spot snappers, groupers, angelfish, surgeonfish, squirrelfish and lobsters. 
+      The mysterious Snake Reef is just a 15-minute boat ride away, where scorpion fish, stonefish and lionfish dominate the waters. 
+      This site is recommended for experienced divers only. 
+      Beginners will love swimming through the Aquarium, a colourful rocky reef teeming with clown fish, butterflyfish, stonefish, puffer 
+      fish and wire coral. This is an easy dive reaching a maximum depth of 15 metres and is often used as a training ground for diving 
+      courses.
+      Claimed to be one of the best drift dives in Mauritius, Passe St. Jacques is a playground for grey reef sharks, stingrays, turtles 
+      and moray eels. At a depth of between 3 and 30 metres, this dive site is perfect for beginners all the way to advanced divers.
+      Experienced divers should definitely make a stop at Manioc – an atmospheric deep dive site, plunging to depths of 47 metres. Look 
+      out for white tip reef sharks and emperor angelfish swimming around the rock face.`
+  },
+  {
+    title: "Flic en Flac",
+    markers: {
+      lat: -20.326333,
+      lng: 57.377806
+    },
+    description:
+      // Credit: 'Exploration Sous-Marine' -> https://en.exploration-sous-marine.com/dive-sites-sites-de-plongee
+      `Flic en Flac is an ancient fishing village situated on the west coast of the island and has a micro-climate whole year round 
+      (except during cyclonic periods). It is now a well-known holiday resort with a lot of hotels, restaurants, etc... The white and 
+      sandy beach, one of the longest in Mauritius, is bordered by filao trees offering shade and calm. There are as many varieties of 
+      corals as in other tropical regions but their distribution is unique. The strong cyclonic waves contribute to the formation of 
+      thick corals near the surface and thinner corals deeper. The fauna consists mainly of small and medium sized tropical species – 
+      the most famous being the grouper, the muraena, the lionfish, the stonefish and the scorpionfish. You may also encounter pelagic 
+      species such as tuna, barracuda, jack fish and rays in some of the wonderful dive sites in Flic en Flac.
+
+      <!-- https://mauritiusnow.com/things-to-do-in-mauritius/ -->
+      The Cathedral is one of the best dive sites in Mauritius. Come under the water with us and let’s take a look… The sheer drop off 
+      fuses with enormous boulders to create an exciting topography of caves and arches, where lobsters scuttle over the rock and reef 
+      fish zig-zag above you. You can dive down to nearly 30 metres in this area and explore the cathedral-like cavern, lit angelically 
+      by the sunlight beaming through the surface of the water. This dive spot is located on the west coast of the island near 
+      Flic-en-Flac and is one of our favourites!
+      
+      <!-- Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius -->
+      Flic en Flac is on the west coast of Mauritius and a favourite of many divers! The dive site called “Cathedral” is located here and 
+      it is considered one of the best dive sites in Mauritius. Indeed, starting at 18 meters on a sandy base and going deeper to 30 
+      meters, the cathedral is a large cavern and cave system. The cavern allows properly guided divers to enter. The area is a 
+      photographers dream with abundant marine life and interesting features. Rempart Serpent or snake reef is another popular dive site 
+      in this area.`
+  },
+  {
+    title: "La Passe du Puits at Belle Mare Plage",
+    markers: {
+      lat: -20.326333,
+      lng: 57.377806
+    },
+    description:
+      // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
+      `The stunning drift dive of La Passe du Puits at Belle Mare Plage awaits, with eagle rays, barracuda, black jacks, tuna and 
+      whitetip reef sharks perusing the waters. Be aware of strong currents.`
+  },
+  {
+    title: "Colorado",
+    markers: {
+      lat: -20.326333,
+      lng: 57.377806
+    },
+    description:
+      // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
+      `A little to the south, Colorado is a staggering 40-metre drop filled with parrotfish and groupers. Don’t miss the opportunity to 
+      explore the historical naval wreck, The Sirius, off Mahébourg beach. At 25 metres down, you can swim amongst old cannons and 
+      cannonballs, and the interesting creatures that call this shipwreck home.`
+  },
+  {
+    title: "Le Morne",
+    markers: {
+      lat: -20.326333,
+      lng: 57.377806
+    },
+    description:
+      // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
+      `located on the south-west coast, has a few outstanding dive sites. St Jacques is considered the best drift dive in Mauritius 
+      Island. In fact, the dive starts shallow in the lagoon, and then as you follow the current you can get to reach the 30 meters. 
+      The current will take you through a channel in the reef and out to open water. You will likely pass by sharks, rays and turtles 
+      as they are watching for an easy meal. Because of the unpredictability of the current, this dive is for experienced divers. Also, 
+      the Hoi Siong Wreck 6 also in Le Morne was sunk intentionally in 2003 and is one of the best artificial reefs.`
+  },
+  {
+    title: "Grand Bay",
+    markers: {
+      lat: -20.326333,
+      lng: 57.377806
+    },
+    description:
+      // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
+      `Grand Bay is one of the top tourist destinations in the country, it is also one of the top diving destinations. There are over a 
+      dozen dive sites in the bay, of which most are perfect for open water divers. Aquarium (Grand Bay) is considered the best dive for 
+      a beginning diver. It is a beautiful coral reef with sand chutes in breaks. The depths of the breaks are two to three meters.`
+  },
+  {
+    title: "Trou aux Biches",
+    markers: {
+      lat: -20.326333,
+      lng: 57.377806
+    },
+    description:
+      // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
+      `Trou aux Biches is on the North West coast, just a short distance from Port Lewis. Stella Maru is located here. A Japanese 
+      fishing boat that now sits in 25 meters of water. It is considered one of the best wreck dive in Mauritius.`
   }
 ]
 
