@@ -52,6 +52,15 @@ button.navbar-toggler {
   background-color: #31bee9;
 }
 
+@media screen and (max-width: 768px) {
+  ul.nav {
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 10px;
+  }
+}
+
 /* ----------------------------------Footer---------------------------------- */
 footer {
   background-color: #31bee9;
@@ -258,23 +267,36 @@ p.hero-text {
   background-image: url("../images/home-images/scuba-diving.jpg");
 }
 
+#home-activities a {
+  text-decoration: none;
+}
+
+.home-activity-btn {
+  background-color: #31bee9;
+  border-color: #fff;
+  font-size: 28px;
+  display: block;
+  margin: 0 auto;
+  letter-spacing: 5px;
+  padding: 10px;
+}
+
+.home-activity-btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .activity-icons {
   width: 60px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 0;
+  position: relative;
+  top: 20px;
 }
 
 section#home-activities a {
   position: relative;
 }
-
-/* .heading-overlay {
-  background-color: rgba(0, 0, 0, 0.25);
-  padding: 10px;
-} */
-
-/* a.home-surf {
-  background-color: #31bee9;
-  font-size: 32px;
-} */
 
 /* ----------------------------------Activities Page---------------------------------- */
 .activity-page-nav {
@@ -404,13 +426,6 @@ section#home-activities a {
 /* ----------------------------------Contact Page---------------------------------- */
 form p {
   margin-bottom: 10px;
-}
-
-
-@media screen and (max-width: 576px) {
-  .contact-btn {
-    margin-bottom: 50px;
-  }
 }
 
 form.overlay {
