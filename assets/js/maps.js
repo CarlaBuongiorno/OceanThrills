@@ -329,7 +329,7 @@ let map1Markers = [{
 
 // Snorkeling markers
 let map2Markers = [{
-    title: "Pointe aux Piments", // long-nosed filefish, butterflyfish, goatfish, ocellated snake eels, scribbled pipefish and hawksbill turtles
+    title: "Pointe aux Piments",
     markers: {
       lat: -20.064677,
       lng: 57.518749
@@ -354,7 +354,7 @@ let map2Markers = [{
     potentialDanger: "Usual precautions"
   },
   {
-    title: "Blue Bay Marine Park", // Snorkeling Haven with Coral and Fish
+    title: "Blue Bay Marine Park",
     markers: {
       lat: -20.444496,
       lng: 57.709895
@@ -513,65 +513,202 @@ let map2Markers = [{
   },
 ]
 
+let star4 = `
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half-alt"></i>`;
+
+let star5 = `
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>`;
+
 // Dolphin markers
 let map3Markers = [{
-    title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
+    title: "Dolswim Ltd",
     markers: {
-      lat: -20.452782,
-      lng: 57.312444
+      lat: -20.36432,
+      lng: 57.37234
     },
-    description: "Le Morne Beach, under the shadow of the mighty Le Morne Brant mountains," +
-      " is known as the ultimate surfing spot in the country. This top Mauritius surf spot" +
-      " is famous for the ‘One Eye’, the ‘eye’ surfers see on Le Morne’s rock face when" +
-      " they find the sweet spot in which to catch the perfect wave! If you’re a beginner," +
-      " test your skills on the west side of the peninsula. This location is also known as" +
-      " ‘Kite Lagoon’, due to it being a popular venue for kitesurfing in Mauritius. Enjoy" +
-      " some of the best swells of incredibly high waves on the island (averaging 3.5 feet)."
+    description: `Dolphins and whales are perhaps the most fantastic of all the creatures that live in the ocean. These mammals have 
+    always had a special place in man heart and mind. The dolphins – cheerful and playful  symbol of intelligence and grace can be 
+    encountered on the west coat of Mauritius. The Dolphins, the Spinners and the Bottlenose, have made of the West Coast of Mauritius 
+    a place to rest and sleep before going to the deep sea to fish.
+
+    Dolphins lived in pods of around 20 individuals or more and can be observed swimming casually from Tamarin on their way to the deep 
+    sea off the coast of le Morne penninsula, early in the morning.`,
+    websiteAddress: "http://www.dolswim.com/index.php/en/dolphins-encounter-mauritius/",
+    phone: "(230) 5422 9281",
+    address: "La Jetée Road, Black River, Mauritius",
+    rating: star4
   },
   {
-    title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
+    title: "JPH Charters",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      lat: -20.364320,
+      lng: 57.378980
     },
-    description: "Le Morne Beach, under the shadow of the mighty Le Morne Brant mountains," +
-      " is known as the ultimate surfing spot in the country. This top Mauritius surf spot" +
-      " is famous for the ‘One Eye’, the ‘eye’ surfers see on Le Morne’s rock face when" +
-      " they find the sweet spot in which to catch the perfect wave! If you’re a beginner," +
-      " test your skills on the west side of the peninsula. This location is also known as" +
-      " ‘Kite Lagoon’, due to it being a popular venue for kitesurfing in Mauritius. Enjoy" +
-      " some of the best swells of incredibly high waves on the island (averaging 3.5 feet)."
+    description: `Two kinds of dolphins can be observed in Mauritian waters: the Spinner and the Bottlenose. The peers do not like to
+     share the same spot and you will never see them together: If the Spinners are around and the Bottlenose dolphins arrive, the Spinners 
+     will leave the bay, heading to the open sea.
+
+    Being one of the most common species, the Bottlenose dolphin is known all over the world. It is also the biggest amongst the different 
+    species of dolphins with a weight of up to 650 kg and a length of up to 12 feet! They are famous for their intelligence, very gentle 
+    and willing to approach humans.
+    
+    In Mauritius, they live in groups of 2 to 15 members and can be observed early in the morning until 11:30 a.m. Sometimes, with a bit 
+    of luck, you may see them in the afternoon, swimming in the crystal clear lagoon, in 1.5 meters depth water.
+    
+    The most playful of the dolphins, the Spinners, live in large groups of up to 100 members. Much smaller than their fellow peers, the
+    Bottlenose, they grow up to 80 kg and 8 feet. Famous for being very active, they play together as the morning is their time to train 
+    the calves which are generally about 1 feet long and weigh not more than 3 kg.`,
+    websiteAddress: "https://jph.mu/dolphin-cruises/",
+    phone: "(+230) 5729 0901",
+    address:"L'Estuaire, La Balise Marina, Black River",
+    rating: star4
+  },
+  {
+    title: "Mauritius Decorder Immobilier",
+    markers: {
+      lat: -20.005780,
+      lng: 57.590760
+    },
+    description: `Dolphins are known to be intelligent and fun to be around. An essentially social animal, they have been reported to have
+     formed bonds with human beings and protecting swimmers from shark attacks. As such, there are many reasons to go meet these endearing
+      aquatic mammals. Dolphins love the warm sea around Mauritius, which makes the island a great location to swim with them. Moreover,
+       interacting with dolphins in their natural habitat means they are more likely to be happier than in an aquarium and this guarantees
+        the authenticity of the experience.`,
+    websiteAddress: "https://www.decordier-immobilier.mu/en/swimming-with-dolphins/",
+    phone: "+230 268 2828",
+    address: `Route Royale
+    30510 Grand Baie, Ile Maurice`,
+    rating: star5
+  },
+  {
+    title: "Prestige Holidays Mauritius",
+    markers: {
+      lat: -20.238321,
+      lng: 57.485564
+    },
+    description: `Discover the spectacular worlds of dolphins by watching them in their natural environment. You can even enjoy swimming
+    with dolphins!
+
+    This is once in a lifetime adventure where you’ll watch dolphins in their natural habitat. Swimming with dolphins is another amazing 
+    experience while you’ll discover the scenery, come in contact with other marine creatures and admire the beautiful landscape. 
+    Encounter with dolphins in the open sea is another exciting thing to do as compared to dolphins swimming in pools or shallow waters. 
+    You’ll also be able to enjoy snorkeling in crystal clear water and explore stunning aquatic life!
+    
+    Dolphins are the most amazing creatures of the world, they are cheerful and playful, which symbolizes intelligence. They are often 
+    seen in groups of 20 swimming from Tamarin, heading to the deep waters of the coast of Le Morne. They are usually spotted early in 
+    the morning. The dolphins rest in the west coast of the island before heading to deep sea for fishing.`,
+    websiteAddress: "http://phmauritius.com/activity/dolphin-watching-swimming/",
+    phone: "+230 467 2392",
+    address: `Prestige Holidays Mauritius
+    Suite 213a
+    Ebène Junction
+    Ebène Cybercity 7220`,
+    rating: star4
+  },
+  {
+    title: "Vitamin Sea Ltd",
+    markers: {
+      lat: -20.362271, 
+      lng: 57.374810
+    },
+    description: `On the West Coast of Mauritius, we are lucky enough to have wild dolphins that come near the shore to socialize, rest 
+    & play every morning. We can encounter two types of dolphins: spinner & bottlenose. We normally see one or the other, except if you 
+    are very lucky and meet both species, which happens sometimes!
+    We love these sea creatures and our goal is to guide our customers through this lifetime experience; passion and respect are our 
+    priority. The crew will start the excursion with their briefing and give you details about: security, respect of the dolphins, 
+    different spots that you will visit etc…
+    The departure & arrival is from the L'Estuaire in Black River (refer to location point).
+    We encourage a very early departure for a peaceful & respectful swimming experience with the mammals; 6:15am in Winter season & 
+    5:30am in Summer season. We observe and swim with them for approximately 60min to 90min. Then we cruise to our favorite snorkeling 
+    in the Natural Aquarium to see the tropical sea life: clams, fishes, starfish, corals... Last stop of the trip will be the famous 
+    Crystal Rock, in the White Lagoon. A fragile coral formation in the middle of crystal clear water.
+    For your comfort, snorkelling equipment is provided on board as well as soft beverages and homemade banana bread. Please bring along 
+    your beach towel.
+    Pssst… Stay calm & positive, the dolphins can feel your energy as they have cerebral & emotional ratios very close to us, humans!`,
+    websiteAddress: "https://www.vitaminsealtd.com/swimming-with-dolphins",
+    phone: "(+230) 4590 1450",
+    address: "L’Estuaire, Black River 90606, Mauritius",
+    rating: star5
+  },
+  {
+    title: "Karlos Excursions",
+    markers: {
+      lat: -20.465218,
+      lng: 57.308537
+    },
+    description: `Observe and swim with wild dolphins in their natural habitat. Our Skippers will make sure you have great visibility 
+    while respecting the dolphins & guidelines set by the local authority. We favour the Southern dolphin watching region, which is less 
+    busy, although, if not possible, we go towards the West. Snorkel in the turquoise lagoon: your skipper will bring you to the best spot 
+    depending on the itinerary (dolphins’ location) and tide. Coral Rock: visit the famous fossilized coral, which “floats” on the water, 
+    against the background of the iconic Le Morne Mountain. If you don’t have an underwater camera & wish to have photos, we also propose 
+    this option as supplement. Our team looks forward to host you!`,
+    websiteAddress: "https://karlosexcursions.com/trip/private-morning-dolphins-experiences/",
+    phone: "+230 5726 5599",
+    address: `Le Morne beach,
+    Mauritius`,
+    rating: star5
+  },
+  {
+    title: "Dream Dolphin",
+    markers: {
+      lat: -20.354127, 
+      lng: 57.362198
+    },
+    description: `Swim with dolphins in Mauritius! Join  Dream Dolphin  for an exciting experience on our boat based on the west coast of 
+    Mauritius at Rivière Noire . This area is well known for its calm and clear waters, it is perfect for snorkeling and is home to both 
+    dolphins and those mighty visitors -  whales and sperm whale.
+
+    Let us help you start the best part of your vacation for sure. Swim with dolphins  snorkeling in the natural aquarium, observation 
+    of whales/sperm whales, sea turtles, tailor-made excursion, romantic sunset at sea, and not to mention the option of an aqua-shooting 
+    to keep a memorable memory.`,
+    websiteAddress: "https://dream-dolphin.com/",
+    phone: "(+230) 57 48 04 30",
+    address: `Public beach La Preneuse Tour Martello tower Coastal road, La Preneuse, Mauritius`,
+    rating: star5
+  },
+  {
+    title: "Dadou Excursion",
+    markers: {
+      lat: -20.216253, 
+      lng: 57.398758
+    },
+    description: `Plunge into the remarkable world of these powerful marine mammals and come face to face with the dolphins. 
+    Swimming with dolphins is an incredibly moving experience which will bring you into contact with strikingly beautiful scenery, 
+    unspoiled landscapes and wonderful animals.`,
+    websiteAddress: "https://www.dadouexcursion.com/index.php/excursions/",
+    phone: "(+230) 5743 3000",
+    address: `Avenue Tisserins
+    Morcellement Belle Vue
+    Albion 91001
+    Mauritius`,
+    rating: star5
   }
 ]
 
 // Kite Surfing markers
 let map4Markers = [{
-    title: "Le Morne Brant", // Ultimate surfing spot, Le Morne Brant
+    title: "",
     markers: {
       lat: -20.452782,
       lng: 57.312444
     },
-    description: "Le Morne Beach, under the shadow of the mighty Le Morne Brant mountains," +
-      " is known as the ultimate surfing spot in the country. This top Mauritius surf spot" +
-      " is famous for the ‘One Eye’, the ‘eye’ surfers see on Le Morne’s rock face when" +
-      " they find the sweet spot in which to catch the perfect wave! If you’re a beginner," +
-      " test your skills on the west side of the peninsula. This location is also known as" +
-      " ‘Kite Lagoon’, due to it being a popular venue for kitesurfing in Mauritius. Enjoy" +
-      " some of the best swells of incredibly high waves on the island (averaging 3.5 feet)."
+    description: ``
   },
   {
-    title: "Tamarin Bay", // Newbies, Tamarin Bay Surf School
+    title: "",
     markers: {
       lat: -20.326333,
       lng: 57.377806
     },
-    description: "Le Morne Beach, under the shadow of the mighty Le Morne Brant mountains," +
-      " is known as the ultimate surfing spot in the country. This top Mauritius surf spot" +
-      " is famous for the ‘One Eye’, the ‘eye’ surfers see on Le Morne’s rock face when" +
-      " they find the sweet spot in which to catch the perfect wave! If you’re a beginner," +
-      " test your skills on the west side of the peninsula. This location is also known as" +
-      " ‘Kite Lagoon’, due to it being a popular venue for kitesurfing in Mauritius. Enjoy" +
-      " some of the best swells of incredibly high waves on the island (averaging 3.5 feet)."
+    description: ``
   }
 ]
 
@@ -580,8 +717,8 @@ let map5Markers = [{
     title: "Grand Baie",
     divingSite: "Holt’s Rock",
     markers: {
-      lat: -20.013183,
-      lng: 57.546473
+      lat: -20.002950,
+      lng: 57.542217
     },
     description:
       // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
@@ -598,15 +735,15 @@ let map5Markers = [{
     <!-- Credit: 'Just Diving' -> https://www.justdivingmauritius.com/en/main/product/holt-rock -->
     Holt Rock has large rock formations with good lighting conditions. With a slight current, it can be a drifting dive. The site has 
     many gorgonians and big fish. Lobsters and titan ballistae are also common.`,
-    divingType: "Multi-Level",
+    diveType: "Multi-Level, reef",
     depth: "16 to 25 metres"
   },
   {
     title: "Coin de Mire",
     divingSite: "Djabeda",
     markers: {
-      lat: -19.982392,
-      lng: 57.604511
+      lat: -19.945317,
+      lng: 57.619317
     },
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
@@ -640,109 +777,15 @@ let map5Markers = [{
       Djabeda is a Japanese fishing boat lying on a sandy bottom at 34 meters, right next to Coin de Mire. Djabeda is about 44m long, 
       10m high and 5m wide. While the main issue is the wreck itself, the site is alive with soft corals, fish shoals, King Fish, moray 
       eels, triggerfish, stone fish, scorpion fish, leaves and nudibranchs.`,
-      divingType: "Wreck",
+    diveType: "Wreck, deep",
     depth: "25 metres/80 ft - 35 metres"
-  },
-  {
-    title: "Flic en Flac and Tamarin",
-    divingSite: "",
-    markers: {
-      // lat: -20.326333,
-      // lng: 57.377806
-    },
-    description:
-      // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
-      `Some of the best diving in Mauritius can be experienced off the west coast. The beaches of Flic en Flac and Tamarin are excellent 
-      points from where you can enjoy a variation of the most incredible drift, reef and wreck dives. The most famous of these is 
-      Cathedral, perfect for all level divers. This dive site is a photographer’s dream as the warm light filters through its caverns and 
-      arches. At 18-30 metres deep, you can easily spot snappers, groupers, angelfish, surgeonfish, squirrelfish and lobsters. 
-      The mysterious Snake Reef is just a 15-minute boat ride away, where scorpion fish, stonefish and lionfish dominate the waters. 
-      This site is recommended for experienced divers only. 
-      Beginners will love swimming through the Aquarium, a colourful rocky reef teeming with clown fish, butterflyfish, stonefish, puffer 
-      fish and wire coral. This is an easy dive reaching a maximum depth of 15 metres and is often used as a training ground for diving 
-      courses.
-      Claimed to be one of the best drift dives in Mauritius, Passe St. Jacques is a playground for grey reef sharks, stingrays, turtles 
-      and moray eels. At a depth of between 3 and 30 metres, this dive site is perfect for beginners all the way to advanced divers.
-      Experienced divers should definitely make a stop at Manioc – an atmospheric deep dive site, plunging to depths of 47 metres. Look 
-      out for white tip reef sharks and emperor angelfish swimming around the rock face.`
-  },
-  {
-    title: "Flic en Flac",
-    divingSite: "",
-    markers: {
-      // lat: -20.326333,
-      // lng: 57.377806
-    },
-    description:
-      // Credit: 'Exploration Sous-Marine' -> https://en.exploration-sous-marine.com/dive-sites-sites-de-plongee
-      `Flic en Flac is an ancient fishing village situated on the west coast of the island and has a micro-climate whole year round 
-      (except during cyclonic periods). It is now a well-known holiday resort with a lot of hotels, restaurants, etc... The white and 
-      sandy beach, one of the longest in Mauritius, is bordered by filao trees offering shade and calm. There are as many varieties of 
-      corals as in other tropical regions but their distribution is unique. The strong cyclonic waves contribute to the formation of 
-      thick corals near the surface and thinner corals deeper. The fauna consists mainly of small and medium sized tropical species – 
-      the most famous being the grouper, the muraena, the lionfish, the stonefish and the scorpionfish. You may also encounter pelagic 
-      species such as tuna, barracuda, jack fish and rays in some of the wonderful dive sites in Flic en Flac.
-
-      <!-- https://mauritiusnow.com/things-to-do-in-mauritius/ -->
-      The Cathedral is one of the best dive sites in Mauritius. Come under the water with us and let’s take a look… The sheer drop off 
-      fuses with enormous boulders to create an exciting topography of caves and arches, where lobsters scuttle over the rock and reef 
-      fish zig-zag above you. You can dive down to nearly 30 metres in this area and explore the cathedral-like cavern, lit angelically 
-      by the sunlight beaming through the surface of the water. This dive spot is located on the west coast of the island near 
-      Flic-en-Flac and is one of our favourites!
-      
-      <!-- Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius -->
-      Flic en Flac is on the west coast of Mauritius and a favourite of many divers! The dive site called “Cathedral” is located here and 
-      it is considered one of the best dive sites in Mauritius. Indeed, starting at 18 meters on a sandy base and going deeper to 30 
-      meters, the cathedral is a large cavern and cave system. The cavern allows properly guided divers to enter. The area is a 
-      photographers dream with abundant marine life and interesting features. Rempart Serpent or snake reef is another popular dive site 
-      in this area.`
-  },
-  {
-    title: "La Passe du Puits at Belle Mare Plage",
-    divingSite: "",
-    markers: {
-      // lat: -20.326333,
-      // lng: 57.377806
-    },
-    description:
-      // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
-      `The stunning drift dive of La Passe du Puits at Belle Mare Plage awaits, with eagle rays, barracuda, black jacks, tuna and 
-      whitetip reef sharks perusing the waters. Be aware of strong currents.`
-  },
-  {
-    title: "Belle Mare",
-    divingSite: "Coral Garden",
-    markers: {
-      // lat: -20.326333,
-      // lng: 57.377806
-    },
-    description:
-      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
-      `Coral Garden offers a great view of both soft and hard corals, as suggested by the name. This site for scuba diving in Mauritius 
-      also offers stingrays (cartilaginous fish related to sharks) and green turtles which often nest behind the hard and soft corals. 
-      Night diving on this site gives you a view of exotic marine life like lionfish, wrasses, moray eels and lobsters. Other aquatic 
-      species that can be seen here include crayfish, sergeant majors, clownfish, groupers, parrotfish, sea anemones and trumpets.`,
-    depth: "20m / 67ft"
-  },
-  {
-    title: "Colorado",
-    divingSite: "",
-    markers: {
-      // lat: -20.326333,
-      // lng: 57.377806
-    },
-    description:
-      // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
-      `A little to the south, Colorado is a staggering 40-metre drop filled with parrotfish and groupers. Don’t miss the opportunity to 
-      explore the historical naval wreck, The Sirius, off Mahébourg beach. At 25 metres down, you can swim amongst old cannons and 
-      cannonballs, and the interesting creatures that call this shipwreck home.`
   },
   {
     title: "Le Morne",
     divingSite: "Hoi Siong No 6",
     markers: {
-      // lat: -20.326333,
-      // lng: 57.377806
+      lat: -20.422683,
+      lng: 57.294850
     },
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
@@ -760,14 +803,15 @@ let map5Markers = [{
       makes for a brilliant wreck dive. It’s one suitable for beginners too!
 
       Plus, you’re at Le Morne, and Le Morne is the best.`,
-    depth: "16-29 metres"
+    depth: "16-29 metres",
+    diveType: "wreck"
   },
   {
     title: "Le Morne",
     divingSite: "St. Jacques",
     markers: {
-      // lat: -20.326333,
-      // lng: 57.377806
+      lat: -20.509833,
+      lng: 57.394633
     },
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
@@ -792,15 +836,20 @@ let map5Markers = [{
 
       Eagle rays, barracudas, and even sharks are a real possibility here as well as schools of different fish like trevallies and 
       tuna. If you’re keen to see the merciless savagery of nature at its finest (as things are devoured before your very eyes), it’s 
-      the best place to go in Mauritius!`,
-    depth: "5 metres/ 16ft- 30 metres/98 ft"
+      the best place to go in Mauritius!
+      
+      <!-- Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/ -->
+      Claimed to be one of the best drift dives in Mauritius, Passe St. Jacques is a playground for grey reef sharks, stingrays, turtles 
+      and moray eels. At a depth of between 3 and 30 metres, this dive site is perfect for beginners all the way to advanced divers.`,
+    depth: "5 metres/ 16ft- 30 metres/98 ft",
+    diveType: "drift, reef"
   },
   {
     title: "Flic en Flac",
     divingSite: "Cathedral",
     markers: {
-      // lat: -20.326333,
-      // lng: 57.377806
+      lat: -20.289000,
+      lng: 57.355933
     },
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
@@ -819,15 +868,35 @@ let map5Markers = [{
       bloodlust-enraged duel.
 
       If you have the appropriate level of experience, this is a must-visit place below Mauritius. This is some of the best scuba 
-      diving Mauritius has to offer.`,
-    depth: "15-30 metres"
+      diving Mauritius has to offer.
+      
+      <!-- Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/ -->
+      Some of the best diving in Mauritius can be experienced off the west coast. Flic en Flac is an excellent 
+      point from where you can enjoy a variation of the most incredible drift, reef and wreck dives. The most famous of these is 
+      Cathedral, perfect for all level divers. This dive site is a photographer’s dream as the warm light filters through its caverns and 
+      arches. At 18-30 metres deep, you can easily spot snappers, groupers, angelfish, surgeonfish, squirrelfish and lobsters.
+      
+      <!-- https://mauritiusnow.com/things-to-do-in-mauritius/ -->
+      The Cathedral is one of the best dive sites in Mauritius. Come under the water with us and let’s take a look… The sheer drop off 
+      fuses with enormous boulders to create an exciting topography of caves and arches, where lobsters scuttle over the rock and reef 
+      fish zig-zag above you. You can dive down to nearly 30 metres in this area and explore the cathedral-like cavern, lit angelically 
+      by the sunlight beaming through the surface of the water. This dive spot is located on the west coast of the island near 
+      Flic-en-Flac and is one of our favourites!
+      
+      <!-- Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius -->
+      Flic en Flac is on the west coast of Mauritius and a favourite of many divers! The dive site called “Cathedral” is located here and 
+      it is considered one of the best dive sites in Mauritius. Indeed, starting at 18 meters on a sandy base and going deeper to 30 
+      meters, the cathedral is a large cavern and cave system. The cavern allows properly guided divers to enter. The area is a 
+      photographers dream with abundant marine life and interesting features.`,
+    depth: "15-30 metres",
+    diveType: "reef, cave"
   },
   {
     title: "Grand Baie",
-    divingSite: "Grand Bay Aquarium",
+    divingSite: "Aquarium",
     markers: {
-      lat: -19.996395,
-      lng: 57.569424
+      lat: -20.002767,
+      lng: 57.559900
     },
     description:
       // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
@@ -847,16 +916,21 @@ let map5Markers = [{
       <!-- Credit: 'Just Diving' -> https://www.justdivingmauritius.com/en/main/product/aquarium-grandbay_1 -->
       The Grand Bay Aquarium consists of rock formations like two big teeth with a sandy path in between. The site is covered with hard 
       and soft corals. This is a very good site for beginners. As the name shows, it's a real aquarium with a live reef; sergeants 
-      majors, trumpet fish, flying lionfish, the idol of Moors, mullet, moray eels and much more.`,
-    divingType: "Square",
+      majors, trumpet fish, flying lionfish, the idol of Moors, mullet, moray eels and much more.
+      
+      <!-- Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/ -->
+      Beginners will love swimming through the Aquarium, a colourful rocky reef teeming with clown fish, butterflyfish, stonefish, puffer 
+      fish and wire coral. This is an easy dive reaching a maximum depth of 15 metres and is often used as a training ground for diving 
+      courses.`,
+    diveType: "Square, reef",
     depth: "14 metres"
   },
   {
     title: "Grand Baie",
     divingSite: "Whale Rock",
     markers: {
-      // lat: -20.326333,
-      // lng: 57.377806
+      lat: -19.997083,
+      lng: 57.550383
     },
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
@@ -864,14 +938,15 @@ let map5Markers = [{
       20 metre zone, this dive site offers a variety of Fauna and Flora. Large marine creatures like swordfish and hammerheads are 
       occasionally seen during the summer.  Triggerfish, butterfly fish, parrotfish and labrets among others can be found in the Whale 
       Rock dive site.`,
-    depth: "25 metres"
+    depth: "25 metres",
+    diveType: "Reef"
   },
   {
     title: "Trou aux Biches",
     divingSite: "Stella Maru",
     markers: {
-      lat: -20.027485,
-      lng: 57.539243
+      lat: -20.015733,
+      lng: 57.516650
     },
     description:
       // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
@@ -890,15 +965,15 @@ let map5Markers = [{
       <!-- Credit: 'Just Diving' -> https://www.justdivingmauritius.com/en/main/product/stella-maru -->
       This Japanese freighter, grounded in 1987 and resting in vertical, is a wreck not to be missed. Over the years, it has been 
       encrusted and attracts a variety of colorful species, including rays, moray eels, parrotfish and leaf fish`,
-    divingType: "Wreck",
+    diveType: "Wreck",
     depth: "18 to 24 metres"
   },
   {
     title: "Trou aux Biches",
     divingSite: "Caravelle",
     markers: {
-      lat: -20.024878,
-      lng: 57.540209
+      lat: -20.000550,
+      lng: 57.546383
     },
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
@@ -911,7 +986,7 @@ let map5Markers = [{
       <!-- Credit: 'Just Diving' -> https://www.justdivingmauritius.com/en/main/product/caravelle-1#1 -->
       Caravelle has an interesting topography with large rock formations, offering the possibility of a gentle drift. Schools of bats, 
       barracuda, snapper, grouper are often seen in Caravelle, with the opportunity to see eagle rays and stingrays.`,
-    divingType: "Multi-Level",
+    diveType: "Multi-Level, reef",
     depth: "30 metres"
   }
 ]
@@ -937,7 +1012,7 @@ function surfingMap() {
       map,
       title: marker.title,
     });
-    let sidePanel = document.getElementById("side-panel");
+    let sidePanel = document.getElementById("side-panel-surfing");
     // Credit: To close current info window when another marker is clicked -> https://groups.google.com/g/google-maps-js-api-v3/c/cA2VRg4TO1k?pli=1
     var currentInfoWindow = null;
     // Credit: Google Maps Documentation for creating infowindow -> https://developers.google.com/maps/documentation/javascript/infowindows
@@ -1038,8 +1113,8 @@ function dolphinMap() {
   const map = new google.maps.Map(document.getElementById("dolphin-map"), {
     zoom: 9.75,
     center: {
-      lat: -20.267210,
-      lng: 57.581367
+      lat: -20.222034, 
+      lng: 57.578038
     }
   });
 
@@ -1052,15 +1127,17 @@ function dolphinMap() {
       map,
       title: marker.title,
     });
-
+    let sidePanel = document.getElementById("side-panel-dolphins");
     var currentInfoWindow = null;
     _marker.addListener("click", () => {
-      let contentString = `<div id="content"><div id="siteNotice"></div>
-      <h3 id="firstHeading" class="firstHeading">${marker.title}</h3>
+      let contentString = `
+      <div id="content">
+      <h3>${marker.title}</h3>
+      <p>${marker.rating}</p>
       <div id="bodyContent">
-      <p>${marker.information}</p>
-      <p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">
-      https://en.wikipedia.org/w/index.php?title=Uluru</a>(last visited June 22, 2009).</p>
+      <p><i class="fas fa-map-marker-alt"></i> ${marker.address}</p>
+      <p><i class="fas fa-desktop"></i> <a href="${marker.websiteAddress}" target="_blank">${marker.title}</a></p>
+      <p><i class="fas fa-phone-alt"></i> ${marker.phone}</p>
       </div>
       </div>`;
       var infowindow = new google.maps.InfoWindow({
@@ -1080,6 +1157,17 @@ function dolphinMap() {
       map.addListener("click", () => {
         infowindow.close();
       });
+
+      sidePanel.innerHTML = `
+      <img class="card-img-top panel-image" src="" alt="Card image cap">
+      <div class="card-body contain-text">
+      <h3>${marker.title}</h3>
+      <p>${marker.description}</p>
+      <p><i class="fas fa-map-marker-alt"></i> ${marker.address}</p>
+      <p><i class="fas fa-desktop"></i> <a href="${marker.websiteAddress}" target="_blank">${marker.title}</a></p>
+      <p><i class="fas fa-phone-alt"></i> ${marker.phone}</p>
+      </div>
+      `;
     });
   }
 }
@@ -1136,10 +1224,10 @@ function kiteMap() {
 
 function scubaMap() {
   const map = new google.maps.Map(document.getElementById("scuba-diving-map"), {
-    zoom: 12,
+    zoom: 9,
     center: {
-      lat: -20.014471,
-      lng: 57.603664
+      lat: -20.262706,
+      lng: 57.563572
     }
   });
 

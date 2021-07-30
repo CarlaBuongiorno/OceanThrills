@@ -11,6 +11,12 @@ body {
   height: 100%;
 }
 
+@media screen and (min-width: 576px) {
+  body {
+    padding-bottom: 50px;
+  }
+}
+
 /* ----------------------------------Home Page---------------------------------- */
 /* ----------------------------------Navbar---------------------------------- */
 nav.navbar {
@@ -75,13 +81,17 @@ ul.social-icons {
   padding: 0px;
 }
 
+footer.footer-activites-page {
+  position: relative;
+}
+
 @media screen and (min-width: 576px) {
   footer .navbar-brand {
     font-size: 28px;
   }
 
   footer.footer-activites-page {
-    position: absolute;
+    position: fixed;
     bottom: 0;
   }
 
@@ -369,12 +379,16 @@ section#home-activities a {
   align-items: center;
   margin: 0 auto;
   margin-bottom: 10px;
-  height: 380px;
+  height: 390px;
   width: 100%;
 }
 
-#side-panel {
-  height: 380px;
+#side-panel-surfing,
+#side-panel-snorkeling,
+#side-panel-dolphins,
+#side-panel-kite,
+#side-panel-scuba {
+  height: 390px;
   margin: 0 auto;
 }
 
