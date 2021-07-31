@@ -9,13 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-  </script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init("user_gWJZtfVkIln6cCwKmB8ak");
-    })();
-  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <title>Ocean Thrills</title>
 </head>
 
@@ -70,9 +64,9 @@
     <div id="contact-us" class="container-fluid">
       <div class="row justify-content-md-center">
         <div class="col col-md-8 col-lg-6 col-xl-4">
-          <h2 class="text-white text-md-center">Get In Touch</h2>
+          <h2 id="get-in-touch" class="text-white text-md-center">Get In Touch</h2>
           <div>
-            <form onsubmit="return sendMail(this);" class="overlay">
+            <form id="get-in-touch-form" onsubmit="return sendMail(this);" class="overlay">
               <p class="form-text text-white d-none d-sm-block">Fill out this form to get in touch with us.</p>
               <div class="mb-3">
                 <label for="name" class="form-label text-white">Name</label>
@@ -140,7 +134,7 @@
   </footer>
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
   <script src="assets/js/contact.js"></script>
