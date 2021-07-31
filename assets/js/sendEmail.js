@@ -37,9 +37,11 @@ $('#get-in-touch-form').on('submit', function(event) {
       <h4>Hi ${name},</h4>
       <p>Thank you for getting in touch! We will get back to you shortly...</p>`
       ).css("color", "white").css("background-color", "rgba(0, 0, 0, 0.25");
-  }).fail(function(error) {
-      alert('Oops... There was an error, please submit your details again.' + JSON.stringify(error));
+  }).fail(function() {
+    $("#get-in-touch").html("Oops...").css("color", "white");
+    $("#get-in-touch-form").html(`<p>There was an error, please try again.</p>
+    <div class="d-flex justify-content-md-center">
+    <a class="btn contact-btn text-white" href="contact.html">Try Again</a>
+    </div>`).css("color", "white");
   });
 });
-
-

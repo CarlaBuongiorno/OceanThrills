@@ -50,6 +50,11 @@ button.navbar-toggler {
 
 .contact-btn {
   background-color: #31bee9;
+  border-color: #fff;
+}
+
+.contact-btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 768px) {
