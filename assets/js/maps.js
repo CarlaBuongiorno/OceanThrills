@@ -70,7 +70,7 @@ let map1Markers = [{
     adage ‘when in doubt, don’t go out’ couldn't be truer than when surfing some of the most challenging spots on the island. Something 
     for the general surfer to remember when surfing these two breaks is that they are kitesurfer havens and the line-up will be crowded 
     when the wind is up.`,
-    websiteName: "Surf School", // Rent a board and lessons
+    websiteName: "Surf School",
     websiteAddress: "http://prydeclub.com/school/surfing/",
     experience: "Experienced surfers",
     waveDirection: "Right and left",
@@ -149,7 +149,7 @@ let map1Markers = [{
     
     Back ashore, an absence of large scale advancement implies that this place still holds something of an old-school vibe, making it a 
     particularly well-known destination for the more boho visitors.`,
-    websiteName: "Tamarin Bay Surf School", // Lessons
+    websiteName: "Tamarin Bay Surf School",
     websiteAddress: "https://surf-mauritius.com/",
     experience: "Experienced surfers",
     waveDirection: "Left",
@@ -390,7 +390,7 @@ let map2Markers = [{
     potentialDanger: "Usual precautions"
   },
   {
-    title: "Pereybere Beach, near Grand Baie",
+    title: "Pereybere Beach",
     markers: {
       lat: -19.993565,
       lng: 57.591050
@@ -1052,7 +1052,7 @@ problems occur.`
       area is a beautiful part of the island.`
   },
   {
-    title: "Flic-en-Flac and La Preneuse.",
+    title: "Flic-en-Flac and La Preneuse",
     markers: {
       lat: -20.326333,
       lng: 57.377806

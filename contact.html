@@ -9,6 +9,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_gWJZtfVkIln6cCwKmB8ak");
+    })();
+  </script>
   <title>Ocean Thrills</title>
 </head>
 
@@ -65,35 +72,34 @@
         <div class="col col-md-8 col-lg-6 col-xl-4">
           <h2 class="text-white text-md-center">Get In Touch</h2>
           <div>
-          <form class="overlay">
-            <p class="form-text text-white d-none d-sm-block">Fill out this form to get in touch with us.</p>
-            <div class="mb-3">
-              <label for="name" class="form-label text-white">Name</label>
-              <input type="name" class="form-control" id="name" aria-describedby="name" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label text-white">Email Address</label>
-              <input type="email" class="form-control text-white" id="exampleInputEmail1" aria-describedby="email"
-                required>
-              <div id="email" class="form-text text-white">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label text-white">Message</label>
-              <textarea name="message" class="form-control" id="message" aria-describedby="message" rows="3"
-                cols="20"></textarea>
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label text-white" for="exampleCheck1">Select to receive discounted offers on
-                Ocean Thrills Activities.</label>
-            </div>
-            <div class="d-flex justify-content-md-center">
-              <button type="submit" class="btn contact-btn text-white">Submit</button>
-            </div>
-          </form>
+            <form onsubmit="return sendMail(this);" class="overlay">
+              <p class="form-text text-white d-none d-sm-block">Fill out this form to get in touch with us.</p>
+              <div class="mb-3">
+                <label for="name" class="form-label text-white">Name</label>
+                <input type="name" class="form-control" id="name" aria-describedby="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label text-white">Email Address</label>
+                <input type="email" class="form-control text-white" id="emailaddress" aria-describedby="email" required>
+                <div id="email" class="form-text text-white">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label text-white">Message</label>
+                <textarea name="message" class="form-control" id="message" aria-describedby="message" rows="3"
+                  cols="20"></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label text-white" for="exampleCheck1">Select to receive discounted offers on
+                  Ocean Thrills Activities.</label>
+              </div>
+              <div class="d-flex justify-content-md-center">
+                <button type="submit" class="btn contact-btn text-white">Submit</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
   </section>
 
   <!-- Footer -->
@@ -139,6 +145,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
   <script src="assets/js/contact.js"></script>
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>
