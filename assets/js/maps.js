@@ -80,7 +80,6 @@ let map1Markers = [{
     bestTidePosition: "Mid and high tide",
     waveHeight: "Starts working at 1.0m-1.5m / 3ft-5ft and holds up to 3m+ / 10ft+",
     danger: "Urchins, rips/undertow, and rocks"
-
   },
   {
     title: "Tamarin Bay",
@@ -1418,14 +1417,27 @@ function surfingMap() {
     // Credit: Google Maps Documentation for creating infowindow -> https://developers.google.com/maps/documentation/javascript/infowindows
     _marker.addListener("click", () => {
       let contentString = `
-      <h3>${marker.title}</h3>
-      <div id="bodyContent">
+      <h4>${marker.title}</h4>
+      <div id="info-window-subheadings">
       <h6>Wave Height</h6>
       <p>${marker.waveHeight}</p>
-      <a href="${marker.websiteAddress}" target="_blank">${marker.websiteName}</a>
-      </div>
+      <h6>Wave Direction</h6>
+      <p>${marker.waveDirection}</p>
+      <h6>Wave Length</h6>
+      <p>${marker.waveLength}</p>
+      <h6>Wave Power</h6>
+      <p>${marker.wavePower}</p>
+      <h6>Best Tide Position</h6>
+      <p>${marker.bestTidePosition}</p>
+      <h6>Bottom</h6>
+      <p>${marker.bottom}</p>
+      <h6>Potential Danger</h6>
+      <p>${marker.danger}</p>
+      <h6>Experience</h6>
+      <p>${marker.experience}</p>
       </div>
       `;
+
       // Add info window
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
@@ -1451,7 +1463,7 @@ function surfingMap() {
       <img class="card-img-top panel-image" src="assets/images/card-images/wave.jpg" alt="Card image cap">
       <div class="card-body contain-text">
       <h3>${marker.title}</h3>
-      <p>${marker.information}</p>
+      <p>${marker.description}</p>
       <a href="${marker.websiteAddress}">${marker.websiteName}</a>
       </div>
       `;
@@ -1478,16 +1490,24 @@ function snorkelingMap() {
       title: marker.title,
     });
 
+    let sidePanel = document.getElementById("side-panel-snorkeling");
     var currentInfoWindow = null;
     _marker.addListener("click", () => {
-      let contentString = `<div id="content"><div id="siteNotice"></div>
-      <h3 id="firstHeading" class="firstHeading">${marker.title}</h3>
-      <div id="bodyContent">
-      <p>${marker.information}</p>
-      <p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">
-      https://en.wikipedia.org/w/index.php?title=Uluru</a>(last visited June 22, 2009).</p>
+      let contentString = `
+      <h4>${marker.title}</h4>
+      <div id="info-window-subheadings">
+      <h6>Marine Life</h6>
+      <p>${marker.marineLife}</p>
+      <h6>Max Depth</h6>
+      <p>${marker.maxDepth}</p>
+      <h6>Water Entrance</h6>
+      <p>${marker.waterEntrance}</p>
+      <h6>Potential Danger</h6>
+      <p>${marker.potentialDanger}</p>
+      <h6>Experience</h6>
+      <p>${marker.experience}</p>
       </div>
-      </div>`;
+      `;
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
         maxWidth: 200,
@@ -1505,6 +1525,15 @@ function snorkelingMap() {
       map.addListener("click", () => {
         infowindow.close();
       });
+
+      sidePanel.innerHTML = `
+      <!-- Image by Pexels from Pixabay -->
+      <img class="card-img-top panel-image" src="assets/images/card-images/wave.jpg" alt="Card image cap">
+      <div class="card-body contain-text">
+      <h3>${marker.title}</h3>
+      <p>${marker.description}</p>
+      </div>
+      `;
     });
   }
 }
@@ -1531,8 +1560,8 @@ function dolphinMap() {
     var currentInfoWindow = null;
     _marker.addListener("click", () => {
       let contentString = `
-      <div id="content">
-      <h3>${marker.title}</h3>
+      <div id="info-window-subheadings">
+      <h4>${marker.title}</h4>
       <p>${marker.rating}</p>
       <div id="bodyContent">
       <p><i class="fas fa-map-marker-alt"></i> ${marker.address}</p>
@@ -1563,9 +1592,7 @@ function dolphinMap() {
       <div class="card-body contain-text">
       <h3>${marker.title}</h3>
       <p>${marker.description}</p>
-      <p><i class="fas fa-map-marker-alt"></i> ${marker.address}</p>
       <p><i class="fas fa-desktop"></i> <a href="${marker.websiteAddress}" target="_blank">${marker.title}</a></p>
-      <p><i class="fas fa-phone-alt"></i> ${marker.phone}</p>
       </div>
       `;
     });
@@ -1591,16 +1618,16 @@ function kiteMap() {
       title: marker.title,
     });
 
+    let sidePanel = document.getElementById("side-panel-kite");
     var currentInfoWindow = null;
     _marker.addListener("click", () => {
-      let contentString = `<div id="content"><div id="siteNotice"></div>
-      <h3 id="firstHeading" class="firstHeading">${marker.title}</h3>
-      <div id="bodyContent">
-      <p>${marker.information}</p>
-      <p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">
-      https://en.wikipedia.org/w/index.php?title=Uluru</a>(last visited June 22, 2009).</p>
+      let contentString = `
+      <h4>${marker.title}</h4>
+      <div id="info-window-subheadings">
+      <h6>Wind Direction</h6>
+      <p>${marker.wind}</p>
       </div>
-      </div>`;
+      `;
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
         maxWidth: 200,
@@ -1618,6 +1645,16 @@ function kiteMap() {
       map.addListener("click", () => {
         infowindow.close();
       });
+
+      sidePanel.innerHTML = `
+      <!-- Image by Pexels from Pixabay -->
+      <img class="card-img-top panel-image" src="assets/images/card-images/" alt="Card image cap">
+      <div class="card-body contain-text">
+      <h3>${marker.title}</h3>
+      <p>${marker.description}</p>
+      <a href="${marker.websiteAddress}">${marker.websiteName}</a>
+      </div>
+      `;
     });
   }
 }
@@ -1641,16 +1678,19 @@ function scubaMap() {
       title: marker.title,
     });
 
+    let sidePanel = document.getElementById("side-panel-scuba");
     var currentInfoWindow = null;
     _marker.addListener("click", () => {
-      let contentString = `<div id="content"><div id="siteNotice"></div>
-      <h3 id="firstHeading" class="firstHeading">${marker.title}</h3>
-      <div id="bodyContent">
-      <p>${marker.information}</p>
-      <p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">
-      https://en.wikipedia.org/w/index.php?title=Uluru</a>(last visited June 22, 2009).</p>
-      </div>
-      </div>`;
+      let contentString = `
+      <h4>${marker.title}</h4>
+      <div id="info-window-subheadings">
+      <h6>Diving Site</h6>
+      <p>${marker.divingSite}</p>
+      <h6>Dive Type</h6>
+      <p>${marker.diveType}</p>
+      <h6>Depth</h6>
+      <p>${marker.depth}</p>
+      `;
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
         maxWidth: 200,
@@ -1668,6 +1708,15 @@ function scubaMap() {
       map.addListener("click", () => {
         infowindow.close();
       });
+
+      sidePanel.innerHTML = `
+      <!-- Image by Pexels from Pixabay -->
+      <img class="card-img-top panel-image" src="assets/images/card-images/" alt="Card image cap">
+      <div class="card-body contain-text">
+      <h3>${marker.title}</h3>
+      <p>${marker.description}</p>
+      </div>
+      `;
     });
   }
 }

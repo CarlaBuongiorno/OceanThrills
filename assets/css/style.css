@@ -451,6 +451,12 @@ section#home-activities a {
   }
 }
 
+/* ----------------------------------Info Windows---------------------------------- */
+
+#info-window-subheadings h6 {
+  margin: 0;
+}
+
 /* ----------------------------------Contact Page---------------------------------- */
 form p {
   margin-bottom: 10px;
