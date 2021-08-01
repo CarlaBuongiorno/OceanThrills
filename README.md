@@ -5,7 +5,7 @@
 
 Ocean Thrills is an interactive website incorporating various technological elements to offer users a tool to discover and explore different water activities in Mauritius. It offers a current weather report, current sea conditions, and google maps with markers pinned at the particular activity of interest. Additionally, the site offers a _description_ of each activity, as well as some useful information about it such as _where_ the best places are to enjoy that particular activity, _when_ the ideal times are, _what_ the average costs are, and what the _difficulty level_ of the particular activity may be.
 
-![Responsive mockup of the website](https://github.com/CarlaBuongiorno/OceanThrills/blob/master/assets/readme-images/responsive/amiresponsive.png)
+![Responsive mockup of the website](assets/images/readme-images/responsive/amiresponsive.png)
 
 ## 2. UXD – User Experience Design
 
