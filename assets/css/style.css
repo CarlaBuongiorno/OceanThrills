@@ -11,12 +11,6 @@ body {
   height: 100%;
 }
 
-@media screen and (min-width: 576px) {
-  body {
-    padding-bottom: 50px;
-  }
-}
-
 /* ----------------------------------Home Page---------------------------------- */
 /* ----------------------------------Navbar---------------------------------- */
 nav.navbar {
@@ -91,8 +85,9 @@ ul.social-icons {
 }
 
 .copyright p {
+  font-size: 12px;
   margin-bottom: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 footer.footer-activites-page {
@@ -123,17 +118,26 @@ footer.footer-activites-page {
   }
 }
 
-.icon-attributions {
+.icon-attributions button {
+  background-color: #6fddff;
+  border-color: #fff;
   font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  padding: 0;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .icon-attributions li {
-list-style: none;
+  /* font-size: 10px; */
+  list-style: none;
 }
 
 @media screen and (max-width: 576px) {
   .icon-attributions ul {
-    padding-top: 10px;
+    margin-top: 0;
   }
 }
 
@@ -159,20 +163,6 @@ list-style: none;
   #hero-image {
     background-image: url("../images/home-images/hero-image.jpg");
   }
-}
-
-/* ----------------------------------Weather Box---------------------------------- */
-#weather-box {
-  height: 56px;
-  width: 100px;
-  background-color: #6fddff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 1031;
 }
 
 /* ----------------------------------Hero Text---------------------------------- */
@@ -352,6 +342,11 @@ section#home-activities a {
   border-color: #fff;
 }
 
+.activity-buttons .activity-icons {
+  width: 30px;
+  top: 0;
+}
+
 /* ----------------------------------Activity Headings and Description---------------------------------- */
 .activity-heading {
   padding-top: 20px;
@@ -440,6 +435,12 @@ section#home-activities a {
 
 .contain-text {
   overflow: scroll;
+}
+
+@media screen and (min-width: 576px) {
+  .map-container {
+    padding-bottom: 50px;
+  }
 }
 
 /* ----------------------------------Contact Page---------------------------------- */

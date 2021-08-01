@@ -49,15 +49,6 @@
         </div>
       </nav>
       <!-- End Nav -->
-      <!-- Weather -->
-      <!-- <div id="weather-box" class="container d-none d-sm-block">
-        <div class="row">
-          <div class="col-md-4 text-white">
-           
-          </div>
-        </div>
-      </div> -->
-      <!-- End Weather -->
     </header>
 
     <!-- Hero-Text -->
@@ -90,7 +81,7 @@
     <div id="surfing">
       <div class="container-fluid text-center">
         <a class="text-white home-surf" href="activities.html#surfing-activity">
-          <img src="assets/icons/surfing.png" class="activity-icons" alt="">
+          <img src="assets/icons/surfing.png" class="activity-icons" alt="surfer">
           <button type="button" class="btn btn-dark btn-lg home-activity-btn text-uppercase">Surfing</button>
         </a>
         <!-- Icons made by monkik from www.flaticon.com -->
@@ -99,7 +90,7 @@
     <div id="snorkeling" class="home-snork">
       <div class="container-fluid text-center text-white">
         <a class="text-white home-snork" href="activities.html#snorkeling-activity">
-          <img src="assets/icons/snorkel.png" class="activity-icons" alt="">
+          <img src="assets/icons/snorkel.png" class="activity-icons" alt="snorkels">
           <button type="button" class="btn btn-dark btn-lg home-activity-btn text-uppercase">Snorkeling</button>
         </a>
         <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
@@ -108,7 +99,7 @@
     <div id="dolphins" class="home-dol">
       <div class="container-fluid text-center text-white">
         <a class="text-white home-dol" href="activities.html#dolphin-activity">
-          <img src="assets/icons/dolphin.png" class="activity-icons" alt="">
+          <img src="assets/icons/dolphin.png" class="activity-icons" alt="dolphin">
           <button type="button" class="btn btn-dark btn-lg home-activity-btn text-uppercase">Swim With Dolphins</button>
         </a>
         <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
@@ -117,7 +108,7 @@
     <div id="kite-surfing" class="home-kite">
       <div class="container-fluid text-center text-white">
         <a class="text-white home-kite" href="activities.html#kite-surfing-activity">
-          <img src="assets/icons/kitesurfing.png" class="activity-icons" alt="">
+          <img src="assets/icons/kitesurfing.png" class="activity-icons" alt="kite">
           <button type="button" class="btn btn-dark btn-lg home-activity-btn text-uppercase">Kite Surfing</button>
         </a>
         <!-- <div>Icons made by <a href="" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
@@ -126,7 +117,7 @@
     <div id="scuba-diving" class="home-scuba">
       <div class="container-fluid text-center text-white">
         <a class="text-white home-scuba" href="activities.html#scuba-diving-activity">
-          <img src="assets/icons/scuba.png" class="activity-icons" alt="">
+          <img src="assets/icons/scuba.png" class="activity-icons" alt="scuba diver">
           <button type="button" class="btn btn-dark btn-lg home-activity-btn text-uppercase">Scuba Diving</button>
         </a>
         <!-- <div>Icons made by <a href="" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
@@ -167,24 +158,34 @@
         <p>© 2021 Mauritius - Ocean Thrills</p>
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-12 text-white text-center icon-attributions">
+    <div class="row">
+<!-- Credit Bootstrap Dropup -> https://getbootstrap.com/docs/4.6/components/dropdowns/ -->
+      <div class="col-md-4 text-white text-md-center icon-attributions">
+        <!-- Default dropup button -->
+        <div class="btn-group dropup">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            icons
+          </button>
+          <ul class="dropdown-menu text-white">
+            <li>
+              <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a
+                  href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+              </div>
+            </li>
+            <li>
+              <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+                  href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+              </div>
+            </li>
+            <li>
+              <div>Icons made by <a href="" title="photo3idea_studio">photo3idea_studio</a> from <a
+                  href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+              </div>
+            </li>
+          </ul>
+        </div>
         <ul>
-          <li>
-            <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a
-                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            </div>
-          </li>
-          <li>
-            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
-                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            </div>
-          </li>
-          <li>
-            <div>Icons made by <a href="" title="photo3idea_studio">photo3idea_studio</a> from <a
-                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            </div>
-          </li>
+          
         </ul>
       </div>
     </div>
@@ -194,7 +195,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
   <script src="assets/js/script.js"></script>
-  <script src="assets/js/weather.js"></script>
 </body>
 
 </html>
