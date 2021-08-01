@@ -74,11 +74,11 @@ footer {
 footer .navbar-brand {
   font-size: 24px;
   margin: 0;
-  padding: 5px, 0;
+  padding: 5px, 0, 0, 0;
 }
 
 ul.social-icons {
-  margin-bottom: 5px;
+  margin-bottom: 0;
 }
 
 .social-icons i {
@@ -122,6 +122,21 @@ footer.footer-activites-page {
     padding-top: 15px;
   }
 }
+
+.icon-attributions {
+  font-size: 10px;
+}
+
+.icon-attributions li {
+list-style: none;
+}
+
+@media screen and (max-width: 576px) {
+  .icon-attributions ul {
+    padding-top: 10px;
+  }
+}
+
 
 /* ----------------------------------Hero Image---------------------------------- */
 /* mobile screen */
