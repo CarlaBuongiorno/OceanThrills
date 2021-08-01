@@ -415,7 +415,7 @@ section#home-activities a {
   align-items: center;
   margin: 0 auto;
   margin-bottom: 10px;
-  height: 390px;
+  height: 380px;
   width: 100%;
 }
 
@@ -424,8 +424,9 @@ section#home-activities a {
 #side-panel-dolphins,
 #side-panel-kite,
 #side-panel-scuba {
-  height: 390px;
+  height: 380px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .panel-image {
@@ -439,7 +440,7 @@ section#home-activities a {
 
 @media screen and (min-width: 576px) {
   .map-container {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 
