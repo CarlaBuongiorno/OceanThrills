@@ -51,6 +51,11 @@ button.navbar-toggler {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.nav-link:hover {
+  font-size: large;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 768px) {
   ul.nav {
     flex-direction: column;
@@ -78,6 +83,10 @@ ul.social-icons {
 .social-icons i {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.social-icons i:hover {
+  font-size: x-large;
 }
 
 .social-icons li {
@@ -119,7 +128,7 @@ footer.footer-activites-page {
 }
 
 .icon-attributions button {
-  background-color: #6fddff;
+  background-color: #31bee9;
   border-color: #fff;
   font-size: 10px;
   margin-top: 10px;
@@ -130,9 +139,15 @@ footer.footer-activites-page {
   padding-right: 5px;
 }
 
+.icon-attributions button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: #fff;
+}
+
 .icon-attributions li {
-  /* font-size: 10px; */
+  /* font-size: 9px; */
   list-style: none;
+  padding: 5px;
 }
 
 @media screen and (max-width: 576px) {
@@ -308,14 +323,6 @@ section#home-activities a {
 }
 
 /* ----------------------------------Activities Page---------------------------------- */
-.activity-page-nav {
-  background-color: #31bee9;
-}
-
-.activity-page-nav .contact-btn {
-  background-color: #6fddff;
-}
-
 /* ----------------------------------Activity Button Group---------------------------------- */
 .activity-buttons {
   margin-bottom: 0;
