@@ -3,7 +3,7 @@
 
 [View the live site here](https://carlabuongiorno.github.io/OceanThrills/)
 
-Ocean Thrills is an interactive website incorporating various technological elements to offer users a tool to discover and explore different water activities in Mauritius. It offers a current weather report, current sea conditions, and google maps with markers pinned at the particular activity of interest. Additionally, the site offers a _description_ of each activity, as well as some useful information about it such as _where_ the best places are to enjoy that particular activity, _when_ the ideal times are, _what_ the average costs are, and what the _difficulty level_ of the particular activity may be.
+Ocean Thrills is an interactive website incorporating various technological elements to offer users a tool to discover and explore different water activities in Mauritius. It offers a _google map_ for each of the activities with _markers_ pinned at the various locations that are best to enjoy that particular activity. Each marker can be _clicked_ and _information_ about that location with regards to the relevant activity is then displayed in a _window_ above the clicked marker on the map, as well as in a _side panel_ on larger screens.
 
 ![Responsive mockup of the website](assets/images/readme-images/responsive/amiresponsive.png)
 
@@ -13,7 +13,7 @@ The target demographic are users who are holiday makers in Mauritius, as well as
 
 #### Visitor Goals
 
-Visitors to this website are searching for water activities on the Island of Mauritius. They wish to find and navigate to the particular activity of interest using Google Maps, with the possibility to choose from a variety of different places on the island. They wish to find out more about the activity and see if the current weather and sea conditions are preferable in order to take part in the chosen adventure.
+Visitors to this website are searching for things to do on the island of Mauritius, in particular, water and undersea activities. They wish to locate these activities on a Google Map, and find some of the best locations to enjoy them. Visitors wish to learn more about the locations that the activities are situated, in respect of that activity. They wish to do this easily in an interactive, exciting and thrilling manner, anticipating the adventures to come.
 
 #### Ocean Thrills Goals
 
@@ -21,20 +21,20 @@ Ocean Thrills is the best way to help users achieve their goals because it is ea
 
 The site is designed so that upon entering, the user immediately anticipates a sense of adventure and fun, and feels impelled to interact with the site.
 
-Ocean Thrills provides an effective, easy to use site for adventurers in Mauritius to explore the sea and underwater activities that are available around the Island.
+Ocean Thrills provides an effective, easy to use site for adventurers in Mauritius to explore the sea and underwater activities that are available around the island.
 
-In return for this investment, the site owner would make use of this website, have a professional looking first step into the world of using JavaScript, jQuery and APIs, and an exciting project to make a part of her portfolio.
+In return for this investment, the site owner would make use of this website, have a professional looking first step into the world of using JavaScript, jQuery and APIs, and an exciting and thrilling project to make a part of her portfolio.
 
 #### User Stories
 
 ##### Website Visitor
 1. As a site visitor, I wish to navigate through the site easily so I can quickly find what I am looking for.
-2. As a site visitor, I wish to view this site on all my devices.
+2. As a site visitor, I wish to view and interact with the site on all my devices.
 3. As a site visitor, I wish to discover what sea and underwater activities I can take part in in Mauritius.
 4. As a site visitor, I wish to know more about these activities in Mauritius.
 5. As a site visitor, I wish to find the best locations within Mauritius in order to take part in these water activities.
 6. As a site visitor, I wish to know more about these locations, either through images, posiible linked external websites, or just general informaition.
-7. As a site visitor, I wish to know the current weather report in Mauritius so that I can judge if the weather is suitable to take part in such activities.
+<!-- 7. As a site visitor, I wish to know the current weather report in Mauritius so that I can judge if the weather is suitable to take part in such activities. -->
 8. As a site visitor, I wish to have visible access to social media, so I can follow and be a part of the community.
 9. As a site visitor, I wish to be able to get in touch with the site owner and possibly receive discounted offers on the activities.
 
@@ -51,11 +51,11 @@ In return for this investment, the site owner would make use of this website, ha
 
 #### Colours
 
-<!-- ![Colour Palette](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/colour-palette.png)
+I decided to go with blue and white as the main colours of this website. These two colours are most associated with nautical decorating. Many holiday homes are decorated using blue and white.
 
-I decided to use a colour picker tool to pick out 3 colours from my hero image. I then defined each section by 1 of these 3 colours.
+Blue is the colour of the sky on a sunny day, and the colour of the ocean. White is the contrast colour of the light and fluffy clouds in the sky, and the foam that the ocean waves have created.  
 
-I used these colours interchangeably within the content of the site to keep consistency throughout. -->
+In using these colours for my design, it is my intention to evoke happy, holiday emotions in the site visitor.
 
 #### Typography
 
@@ -70,7 +70,7 @@ Icons were chosen for their obvious meaning and bring a sense of fun and adventu
 
 #### Images
 
-The images I selected are packed with adventure and beauty. The intention is to bring a typical 'holiday island vibe' to the site.
+The images I selected are packed with adventure and beauty. The intention is to bring a typical 'holiday island vibe' to the site. 
 
 ## 3. Features
 
@@ -78,13 +78,13 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - The ability to __navigate__ easily through the site:-
  1. There is a navigation bar at the top of the page at all times.
  2. The logo __Ocean Thrills__ and _Home_ links will always bring the user back to the __Home__ page.
- 3. Each activity can be accessed either by the _Activities_ dropdown menu on the navigation bar, or by scrolling down the _Home_ page and clicking on the activity of choice.
- 5. The logo in the footer also brings the user back _Home_ from any page.
+ 3. The logo in the footer also brings the user back _Home_ from any page.
+ 4. Each activity can be accessed either by the _Activities_ dropdown menu on the navigation bar, or by scrolling down the _Home_ page and clicking on the activity of choice.
  6. The _Contact_ button is also on the navigation bar and takes the user straight to the __Contact__ page.
 
 - A footer with a _copyright_, _social media links_, as well as the __Ocean Thrills__ logo.
 
-- A __Contact__ page where users can enter their name, email address, a message (if they would like to), as well as the option to receive discounted offers on the Activities listed in the website.
+- A __Contact__ page where users can enter their name, email address, a message (if they would like to), as well as a _checkbox_ giving them the option to receive discounted offers on the Activities listed in the website.
 
 - Responsive images sized for different screen views.
 
@@ -96,16 +96,19 @@ The images I selected are packed with adventure and beauty. The intention is to 
  5. Scuba Diving
 
 - Each activity features:-
- 1. An _image_ (only on small screen devices).
+ 1. An _image_.
  2. A _description_ of the activity.
- 3. A __Google Map__ of Mauritius with _Markers_ to show where the best locations are in order to experience the activity.
- 4. An _information_ window along the side of the map to display information corresponding to each _Marker_.
+ 3. A __Google Map__ of Mauritius with _markers_ to show where the best locations are in order to experience the activity.
+ 4. An _information_ window for each _marker_ that opens on the map.
+ 5. A _side panel_ with extra information corresponding to each _marker_ (only on large screens).
 
-- On medium screen devices and larger, the __current weather__ for Mauritius is displayed in the middle of the navigation bar at all times .
-- On small screen divices, the __current weather__ for Mauritius is displayed next to the title of each activity page.
+<!-- - On medium screen devices and larger, the __current weather__ for Mauritius is displayed in the middle of the navigation bar at all times .
+- On small screen divices, the __current weather__ for Mauritius is displayed next to the title of each activity page. -->
 
 ### Features Left to Implement
 - A 404 page to help the user navigate back home.
+- On medium screen devices and larger, the __current weather__ for Mauritius, displayed in the middle of the navigation bar at all times .
+- On small screen divices, the __current weather__ for Mauritius displayed next to the title of each activity page.
 
 ## 4. Technologies and Resources Used
 
@@ -118,17 +121,16 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - [Balsamiq](https://balsamiq.com/) was used to create the [wireframes:](assets/readme-images/wireframes/wireframes.pdf) during the design process.
 - [Bootstrap 4.6.0](https://www.bootstrapcdn.com/) This project uses Bootstrap to help with the responsiveness and styling of the website.
 - [Google Fonts](https://fonts.google.com/) was used to import the fonts that were used throughout the project.
-- [jQuery](https://jquery.com/) came with Bootstrap which helped to make the navbar responsive.
+- [jQuery](https://jquery.com/) to simplify DOM manipulation.
 - [Gitpod](https://gitpod.io/workspaces/) was used as the IDE to develop this website.
 - [Git](https://git-scm.com/) was used for version control and to Push code to GitHub.
 - [GitHub](https://github.com/) is used to store this project's code after being pushed from Git.
 - [TinyJPG](https://tinyjpg.com/) was used for downsizing all images in the site while retaining quality.
-- [Flaticon](https://www.flaticon.com/) was used for the home page activity icons for UX purposes.
+- [Flaticon](https://www.flaticon.com/) was used for the home page activity icons for UX purposes (accreditations are in the footer).
+- [Font Awesome](https://www.bootstrapcdn.com/fontawesome/) was used to add icons to the website for UX purposes.
+- [favicon.cc](https://www.favicon.cc/?action=icon&file_id=21660) was used for this websites favicon.
 
-<!-- - [Font Awesome](https://www.bootstrapcdn.com/fontawesome/) was used to add icons to the website for UX purposes.
-- [Favicon Generator](https://favicon.io/favicon-generator/) was used for this websites favicon.
-- [Color Picker](https://imagecolorpicker.com/) was used for choosing colours from the Hero Image Strawberry.
-- [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to add vendor prefixes.
+<!-- - [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to add vendor prefixes.
 - [Coolers](https://coolors.co/0a0a0c-ff536e-d6efcf) for the colour palette image in the README.md. -->
 
 ### Resources
@@ -141,7 +143,7 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - [Am I responsive](http://ami.responsivedesign.is/) was used to for the screen shot of the Mockup image in this README.md file.
 - [CSS Tricks](https://css-tricks.com/) was used as a general resource.
 - [MS1 Planning Session](https://www.youtube.com/watch?v=sH0m9N875SU&) YouTube tutorial by Jim Lynx for guidance on how to get started on this project.
-- Make a README](https://www.makeareadme.com/) was used as a guide for making this README.md file.
+- [Make a README](https://www.makeareadme.com/) was used as a guide for making this README.md file.
 - Aukje van der wal
 
 ## 5. Testing
@@ -175,19 +177,31 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - Website is responsive on  mobile, tablet and large screens. -->
 
 ### Testing User Stories
-<!-- 1. As a site visitor, I wish to understand how to navigate this site, so that I can find what I am looking for easily.
+1. As a site visitor, I wish to navigate through the site easily so I can quickly find what I am looking for.
 
-![Navigation bar on large screen](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/user-stories/navbar-lg.png)
+![Navigation bar on large screen]()
+![Navigation bar on small screen]()
 
-![Navigation bar on small screen](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/user-stories/navbar-sm.png)
+The navigation bar is easy to understand and always there for ease of navigation on the page. The logo at the top left of the page and in the footer also takes the user back to the home page at any given point.
 
-The fixed navigation bar is easy to understand and always there for ease of navigation on the page. Each item takes the user directly to the chosen section. The logo at the top left of the page also takes the user back to the home page at any given point.
+2. As a site visitor, I wish to view and interact with the site on all my devices.
 
-2. As a site visitor, I wish to view this site on all my devices.
+Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used for testing of site responsiveness. The site works as expected. Friends and family tested the website on their phones, tablets and computer screens. Feedback was all positive.
 
-Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used for first and foremost testing of site responsiveness. The site works as expected. Friends and family tested the website on their phones, tablets and computer screens. Feedback was all positive.
 
-3. As a site visitor, I wish to feel inspired by what I see and find on this site.
+3. As a site visitor, I wish to discover what sea and underwater activities I can take part in in Mauritius.
+
+
+4. As a site visitor, I wish to know more about these activities in Mauritius.
+5. As a site visitor, I wish to find the best locations within Mauritius in order to take part in these water activities.
+6. As a site visitor, I wish to know more about these locations, either through images, posiible linked external websites, or just general informaition.
+<!-- 7. As a site visitor, I wish to know the current weather report in Mauritius so that I can judge if the weather is suitable to take part in such activities. -->
+8. As a site visitor, I wish to have visible access to social media, so I can follow and be a part of the community.
+9. As a site visitor, I wish to be able to get in touch with the site owner and possibly receive discounted offers on the activities.
+
+
+
+<!-- 3. As a site visitor, I wish to feel inspired by what I see and find on this site.
 
 Carefully chosen fonts, colours, images and text; as well as the recipes and video tutorial, all work together in a way that leaves the user feeling inspired.
 
@@ -210,11 +224,11 @@ Checked the site footer displays social media icons, clicking on an icon takes t
 
 - Had trouble forming a function to show one activity and hide the other activities. Through the help of Slack, this was overcome by using the CSS display: 'block' and display: 'none' properties.
 
-- In order to get the above function to listen to the 'click' events, much help and research was necessary. Code Institute's Tutor support helped with this tremendously. 
+- In order to get the above function to listen to the 'click' events, much research and assitance was necessary. Code Institute's Tutor support helped with this tremendously. 
 
-- Markers seemed not to be displaying on all five maps. In reality the markers were displaying in Greenland instead of where was expected. The problem was that the latitude and longitude numbers were reversed.
+- Markers seemed not to be displaying on all five maps. In reality the markers were displaying in Greenland instead of where was expected. The problem was that the latitude and longitude numbers were reversed. 
 
-- The footer on the _Activities_ page for medium screen and larger did not sit at the bottom of the page as expected. To fix this the footer for only the _Activities_ page was given the position: 'absolute' and 'bottom' was set to '0'. Credit to [Coding Journey](https://www.youtube.com/watch?v=US_3XvufMLU).
+<!-- - The footer on the _Activities_ page for medium screen and larger did not sit at the bottom of the page as expected. To fix this the footer for only the _Activities_ page was given the position: 'absolute' and 'bottom' was set to '0'. Credit to [Coding Journey](https://www.youtube.com/watch?v=US_3XvufMLU). -->
 
 ## 7. Version Control
 - Git was used for version control.
@@ -239,6 +253,8 @@ To run the code locally:
 2. Locate the Repositories list and select __CarlaBuongiorno/OceanThrills__.
 3. Click on __Code__ dropdown menu at the top of the project files with the download icon.
 4. You can choose either to copy the __URL__ link provided which can be used on your desktop IDE, or download the __ZIP__ file which can then be unzipped onto your local computer.
+
+(Using your own API key)
 
 ## 9. Credits
 
