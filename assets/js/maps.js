@@ -1389,7 +1389,6 @@ function surfingMap() {
       map,
       title: marker.title,
     });
-    let sidePanel = document.getElementById("side-panel-surfing");
     // Credit: To close current info window when another marker is clicked -> https://groups.google.com/g/google-maps-js-api-v3/c/cA2VRg4TO1k?pli=1
     var currentInfoWindow = null;
     // Credit: Google Maps Documentation for creating infowindow -> https://developers.google.com/maps/documentation/javascript/infowindows
@@ -1419,7 +1418,7 @@ function surfingMap() {
       // Add info window
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 200,
+        maxWidth: 500,
       });
       if (currentInfoWindow != null) {
         currentInfoWindow.close();
@@ -1436,15 +1435,6 @@ function surfingMap() {
         infowindow.close();
       });
 
-      sidePanel.innerHTML = `
-      <!-- Image by Pexels from Pixabay -->
-      <img class="card-img-top panel-image" src="assets/images/card-images/wave.jpg" alt="Card image cap">
-      <div class="card-body contain-text">
-      <h3>${marker.title}</h3>
-      <p>${marker.description}</p>
-      <a href="${marker.websiteAddress}">${marker.websiteName}</a>
-      </div>
-      `;
     });
   }
 }
@@ -1468,7 +1458,6 @@ function snorkelingMap() {
       title: marker.title,
     });
 
-    let sidePanel = document.getElementById("side-panel-snorkeling");
     var currentInfoWindow = null;
     _marker.addListener("click", () => {
       let contentString = `
@@ -1488,7 +1477,7 @@ function snorkelingMap() {
       `;
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 200,
+        maxWidth: 500,
       });
       if (currentInfoWindow != null) {
         currentInfoWindow.close();
@@ -1503,15 +1492,6 @@ function snorkelingMap() {
       map.addListener("click", () => {
         infowindow.close();
       });
-
-      sidePanel.innerHTML = `
-      <!-- Image by Pexels from Pixabay -->
-      <img class="card-img-top panel-image" src="assets/images/card-images/wave.jpg" alt="Card image cap">
-      <div class="card-body contain-text">
-      <h3>${marker.title}</h3>
-      <p>${marker.description}</p>
-      </div>
-      `;
     });
   }
 }
@@ -1534,7 +1514,7 @@ function dolphinMap() {
       map,
       title: marker.title,
     });
-    let sidePanel = document.getElementById("side-panel-dolphins");
+    
     var currentInfoWindow = null;
     _marker.addListener("click", () => {
       let contentString = `
@@ -1548,7 +1528,7 @@ function dolphinMap() {
       </div>`;
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 200,
+        maxWidth: 500,
       });
       if (currentInfoWindow != null) {
         currentInfoWindow.close();
@@ -1563,15 +1543,6 @@ function dolphinMap() {
       map.addListener("click", () => {
         infowindow.close();
       });
-
-      sidePanel.innerHTML = `
-      <img class="card-img-top panel-image" src="" alt="Card image cap">
-      <div class="card-body contain-text">
-      <h3>${marker.title}</h3>
-      <p>${marker.description}</p>
-      <p><i class="fas fa-desktop"></i> <a href="${marker.websiteAddress}" target="_blank">${marker.title}</a></p>
-      </div>
-      `;
     });
   }
 }
@@ -1595,7 +1566,6 @@ function kiteMap() {
       title: marker.title,
     });
 
-    let sidePanel = document.getElementById("side-panel-kite");
     var currentInfoWindow = null;
     _marker.addListener("click", () => {
       let contentString = `
@@ -1607,7 +1577,7 @@ function kiteMap() {
       `;
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 200,
+        maxWidth: 500,
       });
       if (currentInfoWindow != null) {
         currentInfoWindow.close();
@@ -1622,16 +1592,6 @@ function kiteMap() {
       map.addListener("click", () => {
         infowindow.close();
       });
-
-      sidePanel.innerHTML = `
-      <!-- Image by Pexels from Pixabay -->
-      <img class="card-img-top panel-image" src="assets/images/card-images/" alt="Card image cap">
-      <div class="card-body contain-text">
-      <h3>${marker.title}</h3>
-      <p>${marker.description}</p>
-      <a href="${marker.websiteAddress}">${marker.websiteName}</a>
-      </div>
-      `;
     });
   }
 }
@@ -1655,7 +1615,6 @@ function scubaMap() {
       title: marker.title,
     });
 
-    let sidePanel = document.getElementById("side-panel-scuba");
     var currentInfoWindow = null;
     _marker.addListener("click", () => {
       let contentString = `
@@ -1670,7 +1629,7 @@ function scubaMap() {
       `;
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 200,
+        maxWidth: 500,
       });
       if (currentInfoWindow != null) {
         currentInfoWindow.close();
@@ -1685,15 +1644,6 @@ function scubaMap() {
       map.addListener("click", () => {
         infowindow.close();
       });
-
-      sidePanel.innerHTML = `
-      <!-- Image by Pexels from Pixabay -->
-      <img class="card-img-top panel-image" src="assets/images/card-images/" alt="Card image cap">
-      <div class="card-body contain-text">
-      <h3>${marker.title}</h3>
-      <p>${marker.description}</p>
-      </div>
-      `;
     });
   }
 }

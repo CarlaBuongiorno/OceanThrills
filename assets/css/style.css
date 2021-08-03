@@ -424,25 +424,6 @@ section#home-activities a {
   width: 100%;
 }
 
-#side-panel-surfing,
-#side-panel-snorkeling,
-#side-panel-dolphins,
-#side-panel-kite,
-#side-panel-scuba {
-  height: 380px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.panel-image {
-  margin-top: 15px;
-  height: 40%;
-}
-
-.contain-text {
-  overflow: scroll;
-}
-
 @media screen and (min-width: 576px) {
   .map-container {
     margin-bottom: 50px;
