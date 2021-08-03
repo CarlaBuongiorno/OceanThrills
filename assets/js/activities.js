@@ -1,5 +1,4 @@
 const clicked = sessionStorage.getItem("autosave");
-console.log(clicked);
 
 // ids from activities sections
 let surfSection = document.getElementById("surfing-activity");

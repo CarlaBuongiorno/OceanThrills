@@ -512,20 +512,6 @@ let map2Markers = [{
   },
 ]
 
-let star4 = `
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star-half-alt"></i>`;
-
-let star5 = `
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>`;
-
 // Dolphin markers
 let map3Markers = [{
     title: "Dolswim Ltd",
@@ -542,8 +528,7 @@ let map3Markers = [{
     sea off the coast of le Morne penninsula, early in the morning.`,
     websiteAddress: "http://www.dolswim.com/index.php/en/dolphins-encounter-mauritius/",
     phone: "(230) 5422 9281",
-    address: "La Jetée Road, Black River, Mauritius",
-    rating: star4
+    address: "La Jetée Road, Black River, Mauritius"
   },
   {
     title: "JPH Charters",
@@ -567,8 +552,7 @@ let map3Markers = [{
     the calves which are generally about 1 feet long and weigh not more than 3 kg.`,
     websiteAddress: "https://jph.mu/dolphin-cruises/",
     phone: "(+230) 5729 0901",
-    address: "L'Estuaire, La Balise Marina, Black River",
-    rating: star4
+    address: "L'Estuaire, La Balise Marina, Black River"
   },
   {
     title: "Mauritius Decorder Immobilier",
@@ -584,8 +568,7 @@ let map3Markers = [{
     websiteAddress: "https://www.decordier-immobilier.mu/en/swimming-with-dolphins/",
     phone: "+230 268 2828",
     address: `Route Royale
-    30510 Grand Baie, Ile Maurice`,
-    rating: star5
+    30510 Grand Baie, Ile Maurice`
   },
   {
     title: "Prestige Holidays Mauritius",
@@ -609,8 +592,7 @@ let map3Markers = [{
     address: `Prestige Holidays Mauritius
     Suite 213a
     Ebène Junction
-    Ebène Cybercity 7220`,
-    rating: star4
+    Ebène Cybercity 7220`
   },
   {
     title: "Vitamin Sea Ltd",
@@ -634,8 +616,7 @@ let map3Markers = [{
     Pssst… Stay calm & positive, the dolphins can feel your energy as they have cerebral & emotional ratios very close to us, humans!`,
     websiteAddress: "https://www.vitaminsealtd.com/swimming-with-dolphins",
     phone: "(+230) 4590 1450",
-    address: "L’Estuaire, Black River 90606, Mauritius",
-    rating: star5
+    address: "L’Estuaire, Black River 90606, Mauritius"
   },
   {
     title: "Karlos Excursions",
@@ -652,8 +633,7 @@ let map3Markers = [{
     websiteAddress: "https://karlosexcursions.com/trip/private-morning-dolphins-experiences/",
     phone: "+230 5726 5599",
     address: `Le Morne beach,
-    Mauritius`,
-    rating: star5
+    Mauritius`
   },
   {
     title: "Dream Dolphin",
@@ -670,8 +650,7 @@ let map3Markers = [{
     to keep a memorable memory.`,
     websiteAddress: "https://dream-dolphin.com/",
     phone: "(+230) 57 48 04 30",
-    address: `Public beach La Preneuse Tour Martello tower Coastal road, La Preneuse, Mauritius`,
-    rating: star5
+    address: `Public beach La Preneuse Tour Martello tower Coastal road, La Preneuse, Mauritius`
   },
   {
     title: "Dadou Excursion",
@@ -687,8 +666,7 @@ let map3Markers = [{
     address: `Avenue Tisserins
     Morcellement Belle Vue
     Albion 91001
-    Mauritius`,
-    rating: star5
+    Mauritius`
   }
 ]
 
@@ -1562,7 +1540,6 @@ function dolphinMap() {
       let contentString = `
       <div id="info-window-subheadings">
       <h4>${marker.title}</h4>
-      <p>${marker.rating}</p>
       <div id="bodyContent">
       <p><i class="fas fa-map-marker-alt"></i> ${marker.address}</p>
       <p><i class="fas fa-desktop"></i> <a href="${marker.websiteAddress}" target="_blank">${marker.title}</a></p>

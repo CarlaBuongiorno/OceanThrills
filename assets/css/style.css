@@ -336,7 +336,6 @@ section#home-activities a {
 }
 
 .btn-light:hover {
-  color: #fff;
   background-color: #31bee9;
   border-color: #fff;
 }
@@ -344,7 +343,6 @@ section#home-activities a {
 .btn-light:not(:disabled):not(.disabled).active,
 .btn-light:not(:disabled):not(.disabled):active,
 .show>.btn-light.dropdown-toggle {
-  color: #fff;
   background-color: #31bee9;
   border-color: #fff;
 }
