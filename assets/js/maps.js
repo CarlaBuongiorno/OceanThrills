@@ -512,20 +512,6 @@ let map2Markers = [{
   },
 ]
 
-let star4 = `
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star-half-alt"></i>`;
-
-let star5 = `
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star"></i>`;
-
 // Dolphin markers
 let map3Markers = [{
     title: "Dolswim Ltd",
@@ -1562,7 +1548,6 @@ function dolphinMap() {
       let contentString = `
       <div id="info-window-subheadings">
       <h4>${marker.title}</h4>
-      <p>${marker.rating}</p>
       <div id="bodyContent">
       <p><i class="fas fa-map-marker-alt"></i> ${marker.address}</p>
       <p><i class="fas fa-desktop"></i> <a href="${marker.websiteAddress}" target="_blank">${marker.title}</a></p>
