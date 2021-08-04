@@ -431,6 +431,9 @@ section#home-activities a {
 }
 
 /* ----------------------------------Info Windows---------------------------------- */
+.padding {
+  padding-bottom: 20px;
+}
 
 #info-window-subheadings h6 {
   margin: 0;

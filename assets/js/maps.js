@@ -6,6 +6,8 @@ let map1Markers = [{
       lat: -20.452782,
       lng: 57.312444
     },
+    // Photo by Keith Lyle from Pexels
+    image: "surf1",
     description:
       // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
       `Le Morne Beach, under the shadow of the mighty Le Morne Brant mountains, is known as the ultimate surfing spot in the 
@@ -87,6 +89,8 @@ let map1Markers = [{
       lat: -20.326333,
       lng: 57.377806
     },
+    // Photo by Jason Back from Pexels
+    image: "surf2",
     description:
       // Credit: Desctiption - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
       `One of the major drawcards of Tamarin Bay is the lack of high-walled resort compounds. 
@@ -166,6 +170,8 @@ let map1Markers = [{
       lat: -20.319111,
       lng: 57.368139
     },
+    // Photo by Parthiban V from Pexels
+    image: "surf3",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
       `Another venue solely for the most experienced looking to enjoy surfing in Mauritius, 
@@ -193,6 +199,8 @@ let map1Markers = [{
       lat: -20.503694,
       lng: 57.448389
     },
+    // Photo by Jess Loiterton from Pexels
+    image: "surf4",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
       `The strong currents off the coast of Ilôt Sancho call for the more experienced surfers coming 
@@ -221,6 +229,8 @@ let map1Markers = [{
       lat: -20.505750,
       lng: 57.456139
     },
+    // Photo by Keith Lyle from Pexels
+    image: "surf5",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
       `One of the least developed areas of Mauritius, Rivière des Galets offers you a more peaceful atmosphere than some of the other 
@@ -277,6 +287,8 @@ let map1Markers = [{
       lat: -20.452333,
       lng: 57.709972
     },
+    // Photo by <a href="https://unsplash.com/@benjis1978?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">BEN SELWAY</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    image: "surf6",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
       `Another more tranquil Mauritius surf spot is this location presenting you with a delightful reef break. Darne has the additional 
@@ -304,6 +316,8 @@ let map1Markers = [{
       lat: -20.493556,
       lng: 57.369278
     },
+    // Photo by <a href="https://unsplash.com/@magicetea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ice Tea</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    image: "surf7",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
       `Head to Maconde on the southern tip of Mauritius to enjoy consistent conditions for an ideal surfing experience. For the best 
@@ -333,6 +347,8 @@ let map2Markers = [{
       lat: -20.064677,
       lng: 57.518749
     },
+    // Image by <a href="https://pixabay.com/users/arhnue-1896944/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1430225">Arhnue Tan</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1430225">Pixabay</a>
+    image: "snorkel1",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
       `On the west of the island, this off-shore protected coral reef is an easy swim from the beach. Just peering into the surface of the 
@@ -358,6 +374,8 @@ let map2Markers = [{
       lat: -20.444496,
       lng: 57.709895
     },
+    // Image by <a href="https://pixabay.com/users/gregor-27062/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=947046">GREGOR</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=947046">Pixabay</a>
+    image: "snorkel2",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
       `This is undoubtedly the most popular spot to snorkel on the island. The protected marine park 
@@ -394,6 +412,8 @@ let map2Markers = [{
       lat: -19.993565,
       lng: 57.591050
     },
+    // Photo by <a href="https://unsplash.com/@boardshortsben?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Benjamin L. Jones</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    image: "snorkel3",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
       `Located in the north of Mauritius, this stunning beach front is another wonderful spot for 
@@ -426,6 +446,8 @@ let map2Markers = [{
       lat: -20.299633,
       lng: 57.363380
     },
+    // Photo by <a href="https://unsplash.com/@stella_ribeiro05?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stella Ribeiro</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    image: "snorkel4",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
       `Situated in the west of Mauritius, this well-known beach is known as a favoured spot for snorkelling with its large lagoon and still 
@@ -458,6 +480,8 @@ let map2Markers = [{
       lat: -20.034875,
       lng: 57.544449
     },
+    // Photo by <a href="https://unsplash.com/@olgatsai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olga Tsai</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    image: "snorkel5",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
       `Thinking of that perfect island getaway will most certainly have you picturing this stretch 
@@ -490,6 +514,8 @@ let map2Markers = [{
       lat: -20.271957,
       lng: 57.799214
     },
+    // Photo by <a href="https://unsplash.com/@patrickjjansen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Jansen</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    image: "snorkel6",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
       `This beautiful island is best explored for a full day as it offers more than just snorkelling, 
@@ -519,6 +545,8 @@ let map3Markers = [{
       lat: -20.36432,
       lng: 57.37234
     },
+    // Photo by Jeremy Bishop from Pexels
+    image: "dolphins1",
     description: `Dolphins and whales are perhaps the most fantastic of all the creatures that live in the ocean. These mammals have 
     always had a special place in man heart and mind. The dolphins – cheerful and playful  symbol of intelligence and grace can be 
     encountered on the west coat of Mauritius. The Dolphins, the Spinners and the Bottlenose, have made of the West Coast of Mauritius 
@@ -536,6 +564,8 @@ let map3Markers = [{
       lat: -20.364320,
       lng: 57.378980
     },
+    // Image by <a href="https://pixabay.com/users/werdepate-882211/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2691864">Wolfgang Zimmel</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2691864">Pixabay</a>
+    image: "dolphins2",
     description: `Two kinds of dolphins can be observed in Mauritian waters: the Spinner and the Bottlenose. The peers do not like to
      share the same spot and you will never see them together: If the Spinners are around and the Bottlenose dolphins arrive, the Spinners 
      will leave the bay, heading to the open sea.
@@ -560,6 +590,8 @@ let map3Markers = [{
       lat: -20.005780,
       lng: 57.590760
     },
+    // Image by <a href="https://pixabay.com/users/185053-185053/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=327051">John Gibson</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=327051">Pixabay</a>
+    image: "dolphins3",
     description: `Dolphins are known to be intelligent and fun to be around. An essentially social animal, they have been reported to have
      formed bonds with human beings and protecting swimmers from shark attacks. As such, there are many reasons to go meet these endearing
       aquatic mammals. Dolphins love the warm sea around Mauritius, which makes the island a great location to swim with them. Moreover,
@@ -576,6 +608,8 @@ let map3Markers = [{
       lat: -20.238321,
       lng: 57.485564
     },
+    // Image by <a href="https://pixabay.com/users/barni1-773830/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2137659">Bernd Hildebrandt</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2137659">Pixabay</a>
+    image: "dolphins4",
     description: `Discover the spectacular worlds of dolphins by watching them in their natural environment. You can even enjoy swimming
     with dolphins!
 
@@ -600,6 +634,8 @@ let map3Markers = [{
       lat: -20.362271,
       lng: 57.374810
     },
+    // Photo by <a href="https://unsplash.com/@jeremy0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeremy Zero</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    image: "dolphins5",
     description: `On the West Coast of Mauritius, we are lucky enough to have wild dolphins that come near the shore to socialize, rest 
     & play every morning. We can encounter two types of dolphins: spinner & bottlenose. We normally see one or the other, except if you 
     are very lucky and meet both species, which happens sometimes!
@@ -624,6 +660,8 @@ let map3Markers = [{
       lat: -20.465218,
       lng: 57.308537
     },
+    // Photo by <a href="https://unsplash.com/@tj_fitzsimmons?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">TJ Fitzsimmons</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    image: "dolphins6",
     description: `Observe and swim with wild dolphins in their natural habitat. Our Skippers will make sure you have great visibility 
     while respecting the dolphins & guidelines set by the local authority. We favour the Southern dolphin watching region, which is less 
     busy, although, if not possible, we go towards the West. Snorkel in the turquoise lagoon: your skipper will bring you to the best spot 
@@ -641,6 +679,8 @@ let map3Markers = [{
       lat: -20.354127,
       lng: 57.362198
     },
+    // Photo by Joe Boyne from Pexels
+    image: "dolphins7",
     description: `Swim with dolphins in Mauritius! Join  Dream Dolphin  for an exciting experience on our boat based on the west coast of 
     Mauritius at Rivière Noire . This area is well known for its calm and clear waters, it is perfect for snorkeling and is home to both 
     dolphins and those mighty visitors -  whales and sperm whale.
@@ -658,6 +698,8 @@ let map3Markers = [{
       lat: -20.216253,
       lng: 57.398758
     },
+    // Photo by Chelsea Bradley from Pexels
+    image: "dolphins8",
     description: `Plunge into the remarkable world of these powerful marine mammals and come face to face with the dolphins. 
     Swimming with dolphins is an incredibly moving experience which will bring you into contact with strikingly beautiful scenery, 
     unspoiled landscapes and wonderful animals.`,
@@ -669,6 +711,24 @@ let map3Markers = [{
     Mauritius`
   }
 ]
+
+// Kite Surfing Images
+let images = [{
+  // Photo by <a href="https://unsplash.com/@jetlag?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Troeger</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: "kite1",
+  // Image by <a href="https://pixabay.com/users/dimitrisvetsikas1969-1857980/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1378445">Dimitris Vetsikas</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1378445">Pixabay</a>
+  image: "kite2",
+  // Image by <a href="https://pixabay.com/users/anestiev-2736923/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5462851">Christo Anestev</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5462851">Pixabay</a>
+  image: "kite3",
+  // Image by <a href="https://pixabay.com/users/quepasasi-1070530/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=789264">quepasasi</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=789264">Pixabay</a>
+  image: "kite4",
+  // Image by <a href="https://pixabay.com/users/kitereisen-10851546/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3857694">Kitereisen</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3857694">Pixabay</a>
+  image: "kite5",
+  // Image by <a href="https://pixabay.com/users/inmemo-2780365/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1778289">Steven Bol</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1778289">Pixabay</a>
+  image: "kite6",
+  // Image by <a href="https://pixabay.com/users/jeanvdmeulen-919322/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3108039">Jean van der Meulen</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3108039">Pixabay</a>
+  image: "kite7",
+}]
 
 // Kite Surfing markers
 let map4Markers = [{
@@ -1097,6 +1157,8 @@ let map5Markers = [{
       lat: -20.002950,
       lng: 57.542217
     },
+    // Photo by <a href="https://unsplash.com/@alanyoungblood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alan Youngblood</a> on <a href="https://unsplash.com/s/photos/diving?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    image: "scuba1",
     description:
       // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
       `One of the most beautiful diving sites in Mauritius is, without a doubt, Holt’s Rock. Here you can dive through volcanic basalt 
@@ -1122,6 +1184,8 @@ let map5Markers = [{
       lat: -19.945317,
       lng: 57.619317
     },
+    // Photo by <a href="https://unsplash.com/@tchompalov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vlad Tchompalov</a> on <a href="https://unsplash.com/s/photos/diving?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    image: "scuba2",
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
       `Situated near the wreck site of Djabeda, Coin de Mire provides a gorgeous view for people who want to go scuba diving in 
@@ -1164,6 +1228,8 @@ let map5Markers = [{
       lat: -20.422683,
       lng: 57.294850
     },
+    // Photo by <a href="https://unsplash.com/@geerald?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gerald Schömbs</a> on <a href="https://unsplash.com/s/photos/diving?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    image: "scuba3",
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
       `If you want to look at a fascinating wreck, Hoi Siong No 6 is the ideal site. Hoi Siong No 6 wreck can be found at a depth of 
@@ -1190,6 +1256,8 @@ let map5Markers = [{
       lat: -20.509833,
       lng: 57.394633
     },
+    // Image by <a href="https://pixabay.com/users/alinachereches-14002317/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6015779">Alina Chereches</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6015779">Pixabay</a>
+    image: "scuba4",
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
       `St. Jacques is one of the most popular sites for scuba diving in Mauritius. The diving trip starts in the lagoon, which is less 
@@ -1228,6 +1296,8 @@ let map5Markers = [{
       lat: -20.289000,
       lng: 57.355933
     },
+    // Image by <a href="https://pixabay.com/users/lucatelles-3823474/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1849533">lucatelles</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1849533">Pixabay</a>
+    image: "scuba5",
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
       `An ideal site for photography enthusiasts, the Cathedral has excellent topography. With grand caverns, caves and arches, 
@@ -1275,6 +1345,8 @@ let map5Markers = [{
       lat: -20.002767,
       lng: 57.559900
     },
+    // Image by <a href="https://pixabay.com/users/firstonline-701604/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2296460">FIRST online</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2296460">Pixabay</a>
+    image: "scuba6",
     description:
       // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
       `Grand Bay is one of the top tourist destinations in the country, it is also one of the top diving destinations. There are over a 
@@ -1309,6 +1381,8 @@ let map5Markers = [{
       lat: -19.997083,
       lng: 57.550383
     },
+    // Image by <a href="https://pixabay.com/users/lucatelles-3823474/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1849534">lucatelles</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1849534">Pixabay</a>
+    image: "scuba7",
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
       `Whale Rock dive site takes divers to varying depths, and therefore it is ideal for intermediate to expert divers. Within a 
@@ -1325,6 +1399,8 @@ let map5Markers = [{
       lat: -20.015733,
       lng: 57.516650
     },
+    // Photo by Maël BALLAND from Pexels
+    image: "scuba8",
     description:
       // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
       `Trou aux Biches is on the North West coast, just a short distance from Port Lewis. Stella Maru is located here. A Japanese 
@@ -1352,6 +1428,8 @@ let map5Markers = [{
       lat: -20.000550,
       lng: 57.546383
     },
+    // Photo by Richard Segal from Pexels
+    image: "scuba9",
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
       `Having a northern plateau descending in stages from 13 metres to 20 metres, Caravelle is a fantastic dive site with a large 
@@ -1395,6 +1473,10 @@ function surfingMap() {
     _marker.addListener("click", () => {
       let contentString = `
       <h4>${marker.title}</h4>
+      <div class="padding">
+      <img src="assets/images/card-images/surf/${marker.image}.jpg" width='100%'>
+      </div>
+      <p>${marker.description}</p>
       <div id="info-window-subheadings">
       <h6>Wave Height</h6>
       <p>${marker.waveHeight}</p>
@@ -1414,12 +1496,12 @@ function surfingMap() {
       <p>${marker.experience}</p>
       </div>
       `;
-
-      // Add info window
+      //Create infowindow
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 500,
+        maxWidth: 300,
       });
+      // Close current info window when another marker is clicked
       if (currentInfoWindow != null) {
         currentInfoWindow.close();
       }
@@ -1429,7 +1511,7 @@ function surfingMap() {
         map,
         shouldFocus: false,
       });
-      // close info window
+      // close current info window when map is clicked
       currentInfoWindow = infowindow;
       map.addListener("click", () => {
         infowindow.close();
@@ -1440,6 +1522,7 @@ function surfingMap() {
 }
 
 function snorkelingMap() {
+// Set the map
   const map = new google.maps.Map(document.getElementById("snorkeling-map"), {
     zoom: 9.75,
     center: {
@@ -1447,7 +1530,7 @@ function snorkelingMap() {
       lng: 57.591610
     }
   });
-
+// Iterate through markers and set them on the map
   for (let marker of map2Markers) {
     const _marker = new google.maps.Marker({
       position: {
@@ -1459,9 +1542,14 @@ function snorkelingMap() {
     });
 
     var currentInfoWindow = null;
+    
     _marker.addListener("click", () => {
       let contentString = `
       <h4>${marker.title}</h4>
+      <div class="padding">
+      <img src="assets/images/card-images/snorkel/${marker.image}.jpg" width='100%'>
+      </div>
+      <p>${marker.description}</p>
       <div id="info-window-subheadings">
       <h6>Marine Life</h6>
       <p>${marker.marineLife}</p>
@@ -1475,10 +1563,12 @@ function snorkelingMap() {
       <p>${marker.experience}</p>
       </div>
       `;
+      // Create infowindow
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 500,
+        maxWidth: 300,
       });
+      // Close current info window when another marker is clicked
       if (currentInfoWindow != null) {
         currentInfoWindow.close();
       }
@@ -1488,6 +1578,7 @@ function snorkelingMap() {
         map,
         shouldFocus: false,
       });
+      // Close current info window when map is clicked
       currentInfoWindow = infowindow;
       map.addListener("click", () => {
         infowindow.close();
@@ -1497,6 +1588,7 @@ function snorkelingMap() {
 }
 
 function dolphinMap() {
+  // Set the map
   const map = new google.maps.Map(document.getElementById("dolphin-map"), {
     zoom: 9.75,
     center: {
@@ -1504,7 +1596,7 @@ function dolphinMap() {
       lng: 57.578038
     }
   });
-
+// Iterate through markers and set them on the map
   for (let marker of map3Markers) {
     const _marker = new google.maps.Marker({
       position: {
@@ -1516,20 +1608,26 @@ function dolphinMap() {
     });
     
     var currentInfoWindow = null;
+    
     _marker.addListener("click", () => {
       let contentString = `
-      <div id="info-window-subheadings">
       <h4>${marker.title}</h4>
-      <div id="bodyContent">
+      <div class="padding">
+      <img src="assets/images/card-images/dolphins/${marker.image}.jpg" width='100%'>
+      </div>
+      <p>${marker.description}</p>
+      <div id="info-window-subheadings">
       <p><i class="fas fa-map-marker-alt"></i> ${marker.address}</p>
       <p><i class="fas fa-desktop"></i> <a href="${marker.websiteAddress}" target="_blank">${marker.title}</a></p>
       <p><i class="fas fa-phone-alt"></i> ${marker.phone}</p>
       </div>
       </div>`;
+      // Create infowindow
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 500,
+        maxWidth: 300,
       });
+      // Close current info window when another marker is clicked
       if (currentInfoWindow != null) {
         currentInfoWindow.close();
       }
@@ -1539,6 +1637,7 @@ function dolphinMap() {
         map,
         shouldFocus: false,
       });
+      // Close current info window when another marker is clicked
       currentInfoWindow = infowindow;
       map.addListener("click", () => {
         infowindow.close();
@@ -1548,6 +1647,7 @@ function dolphinMap() {
 }
 
 function kiteMap() {
+  // Set the map
   const map = new google.maps.Map(document.getElementById("kite-surfing-map"), {
     zoom: 9.75,
     center: {
@@ -1555,7 +1655,7 @@ function kiteMap() {
       lng: 57.581367
     }
   });
-
+// Iterate through markers and set them on the map
   for (let marker of map4Markers) {
     const _marker = new google.maps.Marker({
       position: {
@@ -1567,18 +1667,25 @@ function kiteMap() {
     });
 
     var currentInfoWindow = null;
+    
     _marker.addListener("click", () => {
       let contentString = `
       <h4>${marker.title}</h4>
+      <div class="padding">
+      <img src="assets/images/card-images/kite/${marker.image}.jpg" width='100%'>
+      </div>
+      <p>${marker.description}</p>
       <div id="info-window-subheadings">
       <h6>Wind Direction</h6>
       <p>${marker.wind}</p>
       </div>
       `;
+      // Create infowindow
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 500,
+        maxWidth: 300,
       });
+      // Close current info window when another marker is clicked
       if (currentInfoWindow != null) {
         currentInfoWindow.close();
       }
@@ -1588,6 +1695,7 @@ function kiteMap() {
         map,
         shouldFocus: false,
       });
+      // Close current info window when map is clicked
       currentInfoWindow = infowindow;
       map.addListener("click", () => {
         infowindow.close();
@@ -1597,14 +1705,15 @@ function kiteMap() {
 }
 
 function scubaMap() {
+  // Set the map
   const map = new google.maps.Map(document.getElementById("scuba-diving-map"), {
-    zoom: 9,
+    zoom: 9.5,
     center: {
       lat: -20.262706,
       lng: 57.563572
     }
   });
-
+// Iterate through markers and set them on the map
   for (let marker of map5Markers) {
     const _marker = new google.maps.Marker({
       position: {
@@ -1619,6 +1728,10 @@ function scubaMap() {
     _marker.addListener("click", () => {
       let contentString = `
       <h4>${marker.title}</h4>
+      <div class="padding">
+      <img src="assets/images/card-images/scuba/${marker.image}.jpg" width='100%'>
+      </div>
+      <p>${marker.description}</p>
       <div id="info-window-subheadings">
       <h6>Diving Site</h6>
       <p>${marker.divingSite}</p>
@@ -1627,10 +1740,12 @@ function scubaMap() {
       <h6>Depth</h6>
       <p>${marker.depth}</p>
       `;
+      // Create infowindow
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 500,
+        maxWidth: 300,
       });
+      // close current info window when another marker is clicked
       if (currentInfoWindow != null) {
         currentInfoWindow.close();
       }
@@ -1640,6 +1755,7 @@ function scubaMap() {
         map,
         shouldFocus: false,
       });
+      // Close current info window when another marker is clicked
       currentInfoWindow = infowindow;
       map.addListener("click", () => {
         infowindow.close();
