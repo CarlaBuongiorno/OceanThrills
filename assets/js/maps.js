@@ -712,31 +712,15 @@ let map3Markers = [{
   }
 ]
 
-// Kite Surfing Images
-let images = [{
-  // Photo by <a href="https://unsplash.com/@jetlag?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Troeger</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  image: "kite1",
-  // Image by <a href="https://pixabay.com/users/dimitrisvetsikas1969-1857980/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1378445">Dimitris Vetsikas</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1378445">Pixabay</a>
-  image: "kite2",
-  // Image by <a href="https://pixabay.com/users/anestiev-2736923/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5462851">Christo Anestev</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5462851">Pixabay</a>
-  image: "kite3",
-  // Image by <a href="https://pixabay.com/users/quepasasi-1070530/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=789264">quepasasi</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=789264">Pixabay</a>
-  image: "kite4",
-  // Image by <a href="https://pixabay.com/users/kitereisen-10851546/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3857694">Kitereisen</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3857694">Pixabay</a>
-  image: "kite5",
-  // Image by <a href="https://pixabay.com/users/inmemo-2780365/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1778289">Steven Bol</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1778289">Pixabay</a>
-  image: "kite6",
-  // Image by <a href="https://pixabay.com/users/jeanvdmeulen-919322/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3108039">Jean van der Meulen</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3108039">Pixabay</a>
-  image: "kite7",
-}]
-
 // Kite Surfing markers
 let map4Markers = [{
     title: "Le Morne lagoon",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      lat: -20.462994,
+      lng: 57.318486
     },
+    // Photo by David Troeger on Unsplash
+    image: "kite1",
     description:
       // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
       `Without the doubt the most famous and cherished out of all Mauritius kitespots is Le Morne. This beautiful flat water lagoon 
@@ -748,71 +732,20 @@ let map4Markers = [{
     <!-- Credit: Wake Up Stoked -> https://wakeupstoked.com/kitesurf-mauritius/ -->
     The spot for beginners and flatwater lovers. Although honestly it can be pretty crowded with students and beginner kitesurfers who 
     don’t really have a lot of control yet, so you have to pick a lucky day 😉 I usually escaped to the left side of he lagoon (when 
-      looking at it from the beach) and more upwind which has pretty sweet flatwater. It can get very shallow so make sure to check the 
-      tides if you want to practice new tricks.`,
-    wind: "Southeast wind"
-  },
-  {
-    title: "Bel Ombre",
-    markers: {
-      lat: -20.326333,
-      lng: 57.377806
-    },
-    description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `Bel Ombre is a peaceful lagoon that offers plenty of space and enjoyable small waves to ride on. The area just along the shore 
-      may have a bit gusty wind, so watch out when launching, but as soon as you get a little further away from the shore, the wind 
-      becomes pretty stable.
-    
-    <!-- Credit: Wake Up Stoked -> https://wakeupstoked.com/kitesurf-mauritius/ -->
-    If the wind is too east then the kite point usually doesn’t work, you can see the wind far out and it doesn‘t reach the point. Then 
-    it’s an idea to make the drive to Bel Ombre (around 15-20 minutes if you’re at the kite point in Le Morne). It can be a bit gusty. 
-    There is a beach club as well.
-    
-    <!-- Credit: Bucketlist Mauritius -> https://www.unhooked.nl/reizen/bucketlist-mauritius-de-perfecte-kitesurfbestemming/ -->
-    A huge lagoon on the south coast of Mauritius, located a few minutes walk from the hotel The Outrigger and about 10 minutes from the 
-    beautiful Shanti Maurice Resort & Spa. Here you will find a huge flat water spot varying in depth from knee to chest height with sand 
-    as a substrate. Constant trade winds blow from the sea and make conditions very predictable – ideal for making your first yards. 
-    Experts can get out to the high seas through an opening in the reef and towards the beautiful rollers that you will find further on. 
-    This waves spot is rarely crowded. The local kite school can give you directions and also help if something goes wrong.
-    
-    <!-- Credit: Planet Kitesurf https://www.planetkitesurfholidays.com/countries/mauritius/mus -->
-    Bel Ombre Kitesurf Overview
-Bel Ombre is a beautiful beach resort located in the south-west of Mauritius that still has the atmosphere of authentic Mauritius. The 
-kite spot here is perfectly located at the end of Bel Ombre, right in front of the Beach Club. This spot suits all kitesurfing levels.
-
-The spacious lagoon has flatwater, as well as waves further out at the reef. This is the perfect spot for all kitesurfers as it offers a 
-range of good quality but affordable hotels and the Bel Ombre Kitesurf Centre. The close proximity to the main kitesurf beach and resort 
-amenities suit holidaymakers travelling with non-kiting partners or families.
-
-The Kitesurfing In Bel Ombre Mauritius
-The wind in Bel Ombre generally blows side to side-on shore from the left. The entire area is surrounded by a reef belt, very typical for 
-Mauritius, providing super wave conditions outside the reef and perfect flat water conditions inside.
- 
-There is some coral patches within the lagoon, so for beginners we recommend boots. From the beach one is able to see a slightly darker 
-long stretched line, about 20x60m long, which is grass, this area is mainly for the teaching lessons. Beyond this, the water turns to a 
-beautiful turquoise colour, where the water is somewhat deeper, perfect for kiters at low tide or for the teaching from a boat. In this 
-area, there is an area of approximately 80m long and 8m wide with coral that is marked with a red buoy. Kiters can go over it but are not 
-supposed to jump or pass in low tide conditions.
- 
-After the 300m long lagoon, the kiter has to pay attention in low tide conditions because the reef comes close to the surface. Behind 
-this reef is the open ocean with wave conditions for advanced kiters.
-
-<!-- Credit: Scott Dunn https://www.scottdunn.com/blog/kitesurfing-in-mauritius -->
-A huge lagoon on the south coast of Mauritius, located a few minutes walk away from our hotel The Outrigger and about 10 minutes from 
-the lovely Shanti Maurice Resort and Spa; this is the base for our kitesurf partners in Mauritius. Here you will find acres of quiet, 
-flat water ranging from knee to chest deep and sand on the bottom (the kite school will give you wetsuit shoes in case you tread on 
-  anything pointy). One to one instruction means your progress is quick and unimpeded. Steady trade winds blow from the sea, making it 
-  very predictable – ideal for making your first rides on your board. Experts can kite out to sea over a gap in the reef to access some 
-  uncrowded, world-class waves. The kite school can give you pointers and also offer a rescue service should anything go awry.`,
-    wind: "East wind"
+    looking at it from the beach) and more upwind which has pretty sweet flatwater. It can get very shallow so make sure to check the 
+    tides if you want to practice new tricks.`,
+    wind: "South East",
+    websiteName: "Kite Lagoon Vibes Mauritius",
+    websiteAddress: "https://kite-lagoon-vibes.business.site/?utm_source=gmb&utm_medium=referral"
   },
   {
     title: "Pointe d’Esny",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      lat: -20.427527,
+      lng: 57.727326
     },
+    // Image by Christo Anestev from Pixabay
+    image: "kite3",
     description:
       // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
       `Pointe d’Esny – also know as Paradise Beach. The locals know this spot as being one of the most beautiful stretch of white sand 
@@ -852,14 +785,18 @@ boats at anchor close to the shore so basic skills are needed to get out beyond 
 wind is consistent and clean but is lighter than some of the more popular kitesurf spots on the island so big kites are needed while 
 foiling is the real highlight of this destination. The best months to kitesurf at Pointe d'Esny is between June and September, but you 
 can find wind here all year round.`,
-    wind: "Southeast wind"
+    wind: "South East",
+    websiteName: "Specialised Kiteboarding",
+    websiteAddress: "https://specialisedkiteboarding.com/products/hydrofoil-lesson-8-hours"
   },
   {
     title: "Le Morne point",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      lat: -20.465657,
+      lng: 57.316851
     },
+    // Image by quepasasi from Pixabay
+    image: "kite4",
     description:
       // Credit: Wake Up Stoked -> https://wakeupstoked.com/kitesurf-mauritius/
       `This was usually our go-to spot. If you’re into waves or are an independent advanced kitesurfer, riding safely, you will probably 
@@ -868,42 +805,54 @@ can find wind here all year round.`,
     Since it’s UNESCO world heritage there are no restaurants at the spot. There is a fruit stand with fresh fruits, coconuts and drinks 
     and usually some food truck with paninis or noodles at the spot. For the non kitesurfing Begleitung there is not too much to do but 
     go for a beach walk or sit on the downwind side of the beach where you can’t feel the wind.`,
-    wind: "Southeast wind"
-  },
-  {
-    title: "Le Morne public beach",
-    markers: {
-      lat: -20.326333,
-      lng: 57.377806
-    },
-    description:
-      // Credit: Wake Up Stoked -> https://wakeupstoked.com/kitesurf-mauritius/
-      `When the wind comes from the North (which usually happens rarely but it did the first few days when we were there during off 
-        season) you can kite on the public beach (the beach which is inbetween LUX and Dinarobin). The public beach is again a bit 
-        tricky with launching and landing but otherwise an easy spot.
-
-    There is a fruit stand as well as the nice (and affordable) beach restaurant Embafilao.`,
-    wind: "North wind"
+    wind: "South East",
+    websiteName: "Le Morne Kite School",
+    websiteAddress: "http://www.lemorne-kiteschool.com/"
   },
   {
     title: "Île aux Bénitiers",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      lat: -20.416262,
+      lng: 57.345475
     },
+    // Image by Виктор Сапожников from Pixabay
+    image: "kite8",
     description:
       // Credit: Wake Up Stoked -> https://wakeupstoked.com/kitesurf-mauritius/
       `Again a very nice small island which works with North wind. You can take the boat from La Gaulette (either go with a kite school 
         or go there and bargain with one of the boat owners there, there are quite a lot crossing). It is super nice flat water over 
         there. Bring something to eat and drink if you’re staying the whole day, there is nothing there.`,
-    wind: "North wind"
+    wind: "North",
+    websiteName: "Mauritius Surf Holidays",
+    websiteAddress: "https://www.mauritiussurfholidays.com/it/"
+  },
+  {
+    title: "Palmar",
+    markers: {
+      lat: -20.210817,
+      lng: 57.792158
+    },
+    // Image by Jean van der Meulen from Pixabay
+    image: "kite7",
+    description:
+      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
+      `Palmar – Palmar is basically just a few kilometres round the cost from Trou d’Eau Douce. Kitespot more known to the locals. 
+      All travellers mostly hang around Le Morne and not many people venture out to try something different, so Le Morne always get to 
+      bask in the glory.
+    Palmar is a few kilometres long stretch of an awesome lagoon with water not too deep and pretty stable 45 degree onshore wind. 
+    There’s a Palmar beach just on the lagoon, so launching shouldn’t be an issue anywhere. Spot is a pretty good choice for the beginners.`,
+    wind: "East and South East",
+    websiteName: "Kite Globing",
+    websiteAddress: "https://kiteglobing.com/en/center-palmar-beach-belle-mare/"
   },
   {
     title: "One Eye",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      lat: -20.466452,
+      lng: 57.308565
     },
+    // Image by Kitereisen from Pixabay
+    image: "kite5",
     description:
       // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
       `This is the real treat for the wave riders and one of the most respected wave kitesurfing spots on the island. It could be a real 
@@ -921,73 +870,37 @@ can find wind here all year round.`,
       The waves push the water over the shallow reef to the huge channel. If you happen to get in to trouble at this point, there’s no 
       other chance than getting rescued. Self rescue or swimming against the current with the outgoing tide is just not an option. The 
       rescue boat services are available for emergencies in Le Morne, so if you are about to do some shredding, it would be wise to book 
-      it for your session.`
+      it for your session.`,
+    wind: "East and South East",
+    websiteName: "Pryde Club Mauritius",
+    websiteAddress: "https://prydeclub.business.site/"
   },
   {
-    title: "Manawa",
+    title: "Anse la Raie",
     markers: {
-      lat: -20.326333,
-      lng: 57.377806
+      lat: -19.990613,
+      lng: 57.632411
     },
+    // Image by Steven Bol from Pixabay
+    image: "kite6",
     description:
       // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `This reef break is just about a couple hundred meters behind the Le Morne lagoon. A kitespot very well known for its waves of up 
-      to 3 metres high, specially in the autumn months. The best time to ride Manawa would be during the high tide.
-      There is not really a significant wet/dry season in Mauritius, but generally the south and south-east of the island gets more 
-      rainfall, because the mountains accumulate more clouds and humidity.
-      Air temperatures are pretty consistent throughout the year. It’s HOT. The hottest months are pretty much November – April. This 
-      is where the temperatures raise to 30+ °C. From May till about October, it gets a little cooler, but in general the air temperature 
-      won’t go down under 25°C during the day. Night temperatures can drop, so it’s good to have a jumper handy for the chilly nights out.
-      `
-  },
-  {
-    title: "Trou d’Eau Douce",
-    markers: {
-      lat: -20.326333,
-      lng: 57.377806
-    },
-    description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `Trou d’Eau Douce & Joyride – With the good South-East wind and perfect conditions, Trou d’Eau Douce is just an awesome fun. In 
-      fact the whole beachfront is perfectly kitable all the way from April to November.
-    The lagoon is nice and wide with more space than you need, mostly shallow, crystal clear water. When the tides are too low, the rocks 
-    and coral may be sticking out, so just watch out for this. The beachfront is wide enough for launching pretty much anywhere, 
-    specially further east, closer to the reef.`
-  },
-  {
-    title: "Joyride",
-    markers: {
-      lat: -20.326333,
-      lng: 57.377806
-    },
-    description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `The actual ‘Joyride‘ kitespot is way too far to access from Trou d’Eau Douce side of the beach. The best way to get there is to 
-      take a shuttle boat to the Ile-aux-Cerfs, the tiny island just a mile or two of the coats. Then take a walk to the most south-east 
-      facing beach and launch from here. It’ll be an awesome upwinder before finally reaching ‘Joyride’, but the kitespot is totally 
-      worth it. You’ll be awarded with the real treat. Hundreds of square meters of shallow and perfectly flat water lagoon along the 
-      reef barrier, you’ll own it for the day. Awesome for speed riding, practising tricks and freestyle.`
-  },
-  {
-    title: "Palmar",
-    markers: {
-      lat: -20.326333,
-      lng: 57.377806
-    },
-    description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `Palmar – Palmar is basically just a few kilometres round the cost from Trou d’Eau Douce. Kitespot more known to the locals. 
-      All travellers mostly hang around Le Morne and not many people venture out to try something different, so Le Morne always get to 
-      bask in the glory.
-    Palmar is a few kilometres long stretch of an awesome lagoon with water not too deep and pretty stable 45 degree onshore wind. 
-    There’s a Palmar beach just on the lagoon, so launching shouldn’t be an issue anywhere. Spot is a pretty good choice for the beginners.`
+      `Ansa la Raie is located just a few miles East from Cap Malhereux. It is a part of the same lagoon, it offers 
+      much better conditions, but beginners, specially those taking kitesurfing lessons, should still stay under a heavy watch of their 
+      instructors. Just like at Cap Malheureux, this kitespot should be avoided by the beginners during low tides as the lagoon 
+      becomes too shallow and the rocks are sticking out of the water. Other than that, it’s a peaceful, uncrowded spot.`,
+    wind: "South East",
+    websiteName: "Ion Club Kitesurfing",
+    websiteAddress: "https://www.ion-club.net/anse-la-raie/"
   },
   {
     title: "Belle Mare",
     markers: {
-      lat: -20.452782,
-      lng: 57.312444
+      lat: -20.189758,
+      lng: 57.774352
     },
+    // Image by Dimitris Vetsikas from Pixabay
+    image: "kite2",
     description:
       // Credit: Thrillophillia -> https://www.thrillophilia.com/water-sports-in-mauritius
       `One of the best Mauritius water sports, Kite Surfing at Belle Mare will offer you an out of the world experience. Trainers will be 
@@ -1018,134 +931,10 @@ and old fishing villages and you will see many other beautiful sights along the 
 
 There are a variety of downwinder options available when visiting Belle Mare (Palmar), all of which are guided by instructors who know 
 every part of the journey. Also, a boat accompanies your group which takes you either there or back and is on hand to help if any 
-problems occur.`
-  },
-  {
-    title: "Poste Lafayette",
-    markers: {
-      lat: -20.326333,
-      lng: 57.377806
-    },
-    description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `Poste Lafayette is again more known to the locals, but great for so many reasons. There is a large and wide beach area, so if 
-      you’re taking kitesurfing lessons, this is a good spot with plenty of space for launching and practising. The wind is pretty 
-      stable here, generally onshore, no currents or any other bigger hazards, so this makes this kitespot pretty safe for the beginners.
-    The beach forms a little bay and so even if you’re not too confident going upwind, you can just easily land at any point and walk 
-    upwind again. This kitespot has a couple of spots where the water surface is nice n’ flat, good for a few tricks and if you watch 
-    and follow the locals, you might even discover the hidden wavy spot.`
-  },
-  {
-    title: "Cap Malheureux",
-    markers: {
-      lat: -20.326333,
-      lng: 57.377806
-    },
-    description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `Liked by the locals, but pretty hard to ride for the guests. While Cap Malheureux offers an eye pleasing scenery and beautiful 
-      turquoise lagoon with perfectly smooth flat water, it is rather recommended only to experienced riders.
-    The wind is obviously less consistent here than down South, but the lagoon is perfectly kitable in most wind conditions. So what 
-    are the cons of this kitespot?
-    The lagoon may just be too shallow and rocky during low tides. There is not much space for launching and the bay hosts quite a few 
-    boats, so there are plenty of hazards in the way already out of the box.`
-  },
-  {
-    title: "Ansa la Raie and Butte a l’Herbe",
-    markers: {
-      lat: -20.326333,
-      lng: 57.377806
-    },
-    description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `Ansa la Raie and Butte a l’Herbe are located just a few miles East from Cap Malhereux. Both a part of the same lagoon, they offer 
-      much better conditions, but beginners, specially those taking kitesurfing lessons, should still stay under a heavy watch of their 
-      instructors. Just like at Cap Malheureux, both of these kitespots should be avoided by the beginners during low tides as the lagoon 
-      becomes too shallow and the rocks are sticking out of the water. Other than that, it’s a peaceful, uncrowded spot.`
-  },
-  {
-    title: "Trou Aux Biches",
-    markers: {
-      lat: -20.326333,
-      lng: 57.377806
-    },
-    description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `Trou Aux Biches is quite a tough kitespot and not recommended to the beginners. The Mont Choisy lagoon area is the hotspot for 
-      the jet skis and speed boats and together with the swimmers, this could pose quite a few hazards.`
-  },
-  {
-    title: "Bain Boeuf",
-    markers: {
-      lat: -20.326333,
-      lng: 57.377806
-    },
-    description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `Bain Boeuf – just like Trou Aux Biches, this spot is only good on a good day with North-West or South-West wind. If you get lucky, 
-      you could catch some pretty good waves coming in and out of the reefs. The shore is a bit rocky, so are some parts of the lagoon 
-      and the water could be quite shallow, so just make sure you drag your self far enough from the shore. Other than that, it is a 
-      beautiful lagoon definitely worth checking out. If you get there on a non windy day, book your-self a SUP or a fishing trip. This 
-      area is a beautiful part of the island.`
-  },
-  {
-    title: "Flic-en-Flac and La Preneuse",
-    markers: {
-      lat: -20.326333,
-      lng: 57.377806
-    },
-    description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `Around December, the wind could be playing up. If the wind is blowing North or North-West, you could check out the two kitesurfing 
-      spots on West side of the island called Flic-en-Flac and La Preneuse.
-    If the wind conditions are right, these are awesome starting points to take a downwinder to Le Morne. There are few kiteschools in 
-    the area offering the downwinders and to accompany you with a safety boat. So if you’re not confident enough on your own, you should 
-    check out these options. If the wind conditions happen to be right and you’re confident, do it, it’ll be an awesome experience.
-    
-    As for riding in these waters, experience level is necessary and both spots are not exactly beginner friendly. Both kitespots belong 
-    to the Tamarin area and are not protected by the coral reef. If you go to far to the sea, you may end up in a pretty strong current 
-    that rules these waters.
-    Both Flic-en-Flac and La Preneuse are public beaches in this area that attract both tourists and locals. Lots of swimmers, kiters, 
-    windsurfers and boats share the same space. Place gets crowded and could become a risky spot for all.
-    
-    <!-- Credit: Bucketlist Mauritius -> https://www.unhooked.nl/reizen/bucketlist-mauritius-de-perfecte-kitesurfbestemming/ -->
-    Constance Le Prince Maurice is a perfect location to learn kitesurfing. Here you will also find a shallow, spacious lagoon with flat 
-    water. You will find the same trade winds here as on the other spots on the island. You have all the space here to learn to kite. 
-    The spot is located on the grounds of the hotel Constance Prince Maurice. If you are looking for a luxurious stay where your family 
-    can enjoy themselves and also see how you make your first meters (or take a nice salt rinse), then this is a must. 
-    
-    <!-- Credit: Scott Dunn https://www.scottdunn.com/blog/kitesurfing-in-mauritius -->
-    A brand new spot and a location where our watersports partners are also now offering lessons, the kitesurfing at Constance Le Prince 
-    Maurice is again, a perfect location for learning to kite, with a huge, shallow flat water lagoon benefiting from the same trade 
-    winds that hit the entire east coast of the island. The fact that there are virtually no other kiters here makes this a great spot 
-    to learn as you don’t have to worry about traffic while you are concentrating on keeping your kite in the air! The other fantastic 
-    thing about this spot is it is within the hotel ground of the Constance Prince Maurice hotel, so you can learn to kite while still 
-    enjoying the luxury and exclusivity of the resort – ideal if you’re travelling with your family and you want them to see how well 
-    you’re doing (or how much sea water you have managed to drink!). If I had to learn to kitesurf all over again, this would be the 
-    place I would head to.`
-  },
-  {
-    title: "Constance Le Prince Maurice",
-    markers: {
-      lat: -20.326333,
-      lng: 57.377806
-    },
-    description:
-      // Credit: Bucketlist Mauritius -> https://www.unhooked.nl/reizen/bucketlist-mauritius-de-perfecte-kitesurfbestemming/
-      `Constance Le Prince Maurice is a perfect location to learn kitesurfing. Here you will also find a shallow, spacious lagoon with 
-      flat water. You will find the same trade winds here as on the other spots on the island. You have all the space here to learn to 
-      kite. The spot is located on the grounds of the hotel Constance Prince Maurice. If you are looking for a luxurious stay where your 
-      family can enjoy themselves and also see how you make your first meters (or take a nice salt rinse), then this is a must. 
-    
-    <!-- Credit: Scott Dunn https://www.scottdunn.com/blog/kitesurfing-in-mauritius -->
-    A brand new spot and a location where our watersports partners are also now offering lessons, the kitesurfing at Constance Le Prince 
-    Maurice is again, a perfect location for learning to kite, with a huge, shallow flat water lagoon benefiting from the same trade 
-    winds that hit the entire east coast of the island. The fact that there are virtually no other kiters here makes this a great spot 
-    to learn as you don’t have to worry about traffic while you are concentrating on keeping your kite in the air! The other fantastic 
-    thing about this spot is it is within the hotel ground of the Constance Prince Maurice hotel, so you can learn to kite while still 
-    enjoying the luxury and exclusivity of the resort – ideal if you’re travelling with your family and you want them to see how well 
-    you’re doing (or how much sea water you have managed to drink!). If I had to learn to kitesurf all over again, this would be the 
-    place I would head to.`
+problems occur.`,
+    wind: "East and South East",
+    websiteName: "East Kite School Mauritius",
+    websiteAddress: "https://www.facebook.com/eastkite.palmarmauritius.1"
   }
 ]
 
@@ -1522,7 +1311,7 @@ function surfingMap() {
 }
 
 function snorkelingMap() {
-// Set the map
+  // Set the map
   const map = new google.maps.Map(document.getElementById("snorkeling-map"), {
     zoom: 9.75,
     center: {
@@ -1530,7 +1319,7 @@ function snorkelingMap() {
       lng: 57.591610
     }
   });
-// Iterate through markers and set them on the map
+  // Iterate through markers and set them on the map
   for (let marker of map2Markers) {
     const _marker = new google.maps.Marker({
       position: {
@@ -1542,7 +1331,7 @@ function snorkelingMap() {
     });
 
     var currentInfoWindow = null;
-    
+
     _marker.addListener("click", () => {
       let contentString = `
       <h4>${marker.title}</h4>
@@ -1596,7 +1385,7 @@ function dolphinMap() {
       lng: 57.578038
     }
   });
-// Iterate through markers and set them on the map
+  // Iterate through markers and set them on the map
   for (let marker of map3Markers) {
     const _marker = new google.maps.Marker({
       position: {
@@ -1606,9 +1395,9 @@ function dolphinMap() {
       map,
       title: marker.title,
     });
-    
+
     var currentInfoWindow = null;
-    
+
     _marker.addListener("click", () => {
       let contentString = `
       <h4>${marker.title}</h4>
@@ -1649,13 +1438,13 @@ function dolphinMap() {
 function kiteMap() {
   // Set the map
   const map = new google.maps.Map(document.getElementById("kite-surfing-map"), {
-    zoom: 9.75,
+    zoom: 9.5,
     center: {
       lat: -20.267210,
       lng: 57.581367
     }
   });
-// Iterate through markers and set them on the map
+  // Iterate through markers and set them on the map
   for (let marker of map4Markers) {
     const _marker = new google.maps.Marker({
       position: {
@@ -1667,7 +1456,7 @@ function kiteMap() {
     });
 
     var currentInfoWindow = null;
-    
+
     _marker.addListener("click", () => {
       let contentString = `
       <h4>${marker.title}</h4>
@@ -1678,6 +1467,8 @@ function kiteMap() {
       <div id="info-window-subheadings">
       <h6>Wind Direction</h6>
       <p>${marker.wind}</p>
+      <h6>Windsurf School/Shop</h6>
+      <p><a href="${marker.websiteAddress}" target="_blank">${marker.websiteName}</a></p>
       </div>
       `;
       // Create infowindow
@@ -1713,7 +1504,7 @@ function scubaMap() {
       lng: 57.563572
     }
   });
-// Iterate through markers and set them on the map
+  // Iterate through markers and set them on the map
   for (let marker of map5Markers) {
     const _marker = new google.maps.Marker({
       position: {
