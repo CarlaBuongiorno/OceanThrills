@@ -267,36 +267,67 @@ To run the code locally:
 - All other text was written by myself (Carla Buongiorno). -->
 
 ### Media
-<!-- The photos used in this site were obtained from [Pexels](https://www.pexels.com/search/ice%20cream/?orientation=portrait), [Unsplash](https://unsplash.com/), and [Pixabay](https://pixabay.com/). All three of these sites are completely copyright-free. Below are all the photographers whose work are featured in this website: -->
+The photos used in this site were obtained from [Pexels](https://www.pexels.com/search/ice%20cream/?orientation=portrait), [Unsplash](https://unsplash.com/), and [Pixabay](https://pixabay.com/). All three of these sites are completely copyright-free. Below are all the photographers whose work are featured in this website:
 
 - #### Pexels
-
-    <!-- - [Taner Soyler](https://www.pexels.com/photo/red-strawberry-fruit-2459870/)
-
-    - [Micheile @visualstories.nl](https://www.pexels.com/photo/food-wood-red-dark-7518552/) -->
-
+    - [Asad](https://www.pexels.com/photo/coconut-tree-near-body-of-water-under-blue-sky-240526/)
+    - [pixelia](https://www.pexels.com/photo/man-kite-surfing-1604869/)
+    - [Jess Loiterton](https://www.pexels.com/photo/2-person-surfing-on-sea-waves-4318913/)
+    - [Maël BALLAND](https://www.pexels.com/photo/man-underwater-3098970/)
+    - [Richard Segal](https://www.pexels.com/photo/person-takes-photo-of-tortoise-1645028/)
+    - [Jeremy Bishop](https://www.pexels.com/photo/photo-of-pod-of-dolphins-2422915/)
+    - [Joe Boyne](https://www.pexels.com/photo/black-dolphin-in-body-of-water-3439576/)
+    - [Chelsea Bradley](https://www.pexels.com/photo/sea-dawn-sunset-beach-7812105/)
+  
 - #### Unsplash
-
-    <!-- - [Shania Pinnata](https://unsplash.com/photos/a2JEYEdWky4)
-
-    - [Alexandra Gornago](https://unsplash.com/photos/_B7shfNUXEA)
-
-    - [Frank Zhang](https://unsplash.com/photos/O2ExGqIyvOw) -->
+    - [Colin Watts](https://unsplash.com/photos/M1ObxvsWVhY)
+    - [Joseph Greve](https://unsplash.com/photos/TII6axq3eo4)
+    - [Ice Tea](https://unsplash.com/photos/tbrfFeFn42M)
+    - [BEN SELWAY](https://unsplash.com/photos/9p8nPt_wVvg)
+    - [Parthiban V](https://www.pexels.com/photo/sea-beach-vacation-water-5400082/)
+    - [Jason Back ](https://www.pexels.com/photo/sea-beach-water-wave-5543358/)
+    - [Keith Lyle](https://www.pexels.com/photo/sea-beach-water-wave-4171463/)
+    - [Alan Youngblood](https://unsplash.com/photos/D_6KMM-Y8bM)
+    - [Vlad Tchompalov](https://unsplash.com/photos/5G1cHBbQUiY)
+    - [Gerald Schömbs](https://unsplash.com/photos/titrLVi32F8)
+    - [Patrick Jansen](https://unsplash.com/photos/z2BC8nAjpQk)
+    - [Olga Tsai](https://unsplash.com/photos/iRgbLpf50IE)
+    - [Stella Ribeiro](https://unsplash.com/photos/3n8cXfzpjvw)
+    - [Benjamin L. Jones](https://unsplash.com/photos/XGygXrXUSGM)
+    - [David Troeger](https://unsplash.com/photos/LRHB0TQiAeM)
+    - [Jeremy Zero](https://unsplash.com/photos/KRq_obXSLro)
+    - [TJ Fitzsimmons](https://unsplash.com/photos/vQGwNgWl2Ew)
 
 - #### Pixabay
 
-    - [Pexels](https://pixabay.com/photos/beach-wave-ocean-outdoors-sea-1851101/)
-
-    <!-- - [Bernadette Wurzinger](https://pixabay.com/photos/apple-pie-dough-apple-cake-dessert-5479993/)
-
-    - [RitaE](https://pixabay.com/photos/cream-puff-strawberries-cream-2092976/)
-
-    - [Anrita1705](https://pixabay.com/photos/chocolate-pudding-vanilla-pudding-5069214/) -->
-
-<!-- The Video Tutorial was taken from [YouTube](https://www.youtube.com/watch?v=YX-O7OKXT3Q). -->
+    - [Pexels](https://pixabay.com/photos/surfing-big-waves-speed-2192675/)
+    - [Tom Fisk](https://www.pexels.com/photo/sea-nature-water-ocean-4618226/)
+    - [Steven Leeuw](https://pixabay.com/photos/dolphin-ocean-sea-water-nature-806359/)
+    - [APG Graphics](https://pixabay.com/photos/kite-surfing-world-wind-speed-4288247/)
+    - [Carolina Plüss](https://pixabay.com/photos/diver-dive-underwater-ocean-water-223414/)
+    - [Pexels](https://pixabay.com/photos/beach-surfing-wave-man-ocean-1837030/)
+    - [PublicDomainPictures](https://pixabay.com/photos/beach-diving-equipment-fun-goggles-2333/)
+    - [Claudia Beer](https://pixabay.com/photos/dolphin-animal-sea-ocean-203875/)
+    - [Nicolas Bschor](https://pixabay.com/photos/diving-divers-underwater-swim-1652869/)
+    - [Alina Chereches](https://pixabay.com/photos/scuba-diving-underwater-diver-sea-6015779/)
+    - [lucatelles](https://pixabay.com/photos/dive-blue-diving-deep-1849533/)
+    - [FIRST online](https://pixabay.com/photos/sub-diving-scuba-giant-step-diver-2296460/)
+    - [lucatelles](https://pixabay.com/photos/dive-blue-diving-deep-1849534/)
+    - [GREGOR](https://pixabay.com/photos/beach-sea-water-goggles-snorkel-947046/)
+    - [Arhnue Tan](https://pixabay.com/photos/lionfish-scuba-diving-underwater-1430225/)
+    - [Виктор Сапожников](https://pixabay.com/photos/bulgaria-sarafovo-kitesurfing-sea-4477876/)
+    - [Dimitris Vetsikas](https://pixabay.com/photos/kite-surf-sport-sea-surfer-active-1378445/)
+    - [Christo Anestev](https://pixabay.com/photos/man-board-ocean-kite-surfing-5462851/)
+    - [quepasasi](https://pixabay.com/photos/kite-surf-jump-freestyle-sport-sea-789264/)
+    - [Kitereisen](https://pixabay.com/photos/kite-surfing-kitesurfing-sea-3857694/)
+    - [Steven Bol](https://pixabay.com/photos/kite-surfing-bali-sanur-aquatics-1778289/)
+    - [Jean van der Meulen](https://pixabay.com/photos/kite-boarder-wave-jumping-3108039/)
+    - [Wolfgang Zimmel](https://pixabay.com/photos/dolphin-ocean-sea-marine-mammals-2691864/)
+    - [John Gibson](https://pixabay.com/photos/dolphins-swimming-water-ocean-sea-327051/)
+    - [Bernd Hildebrandt](https://pixabay.com/photos/dolphins-orthodontist-marine-mammals-2137659/)
 
 #### Flaticon
-[]
+    - []()
 
 ### Code
 

@@ -78,9 +78,9 @@ let map1Markers = [{
     waveDirection: "Right and left",
     bottom: "Reef (coral, sharp rocks etc..)",
     wavePower: "Hollow",
-    waveLength: "Normal (50 to 150m)",
+    waveLength: "Normal (50-150m)",
     bestTidePosition: "Mid and high tide",
-    waveHeight: "Starts working at 1.0m-1.5m / 3ft-5ft and holds up to 3m+ / 10ft+",
+    waveHeight: "1-3 metres+",
     danger: "Urchins, rips/undertow, and rocks"
   },
   {
@@ -158,9 +158,9 @@ let map1Markers = [{
     waveDirection: "Left",
     bottom: "Sandy",
     wavePower: "Hollow, Fun, Powerless",
-    waveLength: "Normal (50 to 150m)",
+    waveLength: "Normal (50-150m)",
     bestTidePosition: "High tide only",
-    waveHeight: "Starts working at 1.5m-2m /5ft-6ft and holds up to 2.5m+ / 8ft+",
+    waveHeight: "1.5-2.5 metres+",
     danger: "Localism and sharks"
 
   },
@@ -188,9 +188,9 @@ let map1Markers = [{
     waveDirection: "Right",
     bottom: "Reef (coral, sharp rocks etc..)",
     wavePower: "Hollow, Powerful, Ledgey",
-    waveLength: "Normal (50 to 150m)",
+    waveLength: "Normal (50-150m)",
     bestTidePosition: "Mid and high tide",
-    waveHeight: "Starts working at 1.0m-1.5m / 3ft-5ft and holds up to 4m+ / 12ft",
+    waveHeight: "1-4 metres+",
     danger: "Urchins, rips/undertow, rocks, localism, and sharks"
   },
   {
@@ -218,9 +218,9 @@ let map1Markers = [{
     waveDirection: "Left",
     bottom: "Sandy with rock",
     wavePower: "Ordinary",
-    waveLength: "Short (&lt; 50m)",
+    waveLength: "Short (< 50 metres)",
     bestTidePosition: "Mid tide",
-    waveHeight: "Starts working at 1.5m-2m /5ft-6ft and holds up to 2.5m+ / 8ft+",
+    waveHeight: "1.5-2.5 metres+",
     danger: "Rocks"
   },
   {
@@ -229,7 +229,7 @@ let map1Markers = [{
       lat: -20.505750,
       lng: 57.456139
     },
-    // Photo by Keith Lyle from Pexels
+    // Photo by Joseph Greve on Unsplash
     image: "surf5",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
@@ -276,9 +276,9 @@ let map1Markers = [{
     waveDirection: "Right and left",
     bottom: "Sandy",
     wavePower: "Ordinary, Fun, Powerless",
-    waveLength: "Short (&lt; 50m)",
+    waveLength: "Short (< 50 metres)",
     bestTidePosition: "All tides",
-    waveHeight: "Starts working at 1.0m-1.5m / 3ft-5ft and holds up to 2m+ / 6ft+",
+    waveHeight: "1-2 metres+",
     danger: "Urchins, rips/undertow, and rocks"
   },
   {
@@ -287,7 +287,7 @@ let map1Markers = [{
       lat: -20.452333,
       lng: 57.709972
     },
-    // Photo by <a href="https://unsplash.com/@benjis1978?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">BEN SELWAY</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    // Photo by BEN SELWAY on Unsplash
     image: "surf6",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
@@ -305,9 +305,9 @@ let map1Markers = [{
     waveDirection: "Left",
     bottom: "Reef (coral, sharp rocks etc..)",
     wavePower: "Powerless",
-    waveLength: "Short (&lt; 50m)",
+    waveLength: "Short (< 50 metres)",
     bestTidePosition: "Mid and high tide",
-    waveHeight: "Starts working at 1.5m-2m /5ft-6ft and holds up to 2.5m+ / 8ft+",
+    waveHeight: "1.5-2.5 metres+",
     danger: "Urchins and rocks"
   },
   {
@@ -316,7 +316,7 @@ let map1Markers = [{
       lat: -20.493556,
       lng: 57.369278
     },
-    // Photo by <a href="https://unsplash.com/@magicetea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ice Tea</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    // Photo by Ice Tea on Unsplash
     image: "surf7",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/mauritius-surf/
@@ -333,9 +333,9 @@ let map1Markers = [{
     waveDirection: "Left",
     bottom: "Reef (coral, sharp rocks etc..)",
     wavePower: "Powerless, Slab",
-    waveLength: "Short (&lt; 50m)",
+    waveLength: "Short (< 50 metres)",
     bestTidePosition: "Mid and high tide",
-    waveHeight: "Starts working at 1.0m-1.5m / 3ft-5ft and holds up to 3m+ / 10ft+",
+    waveHeight: "1-3 metres+",
     danger: "Urchins, rips/undertow, and rocks"
   }
 ]
@@ -347,7 +347,7 @@ let map2Markers = [{
       lat: -20.064677,
       lng: 57.518749
     },
-    // Image by <a href="https://pixabay.com/users/arhnue-1896944/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1430225">Arhnue Tan</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1430225">Pixabay</a>
+    // Image by Arhnue Tan from Pixabay
     image: "snorkel1",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
@@ -361,10 +361,10 @@ let map2Markers = [{
     ideal for sunbathing, leisure walks, picnic and sunset views. Pointe aux Piments beach is also famous for spotting sea turtles.`,
 
     // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/spot/snorkeling-recif-attitude-mauritius/
-    marineLife: `Galaxea, Pocillopora (cauliflower coral), peacock flounders, lizardfish, honeycomb groupers, false stonefish,
+    marineLife: `Galaxea, Pocillopora, peacock flounders, lizardfish, honeycomb groupers, false stonefish,
     surge wrasse, teardrop butterflyfish, whitespotted boxfish, Moorish idols, sea turtles, Flutemouth, Longnose Filefish`,
     experience: "Beginner",
-    maxDepth: "6ft/2m",
+    maxDepth: "2m",
     waterEntrance: "From a sandy beach",
     potentialDanger: "Usual precautions"
   },
@@ -374,7 +374,7 @@ let map2Markers = [{
       lat: -20.444496,
       lng: 57.709895
     },
-    // Image by <a href="https://pixabay.com/users/gregor-27062/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=947046">GREGOR</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=947046">Pixabay</a>
+    // Image by GREGOR from Pixabay
     image: "snorkel2",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
@@ -402,7 +402,7 @@ let map2Markers = [{
     marineLife: `Mushroom corals, soft coral, surgeonfish, Parrotfish, Moorish idols, sergeant majors, Mauritian clownfish,
     hawksbill sea turtles, Damselfish, mangroves`,
     experience: "Intermediate",
-    maxDepth: "20ft/6m",
+    maxDepth: "6m",
     waterEntrance: "Easy, from a sandy beach (or from a boat)",
     potentialDanger: "Usual precautions"
   },
@@ -412,7 +412,7 @@ let map2Markers = [{
       lat: -19.993565,
       lng: 57.591050
     },
-    // Photo by <a href="https://unsplash.com/@boardshortsben?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Benjamin L. Jones</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    // Photo by Benjamin L. Jones on Unsplash
     image: "snorkel3",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
@@ -436,7 +436,7 @@ let map2Markers = [{
     marineLife: `surgeonfish, butterflyfish, wrasses, sea turtles (both green and hawksbill), Mauritius clownfish, barracuda, 
     groupers, emperors, snappers, triggerfish, damsels, wrasses, boxfish`,
     experience: "Beginner",
-    maxDepth: "33ft/10m past the drop off",
+    maxDepth: "10m past the drop off",
     waterEntrance: "From a sandy beach",
     potentialDanger: "Boat traffic in and outside the channels"
   },
@@ -446,7 +446,7 @@ let map2Markers = [{
       lat: -20.299633,
       lng: 57.363380
     },
-    // Photo by <a href="https://unsplash.com/@stella_ribeiro05?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stella Ribeiro</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    // Photo by Stella Ribeiro on Unsplash
     image: "snorkel4",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
@@ -470,7 +470,7 @@ let map2Markers = [{
     coral clumps, whitetail dascyllus, moorish idols, green chromis, wrasse, goatfish, small honeycomb groupers, rabbitfish, 
     small moray eels, lionfish, burrowing sea urchins`,
     experience: "Intermediate",
-    maxDepth: "6ft/2m",
+    maxDepth: "2m",
     waterEntrance: "From a sandy beach",
     potentialDanger: "Boats - Divers-down buoy recommended outside the designated swimming areas"
   },
@@ -480,7 +480,7 @@ let map2Markers = [{
       lat: -20.034875,
       lng: 57.544449
     },
-    // Photo by <a href="https://unsplash.com/@olgatsai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olga Tsai</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    // Photo by Olga Tsai on Unsplash
     image: "snorkel5",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
@@ -504,17 +504,17 @@ let map2Markers = [{
     marineLife: `tropical fish, sea turtles, butterflyfish, fine branch coral, finger coral, giant clams, red pencil 
     urchins, conches, moorish idols, convict tangs, whitetail dascyllus, filefish, pufferfish, triggerfish, Damselfish, colourful starfish`,
     experience: "Intermediate",
-    maxDepth: "6ft/2m",
+    maxDepth: "2m",
     waterEntrance: "From a sandy beach",
     potentialDanger: "Boats - Diving flag recommended outside the designated swimming areas"
   },
   {
-    title: "Ile aux Cerfs (island off the east coast)",
+    title: "Ile aux Cerfs",
     markers: {
       lat: -20.271957,
       lng: 57.799214
     },
-    // Photo by <a href="https://unsplash.com/@patrickjjansen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Jansen</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    // Photo by Patrick Jansen on Unsplash
     image: "snorkel6",
     description:
       // Credit: - 'Travel Start' -> http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/
@@ -564,7 +564,7 @@ let map3Markers = [{
       lat: -20.364320,
       lng: 57.378980
     },
-    // Image by <a href="https://pixabay.com/users/werdepate-882211/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2691864">Wolfgang Zimmel</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2691864">Pixabay</a>
+    // Image by Wolfgang Zimmel from Pixabay
     image: "dolphins2",
     description: `Two kinds of dolphins can be observed in Mauritian waters: the Spinner and the Bottlenose. The peers do not like to
      share the same spot and you will never see them together: If the Spinners are around and the Bottlenose dolphins arrive, the Spinners 
@@ -590,7 +590,7 @@ let map3Markers = [{
       lat: -20.005780,
       lng: 57.590760
     },
-    // Image by <a href="https://pixabay.com/users/185053-185053/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=327051">John Gibson</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=327051">Pixabay</a>
+    // Image by John Gibson from Pixabay
     image: "dolphins3",
     description: `Dolphins are known to be intelligent and fun to be around. An essentially social animal, they have been reported to have
      formed bonds with human beings and protecting swimmers from shark attacks. As such, there are many reasons to go meet these endearing
@@ -608,7 +608,7 @@ let map3Markers = [{
       lat: -20.238321,
       lng: 57.485564
     },
-    // Image by <a href="https://pixabay.com/users/barni1-773830/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2137659">Bernd Hildebrandt</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2137659">Pixabay</a>
+    // Image by Bernd Hildebrandt from Pixabay
     image: "dolphins4",
     description: `Discover the spectacular worlds of dolphins by watching them in their natural environment. You can even enjoy swimming
     with dolphins!
@@ -634,7 +634,7 @@ let map3Markers = [{
       lat: -20.362271,
       lng: 57.374810
     },
-    // Photo by <a href="https://unsplash.com/@jeremy0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeremy Zero</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    // Photo by Jeremy Zero on Unsplash
     image: "dolphins5",
     description: `On the West Coast of Mauritius, we are lucky enough to have wild dolphins that come near the shore to socialize, rest 
     & play every morning. We can encounter two types of dolphins: spinner & bottlenose. We normally see one or the other, except if you 
@@ -660,7 +660,7 @@ let map3Markers = [{
       lat: -20.465218,
       lng: 57.308537
     },
-    // Photo by <a href="https://unsplash.com/@tj_fitzsimmons?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">TJ Fitzsimmons</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    // Photo by TJ Fitzsimmons on Unsplash
     image: "dolphins6",
     description: `Observe and swim with wild dolphins in their natural habitat. Our Skippers will make sure you have great visibility 
     while respecting the dolphins & guidelines set by the local authority. We favour the Southern dolphin watching region, which is less 
@@ -946,7 +946,7 @@ let map5Markers = [{
       lat: -20.002950,
       lng: 57.542217
     },
-    // Photo by <a href="https://unsplash.com/@alanyoungblood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alan Youngblood</a> on <a href="https://unsplash.com/s/photos/diving?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    // Photo by Alan Youngblood on Unsplash
     image: "scuba1",
     description:
       // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
@@ -964,7 +964,7 @@ let map5Markers = [{
     Holt Rock has large rock formations with good lighting conditions. With a slight current, it can be a drifting dive. The site has 
     many gorgonians and big fish. Lobsters and titan ballistae are also common.`,
     diveType: "Multi-Level, reef",
-    depth: "16 to 25 metres"
+    depth: "16-25 metres"
   },
   {
     title: "Coin de Mire",
@@ -973,7 +973,7 @@ let map5Markers = [{
       lat: -19.945317,
       lng: 57.619317
     },
-    // Photo by <a href="https://unsplash.com/@tchompalov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vlad Tchompalov</a> on <a href="https://unsplash.com/s/photos/diving?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    // Photo by Vlad Tchompalov on Unsplash
     image: "scuba2",
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
@@ -1008,7 +1008,7 @@ let map5Markers = [{
       10m high and 5m wide. While the main issue is the wreck itself, the site is alive with soft corals, fish shoals, King Fish, moray 
       eels, triggerfish, stone fish, scorpion fish, leaves and nudibranchs.`,
     diveType: "Wreck, deep",
-    depth: "25 metres/80 ft - 35 metres"
+    depth: "25-35 metres"
   },
   {
     title: "Le Morne",
@@ -1017,7 +1017,7 @@ let map5Markers = [{
       lat: -20.422683,
       lng: 57.294850
     },
-    // Photo by <a href="https://unsplash.com/@geerald?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gerald Schömbs</a> on <a href="https://unsplash.com/s/photos/diving?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    // Photo by Gerald Schömbs on Unsplash
     image: "scuba3",
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
@@ -1045,7 +1045,7 @@ let map5Markers = [{
       lat: -20.509833,
       lng: 57.394633
     },
-    // Image by <a href="https://pixabay.com/users/alinachereches-14002317/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6015779">Alina Chereches</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6015779">Pixabay</a>
+    // Image by Alina Chereches from Pixabay
     image: "scuba4",
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
@@ -1075,7 +1075,7 @@ let map5Markers = [{
       <!-- Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/ -->
       Claimed to be one of the best drift dives in Mauritius, Passe St. Jacques is a playground for grey reef sharks, stingrays, turtles 
       and moray eels. At a depth of between 3 and 30 metres, this dive site is perfect for beginners all the way to advanced divers.`,
-    depth: "5 metres/ 16ft- 30 metres/98 ft",
+    depth: "5-30 metres",
     diveType: "drift, reef"
   },
   {
@@ -1085,7 +1085,7 @@ let map5Markers = [{
       lat: -20.289000,
       lng: 57.355933
     },
-    // Image by <a href="https://pixabay.com/users/lucatelles-3823474/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1849533">lucatelles</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1849533">Pixabay</a>
+    // Image by lucatelles from Pixabay
     image: "scuba5",
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
@@ -1134,7 +1134,7 @@ let map5Markers = [{
       lat: -20.002767,
       lng: 57.559900
     },
-    // Image by <a href="https://pixabay.com/users/firstonline-701604/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2296460">FIRST online</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2296460">Pixabay</a>
+    // Image by FIRST online from Pixabay
     image: "scuba6",
     description:
       // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
@@ -1170,7 +1170,7 @@ let map5Markers = [{
       lat: -19.997083,
       lng: 57.550383
     },
-    // Image by <a href="https://pixabay.com/users/lucatelles-3823474/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1849534">lucatelles</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1849534">Pixabay</a>
+    // Image by lucatelles from Pixabay
     image: "scuba7",
     description:
       // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
@@ -1208,7 +1208,7 @@ let map5Markers = [{
       This Japanese freighter, grounded in 1987 and resting in vertical, is a wreck not to be missed. Over the years, it has been 
       encrusted and attracts a variety of colorful species, including rays, moray eels, parrotfish and leaf fish`,
     diveType: "Wreck",
-    depth: "18 to 24 metres"
+    depth: "18-24 metres"
   },
   {
     title: "Trou aux Biches",
@@ -1240,7 +1240,7 @@ let map5Markers = [{
 function surfingMap() {
   // Set the map
   const map = new google.maps.Map(document.getElementById("surfing-map"), {
-    zoom: 10.50,
+    zoom: 11,
     center: {
       lat: -20.387079,
       lng: 57.507294
@@ -1263,7 +1263,7 @@ function surfingMap() {
       let contentString = `
       <h4>${marker.title}</h4>
       <div class="padding">
-      <img src="assets/images/card-images/surf/${marker.image}.jpg" width='100%'>
+      <img src="assets/images/window-images/surf/${marker.image}.jpg" width='100%'>
       </div>
       <p>${marker.description}</p>
       <div id="info-window-subheadings">
@@ -1313,7 +1313,7 @@ function surfingMap() {
 function snorkelingMap() {
   // Set the map
   const map = new google.maps.Map(document.getElementById("snorkeling-map"), {
-    zoom: 9.75,
+    zoom: 10,
     center: {
       lat: -20.182073,
       lng: 57.591610
@@ -1336,7 +1336,7 @@ function snorkelingMap() {
       let contentString = `
       <h4>${marker.title}</h4>
       <div class="padding">
-      <img src="assets/images/card-images/snorkel/${marker.image}.jpg" width='100%'>
+      <img src="assets/images/window-images/snorkel/${marker.image}.jpg" width='100%'>
       </div>
       <p>${marker.description}</p>
       <div id="info-window-subheadings">
@@ -1379,7 +1379,7 @@ function snorkelingMap() {
 function dolphinMap() {
   // Set the map
   const map = new google.maps.Map(document.getElementById("dolphin-map"), {
-    zoom: 9.75,
+    zoom: 10,
     center: {
       lat: -20.222034,
       lng: 57.578038
@@ -1402,7 +1402,7 @@ function dolphinMap() {
       let contentString = `
       <h4>${marker.title}</h4>
       <div class="padding">
-      <img src="assets/images/card-images/dolphins/${marker.image}.jpg" width='100%'>
+      <img src="assets/images/window-images/dolphins/${marker.image}.jpg" width='100%'>
       </div>
       <p>${marker.description}</p>
       <div id="info-window-subheadings">
@@ -1438,10 +1438,10 @@ function dolphinMap() {
 function kiteMap() {
   // Set the map
   const map = new google.maps.Map(document.getElementById("kite-surfing-map"), {
-    zoom: 9.5,
+    zoom: 10,
     center: {
-      lat: -20.267210,
-      lng: 57.581367
+      lat: -20.200162, 
+      lng: 57.577718
     }
   });
   // Iterate through markers and set them on the map
@@ -1461,7 +1461,7 @@ function kiteMap() {
       let contentString = `
       <h4>${marker.title}</h4>
       <div class="padding">
-      <img src="assets/images/card-images/kite/${marker.image}.jpg" width='100%'>
+      <img src="assets/images/window-images/kite/${marker.image}.jpg" width='100%'>
       </div>
       <p>${marker.description}</p>
       <div id="info-window-subheadings">
@@ -1498,10 +1498,10 @@ function kiteMap() {
 function scubaMap() {
   // Set the map
   const map = new google.maps.Map(document.getElementById("scuba-diving-map"), {
-    zoom: 9.5,
+    zoom: 9.75,
     center: {
-      lat: -20.262706,
-      lng: 57.563572
+      lat: -20.200162,
+      lng: 57.577718
     }
   });
   // Iterate through markers and set them on the map
@@ -1520,7 +1520,7 @@ function scubaMap() {
       let contentString = `
       <h4>${marker.title}</h4>
       <div class="padding">
-      <img src="assets/images/card-images/scuba/${marker.image}.jpg" width='100%'>
+      <img src="assets/images/window-images/scuba/${marker.image}.jpg" width='100%'>
       </div>
       <p>${marker.description}</p>
       <div id="info-window-subheadings">

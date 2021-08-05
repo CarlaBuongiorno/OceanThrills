@@ -286,9 +286,11 @@ p.hero-text {
   background-image: url("../images/home-images/kite-surfing.jpg");
 }
 
-/* Photo by Rick Hawkins from FreeImages */
+
+/* Image by Carolina Plüss from Pixabay */
 #scuba-diving {
   background-image: url("../images/home-images/scuba-diving.jpg");
+  background-position: top;
 }
 
 #home-activities a {
@@ -420,7 +422,7 @@ section#home-activities a {
   align-items: center;
   margin: 0 auto;
   margin-bottom: 10px;
-  height: 380px;
+  height: 390px;
   width: 100%;
 }
 
