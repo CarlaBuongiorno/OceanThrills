@@ -1,4 +1,3 @@
-
 // Credit: Code Intitute "Sending Emails Using EmailJS" -> https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/?child=last
 function sendMail(contactForm) {
   emailjs.send("gmail", "contact_form", {

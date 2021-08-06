@@ -9,7 +9,7 @@ let scubaSection = document.getElementById("scuba-diving-activity");
 
 // Set the saved variable to the functions
 const choice = sessionStorage.getItem("autosave");
-
+// Credit: W3Schools - https://www.w3schools.com/js/js_switch.asp
 switch (choice) {
   case "home-surf":
     displaySurf();
@@ -62,6 +62,7 @@ document.querySelectorAll('.scuba').forEach(item => {
 });
 
 // Functions
+// Credit: W3Schools - CSS display Property -> https://www.w3schools.com/cssref/pr_class_display.asp
 function displaySurf() {
   surfSection.style.display = "block"; //show
   snorkSection.style.display = "none"; //hide

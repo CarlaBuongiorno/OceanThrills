@@ -144,6 +144,7 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - [CSS Tricks](https://css-tricks.com/) was used as a general resource.
 - [MS1 Planning Session](https://www.youtube.com/watch?v=sH0m9N875SU&) YouTube tutorial by Jim Lynx for guidance on how to get started on this project.
 - [Make a README](https://www.makeareadme.com/) was used as a guide for making this README.md file.
+- Eamonn's 'How To Google Maps' PDF as a general resource for implementing Map API.
 - Aukje van der wal
 
 ## 5. Testing
@@ -327,24 +328,32 @@ The photos used in this site were obtained from [Pexels](https://www.pexels.com/
     - [Bernd Hildebrandt](https://pixabay.com/photos/dolphins-orthodontist-marine-mammals-2137659/)
 
 #### Flaticon
-    - []()
+The icons used in this site were obtained from [Flaticon](https://www.flaticon.com/), of which are owned by the company and authorised usage must be in accordance with their [Terms](https://www.freepikcompany.com/legal#nav-flaticon).
+
+- [monkik](https://www.flaticon.com/free-icon/surfing_2503547?term=surfing&related_id=2503547)
+- [monkik](https://www.flaticon.com/free-icon/snorkel_1728691?term=snorkels&page=1&position=18&page=1&position=18&related_id=1728691&origin=search)
+- [photo3idea_studio](https://www.flaticon.com/free-icon/scuba_3163760?term=snorkels&related_id=3163760)
+- [Freepik](https://www.flaticon.com/free-icon/dolphin_3069269?term=dolphin&page=1&position=82&page=1&position=82&related_id=3069269&origin=search)
 
 ### Code
 
 - [Code Institute](https://codeinstitute.net/) was the main source of information used to create this project.
-    <!-- - Putting It All Together | Mini Project with Bootstrap 4 -> Styling the Form
-    - Adding hero image as background -> __Love Running__ project
-    - Social icons styling -> __Love Running__ project -->
-<!-- - [Code Institute 'Slack' Community](https://slack.com/intl/en-no/) for their general assistance and feedback.
-- [Bootstrap](https://getbootstrap.com/docs/4.0/components/card/) for creating Cards for the __Recipes__.
-- [Bootstrap](https://getbootstrap.com/docs/4.0/components/forms/) for creating a responsive form.
-- [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) for creating the navigation bar.
-- [Coding Journey](https://www.youtube.com/watch?v=US_3XvufMLU) to keep the footer at the bottom.
+- [Code Institute 'Slack' Community](https://slack.com/intl/en-no/) for their general assistance and feedback.
+- [Bootstrap](https://getbootstrap.com/docs/4.6/layout/grid/) for creating a responsive site.
+- [Bootstrap](https://getbootstrap.com/docs/4.6/components/forms/) for creating a responsive form.
+- [Bootstrap](https://getbootstrap.com/docs/4.6/components/navbar/) for creating the navigation bar.
+- [Bootstrap](https://getbootstrap.com/docs/4.6/components/dropdowns/) for creating a dropup button for the icon creditation.
+- [Bootstrap](https://getbootstrap.com/docs/4.6/components/button-group/) for creating the button groups for each activity.
 - [Stack Overflow](https://stackoverflow.com/) was used as a general source of knowledge.
-- [w3schools](https://www.w3schools.com/default.asp) was used as a general source of knowledge.
-- [CSS Tricks](https://css-tricks.com/fluid-width-video/) was used as a general resource, and expecially for the 'Fluid Video width' - to make the video responsive.
-- [Bootstrap Essentials](https://ajgreaves.github.io/bootstrap-grid-demo/) by Anna Greaves for better Bootsrap Grid and responsive understanding.
-- [Using the Bootstrap 4 Grid | BOOTSTRAP 4 TUTORIAL](https://www.youtube.com/watch?v=qmPmwdshCMw) YouTube video tutorial for better Bootsrap Grid and responsive understanding. -->
+- [W3Schools](https://www.w3schools.com/default.asp) was used as a general source of knowledge.
+- [CSS Tricks](https://css-tricks.com/) was used as a general resource.
+- [MDN Webdocs](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage#basic_usage) for storing data through the loading of another page.
+- [W3Schools](https://www.w3schools.com/js/js_switch.asp) for using 'The JavaScript Switch Statement' with the sessionStorage in deciding which activity to display.
+- [W3Schools](https://www.w3schools.com/cssref/pr_class_display.asp) for using the CSS display property on the activity sections.
+- [Code Intitute - "Sending Emails Using EmailJS"](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/?child=last) for implementing EmailJS API.
+- [Email.JS Documentation](https://www.emailjs.com/docs/rest-api/send-form/) for sending an email when user submits the contact form, as well as giving user a 'success' or 'failed' response to their form submission.
+- [Google Maps](https://developers.google.com/maps) Map API was used to show the locations of all the activities, as well as display markers and open and close informaition windows for each marker.
+
 
 ## 10. Acknowledgements
 <!-- - I would like to thank the staff and students of __Code Institute__ and the Code Institute __Slack Community__ for their helpfulness when needed.

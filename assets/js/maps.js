@@ -1235,7 +1235,6 @@ let map5Markers = [{
   }
 ]
 
-// Credit: Eamonn's 'How To Google Maps' PDF
 // Credit: Google Maps API Documentation -> https://developers.google.com/maps/documentation/javascript/examples/map-simple
 function surfingMap() {
   // Set the map
