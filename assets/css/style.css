@@ -301,7 +301,6 @@ p.hero-text {
   background-color: #31bee9;
   border-color: #fff;
   font-size: 28px;
-  display: block;
   margin: 0 auto;
   letter-spacing: 5px;
   padding: 10px;
@@ -318,6 +317,7 @@ p.hero-text {
   padding-bottom: 0;
   position: relative;
   top: 20px;
+  z-index: 1;
 }
 
 section#home-activities a {
