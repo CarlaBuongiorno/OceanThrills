@@ -408,12 +408,11 @@ let map4Markers = [{
     },
     // Photo by David Troeger on Unsplash
     image: "kite1",
-    description:   //yyyyyyyyyyyyyyyyyyyyy
-      `Le Morne lagoon is the best known and loved kite surfing location on the Island. On a clam day the large flatwater spots 
-      are amazing for beginners and lessons. Check the tides though it can be shallow and at times, or a coral head might surprise 
-      you. Great place for freeriders and freestyle. Strong winds make things a challenge with fast currents,choppy
+    description:  
+      `Le Morne lagoon is the best known and loved kite surfing location on the Island. On a calm day the large flatwater spots 
+      are amazing for beginners and lessons. Check the tides though, it can be shallow at times and coral heads might surprise 
+      you. Great place for freeriders and freestyle. Strong winds make things a challenge with fast currents, choppy
       water, and large swells. The flatwater however, is excellent.`,
-      // yyyyyyyyyyyyyyyyyyyyyyyyyy
     wind: "South East",
     websiteName: "Kite Lagoon Vibes Mauritius",
     websiteAddress: "https://kite-lagoon-vibes.business.site/?utm_source=gmb&utm_medium=referral"
@@ -427,44 +426,10 @@ let map4Markers = [{
     // Image by Christo Anestev from Pixabay
     image: "kite3",
     description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `Pointe d’Esny – also know as Paradise Beach. The locals know this spot as being one of the most beautiful stretch of white sand 
-      beach and the best preserved coral reef lagoon on the entire island.
-    Pointe d’Esny beach is without the doubt a well hidden gem and surely takes a proud spot in our best secret kitespots top ten.
-    
-    The bummer is that the beach is effectively sealed off by a few luxurious private properties, so unless you happen to be staying in 
-    one of the beachfront resorts, the only way to get to this secret beach is either by water or by foot.
-    You can either take a long beach walk all the way from Blue Bay, which is worth the hassle anyways or your other option would be to 
-    take this little, just about 150 metres long pathway that’s just off the main Costal Road.
-    This tiny pathway sits just in between a couple of the private houses and if you manage to find it, it will lead you to the Paradise 
-    beach. So if you enjoy geo-caching, there you’re go, go find the treasure!
-    
-    If you happen to be here on a non-windy day, make sure to checkout the near by charming village of Mahebourg for an authentic 
-    historical Mauritian experience.
-    
-    <!-- Credit: Wake Up Stoked -> https://wakeupstoked.com/kitesurf-mauritius/ -->
-    Big lagoon, picturesque spot, ideal for beginners as well. There is a kite school called Specialised Kiteboarding 
-    (https://specialisedkiteboarding.com/?fbclid=IwAR2ILzHVMF0xK4NrkfEJ2ypgmayc_jQcO6xnntgKrAB2xncXIKsD51NfJqs).
-    
-    <!-- Credit: Planet Kitesurf https://www.planetkitesurfholidays.com/countries/mauritius/mus -->
-    Kitesurfing Holidays At Pointe D'esny, Mauritius
-Pointe d'Esny is situated on the South East coast of Mauritius. Boasting the island’s whitest stretch of beach and located a mere 
-15-minute drive from the airport, Pointe d'Esny offers a secluded, peaceful location in one of Mauritius' untouched areas. Offering a 
-tropical paradise setting, fit for any postcard, this part of Mauritius boasts the largest lagoon on the island. Not far away is the 
-charming historical village of Mahebourg, however, the real charm of Pointe d'Esny is that it is located away from the crowds and 
-commercial resorts found elsewhere in Mauritius.
-
-The large flat water lagoon, with its light to moderate winds provides a haven for foilers and those who want to learn how to kite foil.
-
-The Spot At Pointe D'esny
-The kite spot at Pointe d'Esny has yet to be discovered by the masses and as a result offers a tranquil, quiet playground where you can 
-really enjoy your time on the water. There is just a small school operated here by the Mauritian kitesurfer that developed the click-bar. 
-Just off a sparkling white beach, a deep flat water lagoon stretches out for a long distance before the reef, providing a blue playground 
-that is just perfect for foiling. The wind here is generally South or South-East which is cross-shore. There is generally a line of small 
-boats at anchor close to the shore so basic skills are needed to get out beyond these to really enjoy the freedom this spot offers. The 
-wind is consistent and clean but is lighter than some of the more popular kitesurf spots on the island so big kites are needed while 
-foiling is the real highlight of this destination. The best months to kitesurf at Pointe d'Esny is between June and September, but you 
-can find wind here all year round.`,
+      `Hidden from the holiday crowds and vast commercial holiday spots on the island. Pointe d'Esny (a.k.a. Paradise Beach) is a 
+      treasure to find. Access can be challenging if you're not in one of the seaside resorts, with access restricted to the 
+      privately owned beach either on foot, or by water. The rewards are great, Kitefoiling is a dream at this spot, the flatwater is
+      awesome when its not too windy. June to September is best, but there are nice winds here all year round.`,
     wind: "South East",
     websiteName: "Specialised Kiteboarding",
     websiteAddress: "https://specialisedkiteboarding.com/products/hydrofoil-lesson-8-hours"
@@ -478,13 +443,9 @@ can find wind here all year round.`,
     // Image by quepasasi from Pixabay
     image: "kite4",
     description:
-      // Credit: Wake Up Stoked -> https://wakeupstoked.com/kitesurf-mauritius/
-      `This was usually our go-to spot. If you’re into waves or are an independent advanced kitesurfer, riding safely, you will probably 
-      prefer this spot. Make sure to take care of those trees when launching and landing, kites get trapped in them daily 😉
-
-    Since it’s UNESCO world heritage there are no restaurants at the spot. There is a fruit stand with fresh fruits, coconuts and drinks 
-    and usually some food truck with paninis or noodles at the spot. For the non kitesurfing Begleitung there is not too much to do but 
-    go for a beach walk or sit on the downwind side of the beach where you can’t feel the wind.`,
+      `Le Morne, a Unesco World Heritage Site, is the best place for advanced, independent kite surfing enthusiasts. Not much here 
+      for the tourists, a beautiful beach and a fruit stand, some food trucks, but nothing to do here besides enjoy nature. Beware the 
+      trees on launching and landing, kites get trapped here on the daily.`,
     wind: "South East",
     websiteName: "Le Morne Kite School",
     websiteAddress: "http://www.lemorne-kiteschool.com/"
@@ -499,9 +460,8 @@ can find wind here all year round.`,
     image: "kite8",
     description:
       // Credit: Wake Up Stoked -> https://wakeupstoked.com/kitesurf-mauritius/
-      `Again a very nice small island which works with North wind. You can take the boat from La Gaulette (either go with a kite school 
-        or go there and bargain with one of the boat owners there, there are quite a lot crossing). It is super nice flat water over 
-        there. Bring something to eat and drink if you’re staying the whole day, there is nothing there.`,
+      `Île aux Bénitiers is a wonderful uninhabited island. Great North wind, there are boat owners who bargain with tourists 
+      to take them to the island daily. This place is serene. Bring your food and drinks, there are no shops here.`,
     wind: "North",
     websiteName: "Mauritius Surf Holidays",
     websiteAddress: "https://www.mauritiussurfholidays.com/it/"
@@ -515,12 +475,8 @@ can find wind here all year round.`,
     // Image by Jean van der Meulen from Pixabay
     image: "kite7",
     description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `Palmar – Palmar is basically just a few kilometres round the cost from Trou d’Eau Douce. Kitespot more known to the locals. 
-      All travellers mostly hang around Le Morne and not many people venture out to try something different, so Le Morne always get to 
-      bask in the glory.
-    Palmar is a few kilometres long stretch of an awesome lagoon with water not too deep and pretty stable 45 degree onshore wind. 
-    There’s a Palmar beach just on the lagoon, so launching shouldn’t be an issue anywhere. Spot is a pretty good choice for the beginners.`,
+      `A bit out the way for most, Palmar offers easy launching and landing with pretty stable onshore winds, not too deep, 
+      but great for beginners. Kilometres of awesome lagoon, this spot is sweet.`,
     wind: "East and South East",
     websiteName: "Kite Globing",
     websiteAddress: "https://kiteglobing.com/en/center-palmar-beach-belle-mare/"
@@ -534,23 +490,9 @@ can find wind here all year round.`,
     // Image by Kitereisen from Pixabay
     image: "kite5",
     description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `This is the real treat for the wave riders and one of the most respected wave kitesurfing spots on the island. It could be a real 
-      challenge even for the pro kiters due to the fast viciously punchy left handers. One Eye is a legendary bone-crunching wave rolling 
-      just outside the reef protecting the its lagoon. It is one of the world’s fastest & cleanest waves that can deliver the biggest 
-      wipeouts ever. On good days, the wave breaks and forms a perfect tube that goes for hundreds of meters along the reef. One Eye can 
-      give you the best ride of your life, but don’t you dare to under estimate it.
-      There’s a rumour going around about a windsurfer who got his lower leg double fractured. The story says that he was thrown out of 
-      One Eye’s lip onto the flats. He just could’t stand the punch and hard landing and his leg just buckled under the massive pressure.
-       The broken bone went through the deck into the core of his board. With such horror story in mind, you do need to pay a lot of 
-       respect even just looking at the way from far away.
-      While One Eye is definitely the most respected beasts in Le Morne, not many riders realise that the real danger is actually 
-      somewhere else. If you look at some of the drone shots in the photo gallery below, you’ll realise that the entire lagoon flows 
-      towards one massive exit.
-      The waves push the water over the shallow reef to the huge channel. If you happen to get in to trouble at this point, there’s no 
-      other chance than getting rescued. Self rescue or swimming against the current with the outgoing tide is just not an option. The 
-      rescue boat services are available for emergencies in Le Morne, so if you are about to do some shredding, it would be wise to book 
-      it for your session.`,
+      `One Eye, this place can be treacherous, there is nothing but glory or misery to be found here. This place is coveted. 
+      Picture this.... A perfect tube forming from the break that goes for hundreds of metres.... This is that place. 
+      Professionals beware, this place is amazing but dangerous.`,
     wind: "East and South East",
     websiteName: "Pryde Club Mauritius",
     websiteAddress: "https://prydeclub.business.site/"
@@ -564,11 +506,8 @@ can find wind here all year round.`,
     // Image by Steven Bol from Pixabay
     image: "kite6",
     description:
-      // Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/
-      `Ansa la Raie is located just a few miles East from Cap Malhereux. It is a part of the same lagoon, it offers 
-      much better conditions, but beginners, specially those taking kitesurfing lessons, should still stay under a heavy watch of their 
-      instructors. Just like at Cap Malheureux, this kitespot should be avoided by the beginners during low tides as the lagoon 
-      becomes too shallow and the rocks are sticking out of the water. Other than that, it’s a peaceful, uncrowded spot.`,
+      `Anse la Raie is an uncrowded haven for the more advanced kite surfer. Low tide is very
+      shallow and exposes many rocks. Conditions here are better than at Cap Malhereux.`,
     wind: "South East",
     websiteName: "Ion Club Kitesurfing",
     websiteAddress: "https://www.ion-club.net/anse-la-raie/"
@@ -582,36 +521,8 @@ can find wind here all year round.`,
     // Image by Dimitris Vetsikas from Pixabay
     image: "kite2",
     description:
-      // Credit: Thrillophillia -> https://www.thrillophilia.com/water-sports-in-mauritius
-      `One of the best Mauritius water sports, Kite Surfing at Belle Mare will offer you an out of the world experience. Trainers will be 
-    available for you to teach you how to surf the waves with a waterboard. Two hours of training session can also extend if you want to 
-    master the art and it is suitable for everyone even if you are an amateur or a beginner. One of the most stunning water sports 
-    activities in Mauritius, you will have the time of your life making it one of the most memorable vacations.
-
-    <!-- Credit: Kiterr -> https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/ -->
-    If you get bored in Palmar, change the scene and take a downwinder just a few kilometres up North to Belle Mare. Same kinda setup.
-    
-    <!-- Credit: Planet Kitesurf https://www.planetkitesurfholidays.com/countries/mauritius/mus -->
-    Belle Mare Kitesurf Holiday Overview
-On the east coast of Mauritius, 1km south from Belle Mare village, lays the picturesque beach Palmar. Palmar, like Le Morne on the south 
-coast, is world renowned for being an incredibly beautiful beach offering a wide variety of watersports. Both destinations are must see 
-kitesurf, SUP, and surf destinations. The kiting at Belle Mare offers beautifully flat and uncrowded water inside a closed turquoise 
-lagoon with no currents or boat traffic. 
-
-What sets the east coast of Mauritius apart from many other destinations is the variety of organised downwinders. The east coast is the 
-perfect place to go on a downwinder as the combination of flat water and waves to kite on throughout the journey, along with the crystal 
-clear waters will keep you mesmerised.
-
-Planet Kitesurf are absolute specialists for Mauritius kitesurfing holidays. We strongly recommend speaking to one of our Mauritius 
-travel experts today. 
-
-Belle Mare Downwinders
-The east coast is packed with unforgettable downwinder possibilities. You will be treated to kiting over thrilling waves, past temples 
-and old fishing villages and you will see many other beautiful sights along the way.
-
-There are a variety of downwinder options available when visiting Belle Mare (Palmar), all of which are guided by instructors who know 
-every part of the journey. Also, a boat accompanies your group which takes you either there or back and is on hand to help if any 
-problems occur.`,
+      `This uncrowded, well organised beach is great for a variety of watersports, with some of the best organised downwinders 
+      around. This is probably the best place to learn to kite surf. The water is great and is a wonderful place to launch.`,
     wind: "East and South East",
     websiteName: "East Kite School Mauritius",
     websiteAddress: "https://www.facebook.com/eastkite.palmarmauritius.1"
@@ -629,20 +540,10 @@ let map5Markers = [{
     // Photo by Alan Youngblood on Unsplash
     image: "scuba1",
     description:
-      // Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/
-      `One of the most beautiful diving sites in Mauritius is, without a doubt, Holt’s Rock. Here you can dive through volcanic basalt 
-    rocks, blanketed with sea fans and soft corals. The caves and tunnels make for an interesting, exploratory dive where porcupine fish, 
-    titan triggerfish and moray eels dart between the crevices.
-    
-    <!-- Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html -->
-    Holt's Rock contains an enormous number of granite rocks that are surrounded by coral reefs. The coral reefs are home to a variety 
-    of biodiversities like titan triggerfish, wrasses, angelfish, parrotfish, butterflyfish, and yellowmouth edge lyretails and anemones. 
-    Divers can come across schools of snappers, scorpionfish, and also encounter giant morays. These giant morays are at least two 
-    metres long. You can catch a glimpse of the stunning parrotfish here.
-    
-    <!-- Credit: 'Just Diving' -> https://www.justdivingmauritius.com/en/main/product/holt-rock -->
-    Holt Rock has large rock formations with good lighting conditions. With a slight current, it can be a drifting dive. The site has 
-    many gorgonians and big fish. Lobsters and titan ballistae are also common.`,
+      `Holt's Rock is strewn with beautiful soft corals and sea fans carpeting the volcanic basalt rocks. Explore the caves and 
+      tunnels, darting with moray eels and surrounded by titan triggerfish and porcupine fish. With good lighting conditions, 
+      and a slight current, this Multi-Level, 16 to 25 metres, reef dive is perfect for drifting through the vast coral, frequented by
+      Lobsters, titan ballistae and other large fish.`,
     diveType: "Multi-Level, reef",
     depth: "16-25 metres"
   },
@@ -656,37 +557,8 @@ let map5Markers = [{
     // Photo by Vlad Tchompalov on Unsplash
     image: "scuba2",
     description:
-      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
-      `Situated near the wreck site of Djabeda, Coin de Mire provides a gorgeous view for people who want to go scuba diving in 
-      Mauritius. The ocean floor covered with pinkish coral reefs, seabeds and rocks are truly a breathtaking sight for the divers. 
-      Though the site is one of the most popular sites for underwater photography, it is better to stay on the shallower part of the 
-      reef to avoid drifting away due to strong currents. Many species like eagle rays, dog-tooth tunas and turtles can be observed on 
-      the reef.
-
-      <!-- Credit: https://www.bluewaterdivetravel.com/mauritius-diving -->
-      The highlight here is the Djabeda wreck dive, which is completely covered in stunning pink soft coral. Octopus, scorpionfish, 
-      stonefish, lionfish, and many reef fish are common here. Other creatures that can be found here include Barracuda, dolphins, 
-      and stingrays.
-      
-      <!-- Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/ -->
-      A little offshore, about 90 minutes from the mainland, the islands Coin de Mire is perfect for beginner divers 
-      and snorkellers. Some of the best snorkelling in Mauritius is around these turquoise lagoons. You might just be lucky enough to 
-      spot some dolphins and sharks further out in the bay!
-      
-      <!-- Credit: https://www.uwphotographyguide.com/diving-mauritius -->
-      Coin de Mire is a small, peculiar looking island lying 8 km to the north of Mauritius with what many consider to be the best 
-      diving in Mauritius. Dives often feature wall and wreck diving with spectacular visibility (50m/200ft on a great day), as well 
-      as chances to see large pelagics such as marlin. Its unique geology makes for some interesting underwater canyons and crevices 
-      that can be quite fun to swim through.
-      Perhaps the highlight of all dives at Coin de Mire is the Djabeda wreck dive. The wreck is a 144ft/44m long Japanese fishing 
-      vessel sitting perfectly upright at a depth of approximately 100ft/30m. Completely covered in beautiful pink soft coral, the 
-      wreck attracts perhaps the largest concentration of fish life on the north side of the island. Octopus, scorpionfish, stonefish, 
-      lionfish, and many reef fish are common here. Less common are barracuda, dolphins, and sting rays.
-      
-      <!-- Credit: https://www.justdivingmauritius.com/en/main/product/djabeda_1 -->
-      Djabeda is a Japanese fishing boat lying on a sandy bottom at 34 meters, right next to Coin de Mire. Djabeda is about 44m long, 
-      10m high and 5m wide. While the main issue is the wreck itself, the site is alive with soft corals, fish shoals, King Fish, moray 
-      eels, triggerfish, stone fish, scorpion fish, leaves and nudibranchs.`,
+      `Being one the most popular sights for underwater photography, the pinkish corals, being close to the wreck site of the Djabeda, 
+      Coin de Mire, is great to view eagle rays and turtles, but remember to remain in the shallow parts to avoid the strong currents.`,
     diveType: "Wreck, deep",
     depth: "25-35 metres"
   },
@@ -700,21 +572,9 @@ let map5Markers = [{
     // Photo by Gerald Schömbs on Unsplash
     image: "scuba3",
     description:
-      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
-      `If you want to look at a fascinating wreck, Hoi Siong No 6 is the ideal site. Hoi Siong No 6 wreck can be found at a depth of 
-      around 29 metres. It has also created an artificial reef over the years. This site is ideal for divers of all levels, from 
-      beginners to experts. The artificial reef attracts a variety of marine species such as Barracuda, Tuna, Lionfish and Butterflyfish 
-      among others. The dramatic sunken wreck is every underwater photographer's dream.
-      
-      <!-- Credit: https://www.thebrokebackpacker.com/best-diving-in-mauritius-guide/ -->
-      A wreck dive and one way more appropriate for the beginners holidaying in Mauritius. The vessel was actually sunk on purpose to 
-      create an artificial reef and sanctuary for the marine life in the area. Now, honestly, that’s just the coolest thing ever!
-
-      Since it’s Viking burial, the Hoi Siong No. 6 has exploded with colour and is now home to a massive variety of coral and fishies. 
-      Having only sunk in 2003, the wreck remains in fairly good nick and this, coupled with the awesome visibility at Le Morne, just 
-      makes for a brilliant wreck dive. It’s one suitable for beginners too!
-
-      Plus, you’re at Le Morne, and Le Morne is the best.`,
+      `The Hoi Siong No 6 wreck is found at a depth of approximately 29 metres, having been sunk in 2003 to create an artificial reef 
+      this site has exploded with color and life and is the prefect diving experience for beginners. The wreck is between 16-29 
+      metres and the great visibility of Le Morne is a bonus.`,
     depth: "16-29 metres",
     diveType: "wreck"
   },
@@ -728,33 +588,9 @@ let map5Markers = [{
     // Image by Alina Chereches from Pixabay
     image: "scuba4",
     description:
-      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
-      `St. Jacques is one of the most popular sites for scuba diving in Mauritius. The diving trip starts in the lagoon, which is less 
-      than 5 metres deep. The water currents then take the divers away to the coral walls and underwater caves. Rock pinnacles will also 
-      be visible in these waters.
-
-      The maximum depth is about 30 metres where the drift drive ends. In these waters, one can come across eagle rays, stingrays, 
-      turtles, reef sharks and few other large species.  This dive is not suitable for beginners due to strong currents. The best time 
-      for diving here is the period between November and May. Blue gorgonian fans, hard and soft corals, sharks, schools of trevallies, 
-      and Tuna can also be seen.
-      
-      <!-- Credit: https://www.thebrokebackpacker.com/best-diving-in-mauritius-guide/ -->
-      Kind of maybe more the south coast but you can reach Passe St Jacques from Le Morne so it still counts! It’s another choice but 
-      reserved for the advanced divers due to the technicality of the site. Drift-diving means diving using transportation by the 
-      underwater currents and the pull at Passe St Jacques is known for getting pretty strong.
-
-      How’s the reward though? Smashing.
-
-      The underwater life here is superb with a huge variety of ecosystems interacting. It’s not just the pacifists either. This is a 
-      real good spot to see some of Mauritius’s underwater predators as they loiter the current waiting for outgoing prey.
-
-      Eagle rays, barracudas, and even sharks are a real possibility here as well as schools of different fish like trevallies and 
-      tuna. If you’re keen to see the merciless savagery of nature at its finest (as things are devoured before your very eyes), it’s 
-      the best place to go in Mauritius!
-      
-      <!-- Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/ -->
-      Claimed to be one of the best drift dives in Mauritius, Passe St. Jacques is a playground for grey reef sharks, stingrays, turtles 
-      and moray eels. At a depth of between 3 and 30 metres, this dive site is perfect for beginners all the way to advanced divers.`,
+      `Starting from the lagoon at 5m, the drift takes the diver through a myriad of ecosystems, from tranquil sanctuary to the 
+      feeding grounds of eagle rays, and reef sharks. This spectacular dive is for the more advanced diver due to the technical 
+      difficulty of the dive. Easily one of the most rewarding dives Mauritius has to offer.`,
     depth: "5-30 metres",
     diveType: "drift, reef"
   },
@@ -768,42 +604,9 @@ let map5Markers = [{
     // Image by lucatelles from Pixabay
     image: "scuba5",
     description:
-      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
-      `An ideal site for photography enthusiasts, the Cathedral has excellent topography. With grand caverns, caves and arches, 
-      these waters give an incredible sight. To experience the sandy ocean floor, one has to dive to a depth of 30 metres, which 
-      is also the deepest point of the Cathedral. Many different marine species like angelfish, wrasse, clownfish and groupers can 
-      be found in these waters. One has to keep an eye on moray eels and few crustaceans, which often hide in the coral crevices.
-      
-      <!-- https://www.thebrokebackpacker.com/best-diving-in-mauritius-guide/ -->
-      A complex and devastating underwater array, the Cathedral dive site in Mauritius is quite possibly its most world-renowned. 
-      Sudden drop-offs and some majestic boulder formations have created a structure that’s a proverbial playground for the divemasters 
-      and divepadawans alike.
-
-      Starting from 18 m before the very sharp drop to the 30 m floor, the topography of Cathedral is wild! Featuring caves, holes, 
-      chimneys, and cavities, the rocky scene is home to a teeming reef life as well as pods of lobsters scouring the depths for their next 
-      bloodlust-enraged duel.
-
-      If you have the appropriate level of experience, this is a must-visit place below Mauritius. This is some of the best scuba 
-      diving Mauritius has to offer.
-      
-      <!-- Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/ -->
-      Some of the best diving in Mauritius can be experienced off the west coast. Flic en Flac is an excellent 
-      point from where you can enjoy a variation of the most incredible drift, reef and wreck dives. The most famous of these is 
-      Cathedral, perfect for all level divers. This dive site is a photographer’s dream as the warm light filters through its caverns and 
-      arches. At 18-30 metres deep, you can easily spot snappers, groupers, angelfish, surgeonfish, squirrelfish and lobsters.
-      
-      <!-- https://mauritiusnow.com/things-to-do-in-mauritius/ -->
-      The Cathedral is one of the best dive sites in Mauritius. Come under the water with us and let’s take a look… The sheer drop off 
-      fuses with enormous boulders to create an exciting topography of caves and arches, where lobsters scuttle over the rock and reef 
-      fish zig-zag above you. You can dive down to nearly 30 metres in this area and explore the cathedral-like cavern, lit angelically 
-      by the sunlight beaming through the surface of the water. This dive spot is located on the west coast of the island near 
-      Flic-en-Flac and is one of our favourites!
-      
-      <!-- Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius -->
-      Flic en Flac is on the west coast of Mauritius and a favourite of many divers! The dive site called “Cathedral” is located here and 
-      it is considered one of the best dive sites in Mauritius. Indeed, starting at 18 meters on a sandy base and going deeper to 30 
-      meters, the cathedral is a large cavern and cave system. The cavern allows properly guided divers to enter. The area is a 
-      photographers dream with abundant marine life and interesting features.`,
+      `Starting from 15m extending to 30m, the Cathedral is probably the most internationally recognised diving site. This reef and cave 
+      dive is suitable for all experience levels. With ever changing topography, the corals and sea life is extensive. With many fish 
+      darting through the coral and the chance to see a large risk of lobster meandering nearby. This is a must for the naturalist diver.`,
     depth: "15-30 metres",
     diveType: "reef, cave"
   },
@@ -817,29 +620,9 @@ let map5Markers = [{
     // Image by FIRST online from Pixabay
     image: "scuba6",
     description:
-      // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
-      `Grand Bay is one of the top tourist destinations in the country, it is also one of the top diving destinations. There are over a 
-      dozen dive sites in the bay, of which most are perfect for open water divers. Aquarium (Grand Bay) is considered the best dive for 
-      a beginning diver. It is a beautiful coral reef with sand chutes in breaks. The depths of the breaks are two to three meters.
-      
-      <!-- Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html -->
-      With an abundance of fish and coral life, Grand Bay Aquarium contains a large reef that is divided by a sand gully. This created 
-      a gap between the reef with walls as high as 3 metres on the sides. Due to the crystal clear water, you can have a good sight of 
-      a variety of marine life. The sandy white ocean floor is a delight to your eyes as it radiated light into the water.
-
-      The site offers a good view of underwater photography and video. It looks like an oasis which illuminated a medley of Fauna.  
-      One special feature of this site for scuba diving in Mauritius is a giant moray eel, named Henry that is an adorable addition to the 
-      experience!
-      
-      <!-- Credit: 'Just Diving' -> https://www.justdivingmauritius.com/en/main/product/aquarium-grandbay_1 -->
-      The Grand Bay Aquarium consists of rock formations like two big teeth with a sandy path in between. The site is covered with hard 
-      and soft corals. This is a very good site for beginners. As the name shows, it's a real aquarium with a live reef; sergeants 
-      majors, trumpet fish, flying lionfish, the idol of Moors, mullet, moray eels and much more.
-      
-      <!-- Credit: 'Travel Start' -> http://www.travelstart.co.za/blog/best-diving-in-mauritius/ -->
-      Beginners will love swimming through the Aquarium, a colourful rocky reef teeming with clown fish, butterflyfish, stonefish, puffer 
-      fish and wire coral. This is an easy dive reaching a maximum depth of 15 metres and is often used as a training ground for diving 
-      courses.`,
+      `The Aquarium is a square, reef dive up to 15 metres, as the name alludes the visibility is great and perfect for learners and 
+      experienced divers alike. Video and photography opportunities are good. With Sergeants majors, trumpet fish, flying lionfish, 
+      Moorish idols, mullet, moray eels and much more.`,
     diveType: "Square, reef",
     depth: "14 metres"
   },
@@ -853,11 +636,8 @@ let map5Markers = [{
     // Image by lucatelles from Pixabay
     image: "scuba7",
     description:
-      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
-      `Whale Rock dive site takes divers to varying depths, and therefore it is ideal for intermediate to expert divers. Within a 
-      20 metre zone, this dive site offers a variety of Fauna and Flora. Large marine creatures like swordfish and hammerheads are 
-      occasionally seen during the summer.  Triggerfish, butterfly fish, parrotfish and labrets among others can be found in the Whale 
-      Rock dive site.`,
+      `Whale rock provides a reef dive at a depth of 25metres. Suitable for intermediate to experts divers. Great variety of corals and 
+      fish with swordfish and hammerheads spotted during the summer months.`,
     depth: "25 metres",
     diveType: "Reef"
   },
@@ -871,22 +651,8 @@ let map5Markers = [{
     // Photo by Maël BALLAND from Pexels
     image: "scuba8",
     description:
-      // Credit: 'Dive Zone' -> https://divezone.net/diving/mauritius
-      `Trou aux Biches is on the North West coast, just a short distance from Port Lewis. Stella Maru is located here. A Japanese 
-      fishing boat that now sits in 25 meters of water. It is considered one of the best wreck dive in Mauritius.
-      
-      <!-- Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html -->
-      Stella Maru is an old Japanese trawler that sunk into the waters in 1987. This wreck attracted marine wildlife after leading to 
-      it being declared as an artificial reef. The series of reefs are colonised by a variety of aquatic species like butterflyfish, 
-      damsels, bannerfish, lionfish, surgeonfish and many more.
-
-      The dive site is also home to two giant moray eels, one of which lives in the chimneys of the wreck. Octopuses, barracuda, leaf 
-      scorpionfish, shellfish and domino damsels are also found in this site. The speciality of this site, the wreck, has so much for 
-      in store for the visitors. The site will be every underwater photographer's dream.
-      
-      <!-- Credit: 'Just Diving' -> https://www.justdivingmauritius.com/en/main/product/stella-maru -->
-      This Japanese freighter, grounded in 1987 and resting in vertical, is a wreck not to be missed. Over the years, it has been 
-      encrusted and attracts a variety of colorful species, including rays, moray eels, parrotfish and leaf fish`,
+      `The Stella provides a 18-24metre wreck dive. With a giant moray eel living in the chimneys of the wreck and the explosion of colour 
+      as you approach the wreck is astounding. This Japanese wreck, a short distance from port Lewis, is must for the underwater photographer.`,
     diveType: "Wreck",
     depth: "18-24 metres"
   },
@@ -900,16 +666,9 @@ let map5Markers = [{
     // Photo by Richard Segal from Pexels
     image: "scuba9",
     description:
-      // Credit: 'Holidify' -> https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html
-      `Having a northern plateau descending in stages from 13 metres to 20 metres, Caravelle is a fantastic dive site with a large 
-      population of Batfish. With a depth of 30 metres, this dive site is subject to strong ocean currents at times. These water 
-      currents often carry dense shoals of barracuda and trevallies. Many types of angelfish can be found in these waters. Under 
-      the days' rays, young sharks and turtles can also be seen. Divers of all levels can enjoy the Caravelle site, provided that 
-      they are comfortable with strong water currents.
-      
-      <!-- Credit: 'Just Diving' -> https://www.justdivingmauritius.com/en/main/product/caravelle-1#1 -->
-      Caravelle has an interesting topography with large rock formations, offering the possibility of a gentle drift. Schools of bats, 
-      barracuda, snapper, grouper are often seen in Caravelle, with the opportunity to see eagle rays and stingrays.`,
+      `With strong water currents at times, Caravelle, provides a multi-level reef dive in stages 13metres and 20metres, with depths of 
+      up to 30metres. The views are amazing. Young sharks and turtles, stingrays and eagle rays can occasionally be seen during the day. 
+      The large schools of barracuda, snapper, grouper are often seen in Caravelle.`,
     diveType: "Multi-Level, reef",
     depth: "30 metres"
   }
@@ -967,7 +726,7 @@ function surfingMap() {
       //Create infowindow
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 300,
+        maxWidth: 350,
       });
       // Close current info window when another marker is clicked
       if (currentInfoWindow != null) {
