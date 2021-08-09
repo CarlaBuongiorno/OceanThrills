@@ -161,8 +161,9 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - [Flaticon](https://www.flaticon.com/) was used for the home page activity icons for UX purposes (accreditations are in the footer).
 - [Font Awesome](https://www.bootstrapcdn.com/fontawesome/) was used to add icons to the website for UX purposes.
 - [favicon.cc](https://www.favicon.cc/?action=icon&file_id=21660) was used for this websites favicon.
+- [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to add vendor prefixes.
 
-<!-- - [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to add vendor prefixes.
+<!-- 
 - [Coolers](https://coolors.co/0a0a0c-ff536e-d6efcf) for the colour palette image in the README.md. -->
 
 ### Resources
@@ -183,13 +184,21 @@ The images I selected are packed with adventure and beauty. The intention is to 
 <!-- Various tools and validators were used to check that the site works well. Initially a few errors and suggestions resulted after running the URL through these tools and validators, but after correcting and implementing these errors and suggestions, all tests resulted positively. -->
 
 ### HTML Validation
-<!-- The HTML of the website was validated using the [W3C Markup Validation Service](https://validator.w3.org/). ([See result](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/testing/html.png)) -->
+The HTML of the website was validated using the [W3C Markup Validation Service](https://validator.w3.org/).
+
+![result](assets/images/readme-images/testing/htmlValidation.png)
 
 ### CSS Validation
-<!-- The CSS of the website was validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). ([See result](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/testing/css.png)) -->
+The CSS of the website was validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+
+![result](assets/images/readme-images/testing/cssValidation.png)
 
 ### Link Validation
-<!-- The links of the website (except the Facebook link) were validated using the [W3C Link Checker](https://validator.w3.org/checklink). The Facebook link was not checked due to robots exclusion rules, but I validated the link manually. ([See result](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/testing/links.png)) -->
+The links of the website were validated using the [W3C Link Checker](https://validator.w3.org/checklink). The Facebook link was not checked due to robots exclusion rules, but I validated the link manually. 
+
+![result](assets/images/readme-images/testing/linkValidation.png)
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Accessibility
 <!-- The accessibility of the website was evaluated using the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/). ([See result](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/testing/accessibility.png)) -->
