@@ -76,31 +76,58 @@ The images I selected are packed with adventure and beauty. The intention is to 
 
 ### Existing Features
 - The ability to __navigate__ easily through the site:-
- 1. There is a navigation bar at the top of the page at all times.
- 2. The logo __Ocean Thrills__ and _Home_ links will always bring the user back to the __Home__ page.
- 3. The logo in the footer also brings the user back _Home_ from any page.
- 4. Each activity can be accessed either by the _Activities_ dropdown menu on the navigation bar, or by scrolling down the _Home_ page and clicking on the activity of choice.
- 6. The _Contact_ button is also on the navigation bar and takes the user straight to the __Contact__ page.
+    - There is a navigation bar at the top of the page at all times.
+        ![navbar](assets/images/readme-images/features/navbar.png)
+
+    - The logo __Ocean Thrills__ and _Home_ links will always bring the user back to the __Home__ page.
+    - The logo in the footer also brings the user back _Home_ from any page.
+
+        ![logo](assets/images/readme-images/features/logo.png)
+
+    - Each activity can be accessed either by the _Activities_ dropdown menu on the navigation bar,
+
+        ![activities dropdown](assets/images/readme-images/features/activitiesDropdown.png) 
+    
+        or by scrolling down the _Home_ page and clicking on the activity of choice.
+
+    The activities include:-
+    1. Surfing
+    2. Snorkeling
+    3. Swim With Dolphins
+    4. Kite Surfing
+    5. Scuba Diving
+
+        ![home activitiy buttons](assets/images/readme-images/features/homeActivityButtons.png)
+
+    - The _Contact_ button is also on the navigation bar and takes the user straight to the __Contact__ page.
+
+        ![contact button](assets/images/readme-images/features/contact.png)
 
 - A footer with a _copyright_, _social media links_, as well as the __Ocean Thrills__ logo.
 
-- A __Contact__ page where users can enter their name, email address, a message (if they would like to), as well as a _checkbox_ giving them the option to receive discounted offers on the Activities listed in the website.
+    ![footer](assets/images/readme-images/features/footer.png)
 
-- Responsive images sized for different screen views.
+- A __Contact__ page where users can enter their name, email address, a message, as well as a _checkbox_ giving them the option to receive discounted offers on the Activities listed in the website.
 
-- The activities include:-
- 1. Surfing
- 2. Snorkeling
- 3. Swim With Dolphins
- 4. Kite Surfing
- 5. Scuba Diving
+    ![contact page](assets/images/readme-images/features/contactForm.png)
 
 - Each activity features:-
- 1. An _image_.
- 2. A _description_ of the activity.
- 3. A __Google Map__ of Mauritius with _markers_ to show where the best locations are in order to experience the activity.
- 4. An _information_ window for each _marker_ that opens on the map.
- 5. A _side panel_ with extra information corresponding to each _marker_ (only on large screens).
+
+    - A __button group__ with icons relating to each activity in order to navigate directly to another activity page.
+
+        ![button group](assets/images/readme-images/features/buttonGroup.png)
+
+    - An __image__ and __description__ of each activity (Image is not displayed on large screen sizes).
+    
+        ![activity images and descriptions](assets/images/readme-images/features/activityImageAndDescription.png)
+
+    - A __Google Map__ of Mauritius with __markers__ to show where the best locations are in order to experience the activity.
+
+        ![maps with markers](assets/images/readme-images/features/maps.png)
+
+    - The __markers__ also feature an __information window__ that display an image and some information about that location. 
+
+        ![information windows](assets/images/readme-images/features/infowindows.png)
 
 <!-- - On medium screen devices and larger, the __current weather__ for Mauritius is displayed in the middle of the navigation bar at all times .
 - On small screen divices, the __current weather__ for Mauritius is displayed next to the title of each activity page. -->
@@ -187,7 +214,7 @@ The navigation bar is easy to understand and always there for ease of navigation
 
 2. As a site visitor, I wish to view and interact with the site on all my devices.
 
-Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used for testing of site responsiveness. The site works as expected. Friends and family tested the website on their phones, tablets and computer screens. Feedback was all positive.
+[Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used for testing of site responsiveness. The site works as expected. Friends and family tested the website on their phones, tablets and computer screens. Feedback was all positive.
 
 
 3. As a site visitor, I wish to discover what sea and underwater activities I can take part in in Mauritius.
@@ -260,12 +287,41 @@ To run the code locally:
 ## 9. Credits
 
 ### Content
+- #### Surfing
+    - [Travel Start](http://www.travelstart.co.za/blog/mauritius-surf/)
+    - [Kenwood Travel](https://kenwoodtravel.co.uk/blog/guide-surfing-mauritius/)
+    - [Holidify](https://www.holidify.com/pages/surfing-in-mauritius-3187.html)
+    - [Sun Resorts](https://www.sunresortshotels.com/en/newsroom/best-surf-spots-mauritius)
+- #### Snorkeling
+    - [Travel Start](http://www.travelstart.co.za/blog/the-best-spots-for-snorkelling-in-mauritius/)
+    - [Travel Triangle](https://traveltriangle.com/blog/mauritius-snorkeling/)
+    - [Snorkeling Report](https://www.snorkeling-report.com/destination/snorkeling-mauritius/)
 
-<!-- - The __Fun Facts__ section was found on the [Shari's Berries Blog](https://www.berries.com/blog/45-amazing-facts-dessert).
+- #### Dolphins
+    - [Dolswim Ltd](http://www.dolswim.com/index.php/en/dolphins-encounter-mauritius/)
+    - [JPH Charters](https://jph.mu/dolphin-cruises/)
+    - [Mauritius Decorder Immobilier](https://www.decordier-immobilier.mu/en/swimming-with-dolphins/)
+    - [Prestige Holidays Mauritius](http://phmauritius.com/activity/dolphin-watching-swimming/)
+    - [Vitamin Sea Ltd](https://www.vitaminsealtd.com/swimming-with-dolphins)
+    - [Karlos Excursions](https://karlosexcursions.com/trip/private-morning-dolphins-experiences/)
+    - [Dream Dolphin](https://dream-dolphin.com/)
+    - [Dadou Excursion](https://www.dadouexcursion.com/index.php/excursions/)
 
-- The desser quote was taken from [Life Begins With Dessert](https://www.lifebeginswithdessert.com/best-dessert-quotes/).
+- #### Kite Surfing
+    - [Kiterr](https://kiterr.com/kitespots/africa/best-kitesurfing-spots-mauritius/)
+    - [Wake Up Stoked](https://wakeupstoked.com/kitesurf-mauritius/)
+    - [Bucketlist Mauritius](https://www.unhooked.nl/reizen/bucketlist-mauritius-de-perfecte-kitesurfbestemming/)
+    - [Planet Kitesurf](https://www.planetkitesurfholidays.com/countries/mauritius/mus)
+    - [Scott Dunn](https://www.scottdunn.com/blog/kitesurfing-in-mauritius)
 
-- All other text was written by myself (Carla Buongiorno). -->
+- #### Scuba Diving
+    - [Travel Start](http://www.travelstart.co.za/blog/best-diving-in-mauritius/)
+    - [Holidify](https://www.holidify.com/pages/scuba-diving-in-mauritius-783.html)
+    - [Just Diving](https://www.justdivingmauritius.com/en/main/product/holt-rock)
+    - [Dive Zone](https://divezone.net/diving/mauritius)
+    - [Blue Water Travel](https://www.bluewaterdivetravel.com/mauritius-diving)
+    - [Underwater Photography Guide](https://www.uwphotographyguide.com/diving-mauritius)
+    - [The Broke Backpacker](https://www.thebrokebackpacker.com/best-diving-in-mauritius-guide/)
 
 ### Media
 The photos used in this site were obtained from [Pexels](https://www.pexels.com/search/ice%20cream/?orientation=portrait), [Unsplash](https://unsplash.com/), and [Pixabay](https://pixabay.com/). All three of these sites are completely copyright-free. Below are all the photographers whose work are featured in this website:
@@ -327,7 +383,7 @@ The photos used in this site were obtained from [Pexels](https://www.pexels.com/
     - [John Gibson](https://pixabay.com/photos/dolphins-swimming-water-ocean-sea-327051/)
     - [Bernd Hildebrandt](https://pixabay.com/photos/dolphins-orthodontist-marine-mammals-2137659/)
 
-#### Flaticon
+### Icons
 The icons used in this site were obtained from [Flaticon](https://www.flaticon.com/), of which are owned by the company and authorised usage must be in accordance with their [Terms](https://www.freepikcompany.com/legal#nav-flaticon).
 
 - [monkik](https://www.flaticon.com/free-icon/surfing_2503547?term=surfing&related_id=2503547)
@@ -336,7 +392,6 @@ The icons used in this site were obtained from [Flaticon](https://www.flaticon.c
 - [Freepik](https://www.flaticon.com/free-icon/dolphin_3069269?term=dolphin&page=1&position=82&page=1&position=82&related_id=3069269&origin=search)
 
 ### Code
-
 - [Code Institute](https://codeinstitute.net/) was the main source of information used to create this project.
 - [Code Institute 'Slack' Community](https://slack.com/intl/en-no/) for their general assistance and feedback.
 - [Bootstrap](https://getbootstrap.com/docs/4.6/layout/grid/) for creating a responsive site.

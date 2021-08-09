@@ -726,7 +726,7 @@ function surfingMap() {
       //Create infowindow
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 350,
+        maxWidth: 400,
       });
       // Close current info window when another marker is clicked
       if (currentInfoWindow != null) {
@@ -793,7 +793,7 @@ function snorkelingMap() {
       // Create infowindow
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 300,
+        maxWidth: 400,
       });
       // Close current info window when another marker is clicked
       if (currentInfoWindow != null) {
@@ -852,7 +852,7 @@ function dolphinMap() {
       // Create infowindow
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 300,
+        maxWidth: 400,
       });
       // Close current info window when another marker is clicked
       if (currentInfoWindow != null) {
@@ -912,7 +912,7 @@ function kiteMap() {
       // Create infowindow
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 300,
+        maxWidth: 400,
       });
       // Close current info window when another marker is clicked
       if (currentInfoWindow != null) {
@@ -972,7 +972,7 @@ function scubaMap() {
       // Create infowindow
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
-        maxWidth: 300,
+        maxWidth: 400,
       });
       // close current info window when another marker is clicked
       if (currentInfoWindow != null) {
