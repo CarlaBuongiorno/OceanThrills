@@ -3,7 +3,7 @@
 
 [View the live site here](https://carlabuongiorno.github.io/OceanThrills/)
 
-Ocean Thrills is an interactive website incorporating various technological elements to offer users a tool to discover and explore different water activities in Mauritius. It offers a _google map_ for each of the activities with _markers_ pinned at the various locations that are best to enjoy that particular activity. Each marker can be _clicked_ and _information_ about that location with regards to the relevant activity is then displayed in a _window_ above the clicked marker on the map, as well as in a _side panel_ on larger screens.
+Ocean Thrills is an interactive website incorporating various technological elements to offer users a tool to discover and explore different water activities in Mauritius. It offers a _Google Map_ for each of the activities with _markers_ pinned at the various locations that are best to enjoy that particular activity. Each marker can be _clicked_ and _information_ about that location with regards to the relevant activity is then displayed in a _window_ above the clicked marker on the map.
 
 ![Responsive mockup of the website](assets/images/readme-images/responsive/amiresponsive.png)
 
@@ -15,7 +15,7 @@ The target demographic are users who are holiday makers in Mauritius, as well as
 
 Visitors to this website are searching for things to do on the island of Mauritius, in particular, water and undersea activities. They wish to locate these activities on a Google Map, and find some of the best locations to enjoy them. Visitors wish to learn more about the locations that the activities are situated, in respect of that activity. They wish to do this easily in an interactive, exciting and thrilling manner, anticipating the adventures to come.
 
-#### Ocean Thrills Goals
+#### Project Goals
 
 Ocean Thrills is the best way to help users achieve their goals because it is easy to navigate, whether by mobile, tablet, or desktop. The navigation bar is always in the viewport no matter where in the site the user has navigated to.
 
@@ -34,18 +34,23 @@ In return for this investment, the site owner would make use of this website, ha
 4. As a site visitor, I wish to know more about these activities in Mauritius.
 5. As a site visitor, I wish to find the best locations within Mauritius in order to take part in these water activities.
 6. As a site visitor, I wish to know more about these locations, either through images, posiible linked external websites, or just general informaition.
-<!-- 7. As a site visitor, I wish to know the current weather report in Mauritius so that I can judge if the weather is suitable to take part in such activities. -->
-8. As a site visitor, I wish to have visible access to social media, so I can follow and be a part of the community.
-9. As a site visitor, I wish to be able to get in touch with the site owner and possibly receive discounted offers on the activities.
+7. As a site visitor, I wish to have visible access to social media, so I can follow and be a part of the community.
+8. As a site visitor, I wish to be able to get in touch with the site owner and possibly receive discounted offers on the activities.
 
 ##### Website Owner
 
-1. As the site owner, I wish to be a user of the site when I visit Mauritius.
+1. As a site owner, this website is aimed at providing mauritians and holiday makers with useful information about where they can go to take part in five of of the many sea and underwater activities available in Mauritius.
+2. As the site owner, I wish to be a user of the site when I visit Mauritius.
 
 ### Wireframes
 
 - [Wireframes:](assets/images/readme-images/wireframes/desktop-tablet.png) Desktop and tablet version.
 - [Wireframes:](assets/images/readme-images/wireframes/small-screen.png) Small screen version. 
+
+### Wireframe and Final Project Differences
+
+- It was decided that the __current weather__ would remain a future feature of the site. This allowed increased focus on the functionality of the site overall.
+- It was decided that the __side panel__ would be left out of the project completely. The __information window__ of each marker has ample information and having the __side panel__ could create cognitive overload in the user.
 
 ### Design Choices
 
@@ -288,6 +293,7 @@ To run the code locally:
 
 ### Content
 - #### Surfing
+    - [Wanna Surf](https://www.wannasurf.com/spot/Africa/Mauritius/)
     - [Travel Start](http://www.travelstart.co.za/blog/mauritius-surf/)
     - [Kenwood Travel](https://kenwoodtravel.co.uk/blog/guide-surfing-mauritius/)
     - [Holidify](https://www.holidify.com/pages/surfing-in-mauritius-3187.html)

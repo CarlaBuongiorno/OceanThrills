@@ -1,5 +1,4 @@
 // surfing markers
-// Credit: Wave info - 'Wanna Surf' -> https://www.wannasurf.com/spot/Africa/Mauritius/
 let map1Markers = [{
     title: "Le Morne",
     markers: {
@@ -159,7 +158,6 @@ let map2Markers = [{
     image: "snorkel1",
     description: `Pointe aux Piments is on the north-west coast of Mauritius. There are great spots for a short swim from the beach calm. 
       Expect an abundance of coral and fish, even eels, and if you swim a little further you may be lucky and see the hawksbill turtle.`,
-    // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/spot/snorkeling-recif-attitude-mauritius/
     marineLife: `Galaxea, Pocillopora, peacock flounders, lizardfish, honeycomb groupers, false stonefish,
     surge wrasse, teardrop butterflyfish, whitespotted boxfish, Moorish idols, sea turtles, Flutemouth, Longnose Filefish`,
     experience: "Beginner",
@@ -179,7 +177,6 @@ let map2Markers = [{
       `Probably the most popular spot for snorkeling in Mauritius. This protected marine park offers clear waters 
       5-6 metres deep, more than 50 coral species, and a surprisingly large variety of fish. Great for beginners 
       and amazing sea life. From clown fish, to turtles, you can see why it is so popular.`,
-    // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/spot/snorkeling-blue-bay-mauritius/
     marineLife: `Mushroom corals, soft coral, surgeonfish, Parrotfish, Moorish idols, sergeant majors, Mauritian clownfish,
     hawksbill sea turtles, Damselfish, mangroves`,
     experience: "Intermediate",
@@ -199,7 +196,6 @@ let map2Markers = [{
       `In the North Pereybere Beach, there are great beaches, restaurants and amazing snorkeling spots. Easily accessed 
       from a public beach and a short swim; but its worth getting a boat to take you further in. This place always amazes, 
       with green and hawksbill turtles often spotted between the colourful coral.`,
-    // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/spot/snorkeling-pereybere/
     marineLife: `Surgeonfish, butterflyfish, wrasses, sea turtles (both green and hawksbill), Mauritius clownfish, barracuda, 
     groupers, emperors, snappers, triggerfish, damsels, wrasses, boxfish`,
     experience: "Beginner",
@@ -218,7 +214,6 @@ let map2Markers = [{
     description:
       `This amazing beach offers one of the most diverse varieties of sea life in the west side of Mauritius. 
       It is a snorkelers dream. Abundance ranging from parrotfish and moray eels to dolphins. A trip to Flic en Flac is worth it.`,
-    // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/spot/snorkeling-flic-en-flac/
     marineLife: `Racoon butterflyfish, vagabond butterflyfish, threadfin butterflyfish, moray eels, filefish, small groupers, 
     coral clumps, whitetail dascyllus, moorish idols, green chromis, wrasse, goatfish, small honeycomb groupers, rabbitfish, 
     small moray eels, lionfish, burrowing sea urchins`,
@@ -228,7 +223,7 @@ let map2Markers = [{
     potentialDanger: "Boats - Divers-down buoy recommended outside the designated swimming areas"
   },
   {
-    title: "Trou aux Biches", // lion fish, moray eels, trumpet fish, white-spotted boxfish
+    title: "Trou aux Biches",
     markers: {
       lat: -20.034875,
       lng: 57.544449
@@ -238,7 +233,6 @@ let map2Markers = [{
     description:
       `Easily accessible, the turquoise clear waters and white sand beach lined with palm trees frame this snorkeling picturesque 
       beauty. See ion fish, moray eels, trumpet fish, white-spotted boxfish and hawksbill turtles are often seen deeper in at the passes.`,
-    // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/spot/snorkeling-trou-aux-biches/
     marineLife: `tropical fish, sea turtles, butterflyfish, fine branch coral, finger coral, giant clams, red pencil 
     urchins, conches, moorish idols, convict tangs, whitetail dascyllus, filefish, pufferfish, triggerfish, Damselfish, colourful starfish`,
     experience: "Intermediate",
@@ -257,7 +251,6 @@ let map2Markers = [{
     description:
       `Blacktip groupers, blue stripe snappers, and sunbream are often seen between the brilliant coral in the crystal clear waters 
       of Ile aux Cerfs. With much more to do here than snorkel, this is a great spot for the family and amazing for snorkeling.`,
-    // Credit: 'Snorkeling Report' -> https://www.snorkeling-report.com/fr/spot/snorkeling-trou-eau-douce-ile-maurice/
     marineLife: `parrotfish, damselfish, butterflyfish, surgeonfish, colorful giant clams, Blacktip grouper, Bluestripe snapper, 
     bright corals, angel fish`,
     experience: "Intermediate",

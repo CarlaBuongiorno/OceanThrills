@@ -1,3 +1,4 @@
+// Saved click information from home page & contact page
 const clicked = sessionStorage.getItem("autosave");
 
 // ids from activities sections
@@ -30,7 +31,7 @@ switch (choice) {
     console.log("Oops, this section does not exist.");
 }
 
-// Activity page clicks
+// Activity page clicks from button groups
 document.querySelectorAll('.surf').forEach(item => {
   item.addEventListener('click', (_a, _b, _c, _d) => {
     displaySurf();
@@ -61,8 +62,8 @@ document.querySelectorAll('.scuba').forEach(item => {
   });
 });
 
-// Functions
 // Credit: W3Schools - CSS display Property -> https://www.w3schools.com/cssref/pr_class_display.asp
+// Display surfing section while hiding all other sections
 function displaySurf() {
   surfSection.style.display = "block"; //show
   snorkSection.style.display = "none"; //hide
@@ -70,7 +71,7 @@ function displaySurf() {
   kiteSection.style.display = "none";
   scubaSection.style.display = "none";
 }
-
+// Display snorkeling section while hiding all other sections
 function displaySnork() {
   surfSection.style.display = "none";
   snorkSection.style.display = "block";
@@ -78,7 +79,7 @@ function displaySnork() {
   kiteSection.style.display = "none";
   scubaSection.style.display = "none";
 }
-
+// Display dolphins section while hiding all other sections
 function displayDol() {
   surfSection.style.display = "none";
   snorkSection.style.display = "none";
@@ -86,7 +87,7 @@ function displayDol() {
   kiteSection.style.display = "none";
   scubaSection.style.display = "none";
 }
-
+// Display kite surfing section while hiding all other sections
 function displayKite() {
   surfSection.style.display = "none";
   snorkSection.style.display = "none";
@@ -94,7 +95,7 @@ function displayKite() {
   kiteSection.style.display = "block";
   scubaSection.style.display = "none";
 }
-
+// Display scuba diving section while hiding all other sections
 function displayScuba() {
   surfSection.style.display = "none";
   snorkSection.style.display = "none";
