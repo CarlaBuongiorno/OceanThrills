@@ -501,6 +501,10 @@ section#home-activities a {
 }
 
 /* ----------------------------------Contact Page---------------------------------- */
+h1#get-in-touch {
+  font-size: 36px;
+}
+
 form p {
   margin-bottom: 10px;
 }
