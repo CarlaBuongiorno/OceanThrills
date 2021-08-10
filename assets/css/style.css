@@ -27,7 +27,7 @@ nav.navbar {
 }
 
 nav.activity-page-nav {
-  background-color: #31bee9;
+  background-color: #0C7DA7;
 }
 
 button.navbar-toggler {
@@ -41,21 +41,21 @@ button.navbar-toggler {
 }
 
 .dropdown-menu {
-  background-color: #31bee9;
+  background-color: #0C7DA7;
 }
 
 .dropdown-item:focus,
 .dropdown-item:hover {
-  background-color: #6fddff;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .contact-btn {
-  background-color: #31bee9;
+  background-color: #0C7DA7;
   border-color: #fff;
 }
 
 .contact-btn:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .nav-link:hover {
@@ -80,7 +80,7 @@ button.navbar-toggler {
 
 /* ----------------------------------Footer---------------------------------- */
 footer {
-  background-color: #31bee9;
+  background-color: #0C7DA7;
 }
 
 footer .navbar-brand {
@@ -141,7 +141,7 @@ footer.footer-activites-page {
 }
 
 .icon-attributions button {
-  background-color: #31bee9;
+  background-color: #0C7DA7;
   border-color: #fff;
   font-size: 10px;
   margin-top: 10px;
@@ -185,7 +185,7 @@ footer.footer-activites-page {
           align-items: center;
   background-attachment: fixed;
   background-position: center;
-  background-color: #6fddff;
+  background-color: #0C7DA7;
 }
 
 /* Medium screen and up */
@@ -252,7 +252,7 @@ p.hero-text {
 
 /* ----------------------------------Introduction---------------------------------- */
 #intro {
-  background-color: #31bee9;
+  background-color: #0C7DA7;
 }
 
 .cta-heading {
@@ -283,7 +283,7 @@ p.hero-text {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  background-color: #6fddff;
+  background-color: #0C7DA7;
 }
 
 /* Image by Pexels from Pixabay */
@@ -319,7 +319,7 @@ p.hero-text {
 }
 
 .home-activity-btn {
-  background-color: #31bee9;
+  background-color: #0C7DA7;
   border-color: #fff;
   font-size: 28px;
   margin: 0 auto;
@@ -353,21 +353,21 @@ section#home-activities a {
 }
 
 .btn-light {
-  background-color: #6fddff;
-  border-color: #fff;
+  background-color: #FFF;
+  border-color: #0C7DA7;
   margin-top: 50px;
 }
 
 .btn-light:hover {
-  background-color: #31bee9;
-  border-color: #fff;
+  background-color: #0C7DA7;
+  border-color: #0C7DA7;
 }
 
 .btn-light:not(:disabled):not(.disabled).active,
 .btn-light:not(:disabled):not(.disabled):active,
 .show>.btn-light.dropdown-toggle {
-  background-color: #31bee9;
-  border-color: #fff;
+  background-color: #0C7DA7;
+  border-color: #0C7DA7;
 }
 
 .activity-buttons .activity-icons {
@@ -393,7 +393,7 @@ section#home-activities a {
 
 /* ----------------------------------Activity Images---------------------------------- */
 .activity-image {
-  background-color: #6fddff;
+  background-color: #0C7DA7;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -443,7 +443,7 @@ section#home-activities a {
 #dolphin-map,
 #kite-surfing-map,
 #scuba-diving-map {
-  background-color: #6fddff;
+  background-color: #0C7DA7;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

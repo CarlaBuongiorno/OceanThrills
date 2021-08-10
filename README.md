@@ -194,11 +194,9 @@ The CSS of the website was validated using the [W3C CSS Validation Service](http
 ![result](assets/images/readme-images/testing/cssValidation.png)
 
 ### Link Validation
-The links of the website were validated using the [W3C Link Checker](https://validator.w3.org/checklink). The Facebook link was not checked due to robots exclusion rules, but I validated the link manually. 
+The links of the website were validated using the [W3C Link Checker](https://validator.w3.org/checklink). The Facebook and Twitter links were not checked due to robots exclusion rules, but I validated the link manually and they work as expected. 
 
 ![result](assets/images/readme-images/testing/linkValidation.png)
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Accessibility
 <!-- The accessibility of the website was evaluated using the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/). ([See result](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/testing/accessibility.png)) -->
