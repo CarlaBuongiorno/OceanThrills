@@ -3,7 +3,7 @@
 
 [View the live site here](https://carlabuongiorno.github.io/OceanThrills/)
 
-Ocean Thrills is an interactive website incorporating various technological elements to offer users a tool to discover and explore different water activities in Mauritius. It offers a _Google Map_ for each of the activities with _markers_ pinned at the various locations that are best to enjoy that particular activity. Each marker can be _clicked_ and _information_ about that location with regards to the relevant activity is then displayed in a _window_ above the clicked marker on the map.
+Ocean Thrills is an interactive website incorporating various technological elements to offer users a tool to discover and explore different water activities in Mauritius. It offers a _Google Map_ for each of the activities with _markers_ pinned at the various locations that are best to enjoy that particular activity. Each marker can be _clicked_ and _information_ about that location with regard to the relevant activity is then displayed in a _window_ above the clicked marker on the map.
 
 ![Responsive mockup of the website](assets/images/readme-images/responsive/amiresponsive.png)
 
@@ -28,18 +28,18 @@ In return for this investment, the site owner would make use of this website, ha
 #### User Stories
 
 ##### Website Visitor
-1. As a site visitor, I wish to navigate through the site easily so I can quickly find what I am looking for.
+1. As a site visitor, I wish to navigate through the site easily, so I can quickly find what I am looking for.
 2. As a site visitor, I wish to view and interact with the site on all my devices.
 3. As a site visitor, I wish to discover what sea and underwater activities I can take part in in Mauritius.
 4. As a site visitor, I wish to know more about these activities in Mauritius.
 5. As a site visitor, I wish to find the best locations within Mauritius in order to take part in these water activities.
-6. As a site visitor, I wish to know more about these locations, either through images, posiible linked external websites, or just general informaition.
+6. As a site visitor, I wish to know more about these locations, either through images, possible linked external websites, or just general information.
 7. As a site visitor, I wish to have visible access to social media, so I can follow and be a part of the community.
 8. As a site visitor, I wish to be able to get in touch with the site owner and possibly receive discounted offers on the activities.
 
 ##### Website Owner
 
-1. As a site owner, this website is aimed at providing mauritians and holiday makers with useful information about where they can go to take part in five of of the many sea and underwater activities available in Mauritius.
+1. As a site owner, this website is aimed at providing Mauritians and holiday makers with useful information about where they can go to take part in five of the many sea and underwater activities available in Mauritius.
 2. As the site owner, I wish to be a user of the site when I visit Mauritius.
 
 ### Wireframes
@@ -102,7 +102,7 @@ The images I selected are packed with adventure and beauty. The intention is to 
     4. Kite Surfing
     5. Scuba Diving
 
-        ![home activitiy buttons](assets/images/readme-images/features/homeActivityButtons.png)
+        ![home activity buttons](assets/images/readme-images/features/homeActivityButtons.png)
 
     - The _Contact_ button is also on the navigation bar and takes the user straight to the __Contact__ page.
 
@@ -112,7 +112,7 @@ The images I selected are packed with adventure and beauty. The intention is to 
 
     ![footer](assets/images/readme-images/features/footer.png)
 
-- A __Contact__ page where users can enter their name, email address, a message, as well as a _checkbox_ giving them the option to receive discounted offers on the Activities listed in the website.
+- A __Contact__ page where users can enter their name, email address, a message, as well as a _checkbox_ giving them the option to receive discounted offers on the Activities listed on the website.
 
     ![contact page](assets/images/readme-images/features/contactForm.png)
 
@@ -135,7 +135,7 @@ The images I selected are packed with adventure and beauty. The intention is to 
         ![information windows](assets/images/readme-images/features/infowindows.png)
 
 <!-- - On medium screen devices and larger, the __current weather__ for Mauritius is displayed in the middle of the navigation bar at all times .
-- On small screen divices, the __current weather__ for Mauritius is displayed next to the title of each activity page. -->
+- On small screen devices, the __current weather__ for Mauritius is displayed next to the title of each activity page. -->
 
 ### Features Left to Implement
 - A 404 page to help the user navigate back home.
@@ -194,7 +194,7 @@ The CSS of the website was validated using the [W3C CSS Validation Service](http
 ![result](assets/images/readme-images/testing/cssValidation.png)
 
 ### Link Validation
-The links of the website were validated using the [W3C Link Checker](https://validator.w3.org/checklink). The Facebook and Twitter links were not checked due to robots exclusion rules, but I validated the link manually and they work as expected. 
+The links of the website were validated using the [W3C Link Checker](https://validator.w3.org/checklink). The Facebook and Twitter links were not checked due to robots exclusion rules, but I validated the link manually, and they work as expected. 
 
 ![result](assets/images/readme-images/testing/linkValidation.png)
 
@@ -205,17 +205,18 @@ The accessibility of the website was evaluated using the [WAVE Web Accessibility
 The JavaScript of the website was validated using [JSHint](https://jshint.com/).
 
 ### Performance
-<!-- The overall performance of the website was evaluated using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/run) ([See result](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/testing/lighthouse.png)), as well as [Web Page Test](https://www.webpagetest.org/). ([See result](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/testing/webpagetest.png)) -->
+The overall performance of the website was evaluated using:-
+- [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/run)
+- [Web Page Test](https://www.webpagetest.org/)
 
 ### Spelling and Grammer
-<!-- The README.md file was run through [Online Spellcheck](https://www.online-spellcheck.com/) for any spelling and grammer mistakes. -->
+The README.md file was run through [Online Spellcheck](https://www.online-spellcheck.com/) for any spelling and grammer mistakes.
 
 ### Other Testing
-<!-- - The Subscription form will not submit until name and email fields are filled out. If a user tries to submit without these fields filled, an alert will apper.
+- The Subscription form will not submit until name, email and message fields are filled out. If a user tries to submit without these fields filled, an alert will apper.
 - If the email field is filled incorrectly, an error of 'Please include an @ in the email address' is presented to the user.
 - Tested all links within the site take the user to the appropriate pages.
-- If an incorrect URL is attempted the user is redirected to a 404 page which will direct them back to the home page.
-- Website is responsive on  mobile, tablet and large screens. -->
+- Website is responsive on  mobile, tablet and large screens.
 
 ### Testing User Stories
 1. As a site visitor, I wish to navigate through the site easily so I can quickly find what I am looking for.
@@ -229,35 +230,14 @@ The navigation bar is easy to understand and always there for ease of navigation
 
 [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used for testing of site responsiveness. The site works as expected. Friends and family tested the website on their phones, tablets and computer screens. Feedback was all positive.
 
-
 3. As a site visitor, I wish to discover what sea and underwater activities I can take part in in Mauritius.
 
 
 4. As a site visitor, I wish to know more about these activities in Mauritius.
 5. As a site visitor, I wish to find the best locations within Mauritius in order to take part in these water activities.
-6. As a site visitor, I wish to know more about these locations, either through images, posiible linked external websites, or just general informaition.
-<!-- 7. As a site visitor, I wish to know the current weather report in Mauritius so that I can judge if the weather is suitable to take part in such activities. -->
-8. As a site visitor, I wish to have visible access to social media, so I can follow and be a part of the community.
-9. As a site visitor, I wish to be able to get in touch with the site owner and possibly receive discounted offers on the activities.
-
-
-
-<!-- 3. As a site visitor, I wish to feel inspired by what I see and find on this site.
-
-Carefully chosen fonts, colours, images and text; as well as the recipes and video tutorial, all work together in a way that leaves the user feeling inspired.
-
-4. As a site visitor, I wish to be able to subscribe to a newsletter in order to have access the latest recipes.
-
-![Subscribe form](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/user-stories/subscribe.png)
-
-The website features a 'Subscribe' form. Users can either scroll to this from, or click on the 'Subscribe' button in the navigation menu at the top of the page.
-
-5. As a site visitor, I wish to have visible access to social media, so I can follow and be a part of the community.
-
-![Navigation bar on small screen](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/user-stories/social.png)
-
-Checked the site footer displays social media icons, clicking on an icon takes the user to that social media page in a new window.
- -->
+6. As a site visitor, I wish to know more about these locations, either through images, possible linked external websites, or just general information.
+7. As a site visitor, I wish to have visible access to social media, so I can follow and be a part of the community.
+8. As a site visitor, I wish to be able to get in touch with the site owner and possibly receive discounted offers on the activities.
 
 ## 6. Project barriers and solutions
 
@@ -265,11 +245,9 @@ Checked the site footer displays social media icons, clicking on an icon takes t
 
 - Had trouble forming a function to show one activity and hide the other activities. Through the help of Slack, this was overcome by using the CSS display: 'block' and display: 'none' properties.
 
-- In order to get the above function to listen to the 'click' events, much research and assitance was necessary. Code Institute's Tutor support helped with this tremendously. 
+- In order to get the above function to listen to the 'click' events, much research and assistance was necessary. Code Institute's Tutor support helped with this tremendously. 
 
 - Markers seemed not to be displaying on all five maps. In reality the markers were displaying in Greenland instead of where was expected. The problem was that the latitude and longitude numbers were reversed. 
-
-<!-- - The footer on the _Activities_ page for medium screen and larger did not sit at the bottom of the page as expected. To fix this the footer for only the _Activities_ page was given the position: 'absolute' and 'bottom' was set to '0'. Credit to [Coding Journey](https://www.youtube.com/watch?v=US_3XvufMLU). -->
 
 ## 7. Version Control
 - Git was used for version control.
@@ -281,7 +259,7 @@ This website was deployed to Github Pages as follows:
 1. Sign in to GitHub.
 2. Locate the Repositories list and select __CarlaBuongiorno/OceanThrills__.
 3. Click on __Settings__ at the top right of the page.
-4. Click __Pages__ in the left side menu.
+4. Click __Pages__ on the left side menu.
 5. Under the __Source__ heading, select the __Master__ Branch in the dropdown menu.
 6. Click __Save__. The page refreshes and the website is deployed.
 7. A URL link is provided for the live deployed website.
@@ -421,10 +399,9 @@ The icons used in this site were obtained from [Flaticon](https://www.flaticon.c
 - [W3Schools](https://www.w3schools.com/cssref/pr_class_display.asp) for using the CSS display property on the activity sections.
 - [Code Intitute - "Sending Emails Using EmailJS"](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/?child=last) for implementing EmailJS API.
 - [Email.JS Documentation](https://www.emailjs.com/docs/rest-api/send-form/) for sending an email when user submits the contact form, as well as giving user a 'success' or 'failed' response to their form submission.
-- [Google Maps](https://developers.google.com/maps) Map API was used to show the locations of all the activities, as well as display markers and open and close informaition windows for each marker.
+- [Google Maps](https://developers.google.com/maps) Map API was used to show the locations of all the activities, as well as display markers and open and close information windows for each marker.
 
 
 ## 10. Acknowledgements
-<!-- - I would like to thank the staff and students of __Code Institute__ and the Code Institute __Slack Community__ for their helpfulness when needed.
-- I would like to thank my mentor __Medale Oluwafemi__ for his constructive feedback, support, and guidance.
-- Inspiration for this project was from my mother's love for baking desserts and with hopes that she will turn her passion into a business. -->
+- I would like to thank the staff and students of __Code Institute__ and the Code Institute __Slack Community__ for their helpfulness when needed.
+- I would like to thank my former mentor, __Medale Oluwafemi__, for his constructive feedback, support, and guidance.
