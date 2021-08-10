@@ -94,6 +94,7 @@ ul.social-icons {
 }
 
 .social-icons i {
+  font-size: 16px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -128,6 +129,7 @@ footer.footer-activites-page {
 
   ul.social-icons {
     padding-top: 15px;
+
   }
 
   div.copyright {
@@ -146,7 +148,7 @@ footer.footer-activites-page {
   font-size: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 20px;
+  margin-right: 10px;
   padding: 0;
   padding-left: 5px;
   padding-right: 5px;
@@ -157,10 +159,41 @@ footer.footer-activites-page {
   border-color: #fff;
 }
 
-.icon-attributions li {
-  /* font-size: 9px; */
-  list-style: none;
+.btn-secondary.focus, 
+.btn-secondary:focus {
+  background-color: #0C7DA7;
+  border-color: #FFF;
+  box-shadow: none;
+}
+
+.icon-attributions ul {
   padding: 5px;
+}
+
+.icon-attributions .dropdown-menu {
+  background-color: #FFF;
+  border-color: #0C7DA7;
+  color: #0C7DA7;
+  font-size: 8px;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, 
+.btn-secondary:not(:disabled):not(.disabled):active, 
+.show>.btn-secondary.dropdown-toggle {
+  background-color: #0C7DA7;
+  border-color: #FFF;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, 
+.btn-secondary:not(:disabled):not(.disabled):active:focus, 
+.show>.btn-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.icon-attributions a {
+  color: #0C7DA7;
+  font-size: 10px;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 576px) {
