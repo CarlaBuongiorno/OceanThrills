@@ -145,7 +145,7 @@ let map1Markers = [{
     waveHeight: "1-3 metres+",
     danger: "Urchins, rips/undertow, and rocks"
   }
-]
+];
 
 // Snorkeling markers
 let map2Markers = [{
@@ -258,7 +258,7 @@ let map2Markers = [{
     waterEntrance: "From a boat",
     potentialDanger: "Usual precautions"
   },
-]
+];
 
 // Dolphin markers
 let map3Markers = [{
@@ -390,7 +390,7 @@ let map3Markers = [{
     Albion 91001
     Mauritius`
   }
-]
+];
 
 // Kite Surfing markers
 let map4Markers = [{
@@ -520,7 +520,7 @@ let map4Markers = [{
     websiteName: "East Kite School Mauritius",
     websiteAddress: "https://www.facebook.com/eastkite.palmarmauritius.1"
   }
-]
+];
 
 // Scuba Diving markers
 let map5Markers = [{
@@ -665,7 +665,7 @@ let map5Markers = [{
     diveType: "Multi-Level, reef",
     depth: "30 metres"
   }
-]
+];
 
 // Credit: Google Maps API Documentation -> https://developers.google.com/maps/documentation/javascript/examples/map-simple
 function surfingMap() {

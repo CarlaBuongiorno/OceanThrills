@@ -1,6 +1,3 @@
-// Saved click information from home page & contact page
-const clicked = sessionStorage.getItem("autosave");
-
 // ids from activities sections
 let surfSection = document.getElementById("surfing-activity");
 let snorkSection = document.getElementById("snorkeling-activity");
@@ -8,10 +5,10 @@ let dolSection = document.getElementById("dolphin-activity");
 let kiteSection = document.getElementById("kite-surfing-activity");
 let scubaSection = document.getElementById("scuba-diving-activity");
 
-// Set the saved variable to the functions
-const choice = sessionStorage.getItem("autosave");
+// Set the saved click information (variable) from home page & contact page to the functions
+const clicked = sessionStorage.getItem("autosave");
 // Credit: W3Schools - https://www.w3schools.com/js/js_switch.asp
-switch (choice) {
+switch (clicked) {
   case "home-surf":
     displaySurf();
     break;

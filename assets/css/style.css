@@ -409,6 +409,7 @@ section#home-activities a {
 
 /* ----------------------------------Activity Headings and Description---------------------------------- */
 .activity-heading {
+  font-size: 32px;
   padding-top: 20px;
   padding-bottom: 10px;
 }

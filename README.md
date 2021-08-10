@@ -201,7 +201,8 @@ The links of the website were validated using the [W3C Link Checker](https://val
 ### Accessibility
 The accessibility of the website was evaluated using the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/).
 
-
+### JSHint
+The JavaScript of the website was validated using [JSHint](https://jshint.com/).
 
 ### Performance
 <!-- The overall performance of the website was evaluated using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/run) ([See result](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/testing/lighthouse.png)), as well as [Web Page Test](https://www.webpagetest.org/). ([See result](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/testing/webpagetest.png)) -->
