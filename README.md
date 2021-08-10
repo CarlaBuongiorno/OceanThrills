@@ -199,9 +199,9 @@ The links of the website were validated using the [W3C Link Checker](https://val
 ![result](assets/images/readme-images/testing/linkValidation.png)
 
 ### Accessibility
-<!-- The accessibility of the website was evaluated using the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/). ([See result](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/testing/accessibility.png)) -->
+The accessibility of the website was evaluated using the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/).
 
-<!-- - There is one alert about adding captions to the video. Because this is an embedded YouTube video, YouTube enables the user to switch on 'Captions'. This specific video has no voices, therefore the alert becomes irrelevant. -->
+
 
 ### Performance
 <!-- The overall performance of the website was evaluated using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/run) ([See result](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/testing/lighthouse.png)), as well as [Web Page Test](https://www.webpagetest.org/). ([See result](https://github.com/CarlaBuongiorno/MilestoneProject1/blob/master/assets/readme-images/testing/webpagetest.png)) -->
