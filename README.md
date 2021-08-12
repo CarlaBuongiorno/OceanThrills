@@ -134,9 +134,6 @@ The images I selected are packed with adventure and beauty. The intention is to 
 
         ![information windows](assets/images/readme-images/features/infowindows.png)
 
-<!-- - On medium screen devices and larger, the __current weather__ for Mauritius is displayed in the middle of the navigation bar at all times .
-- On small screen devices, the __current weather__ for Mauritius is displayed next to the title of each activity page. -->
-
 ### Features Left to Implement
 - A 404 page to help the user navigate back home.
 - On medium screen devices and larger, the __current weather__ for Mauritius, displayed in the middle of the navigation bar at all times .
@@ -163,9 +160,6 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - [favicon.cc](https://www.favicon.cc/?action=icon&file_id=21660) was used for this websites favicon.
 - [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to add vendor prefixes.
 
-<!-- 
-- [Coolers](https://coolors.co/0a0a0c-ff536e-d6efcf) for the colour palette image in the README.md. -->
-
 ### Resources
 - [Code Institute](https://codeinstitute.net/) was the main source of information used to create this project.
 - [Code Institute 'Tutor Support'](https://learn.codeinstitute.net/ci_support/diplomainsoftwaredevelopment/support) was a vital resource for assistance and guidance with adding functionality to the site.
@@ -181,7 +175,7 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - Aukje van der wal
 
 ## 5. Testing
-<!-- Various tools and validators were used to check that the site works well. Initially a few errors and suggestions resulted after running the URL through these tools and validators, but after correcting and implementing these errors and suggestions, all tests resulted positively. -->
+Various tools and validators were used to check that the site works well. Initially a few errors and suggestions resulted after running the URL through these tools and validators, but after correcting and implementing these errors and suggestions, all tests resulted positively.
 
 ### HTML Validation
 The HTML of the website was validated using the [W3C Markup Validation Service](https://validator.w3.org/).

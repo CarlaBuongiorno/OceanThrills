@@ -63,7 +63,7 @@ button.navbar-toggler {
   font-weight: 600;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) { 
   ul.nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -75,6 +75,15 @@ button.navbar-toggler {
         -ms-flex-align: end;
             align-items: flex-end;
     padding-bottom: 10px;
+  }
+
+  .dropdown-item {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+  .dropdown-menu {
+    left: -30px;
   }
 }
 
