@@ -29,20 +29,20 @@ switch (clicked) {
 }
 
 // Activity page clicks from button groups
-document.querySelectorAll('.surf').forEach(item => {
-  item.addEventListener('click', (_a, _b, _c, _d) => {
+document.querySelectorAll(".surf").forEach(item => {
+  item.addEventListener("click", (_a, _b, _c, _d) => {
     displaySurf();
   });
 });
 
-document.querySelectorAll('.snork').forEach(item => {
-  item.addEventListener('click', (_a, _b, _c, _d) => {
+document.querySelectorAll(".snork").forEach(item => {
+  item.addEventListener("click", (_a, _b, _c, _d) => {
     displaySnork();
   });
 });
 
-document.querySelectorAll('.dol').forEach(item => {
-  item.addEventListener('click', (_a, _b, _c, _d) => {
+document.querySelectorAll(".dol").forEach(item => {
+  item.addEventListener("click", (_a, _b, _c, _d) => {
     displayDol();
   });
 });
@@ -53,8 +53,8 @@ document.querySelectorAll('.kite').forEach(item => {
   });
 });
 
-document.querySelectorAll('.scuba').forEach(item => {
-  item.addEventListener('click', (_a, _b, _c, _d) => {
+document.querySelectorAll(".scuba").forEach(item => {
+  item.addEventListener("click", (_a, _b, _c, _d) => {
     displayScuba();
   });
 });

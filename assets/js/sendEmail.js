@@ -16,16 +16,16 @@ function sendMail(contactForm) {
 }
 
 // Credit: Email.JS Docs "https://www.emailjs.com/docs/rest-api/send-form/"
-$('#get-in-touch-form').on('submit', function(event) {
+$("#get-in-touch-form").on("submit", function(event) {
   event.preventDefault(); // prevent reload
   
   var formData = new FormData(this);
-  formData.append('service_id', 'default_service');
-  formData.append('template_id', 'contact_form');
-  formData.append('user_id', 'user_gWJZtfVkIln6cCwKmB8ak');
+  formData.append("service_id", "default_service");
+  formData.append("template_id", "contact_form");
+  formData.append("user_id", "user_gWJZtfVkIln6cCwKmB8ak");
 
-  $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
-      type: 'POST',
+  $.ajax("https://api.emailjs.com/api/v1.0/email/send-form", {
+      type: "POST",
       data: formData,
       contentType: false, // auto-detection
       processData: false // no need to parse formData to string
