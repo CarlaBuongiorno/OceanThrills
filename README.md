@@ -82,16 +82,16 @@ The images I selected are packed with adventure and beauty. The intention is to 
 ### Existing Features
 - The ability to __navigate__ easily through the site:-
     - There is a navigation bar at the top of the page at all times.
-        ![navbar](assets/images/readme-images/features/navbar.png)
 
-    - The logo __Ocean Thrills__ and _Home_ links will always bring the user back to the __Home__ page.
-    - The logo in the footer also brings the user back _Home_ from any page.
+        ![navbar](assets/images/readme-images/testing/navbar.png)
+
+    - The logo __Ocean Thrills__ acts as a link that will always bring the user back to the __Home__ page. The logo in the footer also brings the user back _Home_ from any page if clicked.
 
         ![logo](assets/images/readme-images/features/logo.png)
 
     - Each activity can be accessed either by the _Activities_ dropdown menu on the navigation bar,
 
-        ![activities dropdown](assets/images/readme-images/features/activitiesDropdown.png) 
+        ![activities dropdown](assets/images/readme-images/testing/activitiesDropdown.png) 
     
         or by scrolling down the _Home_ page and clicking on the activity of choice.
 
@@ -102,19 +102,19 @@ The images I selected are packed with adventure and beauty. The intention is to 
     4. Kite Surfing
     5. Scuba Diving
 
-        ![home activity buttons](assets/images/readme-images/features/homeActivityButtons.png)
+        ![home activity buttons](assets/images/readme-images/testing/activitySections.png)
 
     - The _Contact_ button is also on the navigation bar and takes the user straight to the __Contact__ page.
 
-        ![contact button](assets/images/readme-images/features/contact.png)
+        ![contact button](assets/images/readme-images/testing/contactButton.png)
 
 - A footer with a _copyright_, _social media links_, as well as the __Ocean Thrills__ logo.
 
-    ![footer](assets/images/readme-images/features/footer.png)
+    ![footer](assets/images/readme-images/testing/socialMedia.png)
 
 - A __Contact__ page where users can enter their name, email address, a message, as well as 'check' a _checkbox_ giving them the option to receive discounted offers on the Activities listed on the website.
 
-    ![contact page](assets/images/readme-images/features/contactForm.png)
+    ![contact page](assets/images/readme-images/testing/contactPage.png)
 
 - On submitting the contact form, the site owner receives an email through __EmailJS__ with the user's details and message.
 
@@ -129,7 +129,7 @@ The images I selected are packed with adventure and beauty. The intention is to 
 
     - A __button group__ with icons relating to each activity in order to navigate directly to another activity page.
 
-        ![button group](assets/images/readme-images/features/buttonGroup.png)
+        ![button group](assets/images/readme-images/testing/buttonGroup.png)
 
     - An __image__ and __description__ of each activity (Image is not displayed on large screen sizes).
     
@@ -181,9 +181,12 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - [MS1 Planning Session](https://www.youtube.com/watch?v=sH0m9N875SU&) YouTube tutorial by Jim Lynx for guidance on how to get started on this project.
 - [Make a README](https://www.makeareadme.com/) was used as a guide for making this README.md file.
 - Eamonn's 'How To Google Maps' PDF as a general resource for implementing Map API.
-- Aukje van der wal
+- [Milestone 2 Planning with Aukje van der Wal](https://www.youtube.com/watch?v=40vLxYUJiQY)
 
 ## 5. Testing
+
+All testing has been documented here - [testing.md](https://github.com/CarlaBuongiorno/OceanThrills/blob/master/testing.md)
+
 Various tools and validators were used to check that the site works well. Initially a few errors and suggestions resulted after running the URL through these tools and validators, but after correcting and implementing these errors and suggestions, all tests resulted positively.
 
 ### HTML Validation
