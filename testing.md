@@ -1,4 +1,7 @@
-## 5. Testing
+## Testing
+
+####[Return to README.md](https://github.com/CarlaBuongiorno/OceanThrills/blob/master/README.md)
+
 Various tools and validators were used to check that the site works well. Initially a few errors and suggestions resulted after running the URL through these tools and validators, but after correcting and implementing these errors and suggestions, all tests resulted positively.
 
 ### HTML Validation
