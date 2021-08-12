@@ -12,7 +12,7 @@
 * Browsers: last 4 version
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Parisienne&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Parisienne&display=swap");
 
 * {
   margin: 0;
@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: 100%;
 }
 
@@ -43,7 +43,7 @@ button.navbar-toggler {
 }
 
 .navbar-brand {
-  font-family: 'Parisienne', cursive;
+  font-family: "Parisienne", cursive;
   font-size: 32px;
 }
 
