@@ -63,17 +63,17 @@ button.navbar-toggler {
   font-weight: 600;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
   ul.nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -ms-flex-line-pack: end;
-        align-content: flex-end;
+    align-content: flex-end;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
     padding-bottom: 10px;
   }
 
@@ -168,7 +168,7 @@ footer.footer-activites-page {
   border-color: #fff;
 }
 
-.btn-secondary.focus, 
+.btn-secondary.focus,
 .btn-secondary:focus {
   background-color: #0C7DA7;
   border-color: #FFF;
@@ -186,15 +186,15 @@ footer.footer-activites-page {
   font-size: 10.5px;
 }
 
-.btn-secondary:not(:disabled):not(.disabled).active, 
-.btn-secondary:not(:disabled):not(.disabled):active, 
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
 .show>.btn-secondary.dropdown-toggle {
   background-color: #0C7DA7;
   border-color: #FFF;
 }
 
-.btn-secondary:not(:disabled):not(.disabled).active:focus, 
-.btn-secondary:not(:disabled):not(.disabled):active:focus, 
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-secondary.dropdown-toggle:focus {
   box-shadow: none;
 }
@@ -222,8 +222,8 @@ footer.footer-activites-page {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-attachment: fixed;
   background-position: center;
   background-color: #0C7DA7;
@@ -314,8 +314,8 @@ p.hero-text {
 #kite-surfing,
 #scuba-diving {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -437,8 +437,8 @@ section#home-activities a {
 .activity-image {
   background-color: #0C7DA7;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -487,8 +487,8 @@ section#home-activities a {
 #scuba-diving-map {
   background-color: #0C7DA7;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0 auto;
   margin-bottom: 10px;
   height: 390px;
@@ -519,20 +519,61 @@ form p {
   margin-bottom: 10px;
 }
 
+.form-check-input {
+  margin-top: .5rem;
+}
+
 form.overlay {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 10px;
-}.example {
-    display: -ms-grid;
-    display: grid;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
-    background: -o-linear-gradient(top, white, black);
-    background: linear-gradient(to bottom, white, black);
+}
+
+.example {
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+  background: -o-linear-gradient(top, white, black);
+  background: linear-gradient(to bottom, white, black);
+}
+
+@media screen and (max-width: 576px) {
+  h1#get-in-touch {
+    font-size: 24px;
+  }
+
+  .form-group {
+    margin-bottom: 0;
+  }
+
+  form label {
+    margin-bottom: 0;
+    margin-top: .5rem;
+  }
+
+  .form-check-input {
+    margin-top: .45rem;
+  }
+
+  .form-check-label {
+    margin-top: 0;
+  }
+
+  form button {
+    margin-top: 5px;
+  }
+
+  form#get-in-touch-form {
+    margin-bottom: 20px;
+  }
+
+  form.overlay {
+    padding: 5px;
+  }
 }
