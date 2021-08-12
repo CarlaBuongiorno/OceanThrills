@@ -168,6 +168,8 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - [Font Awesome](https://www.bootstrapcdn.com/fontawesome/) was used to add icons to the website for UX purposes.
 - [favicon.cc](https://www.favicon.cc/?action=icon&file_id=21660) was used for this websites favicon.
 - [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to add vendor prefixes.
+- [Email.JS Documentation](https://www.emailjs.com/docs/rest-api/send-form/) for sending an email when user submits the contact form, as well as giving user a 'success' or 'failed' response to their form submission.
+- [Google Maps](https://developers.google.com/maps) Map API was used to show the locations of all the activities, as well as display markers and open and close information windows for each marker.
 
 ### Resources
 - [Code Institute](https://codeinstitute.net/) was the main source of information used to create this project.
@@ -192,6 +194,7 @@ All testing has been documented here - [testing.md](https://github.com/CarlaBuon
 
 ## 7. Deployment
 
+#### GitHub Pages
 This website was deployed to Github Pages as follows:
 
 1. Sign in to GitHub.
@@ -204,14 +207,21 @@ This website was deployed to Github Pages as follows:
 
 There are no differences between the deployed version and the development version.
 
+#### Forking the repository in GitHub
+Forking the repository creates a copy of the original repository in your own account to allow changes to be made without affecting the original repository.
+
+1. Sign in to GitHub and navigate to the GitHub repository page.
+2. In the top-right of the page, below the user avatar, select the "fork" button.
+3. You should now have a copy of the repository in your own account.
+
+#### Running the code locally
 To run the code locally:
 
 1. Sign in to GitHub.
 2. Locate the Repositories list and select __CarlaBuongiorno/OceanThrills__.
 3. Click on __Code__ dropdown menu at the top of the project files with the download icon.
 4. You can choose either to copy the __URL__ link provided which can be used on your desktop IDE, or download the __ZIP__ file which can then be unzipped onto your local computer.
-
-(Using your own API key)
+5. For the google maps to work on your local computer, you need to paste your own Google Maps API Key into the script tag in the activities.html page:- src="https://maps.googleapis.com/maps/api/js?key=YOUR-KEY-HERE&libraries=&v=weekly&channel=2"
 
 ## 8. Credits
 
