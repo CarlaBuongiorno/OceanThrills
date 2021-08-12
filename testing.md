@@ -1,6 +1,6 @@
-## Testing
+# Testing
 
-####[Return to README.md](https://github.com/CarlaBuongiorno/OceanThrills/blob/master/README.md)
+#### [Return to README.md](https://github.com/CarlaBuongiorno/OceanThrills/blob/master/README.md)
 
 Various tools and validators were used to check that the site works well. Initially a few errors and suggestions resulted after running the URL through these tools and validators, but after correcting and implementing these errors and suggestions, all tests resulted positively.
 
@@ -106,7 +106,7 @@ There is a __Contact__ button on the navigation bar throughout the site which ta
 ![Contact Button](assets/images/readme-images/testing/contactButton.png)
 ![Contact Form](assets/images/readme-images/testing/contactPage.png)
 
-## 6. Project barriers and solutions
+## Project barriers and solutions
 
 - Navbar menu items would not align to the right with Bootstrap _justify-content-end_ class, to fix this it had to be replaced with the _ml-auto_ class. Credit to [Stack Overflow](https://stackoverflow.com/questions/61174994/bootstrap-justify-content-end-not-working-as-expected).
 

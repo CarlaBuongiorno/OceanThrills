@@ -187,20 +187,10 @@ The images I selected are packed with adventure and beauty. The intention is to 
 
 All testing has been documented here - [testing.md](https://github.com/CarlaBuongiorno/OceanThrills/blob/master/testing.md)
 
-## 6. Project barriers and solutions
-
-- Navbar menu items would not align to the right with Bootstrap _justify-content-end_ class, to fix this it had to be replaced with the _ml-auto_ class. Credit to [Stack Overflow](https://stackoverflow.com/questions/61174994/bootstrap-justify-content-end-not-working-as-expected).
-
-- Had trouble forming a function to show one activity and hide the other activities. Through the help of Slack, this was overcome by using the CSS display: 'block' and display: 'none' properties.
-
-- In order to get the above function to listen to the 'click' events, much research and assistance was necessary. Code Institute's Tutor support helped with this tremendously. 
-
-- Markers seemed not to be displaying on all five maps. In reality the markers were displaying in Greenland instead of where was expected. The problem was that the latitude and longitude numbers were reversed. 
-
-## 7. Version Control
+## 6. Version Control
 - Git was used for version control.
 
-## 8. Deployment
+## 7. Deployment
 
 This website was deployed to Github Pages as follows:
 
@@ -223,7 +213,7 @@ To run the code locally:
 
 (Using your own API key)
 
-## 9. Credits
+## 8. Credits
 
 ### Content
 - #### Surfing
@@ -350,6 +340,6 @@ The icons used in this site were obtained from [Flaticon](https://www.flaticon.c
 - [Google Maps](https://developers.google.com/maps) Map API was used to show the locations of all the activities, as well as display markers and open and close information windows for each marker.
 
 
-## 10. Acknowledgements
+## 9. Acknowledgements
 - I would like to thank the staff and students of __Code Institute__ and the Code Institute __Slack Community__ for their helpfulness when needed.
 - I would like to thank my former mentor, __Medale Oluwafemi__, for his constructive feedback, support, and guidance.
