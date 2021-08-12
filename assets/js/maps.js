@@ -671,7 +671,7 @@ let map5Markers = [{
 function surfingMap() {
   // Set the map
   const map = new google.maps.Map(document.getElementById("surfing-map"), {
-    zoom: 11,
+    zoom: 9,
     center: {
       lat: -20.387079,
       lng: 57.507294
@@ -744,7 +744,7 @@ function surfingMap() {
 function snorkelingMap() {
   // Set the map
   const map = new google.maps.Map(document.getElementById("snorkeling-map"), {
-    zoom: 10,
+    zoom: 9,
     center: {
       lat: -20.182073,
       lng: 57.591610
@@ -810,7 +810,7 @@ function snorkelingMap() {
 function dolphinMap() {
   // Set the map
   const map = new google.maps.Map(document.getElementById("dolphin-map"), {
-    zoom: 10,
+    zoom: 9,
     center: {
       lat: -20.222034,
       lng: 57.578038
@@ -869,7 +869,7 @@ function dolphinMap() {
 function kiteMap() {
   // Set the map
   const map = new google.maps.Map(document.getElementById("kite-surfing-map"), {
-    zoom: 10,
+    zoom: 9,
     center: {
       lat: -20.200162, 
       lng: 57.577718
@@ -929,7 +929,7 @@ function kiteMap() {
 function scubaMap() {
   // Set the map
   const map = new google.maps.Map(document.getElementById("scuba-diving-map"), {
-    zoom: 9.75,
+    zoom: 9,
     center: {
       lat: -20.200162,
       lng: 57.577718
