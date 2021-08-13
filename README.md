@@ -351,7 +351,7 @@ The icons used in this site were obtained from [Flaticon](https://www.flaticon.c
 
 
 ## 9. Acknowledgements
-- I would like to thank the staff and students of __Code Institute__ and the Code Institute __Slack Community__ for their helpfulness when needed.
+- I would like to thank the staff (especially the __tutors__) and students of __Code Institute__ and the Code Institute __Slack Community__ for their helpfulness and assistance when needed.
 - I would like to thank my former mentor, __Medale Oluwafemi__, and my present mentor, __Maria Hynes__ for their constructive feedback, support, and guidance.
 - I would like to thank my __family__, my husband for his devoted support, and my 4 year old for his patience while mom spent much of her time and attention on a computer screen.
 - Lastly, I would like to dedicate this site to my __father__, whom will soon be retiring in Mauritius, for without his aid and support, this would certainly not have been possible.
