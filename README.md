@@ -134,6 +134,9 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - A 404 page to help the user navigate back home.
 - On medium screen devices and larger, the __current weather__ for Mauritius, displayed in the middle of the navigation bar at all times .
 - On small screen divices, the __current weather__ for Mauritius displayed next to the title of each activity page.
+- I originally had the maps a little more zoomed in which was great for large screens, but it was then too zoomed in on smaller screens, so in order for the maps to display best on small screen, I zoomed them out and so they are now a lot smaller on larger screen sizes. 
+I'm sure there is a way to make the maps more responsive to different screen sizes, but I have decided to leave that task as a future feature due to time constraints.
+- __Marker Clustering__ would be a great way to get around the fact that there are so many markers on each map and a user cannot access them easily while they are so close together. Due to time constraints, I leave this as a future feature.
 
 ## 4. Technologies and Resources Used
 ### Languages
@@ -335,4 +338,6 @@ The icons used in this site were obtained from [Flaticon](https://www.flaticon.c
 
 ## 9. Acknowledgements
 - I would like to thank the staff and students of __Code Institute__ and the Code Institute __Slack Community__ for their helpfulness when needed.
-- I would like to thank my former mentor, __Medale Oluwafemi__, for his constructive feedback, support, and guidance.
+- I would like to thank my former mentor, __Medale Oluwafemi__, and my present mentor, __Maria Hynes__ for their constructive feedback, support, and guidance.
+- I would like to thank my __family__, my husband for his devoted support, and my 4 year old for his patience while mom spent much of her time and attention on a computer screen.
+- Lastly, I would like to dedicate this site to my __father__, whom will soon be retiring in Mauritius, for without his aid and support, this would certainly not have been possible.

@@ -116,3 +116,8 @@ There is a __Contact__ button on the navigation bar throughout the site which ta
 - Markers seemed not to be displaying on all five maps. In reality the markers were displaying in Greenland instead of where was expected. The problem was that the latitude and longitude numbers were reversed. 
 
 - The button group was highlighting the icon button that corresponded with the activity correctly only from the button clicks from the activity page. But when navigating from the contact page and home page, only the surfing icon button was then highlighted. This was because the surfing input was marked as 'checked'. The solution to this was to remove the 'checked' attribute and add it to the input based on which activity is displayed.
+
+- I originally had the maps a little more zoomed in which was great for large screens, but it was then too zoomed in on smaller screens, so in order for the maps to display best on small screen, I zoomed them out and so they are now a lot smaller on larger screen sizes. 
+I'm sure there is a way to make the maps more responsive to different screen sizes, but I have decided to leave that task as a future feature due to time constraints.
+
+- __Marker Clustering__ would be a great way to get around the fact that there are so many markers on each map and a user cannot access them easily while they are so close together. Due to time constraints, I leave this as a future feature.
