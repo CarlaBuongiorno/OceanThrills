@@ -11,34 +11,24 @@ const clicked = sessionStorage.getItem("autosave");
 switch (clicked) {
   case "home-surf":
     displaySurf();
-    $("label").removeClass("active");
-    $(".surf").parent().addClass("active");
     break;
   case "home-snork":
     displaySnork();
-    $("label").removeClass("active");
-    $(".snork").parent().addClass("active");
     break;
   case "home-dol":
     displayDol();
-    $("label").removeClass("active");
-    $(".dol").parent().addClass("active");
     break;
   case "home-kite":
     displayKite();
-    $("label").removeClass("active");
-    $(".kite").parent().addClass("active");
     break;
   case "home-scuba":
     displayScuba();
-    $("label").removeClass("active");
-    $(".scuba").parent().addClass("active");
     break;
   default:
     console.log("This section does not exist.");
 }
 
-// Activity page clicks from button groups
+// Activity page clicks from button group and navbar activity dropdown
 document.querySelectorAll(".surf").forEach(item => {
   item.addEventListener("click", (_a, _b, _c, _d) => {
     displaySurf();
