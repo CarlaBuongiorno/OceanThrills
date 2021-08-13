@@ -38,8 +38,3 @@ document.querySelectorAll(".home-scuba").forEach(item => {
     sessionStorage.setItem("autosave", "home-scuba");
   });
 });
-
-//Init function for EmailJS
-(function () {
-  emailjs.init("user_gWJZtfVkIln6cCwKmB8ak");
-})();
