@@ -1,45 +1,45 @@
-# Testing
+# Testing & Project barriers & Solutions
 
 #### [Return to README.md](https://github.com/CarlaBuongiorno/OceanThrills/blob/master/README.md)
 
 Various tools and validators were used to check that the site works well. Initially a few errors and suggestions resulted after running the URL through these tools and validators, but after correcting and implementing these errors and suggestions, all tests resulted positively.
 
-### HTML Validation
+## HTML Validation
 The HTML of the website was validated using the [W3C Markup Validation Service](https://validator.w3.org/).
 
 ![result](assets/images/readme-images/testing/htmlValidation.png)
 
-### CSS Validation
+## CSS Validation
 The CSS of the website was validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
 ![result](assets/images/readme-images/testing/cssValidation.png)
 
-### Link Validation
+## Link Validation
 The links of the website were validated using the [W3C Link Checker](https://validator.w3.org/checklink). The Facebook and Twitter links were not checked due to robots exclusion rules, but I validated the link manually, and they work as expected. 
 
 ![result](assets/images/readme-images/testing/linkValidation.png)
 
-### Accessibility
+## Accessibility
 The accessibility of the website was evaluated using the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/). The colour contrast of the initial blue shade background against the white text was reported as a fail, as a result the current shade of blue was chosen instead.
 
-### JSHint
+## JSHint
 The JavaScript of the website was validated using [JSHint](https://jshint.com/).
 
-### Performance
+## Performance
 The overall performance of the website was evaluated using:-
 - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/run)
 - [Web Page Test](https://www.webpagetest.org/)
 
-### Spelling and Grammer
+## Spelling and Grammer
 The README.md file was run through [Online Spellcheck](https://www.online-spellcheck.com/) for any spelling and grammer mistakes.
 
-### Other Testing
+## Other Testing
 - The Subscription form will not submit until name, email and message fields are filled out. If a user tries to submit without these fields filled, an alert will apper.
 - If the email field is filled incorrectly, an error of 'Please include an @ in the email address' is presented to the user.
 - Tested all links within the site take the user to the appropriate pages.
 - Website is responsive on  mobile, tablet and large screens.
 
-### Testing User Stories
+## Testing User Stories
 1. As a site visitor, I wish to navigate through the site easily so I can quickly find what I am looking for.
 
 The navigation bar is easy to understand and always there for ease of navigation on the site. The logo at the top left of the page and in the footer also takes the user back to the home page at any given point.
@@ -107,7 +107,6 @@ There is a __Contact__ button on the navigation bar throughout the site which ta
 ![Contact Form](assets/images/readme-images/testing/contactPage.png)
 
 ## Project barriers and solutions
-
 - Navbar menu items would not align to the right with Bootstrap _justify-content-end_ class, to fix this it had to be replaced with the _ml-auto_ class. Credit to [Stack Overflow](https://stackoverflow.com/questions/61174994/bootstrap-justify-content-end-not-working-as-expected).
 
 - Had trouble forming a function to show one activity and hide the other activities. Through the help of Slack, this was overcome by using the CSS display: 'block' and display: 'none' properties.
@@ -115,3 +114,5 @@ There is a __Contact__ button on the navigation bar throughout the site which ta
 - In order to get the above function to listen to the 'click' events, much research and assistance was necessary. Code Institute's Tutor support helped with this tremendously. 
 
 - Markers seemed not to be displaying on all five maps. In reality the markers were displaying in Greenland instead of where was expected. The problem was that the latitude and longitude numbers were reversed. 
+
+- The button group was highlighting the icon button that corresponded with the activity correctly only from the button clicks from the activity page. But when navigating from the contact page and home page, only the surfing icon button was then highlighted. This was because the surfing input was marked as 'checked'. The solution to this was to remove the 'checked' attribute and add it to the input based on which activity is displayed.

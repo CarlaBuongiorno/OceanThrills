@@ -68,7 +68,9 @@ function displaySurf() {
   kiteSection.style.display = "none";
   scubaSection.style.display = "none";
   // Select the label with the class "active" and remove the class "active"
-  $("label").removeClass("active");
+  $("label").removeClass("active focus");
+  // Select the input with the class surf and add attribute 'checked'
+  $("input").filter(".surf").attr("checked", "checked");
   // Credit: JQuery add class to parent element https://www.py4u.net/discuss/929372
   // Select the class "surf" and add the class "active" to the parent
   $(".surf").parent().addClass("active");
@@ -81,8 +83,10 @@ function displaySnork() {
   kiteSection.style.display = "none";
   scubaSection.style.display = "none";
   // Select the label with the class "active" and remove the class "active"
-  $("label").removeClass("active");
-  // Select the class "surf" and add the class "active" to the parent
+  $("label").removeClass("active focus");
+  // Select the input with the class snork and add attribute 'checked'
+  $("input").filter(".snork").attr("checked", "checked");
+  // Select the class "snork" and add the class "active" to the parent
   $(".snork").parent().addClass("active");
 }
 // Display dolphins section while hiding all other sections
@@ -93,8 +97,10 @@ function displayDol() {
   kiteSection.style.display = "none";
   scubaSection.style.display = "none";
   // Select the label with the class "active" and remove the class "active"
-  $("label").removeClass("active");
-  // Select the class "surf" and add the class "active" to the parent
+  $("label").removeClass("active focus");
+  // Select the input with the class surf and add attribute 'checked'
+  $("input").filter(".dol").attr("checked", "checked");
+  // Select the class "dol" and add the class "active" to the parent
   $(".dol").parent().addClass("active");
 }
 // Display kite surfing section while hiding all other sections
@@ -105,8 +111,10 @@ function displayKite() {
   kiteSection.style.display = "block";
   scubaSection.style.display = "none";
   // Select the label with the class "active" and remove the class "active"
-  $("label").removeClass("active");
-  // Select the class "surf" and add the class "active" to the parent
+  $("label").removeClass("active focus");
+  // Select the input with the class kite and add attribute 'checked'
+  $("input").filter(".kite").attr("checked", "checked");
+  // Select the class "kite" and add the class "active" to the parent
   $(".kite").parent().addClass("active");
 }
 // Display scuba diving section while hiding all other sections
@@ -117,7 +125,9 @@ function displayScuba() {
   kiteSection.style.display = "none";
   scubaSection.style.display = "block";
   // Select the label with the class "active" and remove the class "active"
-  $("label").removeClass("active");
-  // Select the class "surf" and add the class "active" to the parent
+  $("label").removeClass("active focus");
+  // Select the input with the class scuba and add attribute 'checked'
+  $("input").filter(".scuba").attr("checked", "checked");
+  // Select the class "scuba" and add the class "active" to the parent
   $(".scuba").parent().addClass("active");
 }

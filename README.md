@@ -8,15 +8,12 @@ Ocean Thrills is an interactive website incorporating various technological elem
 ![Responsive mockup of the website](assets/images/readme-images/responsive/amiresponsive.png)
 
 ## 2. UXD – User Experience Design
-
 The target demographic are users who are holiday makers in Mauritius, as well as locals, looking to enjoy themselves with some extra sea and underwater activities.
 
 #### Visitor Goals
-
 Visitors to this website are searching for things to do on the island of Mauritius, in particular, water and undersea activities. They wish to locate these activities on a Google Map, and find some of the best locations to enjoy them. Visitors wish to learn more about the locations that the activities are situated, in respect of that activity. They wish to do this easily in an interactive, exciting and thrilling manner, anticipating the adventures to come.
 
 #### Project Goals
-
 Ocean Thrills is the best way to help users achieve their goals because it is easy to navigate, whether by mobile, tablet, or desktop. The navigation bar is always in the viewport no matter where in the site the user has navigated to.
 
 The site is designed so that upon entering, the user immediately anticipates a sense of adventure and fun, and feels impelled to interact with the site.
@@ -26,7 +23,6 @@ Ocean Thrills provides an effective, easy to use site for adventurers in Mauriti
 In return for this investment, the site owner would make use of this website, have a professional looking first step into the world of using JavaScript, jQuery and APIs, and an exciting and thrilling project to make a part of her portfolio.
 
 #### User Stories
-
 ##### Website Visitor
 1. As a site visitor, I wish to navigate through the site easily, so I can quickly find what I am looking for.
 2. As a site visitor, I wish to view and interact with the site on all my devices.
@@ -38,24 +34,19 @@ In return for this investment, the site owner would make use of this website, ha
 8. As a site visitor, I wish to be able to get in touch with the site owner and possibly receive discounted offers on the activities.
 
 ##### Website Owner
-
 1. As a site owner, this website is aimed at providing Mauritians and holiday makers with useful information about where they can go to take part in five of the many sea and underwater activities available in Mauritius.
 2. As the site owner, I wish to be a user of the site when I visit Mauritius.
 
 ### Wireframes
-
 - [Wireframes:](assets/images/readme-images/wireframes/desktop-tablet.png) Desktop and tablet version.
 - [Wireframes:](assets/images/readme-images/wireframes/small-screen.png) Small screen version. 
 
 ### Wireframe and Final Project Differences
-
 - It was decided that the __current weather__ would remain a future feature of the site. This allowed increased focus on the functionality of the site overall.
 - It was decided that the __side panel__ would be left out of the project completely. The __information window__ of each marker has ample information and having the __side panel__ could create cognitive overload in the user.
 
 ### Design Choices
-
 #### Colours
-
 I decided to go with blue and white as the main colours of this website. These two colours are most associated with nautical decorating. Many holiday homes are decorated using blue and white.
 
 Blue is the colour of the sky on a sunny day, and the colour of the ocean. White is the contrast colour of the light and fluffy clouds in the sky, and the foam that the ocean waves have created.  
@@ -63,22 +54,18 @@ Blue is the colour of the sky on a sunny day, and the colour of the ocean. White
 In using these colours for my design, it is my intention to evoke happy, holiday emotions in the site visitor.
 
 #### Typography
-
 I selected 2 different fonts for this site: 
 
 1. "Parisienne", (cursive) - For the logo.
 2. "Open Sans", (sans-serif) - For the main content for contrast and ease of reading.
 
 #### Icons
-
 Icons were chosen for their obvious meaning and bring a sense of fun and adventure to the user.
 
 #### Images
-
 The images I selected are packed with adventure and beauty. The intention is to bring a typical 'holiday island vibe' to the site. 
 
 ## 3. Features
-
 ### Existing Features
 - The ability to __navigate__ easily through the site:-
     - There is a navigation bar at the top of the page at all times.
@@ -149,7 +136,6 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - On small screen divices, the __current weather__ for Mauritius displayed next to the title of each activity page.
 
 ## 4. Technologies and Resources Used
-
 ### Languages
 -   [HTML](https://en.wikipedia.org/wiki/HTML)
 -   [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -185,15 +171,13 @@ The images I selected are packed with adventure and beauty. The intention is to 
 - Eamonn's 'How To Google Maps' PDF as a general resource for implementing Map API.
 - [Milestone 2 Planning with Aukje van der Wal](https://www.youtube.com/watch?v=40vLxYUJiQY)
 
-## 5. Testing
-
-All testing has been documented here - [testing.md](https://github.com/CarlaBuongiorno/OceanThrills/blob/master/testing.md)
+## 5. Testing & Project barriers & solutions
+All testing and project barriers and solutions has been documented here - [testing.md](https://github.com/CarlaBuongiorno/OceanThrills/blob/master/testing.md)
 
 ## 6. Version Control
 - Git was used for version control.
 
 ## 7. Deployment
-
 #### GitHub Pages
 This website was deployed to Github Pages as follows:
 
@@ -224,7 +208,6 @@ To run the code locally:
 5. For the google maps to work on your local computer, you need to paste your own Google Maps API Key into the script tag in the activities.html page:- src="https://maps.googleapis.com/maps/api/js?key=YOUR-KEY-HERE&libraries=&v=weekly&channel=2"
 
 ## 8. Credits
-
 ### Content
 - #### Surfing
     - [Wanna Surf](https://www.wannasurf.com/spot/Africa/Mauritius/)
@@ -296,7 +279,6 @@ The photos used in this site were obtained from [Pexels](https://www.pexels.com/
     - [TJ Fitzsimmons](https://unsplash.com/photos/vQGwNgWl2Ew)
 
 - #### Pixabay
-
     - [Pexels](https://pixabay.com/photos/surfing-big-waves-speed-2192675/)
     - [Tom Fisk](https://www.pexels.com/photo/sea-nature-water-ocean-4618226/)
     - [Steven Leeuw](https://pixabay.com/photos/dolphin-ocean-sea-water-nature-806359/)
