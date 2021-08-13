@@ -154,8 +154,8 @@ I'm sure there is a way to make the maps more responsive to different screen siz
 
 ## 4. Technologies and Resources Used
 ### Languages
--   [HTML](https://en.wikipedia.org/wiki/HTML)
--   [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
@@ -222,7 +222,7 @@ To run the code locally:
 2. Locate the Repositories list and select __CarlaBuongiorno/OceanThrills__.
 3. Click on __Code__ dropdown menu at the top of the project files with the download icon.
 4. You can choose either to copy the __URL__ link provided which can be used on your desktop IDE, or download the __ZIP__ file which can then be unzipped onto your local computer.
-5. For the google maps to work on your local computer, you need to paste your own Google Maps API Key into the script tag in the activities.html page:- src="https://maps.googleapis.com/maps/api/js?key=YOUR-KEY-HERE&libraries=&v=weekly&channel=2"
+5. For the google maps and emailjs to work on your local computer, you need to paste your own Google Maps API Key and Emailjs Key into the script tags in the activities.html and contact.html pages, as well as in the JavaScript files where the API Keys appear with in the code.
 
 ## 8. Credits
 ### Content
