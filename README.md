@@ -348,6 +348,7 @@ The icons used in this site were obtained from [Flaticon](https://www.flaticon.c
 - [Code Intitute - "Sending Emails Using EmailJS"](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/?child=last) for implementing EmailJS API.
 - [Email.JS Documentation](https://www.emailjs.com/docs/rest-api/send-form/) for sending an email when user submits the contact form, as well as giving user a 'success' or 'failed' response to their form submission.
 - [Google Maps](https://developers.google.com/maps) Map API was used to show the locations of all the activities, as well as display markers and open and close information windows for each marker.
+- [JQuery add class to parent element](https://www.py4u.net/discuss/929372) for selecting the parent node and adding a class to it using JQuery.
 
 
 ## 9. Acknowledgements

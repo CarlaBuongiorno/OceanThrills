@@ -11,21 +11,31 @@ const clicked = sessionStorage.getItem("autosave");
 switch (clicked) {
   case "home-surf":
     displaySurf();
+    $("label").removeClass("active");
+    $(".surf").parent().addClass("active");
     break;
   case "home-snork":
     displaySnork();
+    $("label").removeClass("active");
+    $(".snork").parent().addClass("active");
     break;
   case "home-dol":
     displayDol();
+    $("label").removeClass("active");
+    $(".dol").parent().addClass("active");
     break;
   case "home-kite":
     displayKite();
+    $("label").removeClass("active");
+    $(".kite").parent().addClass("active");
     break;
   case "home-scuba":
     displayScuba();
+    $("label").removeClass("active");
+    $(".scuba").parent().addClass("active");
     break;
   default:
-    console.log("Oops, this section does not exist.");
+    console.log("This section does not exist.");
 }
 
 // Activity page clicks from button groups
@@ -67,6 +77,11 @@ function displaySurf() {
   dolSection.style.display = "none";
   kiteSection.style.display = "none";
   scubaSection.style.display = "none";
+  // Select the label with the class "active" and remove the class "active"
+  $("label").removeClass("active");
+  // Credit: JQuery add class to parent element https://www.py4u.net/discuss/929372
+  // Select the class "surf" and add the class "active" to the parent
+  $(".surf").parent().addClass("active");
 }
 // Display snorkeling section while hiding all other sections
 function displaySnork() {
@@ -75,6 +90,10 @@ function displaySnork() {
   dolSection.style.display = "none";
   kiteSection.style.display = "none";
   scubaSection.style.display = "none";
+  // Select the label with the class "active" and remove the class "active"
+  $("label").removeClass("active");
+  // Select the class "surf" and add the class "active" to the parent
+  $(".snork").parent().addClass("active");
 }
 // Display dolphins section while hiding all other sections
 function displayDol() {
@@ -83,6 +102,10 @@ function displayDol() {
   dolSection.style.display = "block";
   kiteSection.style.display = "none";
   scubaSection.style.display = "none";
+  // Select the label with the class "active" and remove the class "active"
+  $("label").removeClass("active");
+  // Select the class "surf" and add the class "active" to the parent
+  $(".dol").parent().addClass("active");
 }
 // Display kite surfing section while hiding all other sections
 function displayKite() {
@@ -91,6 +114,10 @@ function displayKite() {
   dolSection.style.display = "none";
   kiteSection.style.display = "block";
   scubaSection.style.display = "none";
+  // Select the label with the class "active" and remove the class "active"
+  $("label").removeClass("active");
+  // Select the class "surf" and add the class "active" to the parent
+  $(".kite").parent().addClass("active");
 }
 // Display scuba diving section while hiding all other sections
 function displayScuba() {
@@ -99,4 +126,8 @@ function displayScuba() {
   dolSection.style.display = "none";
   kiteSection.style.display = "none";
   scubaSection.style.display = "block";
+  // Select the label with the class "active" and remove the class "active"
+  $("label").removeClass("active");
+  // Select the class "surf" and add the class "active" to the parent
+  $(".scuba").parent().addClass("active");
 }
