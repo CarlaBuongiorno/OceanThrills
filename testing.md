@@ -121,3 +121,7 @@ There is a __Contact__ button on the navigation bar throughout the site which ta
 I'm sure there is a way to make the maps more responsive to different screen sizes, but I have decided to leave that task as a future feature due to time constraints.
 
 - __Marker Clustering__ would be a great way to get around the fact that there are so many markers on each map and a user cannot access them easily while they are so close together. Due to time constraints, I leave this as a future feature.
+
+- __User feedback__ about the navigation bar was that on the screen size where the _Activities_ and _Contact_ menu items are switched to a toggle button, either the _Contact_ button should no longer be a button, but rather a plain menu list item, or the _Activities_ should no longer have the extra 'dropdown' step, but rather each activity should display as a stand-alone menu item. I originally had an extra _Home_ menu item, and I believe the design choice and layout of the menu items were then well suited, but now that I have removed the _Home_ item, I agree that the design and layout needs adjusting and a little 'rethinking'. This will also be left as a future adjustment due to time constraints.
+
+- The menu __toggle button__ does not close automatically, again this will be a future feature.
