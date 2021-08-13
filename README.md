@@ -187,6 +187,7 @@ I'm sure there is a way to make the maps more responsive to different screen siz
 - [Make a README](https://www.makeareadme.com/) was used as a guide for making this README.md file.
 - Eamonn's 'How To Google Maps' PDF as a general resource for implementing Map API.
 - [Milestone 2 Planning with Aukje van der Wal](https://www.youtube.com/watch?v=40vLxYUJiQY)
+- [Ember Discuss](https://discuss.emberjs.com/t/google-is-not-defined-jshint-error/5762) for Google is not defined. JSHint Error.
 
 ## 5. Testing & Project barriers & solutions
 All testing and project barriers and solutions has been documented here - [testing.md](https://github.com/CarlaBuongiorno/OceanThrills/blob/master/testing.md)

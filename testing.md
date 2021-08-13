@@ -23,7 +23,9 @@ The links of the website were validated using the [W3C Link Checker](https://val
 The accessibility of the website was evaluated using the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/). The colour contrast of the initial blue shade background against the white text was reported as a fail, as a result the current shade of blue was chosen instead.
 
 ## JSHint
-The JavaScript of the website was validated using [JSHint](https://jshint.com/).
+The JavaScript of the website was validated using [JSHint](https://jshint.com/). The validator brings up a few warnings that say "Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (marker, currentInfoWindow)"
+
+I have not yet resolved these warnings. The code functions as I intended and I have not been able to refactor this in a satisfactory way. This is something I will dive further into at a later date when there are no time constraints.
 
 ## Performance
 The overall performance of the website was evaluated using:-

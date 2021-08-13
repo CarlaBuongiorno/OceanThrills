@@ -1,3 +1,5 @@
+/* global google */
+
 // Credit: Google Maps API Documentation -> https://developers.google.com/maps/documentation/javascript/examples/map-simple
 function surfingMap() {
   // Set the map
