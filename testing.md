@@ -127,3 +127,7 @@ I'm sure there is a way to make the maps more responsive to different screen siz
 - The menu __toggle button__ does not close automatically, again this will be a future feature.
 
 - The small button on the __footer__ that says 'Icons' are the obligatory [Flaticon](https://www.flaticon.com/) attributions. I don't love the look of them on the footer of the site, but give credit where credit is due. Possibly in the future I will have a paid subscription with Flaticon and remove the icon button from the site.
+
+- At times __JQuery__ is used in between the __JavaScript__ code, I was advised that this is not best practice. In time I will rewrite these bits of code so that I stick to best practice.
+
+- There came a point during the writing of the JavaScript for the _maps_ and displaying the _activity sections_ where I realised I could have been more DRY with my code. At the moment, there are five activity sections with headings, images, and descriptions, as well as five maps (displaying the same country). I realised (at a point that felt too late to redo everything) that this could have been one section in the HTML code with one map, and the inner text of the HTML changed accordingly using JavaScript. The __Map Markers__ could have been removed and a new set of markers added for every activity. I would definitely like to tackle this __refactoring__ sometime in the future.
