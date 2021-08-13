@@ -146,6 +146,10 @@ I'm sure there is a way to make the maps more responsive to different screen siz
 
 - The menu __toggle button__ does not close automatically, again this will be a future feature.
 
+- An __Arrow Icon__ pointing downwards on the hero image to give the user a clue to scroll down the page. This arrow will be animated when hovered over and clicking it will scroll down the page to the introduction section.
+
+- The small button on the __footer__ that says 'Icons' are the obligatory [Flaticon](https://www.flaticon.com/) attributions. I don't love the look of them on the footer of the site, but give credit where credit is due. Possibly in the future I will have a paid subscription with Flaticon and remove the icon button from the site.
+
 ## 4. Technologies and Resources Used
 ### Languages
 -   [HTML](https://en.wikipedia.org/wiki/HTML)
