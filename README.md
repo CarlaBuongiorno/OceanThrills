@@ -150,6 +150,8 @@ I'm sure there is a way to make the maps more responsive to different screen siz
 
 - The small button on the __footer__ that says 'Icons' are the obligatory [Flaticon](https://www.flaticon.com/) attributions. I don't love the look of them on the footer of the site, but give credit where credit is due. Possibly in the future I will have a paid subscription with Flaticon and remove the icon button from the site.
 
+- Once a user submits the Contact form, a __spinner__ will be added before the success/fail message, in order to give the user a feeling of security that something is actually happening in those few moments between.
+
 ## 4. Technologies and Resources Used
 ### Languages
 -   [HTML](https://en.wikipedia.org/wiki/HTML)
