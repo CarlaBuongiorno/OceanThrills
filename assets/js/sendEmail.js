@@ -19,7 +19,7 @@ function sendMail(contactForm) {
 $("#get-in-touch-form").on("submit", function(event) {
   event.preventDefault(); // prevent reload
   
-  var formData = new FormData(this);
+  let formData = new FormData(this);
   formData.append("service_id", "default_service");
   formData.append("template_id", "contact_form");
   formData.append("user_id", "user_gWJZtfVkIln6cCwKmB8ak");
