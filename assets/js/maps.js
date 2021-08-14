@@ -21,7 +21,7 @@ function surfingMap() {
       title: marker.title,
     });
     // Credit: To close current info window when another marker is clicked -> https://groups.google.com/g/google-maps-js-api-v3/c/cA2VRg4TO1k?pli=1
-    let currentInfoWindow = null;
+    var currentInfoWindow = null;
     // Credit: Google Maps Documentation for creating infowindow -> https://developers.google.com/maps/documentation/javascript/infowindows
     _marker.addListener("click", () => {
       let contentString = `
@@ -69,7 +69,6 @@ function surfingMap() {
       map.addListener("click", () => {
         infowindow.close();
       });
-
     });
   }
 }
@@ -94,8 +93,7 @@ function snorkelingMap() {
       title: marker.title,
     });
 
-    let currentInfoWindow = null;
-
+    var currentInfoWindow = null;
     _marker.addListener("click", () => {
       let contentString = `
       <h4>${marker.title}</h4>
@@ -160,8 +158,7 @@ function dolphinMap() {
       title: marker.title,
     });
 
-    let currentInfoWindow = null;
-
+    var currentInfoWindow = null;
     _marker.addListener("click", () => {
       let contentString = `
       <h4>${marker.title}</h4>
@@ -219,8 +216,7 @@ function kiteMap() {
       title: marker.title,
     });
 
-    let currentInfoWindow = null;
-
+    var currentInfoWindow = null;
     _marker.addListener("click", () => {
       let contentString = `
       <h4>${marker.title}</h4>
@@ -279,7 +275,7 @@ function scubaMap() {
       title: marker.title,
     });
 
-    let currentInfoWindow = null;
+    var currentInfoWindow = null;
     _marker.addListener("click", () => {
       let contentString = `
       <h4>${marker.title}</h4>
