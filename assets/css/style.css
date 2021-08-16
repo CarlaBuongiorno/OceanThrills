@@ -586,3 +586,8 @@ form.overlay {
     padding: 5px;
   }
 }
+
+/* ----------------------------------404 Page---------------------------------- */
+div.hero-text-overlay.error-page {
+  top: 50%;
+}
