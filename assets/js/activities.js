@@ -5,7 +5,7 @@ let dolSection = document.getElementById("dolphin-activity");
 let kiteSection = document.getElementById("kite-surfing-activity");
 let scubaSection = document.getElementById("scuba-diving-activity");
 
-// Set the saved click information (variable) from home page & contact page to the functions
+// Set the saved click information (variable) from home page & contact page & 404 page to the functions
 const clicked = sessionStorage.getItem("autosave");
 // Credit: W3Schools - https://www.w3schools.com/js/js_switch.asp
 switch (clicked) {
