@@ -133,7 +133,8 @@ The images I selected are packed with adventure and beauty. The intention is to 
 
 - A 404 page to help the user navigate back home.
 
-![404 Error Message](assets/images/readme-images/features/errorMessage.png)
+![404 Error Message Desktop](assets/images/readme-images/features/errorMessageDesktop.png)
+![404 Error Message Small Screen](assets/images/readme-images/features/errorMessageSmallScreen.png)
 
 ### Features Left to Implement
 - On medium screen devices and larger, the __current weather__ for Mauritius, displayed in the middle of the navigation bar at all times.
