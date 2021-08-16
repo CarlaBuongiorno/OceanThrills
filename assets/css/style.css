@@ -591,3 +591,9 @@ form.overlay {
 div.hero-text-overlay.error-page {
   top: 50%;
 }
+
+@media screen and (max-width: 380px) {
+  div.hero-text-overlay.error-page {
+    top: 40%;
+  }
+}
