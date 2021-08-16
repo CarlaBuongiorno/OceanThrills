@@ -589,12 +589,12 @@ form.overlay {
 
 /* ----------------------------------404 Page---------------------------------- */
 div.hero-text-overlay.error-page {
+  background-color: rgba(0, 0, 0, 0.5);
   top: 50%;
 }
 
 @media screen and (max-width: 380px) {
   div.hero-text-overlay.error-page {
-    background-color: rgba(0, 0, 0, 0.5);
     top: 25%;
   }
 }
