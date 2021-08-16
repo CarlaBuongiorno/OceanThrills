@@ -594,6 +594,6 @@ div.hero-text-overlay.error-page {
 
 @media screen and (max-width: 380px) {
   div.hero-text-overlay.error-page {
-    top: 40%;
+    top: 30%;
   }
 }
